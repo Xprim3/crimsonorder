@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-2 sm:pt-20 lg:pt-24 xl:pt-28 pb-8 sm:pb-12 lg:pb-16 xl:pb-20">
+  <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-6 sm:pt-20 lg:pt-24 xl:pt-28 pb-8 sm:pb-12 lg:pb-16 xl:pb-20">
     <!-- Background Layer -->
     <div class="absolute inset-0 z-0">
       <!-- Background Image -->
