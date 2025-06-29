@@ -71,22 +71,6 @@
         strike with power, and rise as the most organized force in the kingdom.
       </p>
 
-      <!-- Stats Display -->
-      <div class="flex justify-center items-center space-x-8 mb-10 text-center">
-        <div class="text-center">
-          <div class="text-2xl sm:text-3xl font-bold text-red-400">500+</div>
-          <div class="text-sm text-gray-300">Elite Warriors</div>
-        </div>
-        <div class="text-center">
-          <div class="text-2xl sm:text-3xl font-bold text-red-400">2</div>
-          <div class="text-sm text-gray-300">Elite Alliances</div>
-        </div>
-        <div class="text-center">
-          <div class="text-2xl sm:text-3xl font-bold text-red-400">1</div>
-          <div class="text-sm text-gray-300">United Force</div>
-        </div>
-      </div>
-
       <!-- Primary CTA Button -->
       <button 
         @click="scrollToSection('#join-us')"
