@@ -201,11 +201,11 @@
               <img 
                 src="/logo/crimsonpaladins.png" 
                 alt="Crimson Paladins Logo"
-                class="w-full max-w-[7rem] sm:max-w-[8rem] md:max-w-[9rem] lg:max-w-[10rem] h-auto object-contain object-center mx-auto"
+                class="w-full max-w-[14rem] sm:max-w-[16rem] md:max-w-[18rem] lg:max-w-[20rem] xl:max-w-[22rem] h-auto object-contain object-center mx-auto"
                 @error="handleAllianceImageError"
               />
               <!-- Fallback emoji if image fails to load -->
-              <div class="fallback-alliance-icon hidden text-7xl items-center justify-center w-full h-full absolute left-0 top-0">⚔️</div>
+              <div class="fallback-alliance-icon hidden text-9xl sm:text-[10rem] items-center justify-center w-full h-full absolute left-0 top-0">⚔️</div>
             </div>
             <h4 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-4 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Crimson Paladins</h4>
             <p class="text-gray-300 leading-relaxed mb-6 text-lg">
@@ -295,11 +295,11 @@
               <img 
                 src="/logo/crimsoneagles.png" 
                 alt="Crimson Eagles Logo"
-                class="w-full max-w-[7rem] sm:max-w-[8rem] md:max-w-[9rem] lg:max-w-[10rem] h-auto object-contain object-center mx-auto"
+                class="w-full max-w-[14rem] sm:max-w-[16rem] md:max-w-[18rem] lg:max-w-[20rem] xl:max-w-[22rem] h-auto object-contain object-center mx-auto"
                 @error="handleAllianceImageError"
               />
               <!-- Fallback emoji if image fails to load -->
-              <div class="fallback-alliance-icon hidden text-7xl items-center justify-center w-full h-full absolute left-0 top-0">🦅</div>
+              <div class="fallback-alliance-icon hidden text-9xl sm:text-[10rem] items-center justify-center w-full h-full absolute left-0 top-0">🦅</div>
             </div>
             <h4 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-4 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Crimson Eagles</h4>
             <p class="text-gray-300 leading-relaxed mb-6 text-lg">
