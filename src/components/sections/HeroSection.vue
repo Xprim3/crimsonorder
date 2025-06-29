@@ -98,13 +98,6 @@
         </span>
         <div class="absolute inset-0 bg-gradient-to-r from-red-500 to-red-700 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       </button>
-
-      <!-- Scroll Indicator -->
-      <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div class="w-6 h-10 border-2 border-yellow-400 rounded-full flex justify-center">
-          <div class="w-1 h-3 bg-yellow-400 rounded-full mt-2 animate-pulse"></div>
-        </div>
-      </div>
     </div>
   </section>
 </template>
