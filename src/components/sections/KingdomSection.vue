@@ -139,7 +139,8 @@
           <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             Kingdom Leadership
           </h3>
-          <p class="text-lg text-gray-300">
+          <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+          <p class="text-lg text-gray-300 mt-6">
             Meet the rulers who guide our kingdom to greatness
           </p>
         </div>
@@ -205,7 +206,8 @@
           <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             Kingdom Achievements
           </h3>
-          <p class="text-lg text-gray-300">
+          <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+          <p class="text-lg text-gray-300 mt-6">
             Proof of our kingdom's dominance and success
           </p>
         </div>
@@ -267,7 +269,8 @@
           <h3 class="text-white drop-shadow-lg font-bold mb-4 text-3xl sm:text-4xl" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             How to Join Our Kingdom
           </h3>
-          <p class="text-lg text-gray-300">
+          <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+          <p class="text-lg text-gray-300 mt-6">
             Follow these simple steps to become part of the legendary Crimson Order family
           </p>
         </div>

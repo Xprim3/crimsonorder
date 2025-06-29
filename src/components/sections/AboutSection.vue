@@ -70,7 +70,8 @@
           <h3 class="text-2xl sm:text-3xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             Legendary Leadership
           </h3>
-          <p class="text-lg text-gray-300">
+          <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+          <p class="text-lg text-gray-300 mt-6">
             Commanders whose wisdom and experience guide our family to victory
           </p>
         </div>
@@ -187,7 +188,8 @@
           <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             Our Elite Alliances
           </h3>
-          <p class="text-lg text-gray-300 max-w-3xl mx-auto">
+          <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+          <p class="text-lg text-gray-300 max-w-3xl mx-auto mt-6">
             Two legendary alliances working in perfect harmony to dominate kingdoms and create an unstoppable force
           </p>
         </div>
@@ -389,7 +391,8 @@
           <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             Our Family Culture
           </h3>
-          <p class="text-lg text-gray-300 max-w-4xl mx-auto">
+          <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+          <p class="text-lg text-gray-300 max-w-4xl mx-auto mt-6">
             Beyond the battlefield, Crimson Order is built on values that create lasting bonds and legendary achievements. 
             Our culture is the foundation of our success and the reason we remain undefeated.
           </p>
