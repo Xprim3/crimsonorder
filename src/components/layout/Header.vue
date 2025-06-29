@@ -69,7 +69,7 @@
           </div>
           
           <!-- Text Brand -->
-          <div class="hidden sm:block">
+          <div class="block">
             <h1 class="font-black text-lg sm:text-xl lg:text-2xl tracking-widest uppercase text-left" 
                 style="color: var(--text-primary); text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
               Crimson Order
