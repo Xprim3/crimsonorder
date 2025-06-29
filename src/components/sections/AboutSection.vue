@@ -214,11 +214,7 @@
             </p>
             
             <!-- Alliance Stats -->
-            <div class="grid grid-cols-3 gap-4 mb-8">
-              <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
-                <div class="text-2xl font-bold text-yellow-300">100+</div>
-                <div class="text-xs text-gray-400">Cities</div>
-              </div>
+            <div class="grid grid-cols-2 gap-4 mb-8">
               <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
                 <div class="text-2xl font-bold text-yellow-300">50+</div>
                 <div class="text-xs text-gray-400">Members</div>
@@ -312,11 +308,7 @@
             </p>
             
             <!-- Alliance Stats -->
-            <div class="grid grid-cols-3 gap-4 mb-8">
-              <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
-                <div class="text-2xl font-bold text-yellow-300">100+</div>
-                <div class="text-xs text-gray-400">Cities</div>
-              </div>
+            <div class="grid grid-cols-2 gap-4 mb-8">
               <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
                 <div class="text-2xl font-bold text-yellow-300">50+</div>
                 <div class="text-xs text-gray-400">Members</div>
@@ -563,23 +555,23 @@
             </div>
             <div class="space-y-2 lg:space-y-3">
               <div class="flex items-center space-x-2 lg:space-x-3">
-                <span class="text-red-400 text-sm lg:text-base">⚔️</span>
+                <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left">Daily training sessions and strategy meetings</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
-                <span class="text-red-400 text-sm lg:text-base">🎖️</span>
+                <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left">Weekly recognition of outstanding members</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
-                <span class="text-red-400 text-sm lg:text-base">🛡️</span>
+                <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left">Monthly family gatherings and celebrations</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
-                <span class="text-red-400 text-sm lg:text-base">📚</span>
+                <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left">Knowledge sharing and mentorship programs</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
-                <span class="text-red-400 text-sm lg:text-base">🏆</span>
+                <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left">Seasonal tournaments and competitions</span>
               </div>
             </div>
@@ -595,23 +587,23 @@
             </div>
             <div class="space-y-2 lg:space-y-3">
               <div class="flex items-center space-x-2 lg:space-x-3">
-                <span class="text-red-400 text-sm lg:text-base">🎯</span>
+                <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left">Access to elite training and strategies</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
-                <span class="text-red-400 text-sm lg:text-base">🤝</span>
+                <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left">24/7 support from experienced members</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
-                <span class="text-red-400 text-sm lg:text-base">⚡</span>
+                <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left">Priority access to alliance resources</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
-                <span class="text-red-400 text-sm lg:text-base">🏅</span>
+                <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left">Recognition and advancement opportunities</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
-                <span class="text-red-400 text-sm lg:text-base">🌍</span>
+                <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left">Global network of skilled players</span>
               </div>
             </div>
