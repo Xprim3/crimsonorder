@@ -1,56 +1,115 @@
 <template>
-  <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
-    <!-- Background Effects -->
-    <div class="absolute inset-0 opacity-20" style="background: linear-gradient(to bottom right, var(--accent-primary), var(--accent-secondary));"></div>
-    <div class="absolute inset-0 pattern-bg opacity-30"></div>
-    
-    <!-- Content -->
-    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
-      <div class="mb-8">
-        <div class="w-24 h-24 lg:w-32 lg:h-32 mx-auto mb-6 bg-gradient-to-br from-red-600 to-red-800 rounded-2xl flex items-center justify-center shadow-2xl">
-          <span class="text-white font-bold text-3xl lg:text-4xl">CO</span>
+  <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden py-8 sm:py-12 lg:py-16 xl:py-20">
+    <!-- Background Layer -->
+    <div class="absolute inset-0 z-0">
+      <!-- Background Image -->
+      <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-red-900 to-gray-800">
+        <!-- Animated fire particles -->
+        <div class="absolute inset-0 overflow-hidden">
+          <div 
+            v-for="i in 20" 
+            :key="i"
+            class="fire-particle absolute w-2 h-2 bg-orange-500 rounded-full opacity-60"
+            :style="{
+              left: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 3}s`,
+              animationDuration: `${3 + Math.random() * 2}s`
+            }"
+          ></div>
         </div>
-        <h1 class="text-4xl lg:text-6xl xl:text-7xl font-bold mb-4 tracking-wider" style="color: var(--text-primary);">
-          Crimson Order
-        </h1>
-        <p class="text-xl lg:text-2xl mb-8 font-medium" style="color: var(--accent-primary);">
-          Rise of Kingdoms Family
-        </p>
-        <p class="text-lg lg:text-xl mb-12 max-w-2xl mx-auto leading-relaxed" style="color: var(--text-secondary);">
-          Join the most powerful family in Rise of Kingdoms. 
-          Crimson Paladins and Crimson Eagles await your arrival.
-        </p>
+        
+        <!-- Crimson banners overlay -->
+        <div class="absolute top-0 left-0 w-full h-full opacity-20">
+          <div class="absolute top-10 left-10 w-32 h-48 bg-gradient-to-b from-red-800 to-red-600 transform -rotate-12"></div>
+          <div class="absolute top-20 right-20 w-24 h-36 bg-gradient-to-b from-red-700 to-red-500 transform rotate-6"></div>
+          <div class="absolute bottom-20 left-1/4 w-28 h-40 bg-gradient-to-b from-red-800 to-red-600 transform -rotate-3"></div>
+        </div>
       </div>
       
-      <!-- CTA Buttons -->
-      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <Button 
-          @click="scrollToSection('#join')"
-          label="Join Our Family" 
-          class="p-button-lg p-button-danger"
-          icon="pi pi-users"
-        />
-        <Button 
-          @click="scrollToSection('#about')"
-          label="Learn More" 
-          class="p-button-lg p-button-outlined p-button-danger"
-          icon="pi pi-info-circle"
-        />
-      </div>
+      <!-- Dark overlay for text readability -->
+      <div class="absolute inset-0 bg-black bg-opacity-40"></div>
     </div>
-    
-    <!-- Scroll Indicator -->
-    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-      <div class="w-6 h-10 rounded-full flex justify-center" style="border: 2px solid var(--accent-primary);">
-        <div class="w-1 h-3 rounded-full mt-2 animate-pulse" style="background: var(--accent-primary);"></div>
+
+    <!-- Main Content -->
+    <div class="relative z-10 text-center px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
+      
+      <!-- Alliance Emblems -->
+      <div class="flex justify-center items-center space-x-8 mb-8">
+        <!-- Crimson Paladins Emblem -->
+        <div class="text-center">
+          <div class="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-2 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center border-2 border-yellow-500 shadow-lg">
+            <span class="text-2xl sm:text-3xl">⚔️</span>
+          </div>
+          <p class="text-sm sm:text-base font-medium text-yellow-400">Crimson Paladins</p>
+        </div>
+        
+        <!-- Crimson Eagles Emblem -->
+        <div class="text-center">
+          <div class="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-2 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center border-2 border-yellow-500 shadow-lg">
+            <span class="text-2xl sm:text-3xl">🦅</span>
+          </div>
+          <p class="text-sm sm:text-base font-medium text-yellow-400">Crimson Eagles</p>
+        </div>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black tracking-widest uppercase mb-4 text-white">
+        <span class="bg-gradient-to-r from-red-500 via-yellow-500 to-red-600 bg-clip-text text-transparent">
+          Crimson Order
+        </span>
+      </h1>
+
+      <!-- Tagline -->
+      <p class="text-xl sm:text-2xl lg:text-3xl font-bold text-yellow-400 mb-6 tracking-wide">
+        United in Fire. Forged in Strategy.
+      </p>
+
+      <!-- Description -->
+      <p class="text-lg sm:text-xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
+        Two elite alliances — <span class="text-yellow-400 font-semibold">Crimson Paladins ⚔️</span> and 
+        <span class="text-yellow-400 font-semibold">Crimson Eagles 🦅</span> — joined under one banner to lead with honor, 
+        strike with power, and rise as the most organized force in the kingdom.
+      </p>
+
+      <!-- Stats Display -->
+      <div class="flex justify-center items-center space-x-8 mb-10 text-center">
+        <div class="text-center">
+          <div class="text-2xl sm:text-3xl font-bold text-red-400">500+</div>
+          <div class="text-sm text-gray-300">Elite Warriors</div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl sm:text-3xl font-bold text-red-400">2</div>
+          <div class="text-sm text-gray-300">Elite Alliances</div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl sm:text-3xl font-bold text-red-400">1</div>
+          <div class="text-sm text-gray-300">United Force</div>
+        </div>
+      </div>
+
+      <!-- Primary CTA Button -->
+      <button 
+        @click="scrollToSection('#join-us')"
+        class="group relative px-8 py-4 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg sm:text-xl rounded-lg border-2 border-yellow-500 shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-red-500/50 focus:outline-none focus:ring-4 focus:ring-red-500/50"
+      >
+        <span class="relative z-10 flex items-center space-x-2">
+          <span>Forge Your Legacy</span>
+          <span class="transform transition-transform group-hover:translate-x-1">→</span>
+        </span>
+        <div class="absolute inset-0 bg-gradient-to-r from-red-500 to-red-700 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+      </button>
+
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div class="w-6 h-10 border-2 border-yellow-400 rounded-full flex justify-center">
+          <div class="w-1 h-3 bg-yellow-400 rounded-full mt-2 animate-pulse"></div>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import Button from 'primevue/button'
-
 const scrollToSection = (href: string): void => {
   const element = document.querySelector(href)
   if (element) {
@@ -63,7 +122,46 @@ const scrollToSection = (href: string): void => {
 </script>
 
 <style scoped>
-.pattern-bg {
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23dc2626' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+/* Fire particle animation */
+.fire-particle {
+  animation: float-up 3s ease-in-out infinite;
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(100vh) scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-100px) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Text glow effect */
+h1 span {
+  text-shadow: 0 0 20px rgba(239, 68, 68, 0.5);
+}
+
+/* Button glow effect */
+button {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
+}
+
+button:hover {
+  box-shadow: 0 0 30px rgba(239, 68, 68, 0.6);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .fire-particle {
+    animation-duration: 2s;
+  }
 }
 </style> 

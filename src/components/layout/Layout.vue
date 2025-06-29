@@ -1,7 +1,9 @@
 <template>
   <div class="min-h-screen" style="background: var(--bg-primary);">
     <Header />
-    <main class="pt-16 lg:pt-20">
+    <!-- Spacer div to prevent content from hiding behind fixed header -->
+    <div class="h-16 lg:h-20"></div>
+    <main>
       <slot />
     </main>
   </div>

@@ -8,7 +8,7 @@
     ]"
     style="background: var(--header-bg);"
   >
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
       <div class="flex items-center justify-between h-16 lg:h-20">
         
         <!-- Logo/Brand -->
@@ -341,11 +341,21 @@ const toggleMobileMenu = (): void => {
 
 const scrollToSection = (href: string): void => {
   const element = document.querySelector(href)
-  if (element) {
-    element.scrollIntoView({ 
-      behavior: 'smooth',
-      block: 'start'
-    })
+  const header = document.querySelector('header')
+  if (element && header) {
+    // Use setTimeout to ensure DOM is ready and calculations are accurate
+    setTimeout(() => {
+      const headerHeight = header.offsetHeight
+      const elementTop = (element as HTMLElement).offsetTop // Cast to HTMLElement to access offsetTop
+      
+      // Position section at the top of viewport, just below header
+      const scrollPosition = elementTop - headerHeight - 20 // 20px breathing room
+      
+      window.scrollTo({
+        top: scrollPosition,
+        behavior: 'smooth'
+      })
+    }, 10) // Small delay to ensure accurate calculations
   }
   closeMobileMenu()
 }

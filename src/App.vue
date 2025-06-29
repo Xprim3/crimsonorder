@@ -8,29 +8,29 @@ import HeroSection from './components/sections/HeroSection.vue'
     <HeroSection />
     
     <!-- Placeholder sections for testing -->
-    <section id="about" class="min-h-screen flex items-center justify-center" style="background: var(--bg-secondary);">
-      <div class="text-center">
+    <section id="about" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-8 sm:py-12 lg:py-16 xl:py-20" style="background: var(--bg-secondary);">
+      <div class="text-center max-w-4xl mx-auto">
         <h2 class="text-4xl font-bold mb-4" style="color: var(--text-primary);">About Crimson Order</h2>
         <p class="text-xl" style="color: var(--text-secondary);">Coming soon...</p>
       </div>
     </section>
     
-    <section id="alliances" class="min-h-screen flex items-center justify-center" style="background: var(--bg-tertiary);">
-      <div class="text-center">
+    <section id="alliances" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-8 sm:py-12 lg:py-16 xl:py-20" style="background: var(--bg-tertiary);">
+      <div class="text-center max-w-4xl mx-auto">
         <h2 class="text-4xl font-bold mb-4" style="color: var(--text-primary);">Our Alliances</h2>
         <p class="text-xl" style="color: var(--text-secondary);">Crimson Paladins & Crimson Eagles</p>
       </div>
     </section>
     
-    <section id="join" class="min-h-screen flex items-center justify-center" style="background: var(--bg-secondary);">
-      <div class="text-center">
+    <section id="join" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-8 sm:py-12 lg:py-16 xl:py-20" style="background: var(--bg-secondary);">
+      <div class="text-center max-w-4xl mx-auto">
         <h2 class="text-4xl font-bold mb-4" style="color: var(--text-primary);">Join Us</h2>
         <p class="text-xl" style="color: var(--text-secondary);">Become part of our family</p>
       </div>
     </section>
     
-    <section id="contact" class="min-h-screen flex items-center justify-center" style="background: var(--bg-tertiary);">
-      <div class="text-center">
+    <section id="contact" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-8 sm:py-12 lg:py-16 xl:py-20" style="background: var(--bg-tertiary);">
+      <div class="text-center max-w-4xl mx-auto">
         <h2 class="text-4xl font-bold mb-4" style="color: var(--text-primary);">Contact</h2>
         <p class="text-xl" style="color: var(--text-secondary);">Get in touch with us</p>
       </div>
