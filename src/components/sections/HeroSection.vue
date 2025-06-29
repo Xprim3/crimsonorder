@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-8 sm:pt-20 lg:pt-24 xl:pt-28 pb-8 sm:pb-12 lg:pb-16 xl:pb-20">
+  <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-4 sm:pt-20 lg:pt-24 xl:pt-28 pb-8 sm:pb-12 lg:pb-16 xl:pb-20">
     <!-- Background Layer -->
     <div class="absolute inset-0 z-0">
       <!-- Background Image -->
@@ -36,7 +36,7 @@
       <!-- Main Headline -->
       <div class="text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Logo Emblem -->
-        <div class="flex justify-center mb-6">
+        <div class="flex justify-center mb-4 sm:mb-6">
           <div class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-black rounded-full border-2 border-yellow-500 flex items-center justify-center shadow-2xl" style="box-shadow: 0 0 20px rgba(251, 191, 36, 0.4);">
             <img 
               src="/logo/logo.png" 
@@ -53,7 +53,7 @@
           </div>
         </div>
 
-        <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black mb-6 tracking-tight">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black mb-4 sm:mb-6 tracking-tight">
           <span class="text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             LEAVE YOUR
           </span>
@@ -63,11 +63,11 @@
           </span>
         </h1>
         
-        <p class="text-xl sm:text-2xl lg:text-3xl font-bold text-yellow-400 drop-shadow-lg mb-6 tracking-wider" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.5), 0 0 20px rgba(251, 191, 36, 0.3);">
+        <p class="text-xl sm:text-2xl lg:text-3xl font-bold text-yellow-400 drop-shadow-lg mb-4 sm:mb-6 tracking-wider" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.5), 0 0 20px rgba(251, 191, 36, 0.3);">
           LEGACY • FAMILY • IMMORTALITY
         </p>
         
-        <p class="text-lg sm:text-xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
+        <p class="text-lg sm:text-xl text-gray-200 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed">
           Your name will echo through the ages. Join the Crimson Order and become part of a family whose legends will be told for generations. Your story starts here.
         </p>
       </div>
