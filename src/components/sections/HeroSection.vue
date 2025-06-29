@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="relative min-h-screen flex items-start justify-center overflow-hidden pt-16 sm:pt-20 lg:pt-24 xl:pt-28">
+  <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 sm:pt-20 lg:pt-24 xl:pt-28 pb-8 sm:pb-12 lg:pb-16 xl:pb-20">
     <!-- Background Layer -->
     <div class="absolute inset-0 z-0">
       <!-- Background Image -->
@@ -35,23 +35,40 @@
       
       <!-- Main Headline -->
       <div class="text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Logo Emblem -->
+        <div class="flex justify-center mb-6">
+          <div class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-black rounded-full border-2 border-yellow-500 flex items-center justify-center shadow-2xl" style="box-shadow: 0 0 20px rgba(251, 191, 36, 0.4);">
+            <img 
+              src="/logo/logo.png" 
+              alt="Crimson Order Logo"
+              class="w-full h-full object-contain object-center"
+              @error="handleLogoError"
+            />
+            <!-- Fallback content if logo fails to load -->
+            <div class="fallback-logo hidden absolute inset-0 items-center justify-center">
+              <div class="text-center">
+                <div class="text-lg sm:text-xl lg:text-2xl font-black text-white">CO</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black mb-6 tracking-tight">
-          <span class="bg-gradient-to-r from-red-500 via-yellow-500 to-red-600 bg-clip-text text-transparent">
-            The Legend of
+          <span class="text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
+            LEAVE YOUR
           </span>
           <br>
-          <span class="text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
-            Crimson Order
+          <span class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent" style="text-shadow: 0 0 15px rgba(251, 191, 36, 0.4);">
+            MARK
           </span>
         </h1>
         
-        <p class="text-xl sm:text-2xl lg:text-3xl font-bold text-white drop-shadow-lg mb-6 tracking-wide" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
-          Rise of Kingdoms Elite Alliance
+        <p class="text-xl sm:text-2xl lg:text-3xl font-bold text-yellow-400 drop-shadow-lg mb-6 tracking-wider" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.5), 0 0 20px rgba(251, 191, 36, 0.3);">
+          LEGACY • FAMILY • IMMORTALITY
         </p>
         
         <p class="text-lg sm:text-xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Join the most prestigious alliance in Rise of Kingdoms. Experience strategic warfare, 
-          elite protection, and a family that never leaves anyone behind.
+          Your name will echo through the ages. Join the Crimson Order and become part of a family whose legends will be told for generations. Your story starts here.
         </p>
       </div>
 
@@ -61,8 +78,8 @@
         class="group relative px-8 py-4 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg sm:text-xl rounded-lg border-2 border-yellow-500 shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-red-500/50 focus:outline-none focus:ring-4 focus:ring-red-500/50"
       >
         <span class="relative z-10 flex items-center space-x-2">
-          <span>Forge Your Legacy</span>
-          <span class="transform transition-transform group-hover:translate-x-1">→</span>
+          <span>WRITE YOUR STORY</span>
+          <span class="transform transition-transform group-hover:translate-x-1">✍️</span>
         </span>
         <div class="absolute inset-0 bg-gradient-to-r from-red-500 to-red-700 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       </button>
@@ -80,6 +97,16 @@ const scrollToSection = (href: string): void => {
     })
   }
 }
+
+// Handle logo loading errors
+const handleLogoError = (event: Event) => {
+  const target = event.target as HTMLImageElement;
+  const fallbackContent = target.parentElement?.querySelector('.fallback-logo') as HTMLElement;
+  if (fallbackContent) {
+    fallbackContent.classList.remove('hidden');
+    fallbackContent.classList.add('flex');
+  }
+};
 </script>
 
 <style scoped>
