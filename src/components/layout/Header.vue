@@ -27,6 +27,7 @@
         <a
           href="/"
           class="flex items-center space-x-2 sm:space-x-3 cursor-pointer"
+          aria-label="Crimson Order Home"
         >
           <!-- Enhanced Crimson Order Emblem -->
           <div class="relative group w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14">
@@ -36,6 +37,7 @@
               alt="Crimson Order Emblem"
               class="w-full h-full object-contain object-center transition-transform duration-300"
               @error="handleImageError"
+              loading="eager"
             />
 
             <!-- Fallback content if image fails to load -->
@@ -76,7 +78,11 @@
         </a>
 
         <!-- Desktop Navigation (LG and above) -->
-        <nav class="flex max-lg:hidden items-center space-x-2">
+        <nav
+          class="flex max-lg:hidden items-center space-x-2"
+          role="navigation"
+          aria-label="Main navigation"
+        >
           <div
             v-for="item in navigationItems"
             :key="item.id"
@@ -86,11 +92,12 @@
             <a
               :href="item.href"
               @click="scrollToSection(item.href)"
-              class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white"
+              class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
               style="color: #ffffff; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8)"
+              :aria-label="`Navigate to ${item.label} section`"
             >
               <!-- Gaming Icons -->
-              <span class="text-lg">
+              <span class="text-lg" aria-hidden="true">
                 <svg
                   v-if="item.id === 'home'"
                   width="16"
@@ -189,7 +196,7 @@
         <div class="lg:hidden flex items-center space-x-2">
           <button
             @click="toggleMobileMenu"
-            class="p-2 rounded-lg flex items-center justify-center focus:outline-none border-2 border-transparent transition-all duration-200"
+            class="p-2 rounded-lg flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black border-2 border-transparent transition-all duration-200"
             style="
               color: #dc2626;
               background: rgba(0, 0, 0, 0.8);
@@ -199,6 +206,7 @@
             "
             :aria-expanded="isMobileMenuOpen"
             aria-label="Toggle mobile menu"
+            aria-controls="mobile-menu"
           >
             <!-- High contrast hamburger icon -->
             <div class="w-5 h-5 flex flex-col justify-center items-center">
@@ -234,6 +242,7 @@
       <transition name="dropdown-fade-scale">
         <div
           v-show="isMobileMenuOpen"
+          id="mobile-menu"
           class="lg:hidden absolute right-2 top-16 w-56 rounded-xl shadow-2xl py-3 z-50 max-h-96 overflow-y-auto"
           style="
             background: rgba(0, 0, 0, 0.95);
@@ -241,6 +250,8 @@
             border: 2px solid #dc2626;
             box-shadow: 0 8px 32px rgba(220, 38, 38, 0.6);
           "
+          role="navigation"
+          aria-label="Mobile navigation"
         >
           <nav class="space-y-1">
             <div
@@ -252,13 +263,14 @@
               <a
                 :href="item.href"
                 @click="scrollToSection(item.href)"
-                class="font-bold px-4 py-3 rounded-lg border-l-4 border-transparent transition-all duration-300 ease-in-out flex items-center justify-between mx-2"
+                class="font-bold px-4 py-3 rounded-lg border-l-4 border-transparent transition-all duration-300 ease-in-out flex items-center justify-between mx-2 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-inset"
                 style="color: #ffffff; background: rgba(31, 41, 55, 0.8)"
                 :style="{ '--hover-border': '#dc2626' }"
+                :aria-label="`Navigate to ${item.label} section`"
               >
                 <div class="flex items-center space-x-3">
                   <!-- Gaming Icons for Mobile -->
-                  <span class="text-lg">
+                  <span class="text-lg" aria-hidden="true">
                     <svg
                       v-if="item.id === 'home'"
                       width="18"
@@ -420,10 +432,10 @@
     const element = document.querySelector(href)
     const header = document.querySelector('header')
     if (element && header) {
-      // Use setTimeout to ensure DOM is ready and calculations are accurate
-      setTimeout(() => {
+      // Use requestAnimationFrame for better performance
+      requestAnimationFrame(() => {
         const headerHeight = header.offsetHeight
-        const elementTop = (element as HTMLElement).offsetTop // Cast to HTMLElement to access offsetTop
+        const elementTop = (element as HTMLElement).offsetTop
 
         // Position section at the top of viewport, just below header
         const scrollPosition = elementTop - headerHeight - 20 // 20px breathing room
@@ -432,7 +444,7 @@
           top: scrollPosition,
           behavior: 'smooth',
         })
-      }, 10) // Small delay to ensure accurate calculations
+      })
     }
     closeMobileMenu()
   }
@@ -459,9 +471,7 @@
     const target = event.target as HTMLElement
 
     // Check if click is outside the mobile dropdown menu
-    const mobileMenu = document.querySelector(
-      '.lg\\:hidden.absolute.right-2.top-16'
-    )
+    const mobileMenu = document.querySelector('#mobile-menu')
     const mobileMenuButton = document.querySelector(
       'button[aria-label="Toggle mobile menu"]'
     )
@@ -480,7 +490,7 @@
 
   // Lifecycle
   onMounted(() => {
-    window.addEventListener('scroll', handleScroll)
+    window.addEventListener('scroll', handleScroll, { passive: true })
     document.addEventListener('click', handleClickOutside)
   })
 

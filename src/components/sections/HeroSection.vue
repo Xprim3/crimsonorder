@@ -9,10 +9,10 @@
       <div
         class="absolute inset-0 bg-gradient-to-br from-gray-900 via-red-900 to-gray-800"
       >
-        <!-- Animated fire particles -->
+        <!-- Optimized fire particles - reduced count for performance -->
         <div class="absolute inset-0 overflow-hidden">
           <div
-            v-for="i in 20"
+            v-for="i in 10"
             :key="i"
             class="fire-particle absolute w-2 h-2 bg-orange-500 rounded-full opacity-60"
             :style="{
@@ -20,11 +20,15 @@
               animationDelay: `${Math.random() * 3}s`,
               animationDuration: `${3 + Math.random() * 2}s`,
             }"
+            aria-hidden="true"
           ></div>
         </div>
 
         <!-- Crimson banners overlay -->
-        <div class="absolute top-0 left-0 w-full h-full opacity-20">
+        <div
+          class="absolute top-0 left-0 w-full h-full opacity-20"
+          aria-hidden="true"
+        >
           <div
             class="absolute top-10 left-10 w-32 h-48 bg-gradient-to-b from-red-800 to-red-600 transform -rotate-12"
           ></div>
@@ -58,6 +62,7 @@
               alt="Crimson Order Logo"
               class="w-full h-full object-contain object-center"
               @error="handleLogoError"
+              loading="eager"
             />
             <!-- Fallback content if logo fails to load -->
             <div
@@ -119,7 +124,8 @@
       <!-- Primary CTA Button -->
       <button
         @click="scrollToSection('#join-family')"
-        class="group relative px-8 py-4 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg sm:text-xl rounded-lg border-2 border-yellow-500 shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-red-500/50 focus:outline-none focus:ring-4 focus:ring-red-500/50"
+        class="group relative px-8 py-4 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg sm:text-xl rounded-lg border-2 border-yellow-500 shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-red-500/50 focus:outline-none focus:ring-4 focus:ring-red-500/50 focus:ring-offset-2 focus:ring-offset-black"
+        aria-label="Join the Crimson Order family"
       >
         <span class="relative z-10 flex items-center space-x-2">
           <span>WRITE YOUR STORY</span>
@@ -157,9 +163,10 @@
 </script>
 
 <style scoped>
-  /* Fire particle animation */
+  /* Optimized fire particle animation */
   .fire-particle {
     animation: float-up 3s ease-in-out infinite;
+    will-change: transform, opacity;
   }
 
   @keyframes float-up {
@@ -197,6 +204,21 @@
   @media (max-width: 640px) {
     .fire-particle {
       animation-duration: 2s;
+    }
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    .fire-particle {
+      animation: none;
+    }
+
+    button {
+      transition: none;
+    }
+
+    button:hover {
+      transform: none;
     }
   }
 </style>

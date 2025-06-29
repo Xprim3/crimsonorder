@@ -17,8 +17,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         // Optimize asset naming
-        assetFileNames: (assetInfo) => {
-          if (!assetInfo.name) return 'assets/[hash][extname]';
+        assetFileNames: assetInfo => {
+          if (!assetInfo.name) return 'assets/[hash][extname]'
           const info = assetInfo.name.split('.')
           const ext = info[info.length - 1]
           if (/\.(css)$/.test(assetInfo.name)) {
