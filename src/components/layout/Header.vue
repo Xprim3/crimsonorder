@@ -81,26 +81,23 @@
           </div>
         </div>
 
-        <!-- Desktop Navigation -->
-        <nav class="hidden lg:flex items-center space-x-4">
+        <!-- Desktop Navigation (LG and above) -->
+        <nav class="hidden lg:flex items-center space-x-2">
           <div 
             v-for="item in navigationItems" 
             :key="item.id"
             class="relative group"
-            @mouseenter="item.hasDropdown ? openDropdownWithDelay(item.id) : null"
-            @mouseleave="item.hasDropdown ? closeDropdownWithDelay() : null"
           >
             <!-- Main Navigation Item -->
             <a 
               :href="item.href"
               @click="scrollToSection(item.href)"
-              class="font-medium relative px-3 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200"
-              :class="item.hasDropdown ? 'cursor-pointer' : ''"
+              class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200"
               style="color: var(--text-secondary);"
               :style="{ '--hover-color': 'var(--text-primary)' }"
             >
               <!-- Gaming Icons -->
-              <span class="text-lg transition-all duration-300">
+              <span class="text-lg">
                 <svg v-if="item.id === 'home'" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                   <polyline points="9,22 9,12 15,12 15,22"/>
@@ -108,24 +105,21 @@
                 <svg v-else-if="item.id === 'about'" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
                 </svg>
-                <svg v-else-if="item.id === 'alliances'" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                <svg v-else-if="item.id === 'crimson-family'" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
                 <svg v-else-if="item.id === 'kingdom'" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                   <circle cx="12" cy="10" r="3"/>
                 </svg>
-                <svg v-else-if="item.id === 'join'" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg v-else-if="item.id === 'join-us'" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
                   <circle cx="8.5" cy="7" r="4"/>
                   <line x1="20" y1="8" x2="20" y2="14"/>
                   <line x1="23" y1="11" x2="17" y2="11"/>
-                </svg>
-                <svg v-else-if="item.id === 'members'" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                  <circle cx="9" cy="7" r="4"/>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
                 <svg v-else-if="item.id === 'faq'" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <circle cx="12" cy="12" r="10"/>
@@ -134,35 +128,7 @@
                 </svg>
               </span>
               <span class="text-sm">{{ item.label }}</span>
-              <!-- Dropdown Arrow -->
-              <svg v-if="item.hasDropdown" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-200" :class="openDropdown === item.id ? 'rotate-180' : ''">
-                <polyline points="6,9 12,15 18,9"/>
-              </svg>
             </a>
-            
-            <!-- Dropdown Menu -->
-            <transition name="dropdown-fade">
-              <div 
-                v-if="item.hasDropdown && openDropdown === item.id"
-                class="absolute top-full left-0 mt-1 w-48 rounded-lg shadow-xl py-2 z-50"
-                style="background: var(--dropdown-bg); border: 1px solid var(--border-color);"
-                @mouseenter="cancelCloseDropdown()"
-                @mouseleave="closeDropdownWithDelay()"
-              >
-                <a 
-                  v-for="dropdownItem in item.dropdownItems" 
-                  :key="dropdownItem.id"
-                  :href="dropdownItem.href"
-                  @click="scrollToSection(dropdownItem.href)"
-                  class="block px-4 py-2 text-sm font-medium transition-all duration-200 flex items-center space-x-2"
-                  style="color: var(--text-secondary);"
-                  :style="{ '--hover-color': 'var(--text-primary)' }"
-                >
-                  <span class="w-1 h-1 rounded-full" style="background: var(--accent-primary);"></span>
-                  <span>{{ dropdownItem.label }}</span>
-                </a>
-              </div>
-            </transition>
           </div>
           
           <!-- Theme Toggle Button -->
@@ -202,13 +168,13 @@
           <!-- Theme Toggle Button (Mobile) -->
           <button
             @click="toggleTheme"
-            class="p-2 rounded-lg flex items-center justify-center focus:outline-none"
-            style="color: var(--text-secondary); background-color: var(--bg-tertiary);"
+            class="p-2 rounded-lg flex items-center justify-center focus:outline-none hover:opacity-80"
+            style="color: var(--text-primary); background-color: var(--bg-tertiary); border: 1px solid var(--border-color);"
             :title="isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'"
           >
             <span v-if="isDark">
               <!-- Sun Icon (Gold) -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="12" cy="12" r="5" fill="var(--accent-gold)"/>
                 <g stroke="var(--accent-gold)">
                   <line x1="12" y1="1" x2="12" y2="3" />
@@ -224,7 +190,7 @@
             </span>
             <span v-else>
               <!-- Moon Icon (Blue) -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" fill="var(--accent-blue)"/>
               </svg>
             </span>
@@ -232,26 +198,27 @@
           
           <button
             @click="toggleMobileMenu"
-            class="p-1 rounded-md focus:outline-none"
-            style="color: var(--text-secondary);"
+            class="p-2 rounded-lg flex items-center justify-center focus:outline-none"
+            style="color: var(--text-primary); background-color: var(--bg-tertiary); border: 1px solid var(--border-color);"
             :aria-expanded="isMobileMenuOpen"
             aria-label="Toggle mobile menu"
           >
-            <div class="w-6 h-6 flex flex-col justify-center items-center">
+            <!-- High contrast hamburger icon -->
+            <div class="w-5 h-5 flex flex-col justify-center items-center">
               <span 
-                class="block w-4 h-0.5 rounded"
-                :class="isMobileMenuOpen ? 'rotate-45 translate-y-1' : '-translate-y-1.5'"
-                style="background: currentColor;"
+                class="block w-4 h-0.5 rounded transition-all duration-500 ease-out"
+                :class="isMobileMenuOpen ? 'rotate-45 translate-y-1.5' : 'rotate-0 translate-y-0'"
+                style="background: var(--accent-primary);"
               ></span>
               <span 
-                class="block w-4 h-0.5 rounded"
+                class="block w-4 h-0.5 rounded transition-all duration-300 ease-out mt-1"
                 :class="isMobileMenuOpen ? 'opacity-0' : 'opacity-100'"
-                style="background: currentColor;"
+                style="background: var(--accent-primary);"
               ></span>
               <span 
-                class="block w-4 h-0.5 rounded"
-                :class="isMobileMenuOpen ? '-rotate-45 -translate-y-1' : 'translate-y-1.5'"
-                style="background: currentColor;"
+                class="block w-4 h-0.5 rounded transition-all duration-500 ease-out mt-1"
+                :class="isMobileMenuOpen ? '-rotate-45 -translate-y-1.5' : 'rotate-0 translate-y-0'"
+                style="background: var(--accent-primary);"
               ></span>
             </div>
           </button>
@@ -262,7 +229,7 @@
       <transition name="dropdown-fade-scale">
         <div 
           v-show="isMobileMenuOpen"
-          class="lg:hidden absolute right-4 top-16 w-64 rounded-xl shadow-2xl py-2 z-50 max-h-96 overflow-y-auto"
+          class="lg:hidden absolute right-2 top-16 w-72 rounded-xl shadow-2xl py-3 z-50 max-h-96 overflow-y-auto"
           style="background: var(--dropdown-bg); border: 1px solid var(--border-color);"
         >
           <nav class="space-y-1">
@@ -274,14 +241,14 @@
               <!-- Main Navigation Item -->
               <a 
                 :href="item.href"
-                @click="item.hasDropdown ? toggleDropdown(item.id) : scrollToSection(item.href)"
-                class="block font-medium px-4 py-3 rounded-lg border-l-2 border-transparent transition-all duration-300 ease-in-out flex items-center justify-between"
+                @click="scrollToSection(item.href)"
+                class="font-medium px-4 py-3 rounded-lg border-l-2 border-transparent transition-all duration-300 ease-in-out flex items-center justify-between"
                 style="color: var(--text-secondary);"
                 :style="{ '--hover-border': 'var(--accent-primary)' }"
               >
                 <div class="flex items-center space-x-3">
                   <!-- Gaming Icons for Mobile -->
-                  <span class="text-lg transition-all duration-300">
+                  <span class="text-lg">
                     <svg v-if="item.id === 'home'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                       <polyline points="9,22 9,12 15,12 15,22"/>
@@ -289,24 +256,21 @@
                     <svg v-else-if="item.id === 'about'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
                     </svg>
-                    <svg v-else-if="item.id === 'alliances'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                    <svg v-else-if="item.id === 'crimson-family'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                      <circle cx="9" cy="7" r="4"/>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                     </svg>
                     <svg v-else-if="item.id === 'kingdom'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                       <circle cx="12" cy="10" r="3"/>
                     </svg>
-                    <svg v-else-if="item.id === 'join'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg v-else-if="item.id === 'join-us'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
                       <circle cx="8.5" cy="7" r="4"/>
                       <line x1="20" y1="8" x2="20" y2="14"/>
                       <line x1="23" y1="11" x2="17" y2="11"/>
-                    </svg>
-                    <svg v-else-if="item.id === 'members'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                      <circle cx="9" cy="7" r="4"/>
-                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                      <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                     </svg>
                     <svg v-else-if="item.id === 'faq'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <circle cx="12" cy="12" r="10"/>
@@ -316,32 +280,7 @@
                   </span>
                   <span>{{ item.label }}</span>
                 </div>
-                <!-- Dropdown Arrow for Mobile -->
-                <svg v-if="item.hasDropdown" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-200" :class="openDropdown === item.id ? 'rotate-180' : ''">
-                  <polyline points="6,9 12,15 18,9"/>
-                </svg>
               </a>
-              
-              <!-- Mobile Dropdown Items -->
-              <transition name="mobile-dropdown">
-                <div 
-                  v-if="item.hasDropdown && openDropdown === item.id"
-                  class="ml-4 space-y-1 border-l-2 border-gray-300 dark:border-gray-600"
-                >
-                  <a 
-                    v-for="dropdownItem in item.dropdownItems" 
-                    :key="dropdownItem.id"
-                    :href="dropdownItem.href"
-                    @click="scrollToSection(dropdownItem.href)"
-                    class="block px-4 py-2 text-sm font-medium transition-all duration-200 flex items-center space-x-2"
-                    style="color: var(--text-secondary);"
-                    :style="{ '--hover-color': 'var(--text-primary)' }"
-                  >
-                    <span class="w-1 h-1 rounded-full" style="background: var(--accent-primary);"></span>
-                    <span>{{ dropdownItem.label }}</span>
-                  </a>
-                </div>
-              </transition>
             </div>
           </nav>
         </div>
@@ -361,106 +300,43 @@ const { isDark, toggleTheme } = useTheme()
 const isMobileMenuOpen = ref(false)
 const isScrolled = ref(false)
 
-// Navigation items with dropdowns
+// Navigation items
 const navigationItems = [
   { 
     id: 'home', 
     label: 'Home', 
-    href: '#home',
-    hasDropdown: false
+    href: '#home'
   },
   { 
     id: 'about', 
     label: 'About', 
-    href: '#about',
-    hasDropdown: false
+    href: '#about'
   },
   { 
-    id: 'alliances', 
-    label: 'Alliances', 
-    href: '#alliances',
-    hasDropdown: false
+    id: 'crimson-family', 
+    label: 'Crimson Family', 
+    href: '#crimson-family'
   },
   { 
     id: 'kingdom', 
     label: 'Kingdom', 
-    href: '#kingdom',
-    hasDropdown: false
+    href: '#kingdom'
   },
   { 
-    id: 'join', 
-    label: 'Join', 
-    href: '#join',
-    hasDropdown: true,
-    dropdownItems: [
-      { id: 'what-we-offer', label: 'What We Offer', href: '#what-we-offer' },
-      { id: 'application', label: 'Application', href: '#application' }
-    ]
-  },
-  { 
-    id: 'members', 
-    label: 'Members', 
-    href: '#members',
-    hasDropdown: true,
-    dropdownItems: [
-      { id: 'top-members', label: 'Top Members', href: '#top-members' },
-      { id: 'testimonials', label: 'Testimonials', href: '#testimonials' }
-    ]
+    id: 'join-us', 
+    label: 'Join Us', 
+    href: '#join-us'
   },
   { 
     id: 'faq', 
     label: 'FAQ', 
-    href: '#faq',
-    hasDropdown: false
+    href: '#faq'
   }
 ]
 
-// Reactive state for dropdowns
-const openDropdown = ref<string | null>(null)
-const dropdownTimeout = ref<number | null>(null)
-
 // Methods
-const openDropdownWithDelay = (itemId: string): void => {
-  if (dropdownTimeout.value) {
-    clearTimeout(dropdownTimeout.value)
-  }
-  openDropdown.value = itemId
-}
-
-const closeDropdownWithDelay = (): void => {
-  if (dropdownTimeout.value) {
-    clearTimeout(dropdownTimeout.value)
-  }
-  dropdownTimeout.value = window.setTimeout(() => {
-    openDropdown.value = null
-  }, 150) // 150ms delay
-}
-
-const cancelCloseDropdown = (): void => {
-  if (dropdownTimeout.value) {
-    clearTimeout(dropdownTimeout.value)
-    dropdownTimeout.value = null
-  }
-}
-
-const toggleDropdown = (itemId: string): void => {
-  if (openDropdown.value === itemId) {
-    openDropdown.value = null
-  } else {
-    openDropdown.value = itemId
-  }
-}
-
-const closeAllDropdowns = (): void => {
-  openDropdown.value = null
-}
-
 const toggleMobileMenu = (): void => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value
-}
-
-const closeMobileMenu = (): void => {
-  isMobileMenuOpen.value = false
 }
 
 const scrollToSection = (href: string): void => {
@@ -471,12 +347,15 @@ const scrollToSection = (href: string): void => {
       block: 'start'
     })
   }
-  closeAllDropdowns()
   closeMobileMenu()
 }
 
 const handleScroll = (): void => {
   isScrolled.value = window.scrollY > 50
+}
+
+const closeMobileMenu = (): void => {
+  isMobileMenuOpen.value = false
 }
 
 // Lifecycle
@@ -490,50 +369,6 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
-/* Dropdown animation */
-.dropdown-fade-enter-active,
-.dropdown-fade-leave-active {
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.dropdown-fade-enter-from {
-  opacity: 0;
-  transform: translateY(-8px) scale(0.95);
-}
-.dropdown-fade-enter-to {
-  opacity: 1;
-  transform: translateY(0) scale(1);
-}
-.dropdown-fade-leave-from {
-  opacity: 1;
-  transform: translateY(0) scale(1);
-}
-.dropdown-fade-leave-to {
-  opacity: 0;
-  transform: translateY(-8px) scale(0.95);
-}
-
-/* Mobile dropdown animation */
-.mobile-dropdown-enter-active,
-.mobile-dropdown-leave-active {
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.mobile-dropdown-enter-from {
-  opacity: 0;
-  transform: translateX(-10px);
-}
-.mobile-dropdown-enter-to {
-  opacity: 1;
-  transform: translateX(0);
-}
-.mobile-dropdown-leave-from {
-  opacity: 1;
-  transform: translateX(0);
-}
-.mobile-dropdown-leave-to {
-  opacity: 0;
-  transform: translateX(-10px);
-}
-
 /* Gaming-style hover effects for navigation items */
 nav a {
   background: transparent !important;
@@ -570,10 +405,6 @@ nav a:active::before {
   opacity: 1;
 }
 
-nav a:active {
-  transform: scale(0.98);
-}
-
 /* Gaming-style hover effects for mobile menu items */
 nav a:hover {
   border-left-color: var(--hover-border, var(--accent-primary)) !important;
@@ -586,7 +417,22 @@ a:hover svg {
   filter: drop-shadow(0 0 4px var(--accent-primary));
 }
 
-/* Dropdown animation */
+/* Hamburger button states */
+button[aria-label="Toggle mobile menu"] {
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+button[aria-label="Toggle mobile menu"]:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+button[aria-label="Toggle mobile menu"]:active {
+  transform: scale(0.95);
+  opacity: 0.9;
+}
+
+/* Mobile menu dropdown animation */
 .dropdown-fade-scale-enter-active,
 .dropdown-fade-scale-leave-active {
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
