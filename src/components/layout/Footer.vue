@@ -11,7 +11,7 @@
             @error="handleLogoError"
           />
           <!-- Fallback content if logo fails to load -->
-          <div class="fallback-logo hidden w-10 h-10 bg-black rounded-full flex items-center justify-center">
+          <div class="fallback-logo hidden w-10 h-10 bg-black rounded-full items-center justify-center">
             <div class="text-white font-black text-sm">CO</div>
           </div>
           <div class="text-left">
