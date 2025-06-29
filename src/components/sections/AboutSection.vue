@@ -218,11 +218,11 @@
             
             <!-- Alliance Leadership -->
             <div class="text-left mb-6">
-              <h5 class="text-yellow-400 font-bold mb-4 text-center text-lg">Alliance Leadership</h5>
+              <h5 class="text-yellow-400 font-bold mb-4 text-center text-lg">Alliance Leader</h5>
               <div class="bg-red-800/20 rounded-xl p-4 border border-red-700/50 mb-4">
                 <div class="flex items-center justify-between">
                   <div>
-                    <div class="text-gray-200 font-bold">LundiX</div>
+                    <div class="text-gray-200 font-bold">Pryda</div>
                   </div>
                   <div class="text-right">
                     <div class="text-yellow-400 text-sm font-semibold">R5 Leader</div>
@@ -307,11 +307,11 @@
             
             <!-- Alliance Leadership -->
             <div class="text-left mb-6">
-              <h5 class="text-yellow-400 font-bold mb-4 text-center text-lg">Alliance Leadership</h5>
+              <h5 class="text-yellow-400 font-bold mb-4 text-center text-lg">Alliance Leader</h5>
               <div class="bg-red-800/20 rounded-xl p-4 border border-red-700/50 mb-4">
                 <div class="flex items-center justify-between">
                   <div>
-                    <div class="text-gray-200 font-bold">Pryda</div>
+                    <div class="text-gray-200 font-bold">LundiX</div>
                   </div>
                   <div class="text-right">
                     <div class="text-yellow-400 text-sm font-semibold">R5 Leader</div>
@@ -364,75 +364,228 @@
 
       <!-- Family Culture Section -->
       <div class="bg-black bg-opacity-70 rounded-3xl p-8 lg:p-12 border-2 border-red-800 mb-16">
-        <div class="text-center mb-10">
-          <h3 class="text-2xl sm:text-3xl font-bold mb-4 text-yellow-400">
+        <div class="text-center mb-12">
+          <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-yellow-400">
             Our Family Culture
           </h3>
-          <p class="text-lg text-gray-300 max-w-3xl mx-auto">
-            Beyond the battlefield, Crimson Order is built on values that create lasting bonds and legendary achievements
+          <p class="text-lg text-gray-300 max-w-4xl mx-auto">
+            Beyond the battlefield, Crimson Order is built on values that create lasting bonds and legendary achievements. 
+            Our culture is the foundation of our success and the reason we remain undefeated.
           </p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="text-center group">
-            <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <span class="text-2xl">🤝</span>
+        <!-- Core Values with Enhanced Styling -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-8 lg:mb-12">
+          <div class="group bg-gradient-to-br from-red-900/40 to-red-800/40 rounded-2xl p-4 lg:p-6 border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:scale-105">
+            <div class="w-12 h-12 lg:w-16 lg:h-16 mx-auto mb-3 lg:mb-4 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+              <span class="text-xl lg:text-2xl">🤝</span>
             </div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Unity</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
+            <h4 class="text-lg lg:text-xl font-bold text-yellow-400 mb-2 lg:mb-3 text-center">Unity</h4>
+            <p class="text-gray-300 text-xs lg:text-sm leading-relaxed text-center">
               We believe that individual strength is amplified when combined with collective purpose. 
               Every member contributes to our shared success.
             </p>
           </div>
           
-          <div class="text-center group">
-            <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <span class="text-2xl">🎯</span>
+          <div class="group bg-gradient-to-br from-red-900/40 to-red-800/40 rounded-2xl p-4 lg:p-6 border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:scale-105">
+            <div class="w-12 h-12 lg:w-16 lg:h-16 mx-auto mb-3 lg:mb-4 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+              <span class="text-xl lg:text-2xl">🎯</span>
             </div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Strategy</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
+            <h4 class="text-lg lg:text-xl font-bold text-yellow-400 mb-2 lg:mb-3 text-center">Strategy</h4>
+            <p class="text-gray-300 text-xs lg:text-sm leading-relaxed text-center">
               Every battle is won before it begins. We value strategic thinking, careful planning, 
               and tactical execution over brute force.
             </p>
           </div>
           
-          <div class="text-center group">
-            <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <span class="text-2xl">🏆</span>
+          <div class="group bg-gradient-to-br from-red-900/40 to-red-800/40 rounded-2xl p-4 lg:p-6 border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:scale-105 md:col-span-2 lg:col-span-1">
+            <div class="w-12 h-12 lg:w-16 lg:h-16 mx-auto mb-3 lg:mb-4 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+              <span class="text-xl lg:text-2xl">🏆</span>
             </div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Excellence</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
+            <h4 class="text-lg lg:text-xl font-bold text-yellow-400 mb-2 lg:mb-3 text-center">Excellence</h4>
+            <p class="text-gray-300 text-xs lg:text-sm leading-relaxed text-center">
               We strive for excellence in everything we do. From individual performance to alliance coordination, 
               we never settle for anything less than the best.
             </p>
           </div>
         </div>
-      </div>
 
-      <!-- Family Motto & Legacy -->
-      <div class="text-center">
-        <div class="text-3xl sm:text-4xl lg:text-5xl font-bold italic mb-8 text-yellow-400">
-          "Individually strong. United, unstoppable."
+        <!-- Family Rules & Principles with Enhanced Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-8 lg:mb-12">
+          <!-- Family Rules -->
+          <div class="bg-gradient-to-br from-red-900/50 to-red-800/50 rounded-2xl p-6 lg:p-8 border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300">
+            <div class="flex items-center mb-4 lg:mb-6">
+              <div class="w-10 h-10 lg:w-12 lg:h-12 bg-yellow-500/20 rounded-full flex items-center justify-center border border-yellow-500/50 mr-3 lg:mr-4">
+                <span class="text-yellow-400 text-lg lg:text-xl">⚖️</span>
+              </div>
+              <h4 class="text-xl lg:text-2xl font-bold text-yellow-400">Family Rules</h4>
+            </div>
+            <div class="space-y-3 lg:space-y-4">
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">1.</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Prioritize Family Unity</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">Always put the family's success above individual glory</div>
+                </div>
+              </div>
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">2.</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Follow Leadership</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">Execute leadership directives without question</div>
+                </div>
+              </div>
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">3.</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Active Participation</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">Maintain consistent involvement in alliance activities</div>
+                </div>
+              </div>
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">4.</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Respect All Members</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">Treat every family member with dignity regardless of rank</div>
+                </div>
+              </div>
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">5.</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Maintain Secrecy</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">Never share family strategies with outsiders</div>
+                </div>
+              </div>
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">6.</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Resource Sharing</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">Contribute to family support and resource distribution</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Our Principles -->
+          <div class="bg-gradient-to-br from-red-900/50 to-red-800/50 rounded-2xl p-6 lg:p-8 border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300">
+            <div class="flex items-center mb-4 lg:mb-6">
+              <div class="w-10 h-10 lg:w-12 lg:h-12 bg-yellow-500/20 rounded-full flex items-center justify-center border border-yellow-500/50 mr-3 lg:mr-4">
+                <span class="text-yellow-400 text-lg lg:text-xl">💎</span>
+              </div>
+              <h4 class="text-xl lg:text-2xl font-bold text-yellow-400">Our Principles</h4>
+            </div>
+            <div class="space-y-3 lg:space-y-4">
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">•</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Collective Intelligence</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">We value the power of many minds over individual brilliance</div>
+                </div>
+
+              </div>
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">•</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Every Member Matters</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">Each person contributes uniquely to our success</div>
+                </div>
+              </div>
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">•</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Learn & Adapt</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">We grow stronger from every battle, win or lose</div>
+                </div>
+              </div>
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">•</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Loyalty & Trust</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">These are the unbreakable bonds that make us strong</div>
+                </div>
+              </div>
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">•</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Protect Our Own</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">We never abandon family members in need</div>
+                </div>
+              </div>
+              <div class="flex items-center space-x-3 lg:space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
+                <span class="text-yellow-400 font-bold text-base lg:text-lg flex-shrink-0">•</span>
+                <div class="text-left">
+                  <div class="text-gray-200 font-semibold text-sm lg:text-base">Dedication to Excellence</div>
+                  <div class="text-gray-400 text-xs lg:text-sm mt-1">We achieve greatness through practice and commitment</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <p class="text-lg text-gray-300 max-w-3xl mx-auto mb-8">
-          This is more than a motto—it's the foundation of everything we are. 
-          Crimson Order represents the perfect balance of individual excellence and collective power, 
-          creating a legacy that will be remembered throughout the ages of Rise of Kingdoms.
-        </p>
-        
-        <!-- Legacy Stats -->
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
-          <div class="bg-gradient-to-br from-red-900/50 to-red-800/50 rounded-xl p-6 border border-red-700/50 group hover:border-yellow-500/50 transition-all duration-300">
-            <div class="text-3xl font-bold text-yellow-400 mb-2 group-hover:scale-110 transition-transform duration-300">100+</div>
-            <div class="text-gray-300 text-sm">Victories Won</div>
+
+        <!-- Family Traditions & Benefits -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+          <!-- Family Traditions -->
+          <div class="bg-gradient-to-br from-red-900/40 to-red-800/40 rounded-2xl p-4 lg:p-6 border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300">
+            <div class="flex items-center mb-3 lg:mb-4">
+              <div class="w-8 h-8 lg:w-10 lg:h-10 bg-yellow-500/20 rounded-full flex items-center justify-center border border-yellow-500/50 mr-2 lg:mr-3">
+                <span class="text-yellow-400 text-sm lg:text-base">🏛️</span>
+              </div>
+              <h4 class="text-lg lg:text-xl font-bold text-yellow-400">Family Traditions</h4>
+            </div>
+            <div class="space-y-2 lg:space-y-3">
+              <div class="flex items-center space-x-2 lg:space-x-3">
+                <span class="text-yellow-400 text-sm lg:text-base">⚔️</span>
+                <span class="text-gray-300 text-xs lg:text-sm">Daily training sessions and strategy meetings</span>
+              </div>
+              <div class="flex items-center space-x-2 lg:space-x-3">
+                <span class="text-yellow-400 text-sm lg:text-base">🎖️</span>
+                <span class="text-gray-300 text-xs lg:text-sm">Weekly recognition of outstanding members</span>
+              </div>
+              <div class="flex items-center space-x-2 lg:space-x-3">
+                <span class="text-yellow-400 text-sm lg:text-base">🛡️</span>
+                <span class="text-gray-300 text-xs lg:text-sm">Monthly family gatherings and celebrations</span>
+              </div>
+              <div class="flex items-center space-x-2 lg:space-x-3">
+                <span class="text-yellow-400 text-sm lg:text-base">📚</span>
+                <span class="text-gray-300 text-xs lg:text-sm">Knowledge sharing and mentorship programs</span>
+              </div>
+              <div class="flex items-center space-x-2 lg:space-x-3">
+                <span class="text-yellow-400 text-sm lg:text-base">🏆</span>
+                <span class="text-gray-300 text-xs lg:text-sm">Seasonal tournaments and competitions</span>
+              </div>
+            </div>
           </div>
-          <div class="bg-gradient-to-br from-red-900/50 to-red-800/50 rounded-xl p-6 border border-red-700/50 group hover:border-yellow-500/50 transition-all duration-300">
-            <div class="text-3xl font-bold text-yellow-400 mb-2 group-hover:scale-110 transition-transform duration-300">50+</div>
-            <div class="text-gray-300 text-sm">Kingdoms Dominated</div>
-          </div>
-          <div class="bg-gradient-to-br from-red-900/50 to-red-800/50 rounded-xl p-6 border border-red-700/50 group hover:border-yellow-500/50 transition-all duration-300">
-            <div class="text-3xl font-bold text-yellow-400 mb-2 group-hover:scale-110 transition-transform duration-300">∞</div>
-            <div class="text-gray-300 text-sm">Legacy Continues</div>
+
+          <!-- Member Benefits -->
+          <div class="bg-gradient-to-br from-red-900/40 to-red-800/40 rounded-2xl p-4 lg:p-6 border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300">
+            <div class="flex items-center mb-3 lg:mb-4">
+              <div class="w-8 h-8 lg:w-10 lg:h-10 bg-yellow-500/20 rounded-full flex items-center justify-center border border-yellow-500/50 mr-2 lg:mr-3">
+                <span class="text-yellow-400 text-sm lg:text-base">🎁</span>
+              </div>
+              <h4 class="text-lg lg:text-xl font-bold text-yellow-400">Member Benefits</h4>
+            </div>
+            <div class="space-y-2 lg:space-y-3">
+              <div class="flex items-center space-x-2 lg:space-x-3">
+                <span class="text-yellow-400 text-sm lg:text-base">🎯</span>
+                <span class="text-gray-300 text-xs lg:text-sm">Access to elite training and strategies</span>
+              </div>
+              <div class="flex items-center space-x-2 lg:space-x-3">
+                <span class="text-yellow-400 text-sm lg:text-base">🤝</span>
+                <span class="text-gray-300 text-xs lg:text-sm">24/7 support from experienced members</span>
+              </div>
+              <div class="flex items-center space-x-2 lg:space-x-3">
+                <span class="text-yellow-400 text-sm lg:text-base">⚡</span>
+                <span class="text-gray-300 text-xs lg:text-sm">Priority access to alliance resources</span>
+              </div>
+              <div class="flex items-center space-x-2 lg:space-x-3">
+                <span class="text-yellow-400 text-sm lg:text-base">🏅</span>
+                <span class="text-gray-300 text-xs lg:text-sm">Recognition and advancement opportunities</span>
+              </div>
+              <div class="flex items-center space-x-2 lg:space-x-3">
+                <span class="text-yellow-400 text-sm lg:text-base">🌍</span>
+                <span class="text-gray-300 text-xs lg:text-sm">Global network of skilled players</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

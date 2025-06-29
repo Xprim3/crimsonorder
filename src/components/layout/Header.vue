@@ -6,7 +6,7 @@
         ? 'bg-opacity-95 backdrop-blur-md shadow-lg' 
         : 'bg-opacity-90 backdrop-blur-sm'
     ]"
-    style="background: var(--header-bg);"
+    style="background: linear-gradient(135deg, #000000 0%, #1f2937 25%, #dc2626 50%, #1f2937 75%, #000000 100%); border-bottom: 3px solid #fbbf24; box-shadow: 0 4px 20px rgba(0,0,0,0.6), inset 0 1px 0 rgba(251, 191, 36, 0.3);"
   >
     <div class="px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
       <div class="flex items-center justify-between h-16 lg:h-20">
@@ -15,25 +15,33 @@
         <div class="flex items-center space-x-2 sm:space-x-3">
           <!-- Dragon Shield Logo with CO -->
           <div class="relative w-8 h-10 sm:w-10 sm:h-12 lg:w-12 lg:h-14">
-            <svg viewBox="0 0 32 36" fill="none" class="w-full h-full">
+            <svg viewBox="0 0 32 36" fill="none" class="w-full h-full drop-shadow-lg">
               <!-- Shield background with dragon silhouette -->
               <defs>
                 <linearGradient id="dragonShieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:var(--accent-primary);stop-opacity:1" />
+                  <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
                   <stop offset="50%" style="stop-color:#b91c1c;stop-opacity:1" />
                   <stop offset="100%" style="stop-color:#7f1d1d;stop-opacity:1" />
                 </linearGradient>
                 <linearGradient id="dragonWingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" style="stop-color:var(--accent-gold);stop-opacity:0.8" />
-                  <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.6" />
+                  <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.9" />
                 </linearGradient>
+                <filter id="glow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge> 
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
               </defs>
               
               <!-- Main shield -->
               <path d="M16 2L28 8V18C28 26 22 30 16 32C10 30 4 26 4 18V8L16 2Z" 
                     fill="url(#dragonShieldGradient)" 
-                    stroke="var(--accent-gold)" 
-                    stroke-width="2"/>
+                    stroke="#fbbf24" 
+                    stroke-width="2"
+                    filter="url(#glow)"/>
               
               <!-- Dragon wings (left) -->
               <path d="M4 12C2 10 1 8 2 6C3 4 5 5 6 7C7 9 6 11 4 12Z" 
@@ -49,33 +57,34 @@
               
               <!-- Dragon head silhouette -->
               <path d="M16 8C18 6 20 7 21 9C22 11 21 13 19 14C17 15 15 14 14 12C13 10 14 8 16 8Z" 
-                    fill="rgba(0,0,0,0.3)"/>
+                    fill="rgba(0,0,0,0.4)"/>
               
               <!-- CO text in center -->
               <text x="16" y="22" 
                     text-anchor="middle" 
                     class="text-xs sm:text-sm lg:text-base font-black fill-white"
-                    style="font-family: 'Arial Black', sans-serif; font-weight: 900; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
+                    style="font-family: 'Arial Black', sans-serif; font-weight: 900; text-shadow: 0 2px 4px rgba(0,0,0,0.9); filter: drop-shadow(0 0 4px #fbbf24);">
                 CO
               </text>
               
               <!-- Glow effect -->
               <circle cx="16" cy="16" r="14" 
                       fill="none" 
-                      stroke="var(--accent-gold)" 
+                      stroke="#fbbf24" 
                       stroke-width="1" 
-                      opacity="0.3"/>
+                      opacity="0.5"
+                      filter="url(#glow)"/>
             </svg>
           </div>
           
           <!-- Text Brand -->
           <div class="block">
             <h1 class="font-black text-lg sm:text-xl lg:text-2xl tracking-widest uppercase text-left" 
-                style="color: var(--text-primary); text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+                style="color: #fbbf24; text-shadow: 0 2px 8px rgba(0,0,0,0.9), 0 0 20px rgba(251, 191, 36, 0.6); filter: drop-shadow(0 0 6px #fbbf24);">
               Crimson Order
             </h1>
-            <p class="text-xs sm:text-sm lg:text-sm font-medium tracking-wide text-left" 
-               style="color: var(--accent-primary); text-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+            <p class="text-xs sm:text-sm lg:text-sm font-bold tracking-wide text-left" 
+               style="color: #ffffff; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
               Rise of Kingdoms Elite
             </p>
           </div>
@@ -92,9 +101,8 @@
             <a 
               :href="item.href"
               @click="scrollToSection(item.href)"
-              class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200"
-              style="color: var(--text-secondary);"
-              :style="{ '--hover-color': 'var(--text-primary)' }"
+              class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white"
+              style="color: #ffffff; text-shadow: 0 1px 3px rgba(0,0,0,0.8);"
             >
               <!-- Gaming Icons -->
               <span class="text-lg">
@@ -130,76 +138,14 @@
               <span class="text-sm">{{ item.label }}</span>
             </a>
           </div>
-          
-          <!-- Theme Toggle Button -->
-          <button
-            @click="toggleTheme"
-            class="p-2 rounded-lg flex items-center justify-center focus:outline-none transition-all duration-300 ease-in-out hover:opacity-80"
-            style="color: var(--text-secondary); background-color: var(--bg-tertiary);"
-            :title="isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'"
-          >
-            <span v-if="isDark">
-              <!-- Sun Icon (Gold) -->
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="5" fill="var(--accent-gold)"/>
-                <g stroke="var(--accent-gold)">
-                  <line x1="12" y1="1" x2="12" y2="3" />
-                  <line x1="12" y1="21" x2="12" y2="23" />
-                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-                  <line x1="1" y1="12" x2="3" y2="12" />
-                  <line x1="21" y1="12" x2="23" y2="12" />
-                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-                </g>
-              </svg>
-            </span>
-            <span v-else>
-              <!-- Moon Icon (Blue) -->
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" fill="var(--accent-blue)"/>
-              </svg>
-            </span>
-          </button>
         </nav>
 
         <!-- Mobile Menu Button -->
         <div class="lg:hidden flex items-center space-x-2">
-          <!-- Theme Toggle Button (Mobile) -->
-          <button
-            @click="toggleTheme"
-            class="p-2 rounded-lg flex items-center justify-center focus:outline-none hover:opacity-80"
-            style="color: var(--text-primary); background-color: var(--bg-tertiary); border: 1px solid var(--border-color);"
-            :title="isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'"
-          >
-            <span v-if="isDark">
-              <!-- Sun Icon (Gold) -->
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="5" fill="var(--accent-gold)"/>
-                <g stroke="var(--accent-gold)">
-                  <line x1="12" y1="1" x2="12" y2="3" />
-                  <line x1="12" y1="21" x2="12" y2="23" />
-                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-                  <line x1="1" y1="12" x2="3" y2="12" />
-                  <line x1="21" y1="12" x2="23" y2="12" />
-                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-                </g>
-              </svg>
-            </span>
-            <span v-else>
-              <!-- Moon Icon (Blue) -->
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" fill="var(--accent-blue)"/>
-              </svg>
-            </span>
-          </button>
-          
           <button
             @click="toggleMobileMenu"
-            class="p-2 rounded-lg flex items-center justify-center focus:outline-none"
-            style="color: var(--text-primary); background-color: var(--bg-tertiary); border: 1px solid var(--border-color);"
+            class="p-2 rounded-lg flex items-center justify-center focus:outline-none border-2 border-transparent transition-all duration-200"
+            style="color: #dc2626; background: rgba(0,0,0,0.8); backdrop-filter: blur(8px); border-color: #dc2626; box-shadow: 0 2px 8px rgba(220, 38, 38, 0.4);"
             :aria-expanded="isMobileMenuOpen"
             aria-label="Toggle mobile menu"
           >
@@ -208,17 +154,17 @@
               <span 
                 class="block w-4 h-0.5 rounded transition-all duration-500 ease-out"
                 :class="isMobileMenuOpen ? 'rotate-45 translate-y-1.5' : 'rotate-0 translate-y-0'"
-                style="background: var(--accent-primary);"
+                style="background: #dc2626; box-shadow: 0 0 6px #dc2626;"
               ></span>
               <span 
                 class="block w-4 h-0.5 rounded transition-all duration-300 ease-out mt-1"
                 :class="isMobileMenuOpen ? 'opacity-0' : 'opacity-100'"
-                style="background: var(--accent-primary);"
+                style="background: #dc2626; box-shadow: 0 0 6px #dc2626;"
               ></span>
               <span 
                 class="block w-4 h-0.5 rounded transition-all duration-500 ease-out mt-1"
                 :class="isMobileMenuOpen ? '-rotate-45 -translate-y-1.5' : 'rotate-0 translate-y-0'"
-                style="background: var(--accent-primary);"
+                style="background: #dc2626; box-shadow: 0 0 6px #dc2626;"
               ></span>
             </div>
           </button>
@@ -230,7 +176,7 @@
         <div 
           v-show="isMobileMenuOpen"
           class="lg:hidden absolute right-2 top-16 w-56 rounded-xl shadow-2xl py-3 z-50 max-h-96 overflow-y-auto"
-          style="background: var(--dropdown-bg); border: 1px solid var(--border-color);"
+          style="background: rgba(0, 0, 0, 0.95); backdrop-filter: blur(16px); border: 2px solid #dc2626; box-shadow: 0 8px 32px rgba(220, 38, 38, 0.6);"
         >
           <nav class="space-y-1">
             <div 
@@ -242,9 +188,9 @@
               <a 
                 :href="item.href"
                 @click="scrollToSection(item.href)"
-                class="font-medium px-4 py-3 rounded-lg border-l-2 border-transparent transition-all duration-300 ease-in-out flex items-center justify-between"
-                style="color: var(--text-secondary);"
-                :style="{ '--hover-border': 'var(--accent-primary)' }"
+                class="font-bold px-4 py-3 rounded-lg border-l-4 border-transparent transition-all duration-300 ease-in-out flex items-center justify-between mx-2"
+                style="color: #ffffff; background: rgba(31, 41, 55, 0.8);"
+                :style="{ '--hover-border': '#dc2626' }"
               >
                 <div class="flex items-center space-x-3">
                   <!-- Gaming Icons for Mobile -->
@@ -291,10 +237,6 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-import { useTheme } from '../../composables/useTheme'
-
-// Theme composable
-const { isDark, toggleTheme } = useTheme()
 
 // Reactive state
 const isMobileMenuOpen = ref(false)
@@ -308,14 +250,9 @@ const navigationItems = [
     href: '#home'
   },
   { 
-    id: 'about', 
-    label: 'About', 
-    href: '#about'
-  },
-  { 
     id: 'crimson-family', 
     label: 'Crimson Family', 
-    href: '#crimson-family'
+    href: '#about'
   },
   { 
     id: 'kingdom', 
@@ -325,7 +262,7 @@ const navigationItems = [
   { 
     id: 'join-us', 
     label: 'Join Us', 
-    href: '#join-us'
+    href: '#join-family'
   },
   { 
     id: 'faq', 
@@ -384,6 +321,8 @@ nav a {
   background: transparent !important;
   position: relative;
   overflow: hidden;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 nav a::before {
@@ -393,16 +332,20 @@ nav a::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(220, 38, 38, 0.15), rgba(251, 191, 36, 0.15));
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.2), rgba(251, 191, 36, 0.2));
   opacity: 0;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   z-index: -1;
+  border-radius: 8px;
 }
 
 nav a:hover {
-  color: var(--hover-color, var(--text-primary)) !important;
-  text-shadow: 0 0 8px rgba(220, 38, 38, 0.3);
+  color: var(--accent-gold) !important;
+  text-shadow: 0 0 12px rgba(251, 191, 36, 0.5);
   border-radius: 8px;
+  border-color: var(--accent-gold);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
 }
 
 nav a:hover::before {
@@ -411,20 +354,21 @@ nav a:hover::before {
 
 /* Active/pressed state for navigation items */
 nav a:active::before {
-  background: linear-gradient(135deg, rgba(220, 38, 38, 0.25), rgba(251, 191, 36, 0.25));
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.3), rgba(251, 191, 36, 0.3));
   opacity: 1;
 }
 
 /* Gaming-style hover effects for mobile menu items */
 nav a:hover {
-  border-left-color: var(--hover-border, var(--accent-primary)) !important;
-  color: var(--text-primary) !important;
-  background: linear-gradient(90deg, rgba(220, 38, 38, 0.1), transparent) !important;
+  border-left-color: var(--accent-gold) !important;
+  color: var(--accent-gold) !important;
+  background: linear-gradient(90deg, rgba(220, 38, 38, 0.15), rgba(251, 191, 36, 0.1)) !important;
 }
 
 /* Icon hover effects */
 a:hover svg {
-  filter: drop-shadow(0 0 4px var(--accent-primary));
+  filter: drop-shadow(0 0 6px var(--accent-gold));
+  color: var(--accent-gold);
 }
 
 /* Hamburger button states */
