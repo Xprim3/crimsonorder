@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
       <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
         <!-- Logo & Name -->
-        <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-3 cursor-pointer">
           <img 
             src="/logo/logo.png" 
             alt="Crimson Order Logo"
@@ -18,7 +18,7 @@
             <h3 class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold text-lg" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Crimson Order</h3>
             <p class="text-gray-400 text-xs">Rise of Kingdoms Elite</p>
           </div>
-        </div>
+        </a>
 
         <!-- Quick Links -->
         <div class="flex space-x-6">

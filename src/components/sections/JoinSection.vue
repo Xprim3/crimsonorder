@@ -26,7 +26,6 @@
           <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             Requirements to Join
           </h3>
-          <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
           <p class="text-lg text-gray-300 mt-6">
             What we look for in potential members
           </p>

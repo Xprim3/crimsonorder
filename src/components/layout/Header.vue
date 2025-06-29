@@ -12,7 +12,7 @@
       <div class="flex items-center justify-between h-16 lg:h-20">
         
         <!-- Logo/Brand -->
-        <div class="flex items-center space-x-2 sm:space-x-3">
+        <a href="/" class="flex items-center space-x-2 sm:space-x-3 cursor-pointer">
           <!-- Enhanced Crimson Order Emblem -->
           <div class="relative group w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14">
             <!-- Responsive Image -->
@@ -39,10 +39,10 @@
             </h1>
             <p class="text-xs sm:text-sm lg:text-sm font-bold tracking-wide text-left" 
                style="color: #ffffff; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
-              Rise of Crimson Order
+              Rise of Kingdoms Elite
             </p>
           </div>
-        </div>
+        </a>
 
         <!-- Desktop Navigation (LG and above) -->
         <nav class="flex max-lg:hidden items-center space-x-2">
