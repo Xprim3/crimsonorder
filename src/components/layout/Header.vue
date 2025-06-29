@@ -229,7 +229,7 @@
       <transition name="dropdown-fade-scale">
         <div 
           v-show="isMobileMenuOpen"
-          class="lg:hidden absolute right-2 top-16 w-72 rounded-xl shadow-2xl py-3 z-50 max-h-96 overflow-y-auto"
+          class="lg:hidden absolute right-2 top-16 w-56 rounded-xl shadow-2xl py-3 z-50 max-h-96 overflow-y-auto"
           style="background: var(--dropdown-bg); border: 1px solid var(--border-color);"
         >
           <nav class="space-y-1">
