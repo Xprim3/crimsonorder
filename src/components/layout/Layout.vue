@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen" style="background: var(--bg-primary);">
+  <div class="min-h-screen" style="background: var(--bg-primary)">
     <Header />
     <!-- Spacer div to prevent content from hiding behind fixed header -->
     <div class="h-16 lg:h-20"></div>
@@ -7,7 +7,7 @@
       <slot />
     </main>
     <Footer />
-    
+
     <!-- Scroll to Top Button -->
     <transition
       enter-active-class="transition-all duration-500 ease-out"
@@ -21,7 +21,7 @@
         v-show="showScrollToTop"
         @click="scrollToTop"
         class="fixed bottom-6 right-6 z-50 w-12 h-12 bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center shadow-lg hover:from-yellow-400 hover:to-yellow-500 transition-all duration-300 transform hover:scale-110 border-2 border-yellow-400/50 hover:border-yellow-300"
-        style="box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3);"
+        style="box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3)"
       >
         <span class="text-white text-xl">↑</span>
       </button>
@@ -30,29 +30,29 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
-import Header from './Header.vue'
-import Footer from './Footer.vue'
+  import { ref, onMounted, onUnmounted } from 'vue'
+  import Header from './Header.vue'
+  import Footer from './Footer.vue'
 
-// Scroll to top functionality
-const showScrollToTop = ref(false)
+  // Scroll to top functionality
+  const showScrollToTop = ref(false)
 
-const handleScroll = () => {
-  showScrollToTop.value = window.scrollY > 300
-}
+  const handleScroll = () => {
+    showScrollToTop.value = window.scrollY > 300
+  }
 
-const scrollToTop = () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
+  }
+
+  onMounted(() => {
+    window.addEventListener('scroll', handleScroll)
   })
-}
 
-onMounted(() => {
-  window.addEventListener('scroll', handleScroll)
-})
-
-onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll)
-})
-</script> 
+  onUnmounted(() => {
+    window.removeEventListener('scroll', handleScroll)
+  })
+</script>
