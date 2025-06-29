@@ -8,8 +8,8 @@
       <!-- Application Process -->
       <div class="bg-black bg-opacity-70 rounded-3xl p-8 lg:p-12 border-2 border-red-800 mb-16">
         <div class="text-center mb-12">
-          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-yellow-400">
-            Join the Family
+          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
+            How to Join Our Family
           </h3>
           <p class="text-lg text-gray-300">
             Follow these steps to begin your journey with Crimson Order
@@ -20,61 +20,61 @@
           <!-- Application Steps -->
           <div class="space-y-6">
             <div class="flex items-start space-x-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-yellow-500/20 rounded-full flex items-center justify-center border-2 border-yellow-500/50">
-                <span class="text-yellow-400 font-bold text-lg">1</span>
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center border-2 border-yellow-500/50">
+                <span class="text-yellow-300 font-bold text-lg">1</span>
               </div>
               <div class="text-left">
-                <h4 class="text-xl font-bold text-yellow-400 mb-2">Contact Leadership</h4>
-                <p class="text-gray-300 text-sm leading-relaxed">
-                  Reach out to any of our leaders through Discord or in-game. Introduce yourself and express your interest in joining.
+                <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Contact Leadership</h4>
+                <p class="text-gray-200 text-sm text-left">
+                  Reach out to our leaders through Discord or in-game chat to express your interest
                 </p>
               </div>
             </div>
 
             <div class="flex items-start space-x-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-yellow-500/20 rounded-full flex items-center justify-center border-2 border-yellow-500/50">
-                <span class="text-yellow-400 font-bold text-lg">2</span>
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center border-2 border-yellow-500/50">
+                <span class="text-yellow-300 font-bold text-lg">2</span>
               </div>
               <div class="text-left">
-                <h4 class="text-xl font-bold text-yellow-400 mb-2">Initial Interview</h4>
-                <p class="text-gray-300 text-sm leading-relaxed">
-                  Participate in a brief interview to discuss your experience, goals, and commitment to our family values.
+                <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Initial Interview</h4>
+                <p class="text-gray-200 text-sm text-left">
+                  Complete a brief interview to discuss your experience and commitment level
                 </p>
               </div>
             </div>
 
             <div class="flex items-start space-x-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-yellow-500/20 rounded-full flex items-center justify-center border-2 border-yellow-500/50">
-                <span class="text-yellow-400 font-bold text-lg">3</span>
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center border-2 border-yellow-500/50">
+                <span class="text-yellow-300 font-bold text-lg">3</span>
               </div>
               <div class="text-left">
-                <h4 class="text-xl font-bold text-yellow-400 mb-2">Trial Period</h4>
-                <p class="text-gray-300 text-sm leading-relaxed">
-                  Join us for a 2-week trial period to demonstrate your skills, teamwork, and commitment to our cause.
+                <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Trial Period</h4>
+                <p class="text-gray-200 text-sm text-left">
+                  Join as a trial member for 1-2 weeks to prove your worth and commitment
                 </p>
               </div>
             </div>
 
             <div class="flex items-start space-x-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-yellow-500/20 rounded-full flex items-center justify-center border-2 border-yellow-500/50">
-                <span class="text-yellow-400 font-bold text-lg">4</span>
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center border-2 border-yellow-500/50">
+                <span class="text-yellow-300 font-bold text-lg">4</span>
               </div>
               <div class="text-left">
-                <h4 class="text-xl font-bold text-yellow-400 mb-2">Full Membership</h4>
-                <p class="text-gray-300 text-sm leading-relaxed">
-                  Upon successful completion of the trial, you'll be welcomed as a full member of the Crimson Order family.
+                <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Full Membership</h4>
+                <p class="text-gray-200 text-sm text-left">
+                  Upon approval, receive full membership benefits and access to all family resources
                 </p>
               </div>
             </div>
 
             <div class="flex items-start space-x-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-yellow-500/20 rounded-full flex items-center justify-center border-2 border-yellow-500/50">
-                <span class="text-yellow-400 font-bold text-lg">5</span>
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center border-2 border-yellow-500/50">
+                <span class="text-yellow-300 font-bold text-lg">5</span>
               </div>
               <div class="text-left">
-                <h4 class="text-xl font-bold text-yellow-400 mb-2">Begin Your Journey</h4>
-                <p class="text-gray-300 text-sm leading-relaxed">
-                  Start your legendary journey with Crimson Order and write your name in the annals of Rise of Kingdoms history.
+                <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Begin Your Journey</h4>
+                <p class="text-gray-200 text-sm text-left">
+                  Start your legendary journey with the Crimson Order family
                 </p>
               </div>
             </div>
@@ -82,12 +82,12 @@
 
           <!-- Contact Information -->
           <div class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30">
-            <h4 class="text-2xl font-bold text-yellow-400 mb-6 text-left">Contact Our Leaders</h4>
+            <h4 class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold mb-6 text-left text-2xl" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Contact Our Leaders</h4>
             
             <div class="space-y-4">
               <div class="flex items-center space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
                 <div class="w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center">
-                  <span class="text-yellow-400">👑</span>
+                  <span class="text-red-400">👑</span>
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">Pryda - Supreme Leader</div>
@@ -98,7 +98,7 @@
 
               <div class="flex items-center space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
                 <div class="w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center">
-                  <span class="text-yellow-400">⚖️</span>
+                  <span class="text-red-400">⚖️</span>
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">LundiX - Chief Advisor</div>
@@ -109,7 +109,7 @@
 
               <div class="flex items-center space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
                 <div class="w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center">
-                  <span class="text-yellow-400">⚔️</span>
+                  <span class="text-red-400">⚔️</span>
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">WarLeader - War Chief</div>
@@ -120,7 +120,7 @@
 
               <div class="flex items-center space-x-4 p-3 bg-red-800/20 rounded-lg border border-red-700/30">
                 <div class="w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center">
-                  <span class="text-yellow-400">🦅</span>
+                  <span class="text-red-400">🦅</span>
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">EagleLead - Eagle Commander</div>
@@ -134,7 +134,7 @@
         
         <!-- Epic Contact Buttons -->
         <div class="text-center mt-12">
-          <h4 class="text-2xl font-bold text-yellow-400 mb-8">Ready to Join? Contact Us Now!</h4>
+          <h4 class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold mb-8 text-2xl" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Ready to Join? Contact Us Now!</h4>
           <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a href="https://t.me/crimsonorder" target="_blank" rel="noopener noreferrer" class="btn-neon-telegram group">
               <div class="btn-content">
@@ -179,14 +179,6 @@ h2, h3 {
 /* Enhanced border glow */
 .border-red-800 {
   box-shadow: 0 0 20px rgba(139, 0, 0, 0.2);
-}
-
-/* Gradient text effect */
-.text-yellow-400 {
-  background: linear-gradient(45deg, #F59E0B, #FCD34D);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 /* Epic Neon Button Styles */

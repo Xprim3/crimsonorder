@@ -13,68 +13,22 @@
         
         <!-- Logo/Brand -->
         <div class="flex items-center space-x-2 sm:space-x-3">
-          <!-- Dragon Shield Logo with CO -->
-          <div class="relative w-8 h-10 sm:w-10 sm:h-12 lg:w-12 lg:h-14">
-            <svg viewBox="0 0 32 36" fill="none" class="w-full h-full drop-shadow-lg">
-              <!-- Shield background with dragon silhouette -->
-              <defs>
-                <linearGradient id="dragonShieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
-                  <stop offset="50%" style="stop-color:#b91c1c;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#7f1d1d;stop-opacity:1" />
-                </linearGradient>
-                <linearGradient id="dragonWingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.9" />
-                </linearGradient>
-                <filter id="glow">
-                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-                  <feMerge> 
-                    <feMergeNode in="coloredBlur"/>
-                    <feMergeNode in="SourceGraphic"/>
-                  </feMerge>
-                </filter>
-              </defs>
-              
-              <!-- Main shield -->
-              <path d="M16 2L28 8V18C28 26 22 30 16 32C10 30 4 26 4 18V8L16 2Z" 
-                    fill="url(#dragonShieldGradient)" 
-                    stroke="#fbbf24" 
-                    stroke-width="2"
-                    filter="url(#glow)"/>
-              
-              <!-- Dragon wings (left) -->
-              <path d="M4 12C2 10 1 8 2 6C3 4 5 5 6 7C7 9 6 11 4 12Z" 
-                    fill="url(#dragonWingGradient)"/>
-              <path d="M4 16C2 14 1 12 2 10C3 8 5 9 6 11C7 13 6 15 4 16Z" 
-                    fill="url(#dragonWingGradient)"/>
-              
-              <!-- Dragon wings (right) -->
-              <path d="M28 12C30 10 31 8 30 6C29 4 27 5 26 7C25 9 26 11 28 12Z" 
-                    fill="url(#dragonWingGradient)"/>
-              <path d="M28 16C30 14 31 12 30 10C29 8 27 9 26 11C25 13 26 15 28 16Z" 
-                    fill="url(#dragonWingGradient)"/>
-              
-              <!-- Dragon head silhouette -->
-              <path d="M16 8C18 6 20 7 21 9C22 11 21 13 19 14C17 15 15 14 14 12C13 10 14 8 16 8Z" 
-                    fill="rgba(0,0,0,0.4)"/>
-              
-              <!-- CO text in center -->
-              <text x="16" y="22" 
-                    text-anchor="middle" 
-                    class="text-xs sm:text-sm lg:text-base font-black fill-white"
-                    style="font-family: 'Arial Black', sans-serif; font-weight: 900; text-shadow: 0 2px 4px rgba(0,0,0,0.9); filter: drop-shadow(0 0 4px #fbbf24);">
-                CO
-              </text>
-              
-              <!-- Glow effect -->
-              <circle cx="16" cy="16" r="14" 
-                      fill="none" 
-                      stroke="#fbbf24" 
-                      stroke-width="1" 
-                      opacity="0.5"
-                      filter="url(#glow)"/>
-            </svg>
+          <!-- Enhanced Crimson Order Emblem -->
+          <div class="relative group w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14">
+            <!-- Responsive Image -->
+            <img 
+              src="/logo/logo.png" 
+              alt="Crimson Order Emblem"
+              class="w-full h-full object-contain object-center transition-transform duration-300"
+              @error="handleImageError"
+            />
+            
+            <!-- Fallback content if image fails to load -->
+            <div class="absolute inset-0 items-center justify-center fallback-content hidden">
+              <div class="text-center">
+                <div class="text-xs sm:text-sm lg:text-base font-black text-white group-hover:text-yellow-100 transition-colors duration-300">CO</div>
+              </div>
+            </div>
           </div>
           
           <!-- Text Brand -->
@@ -91,7 +45,7 @@
         </div>
 
         <!-- Desktop Navigation (LG and above) -->
-        <nav class="hidden lg:flex items-center space-x-2">
+        <nav class="flex max-lg:hidden items-center space-x-2">
           <div 
             v-for="item in navigationItems" 
             :key="item.id"
@@ -241,6 +195,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 // Reactive state
 const isMobileMenuOpen = ref(false)
 const isScrolled = ref(false)
+let scrollTimeout: number | null = null
 
 // Navigation items
 const navigationItems = [
@@ -272,6 +227,15 @@ const navigationItems = [
 ]
 
 // Methods
+const handleImageError = (event: Event) => {
+  const target = event.target as HTMLImageElement;
+  const fallbackContent = target.parentElement?.querySelector('.fallback-content') as HTMLElement;
+  if (fallbackContent) {
+    fallbackContent.classList.remove('hidden');
+    fallbackContent.classList.add('flex');
+  }
+};
+
 const toggleMobileMenu = (): void => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value
 }
@@ -299,19 +263,51 @@ const scrollToSection = (href: string): void => {
 
 const handleScroll = (): void => {
   isScrolled.value = window.scrollY > 50
+  
+  // Close mobile menu on scroll with debounce
+  if (isMobileMenuOpen.value) {
+    if (scrollTimeout) {
+      clearTimeout(scrollTimeout)
+    }
+    scrollTimeout = window.setTimeout(() => {
+      closeMobileMenu()
+    }, 150) // 150ms delay before closing
+  }
 }
 
 const closeMobileMenu = (): void => {
   isMobileMenuOpen.value = false
 }
 
+const handleClickOutside = (event: Event): void => {
+  const target = event.target as HTMLElement
+  
+  // Check if click is outside the mobile dropdown menu
+  const mobileMenu = document.querySelector('.lg\\:hidden.absolute.right-2.top-16')
+  const mobileMenuButton = document.querySelector('button[aria-label="Toggle mobile menu"]')
+  
+  // Close menu if click is outside both the dropdown and the toggle button
+  if (isMobileMenuOpen.value && 
+      mobileMenu && 
+      !mobileMenu.contains(target) && 
+      mobileMenuButton && 
+      !mobileMenuButton.contains(target)) {
+    closeMobileMenu()
+  }
+}
+
 // Lifecycle
 onMounted(() => {
   window.addEventListener('scroll', handleScroll)
+  document.addEventListener('click', handleClickOutside)
 })
 
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
+  document.removeEventListener('click', handleClickOutside)
+  if (scrollTimeout) {
+    clearTimeout(scrollTimeout)
+  }
 })
 </script>
 

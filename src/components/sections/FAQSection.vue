@@ -21,30 +21,30 @@
         <!-- Left Column -->
         <div class="space-y-6">
           <div class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300">
-            <h4 class="text-lg font-bold text-yellow-400 mb-3">What if I don't meet the power requirement?</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
+            <h4 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">What if I don't meet the power requirement?</h4>
+            <p class="text-gray-200 text-sm leading-relaxed">
               We consider exceptional players on a case-by-case basis. Contact our leaders to discuss your situation and potential exceptions.
             </p>
           </div>
 
           <div class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300">
-            <h4 class="text-lg font-bold text-yellow-400 mb-3">How long is the trial period?</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
-              The trial period is 2 weeks, during which we evaluate your skills, teamwork, and commitment to our family values.
+            <h4 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">How long is the trial period?</h4>
+            <p class="text-gray-200 text-sm leading-relaxed">
+              Trial periods typically last 1-2 weeks, depending on your activity level and integration with the family.
             </p>
           </div>
 
           <div class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300">
-            <h4 class="text-lg font-bold text-yellow-400 mb-3">Do I need to leave my current alliance?</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
-              Yes, full membership requires joining one of our alliances. We cannot accept dual membership for security reasons.
+            <h4 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Do I need to leave my current alliance?</h4>
+            <p class="text-gray-200 text-sm leading-relaxed">
+              Yes, you'll need to leave your current alliance before joining ours. We'll guide you through the process.
             </p>
           </div>
 
           <div class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300">
-            <h4 class="text-lg font-bold text-yellow-400 mb-3">What if I can't be active daily?</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
-              We understand real life comes first. Communicate with leadership about any absences in advance.
+            <h4 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">What if I can't be active daily?</h4>
+            <p class="text-gray-200 text-sm leading-relaxed">
+              We understand real life comes first. Just communicate with leadership about any absences and maintain reasonable activity levels.
             </p>
           </div>
         </div>
@@ -52,30 +52,30 @@
         <!-- Right Column -->
         <div class="space-y-6">
           <div class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300">
-            <h4 class="text-lg font-bold text-yellow-400 mb-3">Can I choose which alliance to join?</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
-              Leadership will recommend the best fit based on your skills and preferences during the interview process.
+            <h4 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Can I choose which alliance to join?</h4>
+            <p class="text-gray-200 text-sm leading-relaxed">
+              Leadership will recommend the best alliance based on your playstyle and our current needs.
             </p>
           </div>
 
           <div class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300">
-            <h4 class="text-lg font-bold text-yellow-400 mb-3">What happens if I'm rejected?</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
-              You can reapply after 30 days. Use this time to improve your power, activity, or address any concerns raised.
+            <h4 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">What happens if I'm rejected?</h4>
+            <p class="text-gray-200 text-sm leading-relaxed">
+              You can reapply after 30 days. Use the feedback to improve and try again.
             </p>
           </div>
 
           <div class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300">
-            <h4 class="text-lg font-bold text-yellow-400 mb-3">Is Discord mandatory?</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
-              Yes, Discord is required for communication, coordination, and staying updated with family events and strategies.
+            <h4 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Is Discord mandatory?</h4>
+            <p class="text-gray-200 text-sm leading-relaxed">
+              Yes, Discord is required for communication, coordination, and staying updated with family events.
             </p>
           </div>
 
           <div class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300">
-            <h4 class="text-lg font-bold text-yellow-400 mb-3">What are the benefits of joining?</h4>
-            <p class="text-gray-300 text-sm leading-relaxed">
-              Elite protection, strategic training, resource sharing, constant victories, and a supportive community of experienced players.
+            <h4 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">What are the benefits of joining?</h4>
+            <p class="text-gray-200 text-sm leading-relaxed">
+              Elite protection, strategic warfare training, resource abundance, constant victories, active community, and personalized support.
             </p>
           </div>
         </div>

@@ -11,8 +11,8 @@
           Answer the Call
         </h2>
         <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mb-8"></div>
-        <p class="text-xl sm:text-2xl lg:text-3xl font-bold text-yellow-400 mb-4">
-          Join the Legendary Crimson Order
+        <p class="text-xl sm:text-2xl lg:text-3xl font-bold text-white drop-shadow-lg mb-4" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
+          Ready to Join the Elite?
         </p>
         <p class="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
           Are you ready to become part of something greater than yourself? 
@@ -23,11 +23,11 @@
       <!-- Requirements & Expectations -->
       <div class="bg-black bg-opacity-70 rounded-3xl p-8 lg:p-12 border-2 border-red-800 mb-16">
         <div class="text-center mb-12">
-          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-yellow-400">
-            Are You Worthy?
+          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
+            Requirements to Join
           </h3>
           <p class="text-lg text-gray-300">
-            We seek only the most dedicated and honorable warriors
+            What we look for in potential members
           </p>
         </div>
         
@@ -37,9 +37,9 @@
               <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center group-hover:bg-yellow-500/30 transition-colors mb-3">
                 <span class="text-2xl">⚔️</span>
               </div>
-              <h4 class="text-xl font-bold text-yellow-400">Combat Experience</h4>
+              <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Combat Experience</h4>
             </div>
-            <p class="text-gray-300 text-sm leading-relaxed text-center">
+            <p class="text-gray-200 text-sm leading-relaxed text-center">
               Minimum 50M power with proven battle experience. We value quality over quantity.
             </p>
           </div>
@@ -49,9 +49,9 @@
               <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center group-hover:bg-yellow-500/30 transition-colors mb-3">
                 <span class="text-2xl">🕐</span>
               </div>
-              <h4 class="text-xl font-bold text-yellow-400">Active Participation</h4>
+              <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Active Participation</h4>
             </div>
-            <p class="text-gray-300 text-sm leading-relaxed text-center">
+            <p class="text-gray-200 text-sm leading-relaxed text-center">
               Daily activity required. We need warriors who are committed to our cause.
             </p>
           </div>
@@ -61,9 +61,9 @@
               <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center group-hover:bg-yellow-500/30 transition-colors mb-3">
                 <span class="text-2xl">🤝</span>
               </div>
-              <h4 class="text-xl font-bold text-yellow-400">Team Player</h4>
+              <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Team Player</h4>
             </div>
-            <p class="text-gray-300 text-sm leading-relaxed text-center">
+            <p class="text-gray-200 text-sm leading-relaxed text-center">
               Must work well with others and follow leadership directives without question.
             </p>
           </div>
@@ -73,9 +73,9 @@
               <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center group-hover:bg-yellow-500/30 transition-colors mb-3">
                 <span class="text-2xl">🔒</span>
               </div>
-              <h4 class="text-xl font-bold text-yellow-400">Loyalty</h4>
+              <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Loyalty</h4>
             </div>
-            <p class="text-gray-300 text-sm leading-relaxed text-center">
+            <p class="text-gray-200 text-sm leading-relaxed text-center">
               Unwavering loyalty to the family. No previous betrayals or dishonorable conduct.
             </p>
           </div>
@@ -85,9 +85,9 @@
               <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center group-hover:bg-yellow-500/30 transition-colors mb-3">
                 <span class="text-2xl">📱</span>
               </div>
-              <h4 class="text-xl font-bold text-yellow-400">Communication</h4>
+              <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Communication</h4>
             </div>
-            <p class="text-gray-300 text-sm leading-relaxed text-center">
+            <p class="text-gray-200 text-sm leading-relaxed text-center">
               Must join Discord and maintain active communication with the family.
             </p>
           </div>
@@ -97,9 +97,9 @@
               <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center group-hover:bg-yellow-500/30 transition-colors mb-3">
                 <span class="text-2xl">💎</span>
               </div>
-              <h4 class="text-xl font-bold text-yellow-400">Resource Sharing</h4>
+              <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Resource Sharing</h4>
             </div>
-            <p class="text-gray-300 text-sm leading-relaxed text-center">
+            <p class="text-gray-200 text-sm leading-relaxed text-center">
               Willing to contribute to family support and resource distribution programs.
             </p>
           </div>
@@ -133,14 +133,6 @@ h2, h3 {
 /* Enhanced border glow */
 .border-red-800 {
   box-shadow: 0 0 20px rgba(139, 0, 0, 0.2);
-}
-
-/* Gradient text effect */
-.text-yellow-400 {
-  background: linear-gradient(45deg, #F59E0B, #FCD34D);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 /* Epic Neon Button Styles */

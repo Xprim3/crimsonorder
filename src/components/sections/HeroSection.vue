@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden py-8 sm:py-12 lg:py-16 xl:py-20">
+  <section id="home" class="relative min-h-screen flex items-start justify-center overflow-hidden pt-16 sm:pt-20 lg:pt-24 xl:pt-28">
     <!-- Background Layer -->
     <div class="absolute inset-0 z-0">
       <!-- Background Image -->
@@ -33,43 +33,27 @@
     <!-- Main Content -->
     <div class="relative z-10 text-center px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
       
-      <!-- Alliance Emblems -->
-      <div class="flex justify-center items-center space-x-8 mb-8">
-        <!-- Crimson Paladins Emblem -->
-        <div class="text-center">
-          <div class="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-2 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center border-2 border-yellow-500 shadow-lg">
-            <span class="text-2xl sm:text-3xl">⚔️</span>
-          </div>
-          <p class="text-sm sm:text-base font-medium text-yellow-400">Crimson Paladins</p>
-        </div>
-        
-        <!-- Crimson Eagles Emblem -->
-        <div class="text-center">
-          <div class="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-2 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center border-2 border-yellow-500 shadow-lg">
-            <span class="text-2xl sm:text-3xl">🦅</span>
-          </div>
-          <p class="text-sm sm:text-base font-medium text-yellow-400">Crimson Eagles</p>
-        </div>
-      </div>
-
       <!-- Main Headline -->
-      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black tracking-widest uppercase mb-4 text-white">
-        <span class="bg-gradient-to-r from-red-500 via-yellow-500 to-red-600 bg-clip-text text-transparent">
-          Crimson Order
-        </span>
-      </h1>
-
-      <!-- Tagline -->
-      <p class="text-xl sm:text-2xl lg:text-3xl font-bold text-yellow-400 mb-6 tracking-wide">
-        United in Fire. Forged in Strategy.
-      </p>
-
-      <!-- Description -->
-      <p class="text-lg sm:text-xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
-        Two elite alliances — <span class="text-yellow-400 font-semibold">Crimson Paladins ⚔️</span> and 
-        <span class="text-yellow-400 font-semibold">Crimson Eagles 🦅</span> — joined under one banner to lead with honor, 
-        strike with power, and rise as the most organized force in the kingdom.
-      </p>
+      <div class="text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black mb-6 tracking-tight">
+          <span class="bg-gradient-to-r from-red-500 via-yellow-500 to-red-600 bg-clip-text text-transparent">
+            The Legend of
+          </span>
+          <br>
+          <span class="text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
+            Crimson Order
+          </span>
+        </h1>
+        
+        <p class="text-xl sm:text-2xl lg:text-3xl font-bold text-white drop-shadow-lg mb-6 tracking-wide" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
+          Rise of Kingdoms Elite Alliance
+        </p>
+        
+        <p class="text-lg sm:text-xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
+          Join the most prestigious alliance in Rise of Kingdoms. Experience strategic warfare, 
+          elite protection, and a family that never leaves anyone behind.
+        </p>
+      </div>
 
       <!-- Primary CTA Button -->
       <button 

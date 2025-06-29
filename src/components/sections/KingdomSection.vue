@@ -18,30 +18,30 @@
 
       <!-- Kingdom Hero Banner -->
       <div class="bg-black bg-opacity-70 rounded-3xl p-8 lg:p-12 border-2 border-red-800 mb-16 relative overflow-hidden">
-        <div class="absolute top-4 right-4 text-yellow-500 font-bold text-sm tracking-wider opacity-50">KINGDOM #1234</div>
+        <div class="absolute top-4 right-4 text-yellow-400 font-bold text-sm tracking-wider opacity-50">KINGDOM #1234</div>
         <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"></div>
         
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <!-- Kingdom Stats -->
           <div class="text-center lg:text-left">
-            <h3 class="text-3xl sm:text-4xl font-bold mb-6 text-yellow-400">
+            <h3 class="text-3xl sm:text-4xl font-bold mb-6 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
               The Ultimate Kingdom Experience
             </h3>
             <div class="grid grid-cols-2 gap-6 mb-8">
               <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
-                <div class="text-3xl font-bold text-yellow-400">#1</div>
+                <div class="text-3xl font-bold text-yellow-300">#1</div>
                 <div class="text-sm text-gray-400">Kingdom Rank</div>
               </div>
               <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
-                <div class="text-3xl font-bold text-yellow-400">50M+</div>
+                <div class="text-3xl font-bold text-yellow-300">50M+</div>
                 <div class="text-sm text-gray-400">Total Power</div>
               </div>
               <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
-                <div class="text-3xl font-bold text-yellow-400">1000+</div>
+                <div class="text-3xl font-bold text-yellow-300">1000+</div>
                 <div class="text-sm text-gray-400">Active Players</div>
               </div>
               <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
-                <div class="text-3xl font-bold text-yellow-400">24/7</div>
+                <div class="text-3xl font-bold text-yellow-300">24/7</div>
                 <div class="text-sm text-gray-400">Active Events</div>
               </div>
             </div>
@@ -55,7 +55,7 @@
           <div class="text-center">
             <div class="bg-gradient-to-br from-yellow-500/20 to-red-600/20 rounded-2xl p-8 border-2 border-yellow-500/50">
               <div class="text-6xl mb-4">🏰</div>
-              <h4 class="text-2xl font-bold text-yellow-400 mb-4">Ready to Join the Elite?</h4>
+              <h4 class="text-2xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-4" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Ready to Join the Elite?</h4>
               <p class="text-gray-200 mb-6">
                 Migrate to Kingdom #1234 and become part of the legendary Crimson Order family
               </p>
@@ -75,7 +75,7 @@
       <!-- Why Migrate Section -->
       <div class="bg-black bg-opacity-70 rounded-3xl p-8 lg:p-12 border-2 border-red-800 mb-16">
         <div class="text-center mb-12">
-          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-yellow-400">
+          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             Why Choose Our Kingdom?
           </h3>
           <p class="text-lg text-gray-300">
@@ -86,7 +86,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
             <div class="text-4xl mb-4">⚔️</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Elite Protection</h4>
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Elite Protection</h4>
             <p class="text-gray-300 text-sm">
               Your cities are protected by the most skilled defenders in the game. Sleep soundly knowing your resources are safe.
             </p>
@@ -94,7 +94,7 @@
           
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
             <div class="text-4xl mb-4">🎯</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Strategic Warfare</h4>
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Strategic Warfare</h4>
             <p class="text-gray-300 text-sm">
               Learn from battle-tested commanders and participate in coordinated attacks that dominate the battlefield.
             </p>
@@ -102,7 +102,7 @@
           
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
             <div class="text-4xl mb-4">💰</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Resource Abundance</h4>
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Resource Abundance</h4>
             <p class="text-gray-300 text-sm">
               Access to the richest territories and resource nodes. Grow faster than ever before.
             </p>
@@ -110,7 +110,7 @@
           
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
             <div class="text-4xl mb-4">🏆</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Constant Victories</h4>
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Constant Victories</h4>
             <p class="text-gray-300 text-sm">
               Join a kingdom that consistently wins wars and events. Be part of a winning tradition.
             </p>
@@ -118,7 +118,7 @@
           
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
             <div class="text-4xl mb-4">👥</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Active Community</h4>
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Active Community</h4>
             <p class="text-gray-300 text-sm">
               Join our vibrant Discord community with 24/7 activity, events, and friendly members.
             </p>
@@ -126,7 +126,7 @@
           
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
             <div class="text-4xl mb-4">🎮</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Training & Support</h4>
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Training & Support</h4>
             <p class="text-gray-300 text-sm">
               Get personalized training from experienced players and access to exclusive strategies.
             </p>
@@ -137,7 +137,7 @@
       <!-- Kingdom Leadership -->
       <div class="bg-black bg-opacity-70 rounded-3xl p-8 lg:p-12 border-2 border-red-800 mb-16">
         <div class="text-center mb-12">
-          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-yellow-400">
+          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             Kingdom Leadership
           </h3>
           <p class="text-lg text-gray-300">
@@ -151,7 +151,7 @@
             <div class="w-24 h-24 mx-auto mb-6 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl">
               <span class="text-white text-4xl">👑</span>
             </div>
-            <h4 class="text-3xl font-bold text-yellow-400 mb-3">King Alexander</h4>
+            <h4 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">King Alexander</h4>
             <p class="text-lg text-gray-300 mb-4">Supreme Ruler of Kingdom #1234</p>
             <div class="text-sm text-gray-400 mb-2">Power: 85M+</div>
             <div class="text-sm text-gray-400 mb-4">Experience: 3+ Years</div>
@@ -166,7 +166,7 @@
             <div class="w-24 h-24 mx-auto mb-6 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl">
               <span class="text-white text-4xl">👸</span>
             </div>
-            <h4 class="text-3xl font-bold text-yellow-400 mb-3">Queen Isabella</h4>
+            <h4 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Queen Isabella</h4>
             <p class="text-lg text-gray-300 mb-4">Royal Consort & Diplomat</p>
             <div class="text-sm text-gray-400 mb-2">Power: 72M+</div>
             <div class="text-sm text-gray-400 mb-4">Experience: 2+ Years</div>
@@ -179,22 +179,22 @@
         
         <!-- Royal Council -->
         <div class="text-center mt-12">
-          <h4 class="text-2xl font-bold text-yellow-400 mb-8">Royal Council</h4>
+          <h4 class="text-2xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-8" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Royal Council</h4>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-xl p-6 border border-red-700/50">
               <div class="text-2xl mb-3">⚖️</div>
-              <h5 class="text-lg font-bold text-yellow-400 mb-2">Lord Chancellor</h5>
-              <p class="text-sm text-gray-300">Sir Marcus</p>
+              <h5 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Lord Chancellor</h5>
+              <p class="text-gray-200 text-sm">Sir Marcus</p>
             </div>
             <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-xl p-6 border border-red-700/50">
               <div class="text-2xl mb-3">⚔️</div>
-              <h5 class="text-lg font-bold text-yellow-400 mb-2">War Minister</h5>
-              <p class="text-sm text-gray-300">General Darius</p>
+              <h5 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">War Minister</h5>
+              <p class="text-gray-200 text-sm">General Darius</p>
             </div>
             <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-xl p-6 border border-red-700/50">
               <div class="text-2xl mb-3">💰</div>
-              <h5 class="text-lg font-bold text-yellow-400 mb-2">Treasurer</h5>
-              <p class="text-sm text-gray-300">Lady Victoria</p>
+              <h5 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Treasurer</h5>
+              <p class="text-gray-200 text-sm">Lady Victoria</p>
             </div>
           </div>
         </div>
@@ -203,7 +203,7 @@
       <!-- Kingdom Achievements -->
       <div class="bg-black bg-opacity-70 rounded-3xl p-8 lg:p-12 border-2 border-red-800 mb-16">
         <div class="text-center mb-12">
-          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-yellow-400">
+          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-lg" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             Kingdom Achievements
           </h3>
           <p class="text-lg text-gray-300">
@@ -214,49 +214,49 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
             <div class="text-4xl mb-4">🏆</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">#1 Kingdom</h4>
-            <p class="text-gray-300 text-sm">
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">#1 Kingdom</h4>
+            <p class="text-gray-200 text-sm">
               Consistently ranked as the top kingdom in our server cluster
             </p>
           </div>
           
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
             <div class="text-4xl mb-4">⚔️</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">War Champions</h4>
-            <p class="text-gray-300 text-sm">
-              Won 15 consecutive kingdom wars with strategic brilliance
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">War Champions</h4>
+            <p class="text-gray-200 text-sm">
+              Winners of 15+ consecutive kingdom wars and events
             </p>
           </div>
           
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
-            <div class="text-4xl mb-4">🎯</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Event Masters</h4>
-            <p class="text-gray-300 text-sm">
-              Dominated every major event with coordinated excellence
+            <div class="text-4xl mb-4">🏆</div>
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Event Masters</h4>
+            <p class="text-gray-200 text-sm">
+              Dominant performance in all kingdom events and competitions
             </p>
           </div>
           
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
             <div class="text-4xl mb-4">🤝</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Alliance Unity</h4>
-            <p class="text-gray-300 text-sm">
-              Perfect cooperation between all alliances for maximum success
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Alliance Unity</h4>
+            <p class="text-gray-200 text-sm">
+              Perfect coordination between all alliances in the kingdom
             </p>
           </div>
           
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
             <div class="text-4xl mb-4">📈</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Rapid Growth</h4>
-            <p class="text-gray-300 text-sm">
-              New members grow 3x faster with our training programs
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Rapid Growth</h4>
+            <p class="text-gray-200 text-sm">
+              Fastest growing kingdom with 200+ new members monthly
             </p>
           </div>
           
           <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-6 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300">
-            <div class="text-4xl mb-4">🌟</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Community Excellence</h4>
-            <p class="text-gray-300 text-sm">
-              Awarded best community for 6 months running
+            <div class="text-4xl mb-4">⭐</div>
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Community Excellence</h4>
+            <p class="text-gray-200 text-sm">
+              Award-winning community with 24/7 support and events
             </p>
           </div>
         </div>
@@ -265,7 +265,7 @@
       <!-- Migration Guide -->
       <div class="bg-black bg-opacity-70 rounded-3xl p-8 lg:p-12 border-2 border-red-800">
         <div class="text-center mb-12">
-          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-yellow-400">
+          <h3 class="text-white drop-shadow-lg font-bold mb-4 text-3xl sm:text-4xl" style="text-shadow: 0 0 10px rgba(220, 38, 38, 0.5), 0 0 20px rgba(220, 38, 38, 0.3);">
             How to Join Our Kingdom
           </h3>
           <p class="text-lg text-gray-300">
@@ -276,40 +276,40 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="text-center">
             <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center text-2xl font-bold text-white">1</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Contact Us</h4>
-            <p class="text-gray-300 text-sm">
-              Reach out via Discord or Telegram to express your interest in joining
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Contact Us</h4>
+            <p class="text-gray-200 text-sm">
+              Get in touch with our leadership team for questions and guidance
             </p>
           </div>
           
           <div class="text-center">
             <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center text-2xl font-bold text-white">2</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Kingdom Details</h4>
-            <p class="text-gray-300 text-sm">
-              We'll provide you with the exact kingdom number and migration requirements
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Kingdom Details</h4>
+            <p class="text-gray-200 text-sm">
+              Learn more about our kingdom's history, achievements, and culture
             </p>
           </div>
           
           <div class="text-center">
             <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center text-2xl font-bold text-white">3</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Migrate</h4>
-            <p class="text-gray-300 text-sm">
-              Use your migration scroll to move to Kingdom #1234 and join our family
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Migrate</h4>
+            <p class="text-gray-200 text-sm">
+              Step-by-step guide to migrate to our kingdom safely and efficiently
             </p>
           </div>
           
           <div class="text-center">
             <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center text-2xl font-bold text-white">4</div>
-            <h4 class="text-xl font-bold text-yellow-400 mb-3">Join Alliance</h4>
-            <p class="text-gray-300 text-sm">
-              Choose your alliance and start your journey with the elite
+            <h4 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Join Alliance</h4>
+            <p class="text-gray-200 text-sm">
+              Apply to join one of our elite alliances and start your journey
             </p>
           </div>
         </div>
         
-        <!-- Contact Buttons -->
+        <!-- Final CTA -->
         <div class="text-center mt-12">
-          <h4 class="text-2xl font-bold text-yellow-400 mb-6">Ready to Join?</h4>
+          <h4 class="text-2xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-6" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Ready to Join?</h4>
           <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <button class="bg-gradient-to-r from-yellow-500 to-yellow-600 text-black font-bold py-4 px-8 rounded-lg hover:from-yellow-400 hover:to-yellow-500 transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
               <span>💬</span>
