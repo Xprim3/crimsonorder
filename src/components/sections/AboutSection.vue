@@ -194,18 +194,18 @@
         
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <!-- Crimson Paladins -->
-          <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-3xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden">
+          <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-3xl p-4 sm:p-6 lg:p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden">
             <div class="absolute top-0 left-0 w-2 bg-gradient-to-r from-yellow-500 to-red-600"></div>
             
-            <div class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <div class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-40 sm:h-36 md:h-40 lg:h-44 xl:h-48">
               <img 
                 src="/logo/crimsonpaladins.png" 
                 alt="Crimson Paladins Logo"
-                class="w-full max-w-[14rem] sm:max-w-[16rem] md:max-w-[18rem] lg:max-w-[20rem] xl:max-w-[22rem] h-auto object-contain object-center mx-auto"
+                class="w-full h-full max-w-[16rem] sm:max-w-[14rem] md:max-w-[16rem] lg:max-w-[18rem] xl:max-w-[20rem] object-contain object-center mx-auto"
                 @error="handleAllianceImageError"
               />
               <!-- Fallback emoji if image fails to load -->
-              <div class="fallback-alliance-icon hidden text-9xl sm:text-[10rem] items-center justify-center w-full h-full absolute left-0 top-0">⚔️</div>
+              <div class="fallback-alliance-icon hidden text-[10rem] sm:text-9xl md:text-[10rem] items-center justify-center w-full h-full absolute left-0 top-0">⚔️</div>
             </div>
             <h4 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-4 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Crimson Paladins</h4>
             <p class="text-gray-300 leading-relaxed mb-6 text-lg">
@@ -288,18 +288,18 @@
           </div>
           
           <!-- Crimson Eagles -->
-          <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-3xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden">
+          <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-3xl p-4 sm:p-6 lg:p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden">
             <div class="absolute top-0 left-0 w-2 bg-gradient-to-r from-yellow-500 to-red-600"></div>
             
-            <div class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <div class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-40 sm:h-36 md:h-40 lg:h-44 xl:h-48">
               <img 
                 src="/logo/crimsoneagles.png" 
                 alt="Crimson Eagles Logo"
-                class="w-full max-w-[14rem] sm:max-w-[16rem] md:max-w-[18rem] lg:max-w-[20rem] xl:max-w-[22rem] h-auto object-contain object-center mx-auto"
+                class="w-full h-full max-w-[16rem] sm:max-w-[14rem] md:max-w-[16rem] lg:max-w-[18rem] xl:max-w-[20rem] object-contain object-center mx-auto"
                 @error="handleAllianceImageError"
               />
               <!-- Fallback emoji if image fails to load -->
-              <div class="fallback-alliance-icon hidden text-9xl sm:text-[10rem] items-center justify-center w-full h-full absolute left-0 top-0">🦅</div>
+              <div class="fallback-alliance-icon hidden text-[10rem] sm:text-9xl md:text-[10rem] items-center justify-center w-full h-full absolute left-0 top-0">🦅</div>
             </div>
             <h4 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-4 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);">Crimson Eagles</h4>
             <p class="text-gray-300 leading-relaxed mb-6 text-lg">
