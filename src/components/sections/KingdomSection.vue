@@ -18,7 +18,6 @@
 
       <!-- Kingdom Hero Banner -->
       <div class="bg-black bg-opacity-70 rounded-3xl p-8 lg:p-12 border-2 border-red-800 mb-16 relative overflow-hidden">
-        <div class="absolute top-4 right-4 text-yellow-400 font-bold text-sm tracking-wider opacity-50">KINGDOM #1234</div>
         <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"></div>
         
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">

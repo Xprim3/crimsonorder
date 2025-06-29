@@ -74,12 +74,11 @@
 
       <!-- Primary CTA Button -->
       <button 
-        @click="scrollToSection('#join-us')"
+        @click="scrollToSection('#join-family')"
         class="group relative px-8 py-4 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg sm:text-xl rounded-lg border-2 border-yellow-500 shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-red-500/50 focus:outline-none focus:ring-4 focus:ring-red-500/50"
       >
         <span class="relative z-10 flex items-center space-x-2">
           <span>WRITE YOUR STORY</span>
-          <span class="transform transition-transform group-hover:translate-x-1">✍️</span>
         </span>
         <div class="absolute inset-0 bg-gradient-to-r from-red-500 to-red-700 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       </button>
