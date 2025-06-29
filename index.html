@@ -8,6 +8,16 @@
     <!-- Web App Manifest -->
     <link rel="manifest" href="/manifest.json" />
     
+    <!-- Resource Hints for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    
+    <!-- Critical Font Preloading -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" /></noscript>
+    
     <!-- Primary Meta Tags -->
     <title>Crimson Order - Elite Gaming Alliance | Official Website</title>
     <meta name="title" content="Crimson Order - Elite Gaming Alliance | Official Website" />
@@ -43,10 +53,6 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://crimsonorder.com/" />
-    
-    <!-- Preconnect to external domains -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     
     <!-- Structured Data -->
     <script type="application/ld+json">

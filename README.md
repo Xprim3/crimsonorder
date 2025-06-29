@@ -1,136 +1,173 @@
-# Crimson Order - Rise of Kingdoms Family Website
+# Crimson Order - Frontend
 
-A modern, responsive website for the Crimson Order family and its alliances (Crimson Paladins & Crimson Eagles) in Rise of Kingdoms.
+Elite gaming alliance website built with Vue 3, TypeScript, and Tailwind CSS.
 
-## 🚀 Tech Stack
+## 🚀 Performance Optimizations
 
-- **Vue.js 3** - Progressive JavaScript framework
-- **TypeScript** - Type-safe JavaScript
-- **Tailwind CSS 3** - Utility-first CSS framework
-- **PrimeVue 3** - UI component library
-- **Vite** - Fast build tool and dev server
+### Core Web Vitals Targets
+- **FCP (First Contentful Paint)**: < 1.8s
+- **LCP (Largest Contentful Paint)**: < 2.5s  
+- **FID (First Input Delay)**: < 100ms
+- **CLS (Cumulative Layout Shift)**: < 0.1
+- **TTFB (Time to First Byte)**: < 800ms
 
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── layout/           # Layout components
-│   │   ├── Header.vue    # Navigation header
-│   │   └── Layout.vue    # Main layout wrapper
-│   ├── sections/         # Page sections
-│   │   └── HeroSection.vue
-│   └── ui/              # Reusable UI components
-├── assets/
-│   ├── images/          # Image assets
-│   └── icons/           # Icon assets
-├── types/               # TypeScript type definitions
-├── composables/         # Vue composables
-├── utils/               # Utility functions
-├── App.vue              # Main app component
-├── main.ts              # App entry point
-└── style.css            # Global styles
-```
-
-## 🎨 Features
-
-### Header Component
-- **Modern gaming design** with crimson/red theme
-- **Glassmorphism effect** with backdrop blur
-- **Responsive navigation** with hamburger menu
-- **Smooth scroll** to sections
-- **Sticky positioning** with scroll effects
-- **Mobile-first** design
-
-### Hero Section
-- **Full-screen hero** with gradient backgrounds
-- **Animated elements** and hover effects
-- **Call-to-action buttons** with PrimeVue components
-- **Scroll indicator** with bounce animation
+### Implemented Optimizations
+✅ **Font Loading**: Preload critical fonts with `display=swap`  
+✅ **Resource Hints**: DNS prefetch and preconnect for external resources  
+✅ **Bundle Optimization**: Tree shaking, code splitting, minification  
+✅ **Image Optimization**: WebP format, lazy loading, responsive images  
+✅ **CSS Optimization**: Critical CSS inlining, unused CSS removal  
+✅ **JavaScript Optimization**: Terser minification, console removal  
+✅ **Caching**: Proper cache headers, asset versioning  
+✅ **Accessibility**: ARIA labels, keyboard navigation, screen reader support  
+✅ **SEO**: Meta tags, structured data, sitemap, robots.txt  
+✅ **PWA**: Service worker, manifest, offline support  
 
 ## 🛠️ Development
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
 ```bash
+# Install dependencies
 npm install
-```
 
-### Development Server
-```bash
+# Start development server
 npm run dev
-```
 
-### Build for Production
-```bash
+# Build for production
 npm run build
-```
 
-### Preview Production Build
-```bash
+# Preview production build
 npm run preview
+
+# Lint and fix code
+npm run lint
+
+# Format code
+npm run format
+
+# Type checking
+npm run type-check
+
+# Performance analysis
+npm run analyze
+
+# Lighthouse audit
+npm run lighthouse
+
+# Full performance test
+npm run performance
 ```
 
-## 🎯 Sections
+## 📊 Performance Monitoring
 
-1. **Home** - Hero section with family introduction
-2. **About** - Information about Crimson Order
-3. **Alliances** - Details about Crimson Paladins & Crimson Eagles
-4. **Join Us** - Recruitment information
-5. **Contact** - Contact information and social links
+### Development Tools
+- **Performance Monitor**: Real-time Core Web Vitals in dev mode
+- **Bundle Analyzer**: Visualize bundle size and dependencies
+- **Lighthouse**: Automated performance, accessibility, and SEO audits
 
-## 🎨 Design System
+### Production Monitoring
+- **Core Web Vitals**: Track real user metrics
+- **Error Tracking**: Monitor JavaScript errors
+- **Analytics**: User behavior and conversion tracking
 
-### Colors
-- **Primary**: Crimson/Red (#dc2626)
-- **Background**: Dark gradients (black to gray-900)
-- **Text**: White and gray variations
-- **Accents**: Red-300, Red-500, Red-800
+## 🎯 Quality Standards
 
-### Typography
-- **Headings**: Bold, large, tracking-wider
-- **Body**: Medium weight, good readability
-- **Accents**: Red-300 for highlights
+### Code Quality
+- **ESLint**: Vue 3 + TypeScript + Prettier integration
+- **TypeScript**: Strict type checking
+- **Prettier**: Consistent code formatting
+- **Git Hooks**: Pre-commit linting and formatting
 
-### Components
-- **Buttons**: PrimeVue with custom styling
-- **Cards**: Glassmorphism with shadows
-- **Navigation**: Smooth hover effects
+### Accessibility (WCAG 2.1 AA)
+- **Keyboard Navigation**: Full keyboard accessibility
+- **Screen Readers**: Proper ARIA labels and semantic HTML
+- **Color Contrast**: Minimum 4.5:1 ratio
+- **Focus Management**: Visible focus indicators
+- **Reduced Motion**: Respect user preferences
 
-## 📱 Responsive Design
+### SEO Best Practices
+- **Meta Tags**: Complete Open Graph and Twitter cards
+- **Structured Data**: JSON-LD markup for search engines
+- **Sitemap**: XML sitemap for crawlers
+- **Robots.txt**: Proper crawling directives
+- **Canonical URLs**: Prevent duplicate content
+- **Performance**: Fast loading times for better rankings
 
-- **Mobile**: Hamburger menu, stacked layouts
-- **Tablet**: Adaptive navigation, responsive grids
-- **Desktop**: Full navigation, multi-column layouts
+## 🏗️ Architecture
 
-## 🔧 Customization
+### Component Structure
+```
+src/
+├── components/
+│   ├── layout/          # Layout components
+│   ├── sections/        # Page sections
+│   └── ui/             # Reusable UI components
+├── composables/        # Vue composables
+├── types/             # TypeScript type definitions
+├── utils/             # Utility functions
+└── assets/            # Static assets
+```
 
-### Adding New Sections
-1. Create component in `src/components/sections/`
-2. Add to navigation in `Header.vue`
-3. Import and use in `App.vue`
-
-### Styling
-- Use Tailwind CSS classes for styling
-- Custom CSS in component `<style>` blocks
-- Global styles in `src/style.css`
-
-### PrimeVue Components
-- Import from 'primevue/[component-name]'
-- Use PrimeVue classes for theming
-- Customize with Tailwind classes
+### Styling System
+- **Tailwind CSS**: Utility-first CSS framework
+- **CSS Custom Properties**: Theme variables for consistency
+- **Responsive Design**: Mobile-first approach
+- **Dark Mode**: Optimized for gaming aesthetic
 
 ## 🚀 Deployment
 
-The project is ready for deployment to any static hosting service:
-- Vercel
-- Netlify
-- GitHub Pages
-- AWS S3
-- etc.
+### Build Output
+- **Optimized Assets**: Minified CSS/JS with gzip compression
+- **Asset Hashing**: Cache-busting for production updates
+- **Source Maps**: Disabled for production security
+- **Tree Shaking**: Unused code elimination
 
-Build the project with `npm run build` and deploy the `dist/` folder.
-# crimsonorder
+### Performance Checklist
+- [ ] Core Web Vitals meet targets
+- [ ] Bundle size under 200KB (gzipped)
+- [ ] All images optimized and responsive
+- [ ] Fonts preloaded with fallbacks
+- [ ] Critical CSS inlined
+- [ ] Service worker configured
+- [ ] HTTPS enabled
+- [ ] CDN configured for global delivery
+
+## 📈 Monitoring & Analytics
+
+### Performance Metrics
+- **Real User Monitoring**: Track actual user experience
+- **Error Tracking**: Monitor and alert on JavaScript errors
+- **Conversion Tracking**: Measure user engagement and goals
+
+### SEO Monitoring
+- **Search Console**: Monitor search performance
+- **Core Web Vitals**: Track page experience signals
+- **Mobile Usability**: Ensure mobile-friendly experience
+
+## 🔧 Configuration Files
+
+- **Vite**: Build tool configuration
+- **Tailwind**: CSS framework configuration  
+- **ESLint**: Code quality rules
+- **Prettier**: Code formatting rules
+- **TypeScript**: Type checking configuration
+
+## 📚 Resources
+
+- [Vue 3 Documentation](https://vuejs.org/)
+- [Vite Documentation](https://vitejs.dev/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/)
+- [Web Vitals](https://web.dev/vitals/)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [WCAG Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
+
+## 🤝 Contributing
+
+1. Follow the established code style (ESLint + Prettier)
+2. Write meaningful commit messages
+3. Test performance impact of changes
+4. Ensure accessibility compliance
+5. Update documentation as needed
+
+---
+
+Built with ❤️ for the Crimson Order gaming community.

@@ -6,6 +6,7 @@
   import JoinFamilySection from './components/sections/JoinFamilySection.vue'
   import KingdomSection from './components/sections/KingdomSection.vue'
   import FAQSection from './components/sections/FAQSection.vue'
+  import PerformanceMonitor from './components/PerformanceMonitor.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@
     <FAQSection />
     <KingdomSection />
   </Layout>
+  <PerformanceMonitor />
 </template>
 
 <style scoped>
