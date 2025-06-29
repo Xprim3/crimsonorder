@@ -77,8 +77,8 @@
               <p class="text-lg text-gray-300 mb-4">Supreme Leader of Crimson Order</p>
               <div class="text-sm text-gray-400 mb-2">In-Game: Pryda#1234</div>
               <div class="text-sm text-gray-400 mb-2">Discord: Pryda#0001</div>
-              <div class="flex items-center justify-center space-x-3 mt-4">
-                <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm font-semibold border border-yellow-500/30">Leader</span>
+              <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+                <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm font-semibold border border-yellow-500/30">High Commander</span>
                 <span class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30">⚔️ Crimson Paladins</span>
               </div>
             </div>
@@ -93,8 +93,8 @@
               <p class="text-lg text-gray-300 mb-4">Chief Advisor of Crimson Order</p>
               <div class="text-sm text-gray-400 mb-2">In-Game: LundiX#5678</div>
               <div class="text-sm text-gray-400 mb-2">Discord: LundiX#0002</div>
-              <div class="flex items-center justify-center space-x-3 mt-4">
-                <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm font-semibold border border-yellow-500/30">Counselor</span>
+              <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+                <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm font-semibold border border-yellow-500/30">Supreme Counselor</span>
                 <span class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30">🦅 Crimson Eagles</span>
               </div>
             </div>
@@ -107,138 +107,255 @@
           <p class="text-gray-300 text-sm">Elite leaders who guide our specialized forces</p>
         </div>
         
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="group bg-gradient-to-br from-red-900/40 to-red-800/40 p-6 rounded-xl border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/50 hover:to-red-700/50">
-            <div class="text-center">
-              <div class="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <span class="text-white text-lg">⚔️</span>
-              </div>
-              <div class="text-yellow-400 font-bold text-lg mb-2">WarLeader</div>
-              <div class="text-gray-300 text-sm mb-2">War Chief</div>
-              <div class="text-xs text-gray-400 mb-2">In-Game: WarLeader#1111</div>
-              <div class="text-xs text-gray-400 mb-2">Discord: WarLeader#0001</div>
-              <div class="flex items-center justify-center mt-3">
-                <span class="bg-red-500/20 text-red-400 px-2 py-1 rounded-full text-xs font-semibold border border-red-500/30">⚔️ Crimson Paladins</span>
-              </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"></div>
+            <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl">
+              <span class="text-white text-3xl">⚔️</span>
+            </div>
+            <h4 class="text-3xl font-bold text-yellow-400 mb-3 group-hover:text-yellow-300 transition-colors duration-300">WarLeader</h4>
+            <p class="text-lg text-gray-300 mb-4">War Chief</p>
+            <div class="text-sm text-gray-400 mb-2">In-Game: WarLeader#1111</div>
+            <div class="text-sm text-gray-400 mb-2">Discord: WarLeader#0001</div>
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+              <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm font-semibold border border-yellow-500/30">War Chief</span>
+              <span class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30">⚔️ Crimson Paladins</span>
             </div>
           </div>
           
-          <div class="group bg-gradient-to-br from-red-900/40 to-red-800/40 p-6 rounded-xl border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/50 hover:to-red-700/50">
-            <div class="text-center">
-              <div class="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <span class="text-white text-lg">🦅</span>
-              </div>
-              <div class="text-yellow-400 font-bold text-lg mb-2">EagleLead</div>
-              <div class="text-gray-300 text-sm mb-2">Eagle Commander</div>
-              <div class="text-xs text-gray-400 mb-2">In-Game: EagleLead#2222</div>
-              <div class="text-xs text-gray-400 mb-2">Discord: EagleLead#0001</div>
-              <div class="flex items-center justify-center mt-3">
-                <span class="bg-red-500/20 text-red-400 px-2 py-1 rounded-full text-xs font-semibold border border-red-500/30">🦅 Crimson Eagles</span>
-              </div>
+          <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"></div>
+            <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl">
+              <span class="text-white text-3xl">🦅</span>
+            </div>
+            <h4 class="text-3xl font-bold text-yellow-400 mb-3 group-hover:text-yellow-300 transition-colors duration-300">EagleLead</h4>
+            <p class="text-lg text-gray-300 mb-4">Eagle Commander</p>
+            <div class="text-sm text-gray-400 mb-2">In-Game: EagleLead#2222</div>
+            <div class="text-sm text-gray-400 mb-2">Discord: EagleLead#0001</div>
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+              <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm font-semibold border border-yellow-500/30">Eagle Commander</span>
+              <span class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30">🦅 Crimson Eagles</span>
             </div>
           </div>
           
-          <div class="group bg-gradient-to-br from-red-900/40 to-red-800/40 p-6 rounded-xl border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/50 hover:to-red-700/50">
-            <div class="text-center">
-              <div class="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <span class="text-white text-lg">📚</span>
-              </div>
-              <div class="text-yellow-400 font-bold text-lg mb-2">SupportLead</div>
-              <div class="text-gray-300 text-sm mb-2">Council Advisor</div>
-              <div class="text-xs text-gray-400 mb-2">In-Game: SupportLead#3333</div>
-              <div class="text-xs text-gray-400 mb-2">Discord: SupportLead#0001</div>
-              <div class="flex items-center justify-center mt-3">
-                <span class="bg-yellow-500/20 text-yellow-400 px-2 py-1 rounded-full text-xs font-semibold border border-yellow-500/30">Both Alliances</span>
-              </div>
+          <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"></div>
+            <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl">
+              <span class="text-white text-3xl">📚</span>
+            </div>
+            <h4 class="text-3xl font-bold text-yellow-400 mb-3 group-hover:text-yellow-300 transition-colors duration-300">SupportLead</h4>
+            <p class="text-lg text-gray-300 mb-4">Council Advisor</p>
+            <div class="text-sm text-gray-400 mb-2">In-Game: SupportLead#3333</div>
+            <div class="text-sm text-gray-400 mb-2">Discord: SupportLead#0001</div>
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+              <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm font-semibold border border-yellow-500/30">Council Advisor</span>
+              <span class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30">Both Alliances</span>
             </div>
           </div>
           
-          <div class="group bg-gradient-to-br from-red-900/40 to-red-800/40 p-6 rounded-xl border border-red-700/50 hover:border-yellow-500/50 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/50 hover:to-red-700/50">
-            <div class="text-center">
-              <div class="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <span class="text-white text-lg">🛡️</span>
-              </div>
-              <div class="text-yellow-400 font-bold text-lg mb-2">DefenseLead</div>
-              <div class="text-gray-300 text-sm mb-2">Defense Master</div>
-              <div class="text-xs text-gray-400 mb-2">In-Game: DefenseLead#4444</div>
-              <div class="text-xs text-gray-400 mb-2">Discord: DefenseLead#0001</div>
-              <div class="flex items-center justify-center mt-3">
-                <span class="bg-red-500/20 text-red-400 px-2 py-1 rounded-full text-xs font-semibold border border-red-500/30">⚔️ Crimson Paladins</span>
-              </div>
+          <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"></div>
+            <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl">
+              <span class="text-white text-3xl">🛡️</span>
+            </div>
+            <h4 class="text-3xl font-bold text-yellow-400 mb-3 group-hover:text-yellow-300 transition-colors duration-300">DefenseLead</h4>
+            <p class="text-lg text-gray-300 mb-4">Defense Master</p>
+            <div class="text-sm text-gray-400 mb-2">In-Game: DefenseLead#4444</div>
+            <div class="text-sm text-gray-400 mb-2">Discord: DefenseLead#0001</div>
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+              <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm font-semibold border border-yellow-500/30">Defense Master</span>
+              <span class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30">⚔️ Crimson Paladins</span>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Enhanced Alliance Structure -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-        <!-- Crimson Paladins -->
-        <div class="bg-gradient-to-br from-red-900/50 to-red-800/50 rounded-2xl p-8 border-2 border-red-700/50 text-center group hover:border-yellow-500/50 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden">
-          <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">⚔️</div>
-          <h4 class="text-2xl font-bold text-yellow-400 mb-4 group-hover:text-yellow-300 transition-colors duration-300">Crimson Paladins</h4>
-          <p class="text-gray-300 leading-relaxed mb-6">
-            The unbreakable shield of our family. These legendary defenders have mastered the art of protecting what matters most. 
-            Their cities stand as impenetrable fortresses, their resources flow like rivers, and their support keeps the entire family strong.
+      <div class="mb-16">
+        <div class="text-center mb-12">
+          <h3 class="text-3xl sm:text-4xl font-bold mb-4 text-yellow-400">
+            Our Elite Alliances
+          </h3>
+          <p class="text-lg text-gray-300 max-w-3xl mx-auto">
+            Two legendary alliances working in perfect harmony to dominate kingdoms and create an unstoppable force
           </p>
-          <div class="text-sm text-red-400 font-semibold mb-4">Defensive Masters</div>
-          <div class="flex justify-center space-x-4 text-xs text-gray-400 mb-6">
-            <span class="bg-red-800/30 px-3 py-1 rounded-full">City Defense</span>
-            <span class="bg-red-800/30 px-3 py-1 rounded-full">Resource Guard</span>
-            <span class="bg-red-800/30 px-3 py-1 rounded-full">Alliance Support</span>
-          </div>
-          
-          <!-- Alliance Members -->
-          <div class="text-left">
-            <h5 class="text-yellow-400 font-semibold mb-3 text-center">Key Members</h5>
-            <div class="space-y-2">
-              <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-2">
-                <span class="text-gray-200 font-medium">Suad</span>
-                <span class="text-yellow-400 text-sm">Counselor</span>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- Crimson Paladins -->
+          <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-3xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-yellow-500 to-red-600"></div>
+            
+            <div class="text-7xl mb-6 group-hover:scale-110 transition-transform duration-300">⚔️</div>
+            <h4 class="text-3xl font-bold text-yellow-400 mb-4 group-hover:text-yellow-300 transition-colors duration-300">Crimson Paladins</h4>
+            <p class="text-gray-300 leading-relaxed mb-6 text-lg">
+              The unbreakable shield of our family. These legendary defenders have mastered the art of protecting what matters most. 
+              Their cities stand as impenetrable fortresses, their resources flow like rivers, and their support keeps the entire family strong.
+            </p>
+            
+            <!-- Alliance Stats -->
+            <div class="grid grid-cols-3 gap-4 mb-8">
+              <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
+                <div class="text-2xl font-bold text-yellow-400">100+</div>
+                <div class="text-xs text-gray-400">Cities</div>
               </div>
-              <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-2">
-                <span class="text-gray-200 font-medium">Shiggio</span>
-                <span class="text-yellow-400 text-sm">Diplomat</span>
+              <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
+                <div class="text-2xl font-bold text-yellow-400">50+</div>
+                <div class="text-xs text-gray-400">Members</div>
               </div>
-              <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-2">
-                <span class="text-gray-200 font-medium">MeYou</span>
-                <span class="text-yellow-400 text-sm">Territorial Leader</span>
+              <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
+                <div class="text-2xl font-bold text-yellow-400">#1</div>
+                <div class="text-xs text-gray-400">Power Rank</div>
+              </div>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-2 text-xs text-gray-400 mb-8">
+              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">City Defense</span>
+              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Resource Guard</span>
+              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Alliance Support</span>
+              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Territory Control</span>
+            </div>
+            
+            <!-- Alliance Leadership -->
+            <div class="text-left mb-6">
+              <h5 class="text-yellow-400 font-bold mb-4 text-center text-lg">Alliance Leadership</h5>
+              <div class="bg-red-800/20 rounded-xl p-4 border border-red-700/50 mb-4">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <div class="text-gray-200 font-bold">LundiX</div>
+                  </div>
+                  <div class="text-right">
+                    <div class="text-yellow-400 text-sm font-semibold">R5 Leader</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Alliance Officers -->
+            <div class="text-left">
+              <h5 class="text-yellow-400 font-bold mb-4 text-center text-lg">Alliance Officers</h5>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">WarLeader</span>
+                  <span class="text-yellow-400 text-sm">War Chief</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">DefenseLead</span>
+                  <span class="text-yellow-400 text-sm">Defense Master</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Suad</span>
+                  <span class="text-yellow-400 text-sm">Counselor</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Shiggio</span>
+                  <span class="text-yellow-400 text-sm">Diplomat</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">MeYou</span>
+                  <span class="text-yellow-400 text-sm">Territorial Leader</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Officer6</span>
+                  <span class="text-yellow-400 text-sm">Rally Master</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Officer7</span>
+                  <span class="text-yellow-400 text-sm">Resource Manager</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Officer8</span>
+                  <span class="text-yellow-400 text-sm">Training Officer</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        
-        <!-- Crimson Eagles -->
-        <div class="bg-gradient-to-br from-red-900/50 to-red-800/50 rounded-2xl p-8 border-2 border-red-700/50 text-center group hover:border-yellow-500/50 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden">
-          <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🦅</div>
-          <h4 class="text-2xl font-bold text-yellow-400 mb-4 group-hover:text-yellow-300 transition-colors duration-300">Crimson Eagles</h4>
-          <p class="text-gray-300 leading-relaxed mb-6">
-            The swift spear of our family. These elite attackers strike with precision and speed that leaves enemies in awe. 
-            Their rally coordination is unmatched, their territory control is absolute, and their strategic strikes change the course of wars.
-          </p>
-          <div class="text-sm text-red-400 font-semibold mb-4">Offensive Specialists</div>
-          <div class="flex justify-center space-x-4 text-xs text-gray-400 mb-6">
-            <span class="bg-red-800/30 px-3 py-1 rounded-full">Rally Masters</span>
-            <span class="bg-red-800/30 px-3 py-1 rounded-full">Territory Control</span>
-            <span class="bg-red-800/30 px-3 py-1 rounded-full">Strategic Strikes</span>
-          </div>
           
-          <!-- Alliance Members -->
-          <div class="text-left">
-            <h5 class="text-yellow-400 font-semibold mb-3 text-center">Key Members</h5>
-            <div class="space-y-2">
-              <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-2">
-                <span class="text-gray-200 font-medium">EagleLead</span>
-                <span class="text-yellow-400 text-sm">Commander</span>
+          <!-- Crimson Eagles -->
+          <div class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-3xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-yellow-500 to-red-600"></div>
+            
+            <div class="text-7xl mb-6 group-hover:scale-110 transition-transform duration-300">🦅</div>
+            <h4 class="text-3xl font-bold text-yellow-400 mb-4 group-hover:text-yellow-300 transition-colors duration-300">Crimson Eagles</h4>
+            <p class="text-gray-300 leading-relaxed mb-6 text-lg">
+              The swift spear of our family. These elite attackers strike with precision and speed that leaves enemies in awe. 
+              Their rally coordination is unmatched, their territory control is absolute, and their strategic strikes change the course of wars.
+            </p>
+            
+            <!-- Alliance Stats -->
+            <div class="grid grid-cols-3 gap-4 mb-8">
+              <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
+                <div class="text-2xl font-bold text-yellow-400">100+</div>
+                <div class="text-xs text-gray-400">Cities</div>
               </div>
-              <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-2">
-                <span class="text-gray-200 font-medium">SupportLead</span>
-                <span class="text-yellow-400 text-sm">Advisor</span>
+              <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
+                <div class="text-2xl font-bold text-yellow-400">50+</div>
+                <div class="text-xs text-gray-400">Members</div>
               </div>
-              <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-2">
-                <span class="text-gray-200 font-medium">DefenseLead</span>
-                <span class="text-yellow-400 text-sm">Defense Master</span>
+              <div class="bg-red-800/30 rounded-xl p-4 border border-red-700/50">
+                <div class="text-2xl font-bold text-yellow-400">#1</div>
+                <div class="text-xs text-gray-400">Power Rank</div>
+              </div>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-2 text-xs text-gray-400 mb-8">
+              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Rally Masters</span>
+              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Territory Control</span>
+              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Strategic Strikes</span>
+              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Speed Attacks</span>
+            </div>
+            
+            <!-- Alliance Leadership -->
+            <div class="text-left mb-6">
+              <h5 class="text-yellow-400 font-bold mb-4 text-center text-lg">Alliance Leadership</h5>
+              <div class="bg-red-800/20 rounded-xl p-4 border border-red-700/50 mb-4">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <div class="text-gray-200 font-bold">Pryda</div>
+                  </div>
+                  <div class="text-right">
+                    <div class="text-yellow-400 text-sm font-semibold">R5 Leader</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Alliance Officers -->
+            <div class="text-left">
+              <h5 class="text-yellow-400 font-bold mb-4 text-center text-lg">Alliance Officers</h5>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">EagleLead</span>
+                  <span class="text-yellow-400 text-sm">Eagle Commander</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">SupportLead</span>
+                  <span class="text-yellow-400 text-sm">Council Advisor</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Officer3</span>
+                  <span class="text-yellow-400 text-sm">Rally Master</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Officer4</span>
+                  <span class="text-yellow-400 text-sm">Territory Master</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Officer5</span>
+                  <span class="text-yellow-400 text-sm">Speed Commander</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Officer6</span>
+                  <span class="text-yellow-400 text-sm">Strategy Officer</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Officer7</span>
+                  <span class="text-yellow-400 text-sm">Intel Officer</span>
+                </div>
+                <div class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50">
+                  <span class="text-gray-200 font-medium">Officer8</span>
+                  <span class="text-yellow-400 text-sm">Training Master</span>
+                </div>
               </div>
             </div>
           </div>
