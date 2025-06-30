@@ -155,11 +155,9 @@
               <p class="text-lg text-gray-300 mb-4">
                 Supreme Leader of Crimson Order
               </p>
-              <div class="text-sm text-gray-400 mb-2">In-Game: Pryda#1234</div>
-              <div class="text-sm text-gray-400 mb-2">Discord: Pryda#0001</div>
-              <div
-                class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-              >
+              <div class="text-sm text-yellow-300 mb-2">Visionary Strategist</div>
+              <div class="text-sm text-yellow-300 mb-2">“Leading by example.”</div>
+              <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
                 <span
                   class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                   >High Commander</span
@@ -192,11 +190,9 @@
               <p class="text-lg text-gray-300 mb-4">
                 Chief Advisor of Crimson Order
               </p>
-              <div class="text-sm text-gray-400 mb-2">In-Game: LundiX#5678</div>
-              <div class="text-sm text-gray-400 mb-2">Discord: LundiX#0002</div>
-              <div
-                class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-              >
+              <div class="text-sm text-yellow-300 mb-2">Master of Diplomacy</div>
+              <div class="text-sm text-yellow-300 mb-2">“Wisdom in every decision.”</div>
+              <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
                 <span
                   class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                   >Supreme Counselor</span
@@ -246,15 +242,9 @@
               WarLeader
             </h4>
             <p class="text-lg text-gray-300 mb-4">War Chief</p>
-            <div class="text-sm text-gray-400 mb-2">
-              In-Game: WarLeader#1111
-            </div>
-            <div class="text-sm text-gray-400 mb-2">
-              Discord: WarLeader#0001
-            </div>
-            <div
-              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-            >
+            <div class="text-sm text-yellow-300 mb-2">Unyielding Commander</div>
+            <div class="text-sm text-yellow-300 mb-2">“Strength through unity.”</div>
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                 >War Chief</span
@@ -284,15 +274,9 @@
               EagleLead
             </h4>
             <p class="text-lg text-gray-300 mb-4">Eagle Commander</p>
-            <div class="text-sm text-gray-400 mb-2">
-              In-Game: EagleLead#2222
-            </div>
-            <div class="text-sm text-gray-400 mb-2">
-              Discord: EagleLead#0001
-            </div>
-            <div
-              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-            >
+            <div class="text-sm text-yellow-300 mb-2">The Eagle's Eye</div>
+            <div class="text-sm text-yellow-300 mb-2">“Always watching, always ready.”</div>
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                 >Eagle Commander</span
@@ -322,15 +306,9 @@
               SupportLead
             </h4>
             <p class="text-lg text-gray-300 mb-4">Council Advisor</p>
-            <div class="text-sm text-gray-400 mb-2">
-              In-Game: SupportLead#3333
-            </div>
-            <div class="text-sm text-gray-400 mb-2">
-              Discord: SupportLead#0001
-            </div>
-            <div
-              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-            >
+            <div class="text-sm text-yellow-300 mb-2">Champion of Support</div>
+            <div class="text-sm text-yellow-300 mb-2">“Empowering every member.”</div>
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                 >Council Advisor</span
@@ -360,15 +338,9 @@
               DefenseLead
             </h4>
             <p class="text-lg text-gray-300 mb-4">Defense Master</p>
-            <div class="text-sm text-gray-400 mb-2">
-              In-Game: DefenseLead#4444
-            </div>
-            <div class="text-sm text-gray-400 mb-2">
-              Discord: DefenseLead#0001
-            </div>
-            <div
-              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-            >
+            <div class="text-sm text-yellow-300 mb-2">The Unbreakable Shield</div>
+            <div class="text-sm text-yellow-300 mb-2">“Guarding our legacy.”</div>
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                 >Defense Master</span
