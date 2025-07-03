@@ -59,7 +59,7 @@
           >
             <img
               src="/logo/logo.png"
-              alt="Crimson Order Logo"
+              alt="Nocturnal Legacy Logo"
               class="w-full h-full object-contain object-center"
               @error="handleLogoError"
               loading="eager"
@@ -72,7 +72,7 @@
                 <div
                   class="text-lg sm:text-xl lg:text-2xl font-black text-white"
                 >
-                  CO
+                  NL
                 </div>
               </div>
             </div>
@@ -115,7 +115,7 @@
         <p
           class="text-lg sm:text-xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed"
         >
-          Your name will echo through the ages. Join the Crimson Order and
+          Your name will echo through the ages. Join the Nocturnal Legacy and
           become part of a family whose legends will be told for generations.
           Your story starts here.
         </p>
@@ -125,7 +125,7 @@
       <button
         @click="scrollToSection('#join-family')"
         class="group relative px-8 py-4 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg sm:text-xl rounded-lg border-2 border-yellow-500 shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-red-500/50 focus:outline-none focus:ring-4 focus:ring-red-500/50 focus:ring-offset-2 focus:ring-offset-black"
-        aria-label="Join the Crimson Order family"
+        aria-label="Join the Nocturnal Legacy family"
       >
         <span class="relative z-10 flex items-center space-x-2">
           <span>WRITE YOUR STORY</span>

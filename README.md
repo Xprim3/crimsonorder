@@ -1,4 +1,4 @@
-# Crimson Order - Frontend
+# Nocturnal Legacy - Frontend
 
 Elite gaming alliance website built with Vue 3, TypeScript, and Tailwind CSS.
 
@@ -170,4 +170,4 @@ src/
 
 ---
 
-Built with ❤️ for the Crimson Order gaming community.
+Built with ❤️ for the Nocturnal Legacy gaming community.

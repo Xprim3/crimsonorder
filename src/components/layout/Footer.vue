@@ -8,7 +8,7 @@
         <a href="/" class="flex items-center space-x-3 cursor-pointer">
           <img
             src="/logo/logo.png"
-            alt="Crimson Order Logo"
+            alt="Nocturnal Legacy Logo"
             class="w-10 h-10 object-contain object-center"
             @error="handleLogoError"
           />
@@ -16,14 +16,14 @@
           <div
             class="fallback-logo hidden w-10 h-10 bg-black rounded-full items-center justify-center"
           >
-            <div class="text-white font-black text-sm">CO</div>
+            <div class="text-white font-black text-sm">NL</div>
           </div>
           <div class="text-left">
             <h3
               class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold text-lg"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Crimson Order
+              Nocturnal Legacy
             </h3>
             <p class="text-gray-400 text-xs">Rise of Kingdoms Elite</p>
           </div>

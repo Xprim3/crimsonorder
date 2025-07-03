@@ -28,7 +28,7 @@
             How to Join Our Family
           </h3>
           <p class="text-lg text-gray-300 mt-6">
-            Follow these steps to begin your journey with Crimson Order
+            Follow these steps to begin your journey with Nocturnal Legacy
           </p>
         </div>
 
@@ -129,7 +129,7 @@
                   Begin Your Journey
                 </h4>
                 <p class="text-gray-200 text-sm text-left">
-                  Start your legendary journey with the Crimson Order family
+                  Start your legendary journey with the Nocturnal Legacy family
                 </p>
               </div>
             </div>

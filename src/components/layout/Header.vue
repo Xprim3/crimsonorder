@@ -27,14 +27,14 @@
         <a
           href="/"
           class="flex items-center space-x-2 sm:space-x-3 cursor-pointer"
-          aria-label="Crimson Order Home"
+          aria-label="Nocturnal Legacy Home"
         >
-          <!-- Enhanced Crimson Order Emblem -->
+          <!-- Enhanced Nocturnal Legacy Emblem -->
           <div class="relative group w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14">
             <!-- Responsive Image -->
             <img
               src="/logo/logo.png"
-              alt="Crimson Order Emblem"
+              alt="Nocturnal Legacy Emblem"
               class="w-full h-full object-contain object-center transition-transform duration-300"
               @error="handleImageError"
               loading="eager"
@@ -48,7 +48,7 @@
                 <div
                   class="text-xs sm:text-sm lg:text-base font-black text-white group-hover:text-yellow-100 transition-colors duration-300"
                 >
-                  CO
+                  NL
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@
                 filter: drop-shadow(0 0 6px #fbbf24);
               "
             >
-              Crimson Order
+              Nocturnal Legacy
             </h1>
             <p
               class="text-xs sm:text-sm lg:text-sm font-bold tracking-wide text-left"
@@ -392,7 +392,7 @@
     },
     {
       id: 'crimson-family',
-      label: 'Crimson Family',
+      label: 'Nocturnal Family',
       href: '#about',
     },
     {

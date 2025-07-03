@@ -34,8 +34,8 @@
           class="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed"
         >
           Are you ready to become part of something greater than yourself?
-          Crimson Order seeks warriors who value loyalty, strategy, and family
-          above all else.
+          Nocturnal Legacy seeks warriors who value loyalty, strategy, and
+          family above all else.
         </p>
       </div>
 

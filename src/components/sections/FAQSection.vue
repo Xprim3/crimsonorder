@@ -21,8 +21,8 @@
           class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"
         ></div>
         <p class="text-lg text-gray-300 mt-6 max-w-3xl mx-auto">
-          Everything you need to know about joining the legendary Crimson Order
-          family
+          Everything you need to know about joining the legendary Nocturnal
+          Legacy family
         </p>
       </div>
 

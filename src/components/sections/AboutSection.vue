@@ -15,7 +15,7 @@
       <!-- Section Title -->
       <div class="text-center mb-12 lg:mb-16">
         <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-white">
-          About Crimson Order
+          About Nocturnal Legacy
         </h2>
         <div
           class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"
@@ -42,11 +42,11 @@
                   0 0 20px rgba(220, 38, 38, 0.3);
               "
             >
-              The Legend of Crimson Order
+              The Legend of Nocturnal Legacy
             </h3>
             <p class="text-lg sm:text-xl leading-relaxed text-gray-200 mb-6">
               Born from the ashes of countless battles,
-              <span class="text-red-400 font-semibold">Crimson Order</span>
+              <span class="text-red-400 font-semibold">Nocturnal Legacy</span>
               emerged as a beacon of hope in the chaotic world of Rise of
               Kingdoms. What began as a small group of determined warriors has
               evolved into a legendary family that commands respect across the
@@ -83,7 +83,7 @@
                 <!-- Responsive Image -->
                 <img
                   src="/logo/logo.png"
-                  alt="Crimson Order Emblem"
+                  alt="Nocturnal Legacy Emblem"
                   class="w-full h-full object-contain object-center transition-transform duration-300"
                   @error="handleImageError"
                 />
@@ -96,7 +96,7 @@
                     <div
                       class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white mb-2 group-hover:text-yellow-100 transition-colors duration-300"
                     >
-                      CO
+                      NL
                     </div>
                     <div
                       class="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-yellow-400 tracking-wider group-hover:text-yellow-300 transition-colors duration-300"
@@ -153,18 +153,24 @@
                 Pryda
               </h4>
               <p class="text-lg text-gray-300 mb-4">
-                Supreme Leader of Crimson Order
+                Supreme Leader of Nocturnal Legacy
               </p>
-              <div class="text-sm text-yellow-300 mb-2">Visionary Strategist</div>
-              <div class="text-sm text-yellow-300 mb-2">“Leading by example.”</div>
-              <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+              <div class="text-sm text-yellow-300 mb-2">
+                Visionary Strategist
+              </div>
+              <div class="text-sm text-yellow-300 mb-2">
+                “Leading by example.”
+              </div>
+              <div
+                class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
+              >
                 <span
                   class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                   >High Commander</span
                 >
                 <span
                   class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                  >⚔️ Crimson Paladins</span
+                  >⚔️ Nocturnal Knights</span
                 >
               </div>
             </div>
@@ -188,18 +194,24 @@
                 LundiX
               </h4>
               <p class="text-lg text-gray-300 mb-4">
-                Chief Advisor of Crimson Order
+                Chief Advisor of Nocturnal Legacy
               </p>
-              <div class="text-sm text-yellow-300 mb-2">Master of Diplomacy</div>
-              <div class="text-sm text-yellow-300 mb-2">“Wisdom in every decision.”</div>
-              <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+              <div class="text-sm text-yellow-300 mb-2">
+                Master of Diplomacy
+              </div>
+              <div class="text-sm text-yellow-300 mb-2">
+                “Wisdom in every decision.”
+              </div>
+              <div
+                class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
+              >
                 <span
                   class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                   >Supreme Counselor</span
                 >
                 <span
                   class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                  >🦅 Crimson Eagles</span
+                  >🦅 Nocturnal Blades</span
                 >
               </div>
             </div>
@@ -243,15 +255,19 @@
             </h4>
             <p class="text-lg text-gray-300 mb-4">War Chief</p>
             <div class="text-sm text-yellow-300 mb-2">Unyielding Commander</div>
-            <div class="text-sm text-yellow-300 mb-2">“Strength through unity.”</div>
-            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+            <div class="text-sm text-yellow-300 mb-2">
+              “Strength through unity.”
+            </div>
+            <div
+              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
+            >
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                 >War Chief</span
               >
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >⚔️ Crimson Paladins</span
+                >⚔️ Nocturnal Knights</span
               >
             </div>
           </div>
@@ -275,15 +291,19 @@
             </h4>
             <p class="text-lg text-gray-300 mb-4">Eagle Commander</p>
             <div class="text-sm text-yellow-300 mb-2">The Eagle's Eye</div>
-            <div class="text-sm text-yellow-300 mb-2">“Always watching, always ready.”</div>
-            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+            <div class="text-sm text-yellow-300 mb-2">
+              “Always watching, always ready.”
+            </div>
+            <div
+              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
+            >
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                 >Eagle Commander</span
               >
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >🦅 Crimson Eagles</span
+                >🦅 Nocturnal Blades</span
               >
             </div>
           </div>
@@ -307,8 +327,12 @@
             </h4>
             <p class="text-lg text-gray-300 mb-4">Council Advisor</p>
             <div class="text-sm text-yellow-300 mb-2">Champion of Support</div>
-            <div class="text-sm text-yellow-300 mb-2">“Empowering every member.”</div>
-            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+            <div class="text-sm text-yellow-300 mb-2">
+              “Empowering every member.”
+            </div>
+            <div
+              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
+            >
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                 >Council Advisor</span
@@ -338,16 +362,22 @@
               DefenseLead
             </h4>
             <p class="text-lg text-gray-300 mb-4">Defense Master</p>
-            <div class="text-sm text-yellow-300 mb-2">The Unbreakable Shield</div>
-            <div class="text-sm text-yellow-300 mb-2">“Guarding our legacy.”</div>
-            <div class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4">
+            <div class="text-sm text-yellow-300 mb-2">
+              The Unbreakable Shield
+            </div>
+            <div class="text-sm text-yellow-300 mb-2">
+              “Guarding our legacy.”
+            </div>
+            <div
+              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
+            >
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
                 >Defense Master</span
               >
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >⚔️ Crimson Paladins</span
+                >⚔️ Nocturnal Knights</span
               >
             </div>
           </div>
@@ -377,7 +407,7 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <!-- Crimson Paladins -->
+          <!-- Nocturnal Knights -->
           <div
             class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-3xl p-4 sm:p-6 lg:p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden"
           >
@@ -389,8 +419,8 @@
               class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-40 sm:h-36 md:h-40 lg:h-44 xl:h-48"
             >
               <img
-                src="/logo/crimsonpaladins.png"
-                alt="Crimson Paladins Logo"
+                src="/logo/knights.png"
+                alt="Nocturnal Knights Logo"
                 class="w-full h-full max-w-[16rem] sm:max-w-[14rem] md:max-w-[16rem] lg:max-w-[18rem] xl:max-w-[20rem] object-contain object-center mx-auto"
                 @error="handleAllianceImageError"
               />
@@ -405,7 +435,7 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-4 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Crimson Paladins
+              Nocturnal Knights
             </h4>
             <p class="text-gray-300 leading-relaxed mb-6 text-lg">
               The unbreakable shield of our family. These legendary defenders
@@ -536,7 +566,7 @@
             </div>
           </div>
 
-          <!-- Crimson Eagles -->
+          <!-- Nocturnal Blades -->
           <div
             class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-3xl p-4 sm:p-6 lg:p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden"
           >
@@ -548,8 +578,8 @@
               class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-40 sm:h-36 md:h-40 lg:h-44 xl:h-48"
             >
               <img
-                src="/logo/crimsoneagles.png"
-                alt="Crimson Eagles Logo"
+                src="/logo/blades.png"
+                alt="Nocturnal Blades Logo"
                 class="w-full h-full max-w-[16rem] sm:max-w-[14rem] md:max-w-[16rem] lg:max-w-[18rem] xl:max-w-[20rem] object-contain object-center mx-auto"
                 @error="handleAllianceImageError"
               />
@@ -564,7 +594,7 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-4 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Crimson Eagles
+              Nocturnal Blades
             </h4>
             <p class="text-gray-300 leading-relaxed mb-6 text-lg">
               The swift spear of our family. These elite attackers strike with
@@ -713,8 +743,8 @@
             Our Family Culture
           </h3>
           <p class="text-lg text-gray-300 max-w-4xl mx-auto mt-6">
-            Beyond the battlefield, Crimson Order is built on values that create
-            lasting bonds and legendary achievements. Our culture is the
+            Beyond the battlefield, Nocturnal Legacy is built on values that
+            create lasting bonds and legendary achievements. Our culture is the
             foundation of our success and the reason we remain undefeated.
           </p>
         </div>

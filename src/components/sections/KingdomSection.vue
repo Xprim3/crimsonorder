@@ -94,7 +94,7 @@
               </h4>
               <p class="text-gray-200 mb-6">
                 Migrate to Kingdom #1234 and become part of the legendary
-                Crimson Order family
+                Nocturnal Legacy family
               </p>
               <div class="space-y-3">
                 <button
@@ -483,8 +483,8 @@
             How to Join Our Kingdom
           </h3>
           <p class="text-lg text-gray-300">
-            Follow these simple steps to become part of the legendary Crimson
-            Order family
+            Follow these simple steps to become part of the legendary Nocturnal
+            Legacy family
           </p>
         </div>
 
