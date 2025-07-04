@@ -513,13 +513,13 @@
               <div
                 class="bg-red-800/30 rounded-xl p-4 border border-red-700/50"
               >
-                <div class="text-2xl font-bold text-yellow-300">50+</div>
+                <div class="text-2xl font-bold text-yellow-300">130</div>
                 <div class="text-xs text-gray-400">Members</div>
               </div>
               <div
                 class="bg-red-800/30 rounded-xl p-4 border border-red-700/50"
               >
-                <div class="text-2xl font-bold text-yellow-300">#1</div>
+                <div class="text-2xl font-bold text-yellow-300">2</div>
                 <div class="text-xs text-gray-400">Rank</div>
               </div>
             </div>
@@ -558,7 +558,7 @@
               >
                 <div class="flex items-center justify-between">
                   <div>
-                    <div class="text-gray-200 font-bold">LundiX</div>
+                    <div class="text-gray-200 font-bold">OldManChewy</div>
                   </div>
                   <div class="text-right">
                     <div class="text-yellow-400 text-sm font-semibold">
@@ -581,8 +581,8 @@
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">EagleLead</span>
-                  <span class="text-red-400 text-sm">Eagle Commander</span>
+                  <span class="text-gray-200 font-medium">Nox</span>
+                  <span class="text-red-400 text-sm">R5 / Activity Officer</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
