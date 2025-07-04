@@ -211,7 +211,9 @@
           </p>
         </div>
 
-        <div class="grid w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div
+          class="grid w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
+        >
           <div
             class="min-w-0 bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
           >
@@ -277,7 +279,7 @@
             >
               Nox
             </h4>
-            <p class="text-lg text-gray-300 mb-4">Defense Master</p>
+            <p class="text-lg text-gray-300 mb-4">Blades R5 Rotation</p>
             <div class="text-sm text-yellow-300 mb-2">
               The Unbreakable Shield
             </div>
@@ -353,13 +355,13 @@
               <div
                 class="bg-red-800/30 rounded-xl p-4 border border-red-700/50"
               >
-                <div class="text-2xl font-bold text-yellow-300">50+</div>
+                <div class="text-2xl font-bold text-yellow-300">144</div>
                 <div class="text-xs text-gray-400">Members</div>
               </div>
               <div
                 class="bg-red-800/30 rounded-xl p-4 border border-red-700/50"
               >
-                <div class="text-2xl font-bold text-yellow-300">#1</div>
+                <div class="text-2xl font-bold text-yellow-300">1</div>
                 <div class="text-xs text-gray-400">Rank</div>
               </div>
             </div>
@@ -369,20 +371,19 @@
             >
               <span
                 class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
-                >City Defense</span
               >
+                Main Alliance
+              </span>
               <span
                 class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
-                >Resource Guard</span
               >
+                Kingdom Leadership
+              </span>
               <span
                 class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
-                >Alliance Support</span
               >
-              <span
-                class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
-                >Territory Control</span
-              >
+                Territory Control
+              </span>
             </div>
 
             <!-- Alliance Leadership -->
@@ -398,7 +399,7 @@
               >
                 <div class="flex items-center justify-between">
                   <div>
-                    <div class="text-gray-200 font-bold">Pryda</div>
+                    <div class="text-gray-200 font-bold">Awaken</div>
                   </div>
                   <div class="text-right">
                     <div class="text-yellow-400 text-sm font-semibold">
@@ -421,50 +422,50 @@
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">WarLeader</span>
-                  <span class="text-red-400 text-sm">War Chief</span>
+                  <span class="text-gray-200 font-medium">Verso</span>
+                  <span class="text-red-400 text-sm">Conselor/AOO</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">DefenseLead</span>
-                  <span class="text-red-400 text-sm">Defense Master</span>
+                  <span class="text-gray-200 font-medium">Phyrex</span>
+                  <span class="text-red-400 text-sm">Territory/Tech</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
                   <span class="text-gray-200 font-medium">Suad</span>
-                  <span class="text-red-400 text-sm">Counselor</span>
+                  <span class="text-red-400 text-sm">Activity Officer</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Shiggio</span>
-                  <span class="text-red-400 text-sm">Diplomat</span>
+                  <span class="text-gray-200 font-medium">....</span>
+                  <span class="text-red-400 text-sm">....</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
                   <span class="text-gray-200 font-medium">MeYou</span>
-                  <span class="text-red-400 text-sm">Territorial Leader</span>
+                  <span class="text-red-400 text-sm">Territory/Tech</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Officer6</span>
-                  <span class="text-red-400 text-sm">Rally Master</span>
+                  <span class="text-gray-200 font-medium">.....</span>
+                  <span class="text-red-400 text-sm">......</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Officer7</span>
-                  <span class="text-red-400 text-sm">Resource Manager</span>
+                  <span class="text-gray-200 font-medium">....</span>
+                  <span class="text-red-400 text-sm">.....</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Officer8</span>
-                  <span class="text-red-400 text-sm">Training Officer</span>
+                  <span class="text-gray-200 font-medium">......</span>
+                  <span class="text-red-400 text-sm">......</span>
                 </div>
               </div>
             </div>
