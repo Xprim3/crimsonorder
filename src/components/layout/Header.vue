@@ -26,7 +26,7 @@
         <!-- Logo/Brand -->
         <a
           href="/"
-          class="flex items-center space-x-2 sm:space-x-3 cursor-pointer"
+          class="flex items-center space-x-2 sm:space-x-3 cursor-pointer mr-2 sm:mr-0"
           aria-label="Nocturnal Legacy Home"
         >
           <!-- Enhanced Nocturnal Legacy Emblem -->
@@ -57,7 +57,7 @@
           <!-- Text Brand -->
           <div class="block">
             <h1
-              class="font-black text-lg sm:text-xl lg:text-2xl tracking-widest uppercase text-left"
+              class="font-black text-base xs:text-lg sm:text-xl md:text-2xl lg:text-2xl tracking-widest uppercase text-left leading-tight"
               style="
                 color: #fbbf24;
                 text-shadow:

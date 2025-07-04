@@ -124,7 +124,7 @@
                 0 0 20px rgba(220, 38, 38, 0.3);
             "
           >
-            Legendary Leadership
+            Nocturnal Leadership
           </h3>
           <p class="text-lg text-gray-300 mt-6">
             Commanders whose wisdom and experience guide our family to victory
@@ -150,7 +150,7 @@
                 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Pryda
+                Awaken
               </h4>
               <p class="text-lg text-gray-300 mb-4">
                 Supreme Leader of Nocturnal Legacy
@@ -170,7 +170,7 @@
                 >
                 <span
                   class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                  >⚔️ Nocturnal Knights</span
+                  >Nocturnal Knights</span
                 >
               </div>
             </div>
@@ -191,7 +191,7 @@
                 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                LundiX
+                Verso
               </h4>
               <p class="text-lg text-gray-300 mb-4">
                 Chief Advisor of Nocturnal Legacy
@@ -211,7 +211,7 @@
                 >
                 <span
                   class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                  >🦅 Nocturnal Blades</span
+                  >Nocturnal Knights</span
                 >
               </div>
             </div>
@@ -251,9 +251,9 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              WarLeader
+              Phyrex
             </h4>
-            <p class="text-lg text-gray-300 mb-4">War Chief</p>
+            <p class="text-lg text-gray-300 mb-4">R5 Rotation</p>
             <div class="text-sm text-yellow-300 mb-2">Unyielding Commander</div>
             <div class="text-sm text-yellow-300 mb-2">
               “Strength through unity.”
@@ -267,7 +267,7 @@
               >
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >⚔️ Nocturnal Knights</span
+                >Nocturnal Knights</span
               >
             </div>
           </div>
@@ -287,9 +287,9 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              EagleLead
+              OldManChewy
             </h4>
-            <p class="text-lg text-gray-300 mb-4">Eagle Commander</p>
+            <p class="text-lg text-gray-300 mb-4">Leader of Blades</p>
             <div class="text-sm text-yellow-300 mb-2">The Eagle's Eye</div>
             <div class="text-sm text-yellow-300 mb-2">
               “Always watching, always ready.”
@@ -303,7 +303,7 @@
               >
               <span
                 class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >🦅 Nocturnal Blades</span
+                >Nocturnal Blades</span
               >
             </div>
           </div>
@@ -323,7 +323,7 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              SupportLead
+              Suad
             </h4>
             <p class="text-lg text-gray-300 mb-4">Council Advisor</p>
             <div class="text-sm text-yellow-300 mb-2">Champion of Support</div>
@@ -359,7 +359,7 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              DefenseLead
+              Nox
             </h4>
             <p class="text-lg text-gray-300 mb-4">Defense Master</p>
             <div class="text-sm text-yellow-300 mb-2">
