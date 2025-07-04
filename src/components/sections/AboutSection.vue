@@ -435,7 +435,7 @@
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
                   <span class="text-gray-200 font-medium">Suad</span>
-                  <span class="text-red-400 text-sm">Activity Officer</span>
+                  <span class="text-red-400 text-sm">Membership Officer</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
