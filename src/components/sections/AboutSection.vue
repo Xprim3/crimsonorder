@@ -582,7 +582,9 @@
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
                   <span class="text-gray-200 font-medium">Nox</span>
-                  <span class="text-red-400 text-sm">R5 / Activity Officer</span>
+                  <span class="text-red-400 text-sm">
+                    R5 / Activity Officer
+                  </span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
