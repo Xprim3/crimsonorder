@@ -161,18 +161,6 @@
               <div class="text-sm text-yellow-300 mb-2">
                 “Leading by example.”
               </div>
-              <div
-                class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-              >
-                <span
-                  class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                  >High Commander</span
-                >
-                <span
-                  class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                  >Nocturnal Knights</span
-                >
-              </div>
             </div>
 
             <!-- Supreme Counselor -->
@@ -202,18 +190,6 @@
               <div class="text-sm text-yellow-300 mb-2">
                 “Wisdom in every decision.”
               </div>
-              <div
-                class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-              >
-                <span
-                  class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                  >Supreme Counselor</span
-                >
-                <span
-                  class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                  >Nocturnal Knights</span
-                >
-              </div>
             </div>
           </div>
         </div>
@@ -235,9 +211,9 @@
           </p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="grid w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           <div
-            class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
+            class="min-w-0 bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
           >
             <div
               class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"
@@ -245,46 +221,10 @@
             <div
               class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl"
             >
-              <span class="text-white text-3xl">⚔️</span>
-            </div>
-            <h4
-              class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
-              style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
-            >
-              Phyrex
-            </h4>
-            <p class="text-lg text-gray-300 mb-4">R5 Rotation</p>
-            <div class="text-sm text-yellow-300 mb-2">Unyielding Commander</div>
-            <div class="text-sm text-yellow-300 mb-2">
-              “Strength through unity.”
-            </div>
-            <div
-              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-            >
-              <span
-                class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >War Chief</span
-              >
-              <span
-                class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >Nocturnal Knights</span
-              >
-            </div>
-          </div>
-
-          <div
-            class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
-          >
-            <div
-              class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"
-            ></div>
-            <div
-              class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl"
-            >
               <span class="text-white text-3xl">🦅</span>
             </div>
             <h4
-              class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
+              class="break-words text-2xl sm:text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
               OldManChewy
@@ -294,22 +234,10 @@
             <div class="text-sm text-yellow-300 mb-2">
               “Always watching, always ready.”
             </div>
-            <div
-              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-            >
-              <span
-                class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >Eagle Commander</span
-              >
-              <span
-                class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >Nocturnal Blades</span
-              >
-            </div>
           </div>
 
           <div
-            class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
+            class="min-w-0 bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
           >
             <div
               class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"
@@ -330,22 +258,10 @@
             <div class="text-sm text-yellow-300 mb-2">
               “Empowering every member.”
             </div>
-            <div
-              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-            >
-              <span
-                class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >Council Advisor</span
-              >
-              <span
-                class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >Both Alliances</span
-              >
-            </div>
           </div>
 
           <div
-            class="bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
+            class="min-w-0 bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
           >
             <div
               class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"
@@ -367,18 +283,6 @@
             </div>
             <div class="text-sm text-yellow-300 mb-2">
               “Guarding our legacy.”
-            </div>
-            <div
-              class="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 mt-4"
-            >
-              <span
-                class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >Defense Master</span
-              >
-              <span
-                class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/30"
-                >⚔️ Nocturnal Knights</span
-              >
             </div>
           </div>
         </div>
