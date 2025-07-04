@@ -440,8 +440,8 @@
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">....</span>
-                  <span class="text-red-400 text-sm">....</span>
+                  <span class="text-gray-200 font-medium">Makentosh</span>
+                  <span class="text-red-400 text-sm">Activity Officer</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
@@ -452,7 +452,7 @@
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">.....</span>
+                  <span class="text-gray-200 font-medium">Makentosh</span>
                   <span class="text-red-400 text-sm">......</span>
                 </div>
                 <div
