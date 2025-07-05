@@ -150,7 +150,7 @@
                 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Awaken
+                Pryda
               </h4>
               <p class="text-lg text-gray-300 mb-4">
                 Supreme Leader of Nocturnal Legacy
@@ -399,7 +399,7 @@
               >
                 <div class="flex items-center justify-between">
                   <div>
-                    <div class="text-gray-200 font-bold">Awaken</div>
+                    <div class="text-gray-200 font-bold">Pryda</div>
                   </div>
                   <div class="text-right">
                     <div class="text-yellow-400 text-sm font-semibold">
