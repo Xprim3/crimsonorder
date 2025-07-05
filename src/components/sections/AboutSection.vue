@@ -555,7 +555,7 @@
               >
                 <div class="flex items-center justify-between">
                   <div>
-                    <div class="text-gray-200 font-bold">OldManChewy</div>
+                    <div class="text-gray-200 font-bold">ɴʙOldManChewy</div>
                   </div>
                   <div class="text-right">
                     <div class="text-yellow-400 text-sm font-semibold">
@@ -578,7 +578,7 @@
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Nox</span>
+                  <span class="text-gray-200 font-medium">ɴʙNox</span>
                   <span class="text-red-400 text-sm">
                     R5 / Activity Officer
                   </span>
