@@ -155,11 +155,9 @@
               <p class="text-lg text-gray-300 mb-4">
                 Supreme Leader of Nocturnal Legacy
               </p>
-              <div class="text-sm text-yellow-300 mb-2">
-                Visionary Strategist
-              </div>
-              <div class="text-sm text-yellow-300 mb-2">
-                “Leading by example.”
+              <div class="text-sm text-yellow-300 mb-2 px-2">
+                Head of the entire Nocturnal Legacy family. Oversees strategy,
+                structure, and all final decisions.
               </div>
             </div>
 
@@ -184,11 +182,10 @@
               <p class="text-lg text-gray-300 mb-4">
                 Chief Advisor of Nocturnal Legacy
               </p>
-              <div class="text-sm text-yellow-300 mb-2">
-                Master of Diplomacy
-              </div>
-              <div class="text-sm text-yellow-300 mb-2">
-                “Wisdom in every decision.”
+              <div class="text-sm text-yellow-300 mb-2 px-2">
+                Manages external diplomacy and alliance relations. Also
+                responsible for territory planning in KVK and home kingdom,
+                working closely with territory officers across the family.
               </div>
             </div>
           </div>
