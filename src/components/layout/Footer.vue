@@ -6,12 +6,15 @@
       >
         <!-- Logo & Name -->
         <a href="/" class="flex items-center space-x-3 cursor-pointer">
-          <img
-            src="/logo/logo.png"
-            alt="Nocturnal Legacy Logo"
-            class="w-10 h-10 object-contain object-center"
-            @error="handleLogoError"
-          />
+          <picture>
+            <source srcset="/optimized/logo.webp" type="image/webp" />
+            <img
+              src="/optimized/logo.png"
+              alt="Nocturnal Legacy Logo"
+              class="w-10 h-10 object-contain object-center"
+              @error="handleLogoError"
+            />
+          </picture>
           <!-- Fallback content if logo fails to load -->
           <div
             class="fallback-logo hidden w-10 h-10 bg-black rounded-full items-center justify-center"
@@ -33,24 +36,28 @@
         <div class="flex space-x-6">
           <a
             href="#home"
+            aria-label="Go to Home section"
             class="text-gray-300 hover:text-red-400 transition-colors duration-300 text-sm font-medium"
           >
             Home
           </a>
           <a
             href="#about"
+            aria-label="Go to About section"
             class="text-gray-300 hover:text-red-400 transition-colors duration-300 text-sm font-medium"
           >
             About
           </a>
           <a
             href="#join"
+            aria-label="Go to Join section"
             class="text-gray-300 hover:text-red-400 transition-colors duration-300 text-sm font-medium"
           >
             Join
           </a>
           <a
             href="#kingdom"
+            aria-label="Go to Kingdom section"
             class="text-gray-300 hover:text-red-400 transition-colors duration-300 text-sm font-medium"
           >
             Kingdom
@@ -61,7 +68,8 @@
         <div class="flex space-x-4">
           <!-- Discord -->
           <a
-            href="#"
+            href="https://discord.gg/xsgPQJ5ZJS"
+            aria-label="Join us on Discord"
             class="w-8 h-8 bg-red-800/50 rounded-full flex items-center justify-center hover:bg-red-700/70 transition-all duration-300 border border-red-700/50 hover:border-yellow-500/50 group"
           >
             <svg
@@ -76,7 +84,8 @@
           </a>
           <!-- Telegram -->
           <a
-            href="#"
+            href="https://t.me/+7ROpqc4W1eQ5MDYy"
+            aria-label="Join us on Telegram"
             class="w-8 h-8 bg-red-800/50 rounded-full flex items-center justify-center hover:bg-red-700/70 transition-all duration-300 border border-red-700/50 hover:border-yellow-500/50 group"
           >
             <svg
@@ -92,6 +101,7 @@
           <!-- YouTube -->
           <a
             href="#"
+            aria-label="Visit our YouTube channel"
             class="w-8 h-8 bg-red-800/50 rounded-full flex items-center justify-center hover:bg-red-700/70 transition-all duration-300 border border-red-700/50 hover:border-yellow-500/50 group"
           >
             <svg
@@ -111,15 +121,19 @@
       <div class="text-center mt-4 pt-4 border-t border-red-800/30">
         <!-- Powered by Pryda Badge -->
         <div class="mb-3">
-          <div
-            class="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-500/20 to-red-600/20 rounded-full px-4 py-2 border border-yellow-500/30"
+          <a
+            href="https://discord.gg/xsgPQJ5ZJS"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Join the Nocturnal Legacy Discord server (Powered by Pryda)"
+            class="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-500/20 to-red-600/20 rounded-full px-4 py-2 border border-yellow-500/30 hover:border-yellow-400/50 hover:from-yellow-500/30 hover:to-red-600/30 transition-all duration-300"
           >
             <span class="text-red-400 text-sm">⚡</span>
             <span class="text-gray-200 text-sm font-semibold"
               >Powered by Pryda</span
             >
             <span class="text-red-400 text-sm">⚡</span>
-          </div>
+          </a>
         </div>
         <p class="text-gray-500 text-xs">
           © 2024 Crimson Order. All rights reserved.

@@ -159,8 +159,8 @@
                   <div class="text-gray-200 font-semibold">
                     Pryda - Supreme Leader
                   </div>
-                  <div class="text-gray-400 text-sm">In-Game: Pryda#1234</div>
-                  <div class="text-gray-400 text-sm">Discord: Pryda#0001</div>
+                  <div class="text-gray-400 text-sm">In-Game: ɴᴋPryda</div>
+                  <div class="text-gray-400 text-sm">Discord: awaken4398</div>
                 </div>
               </div>
 
@@ -174,10 +174,10 @@
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">
-                    LundiX - Chief Advisor
+                    Verso - Chief Advisor
                   </div>
-                  <div class="text-gray-400 text-sm">In-Game: LundiX#5678</div>
-                  <div class="text-gray-400 text-sm">Discord: LundiX#0002</div>
+                  <div class="text-gray-400 text-sm">In-Game: Verso</div>
+                  <div class="text-gray-400 text-sm">Discord: emperiion</div>
                 </div>
               </div>
 
@@ -191,14 +191,10 @@
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">
-                    WarLeader - War Chief
+                    Nox - 2nd Blades Leader
                   </div>
-                  <div class="text-gray-400 text-sm">
-                    In-Game: WarLeader#1111
-                  </div>
-                  <div class="text-gray-400 text-sm">
-                    Discord: WarLeader#0001
-                  </div>
+                  <div class="text-gray-400 text-sm">In-Game: Nox</div>
+                  <div class="text-gray-400 text-sm">Discord: rene.klg22</div>
                 </div>
               </div>
 
@@ -212,14 +208,10 @@
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">
-                    EagleLead - Eagle Commander
+                    Suad - Management Officer
                   </div>
-                  <div class="text-gray-400 text-sm">
-                    In-Game: EagleLead#2222
-                  </div>
-                  <div class="text-gray-400 text-sm">
-                    Discord: EagleLead#0001
-                  </div>
+                  <div class="text-gray-400 text-sm">In-Game: ɴᴋSuad</div>
+                  <div class="text-gray-400 text-sm">Discord: suad_14</div>
                 </div>
               </div>
             </div>
@@ -238,7 +230,7 @@
             class="flex flex-col sm:flex-row gap-6 justify-center items-center"
           >
             <a
-              href="https://t.me/crimsonorder"
+              href="https://t.me/+7ROpqc4W1eQ5MDYy"
               target="_blank"
               rel="noopener noreferrer"
               class="btn-neon-telegram group"
@@ -249,7 +241,7 @@
               </div>
             </a>
             <a
-              href="https://discord.gg/crimsonorder"
+              href="https://discord.gg/xsgPQJ5ZJS"
               target="_blank"
               rel="noopener noreferrer"
               class="btn-neon-discord group"

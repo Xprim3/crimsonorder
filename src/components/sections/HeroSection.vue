@@ -57,13 +57,10 @@
             class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-black rounded-full border-2 border-yellow-500 flex items-center justify-center shadow-2xl"
             style="box-shadow: 0 0 20px rgba(251, 191, 36, 0.4)"
           >
-            <img
-              src="/logo/logo.png"
-              alt="Nocturnal Legacy Logo"
-              class="w-full h-full object-contain object-center"
-              @error="handleLogoError"
-              loading="eager"
-            />
+            <picture>
+              <source srcset="/optimized/logo.webp" type="image/webp" />
+              <img src="/optimized/logo.png" alt="Nocturnal Legacy Logo" />
+            </picture>
             <!-- Fallback content if logo fails to load -->
             <div
               class="fallback-logo hidden absolute inset-0 items-center justify-center"
@@ -146,18 +143,6 @@
         behavior: 'smooth',
         block: 'start',
       })
-    }
-  }
-
-  // Handle logo loading errors
-  const handleLogoError = (event: Event) => {
-    const target = event.target as HTMLImageElement
-    const fallbackContent = target.parentElement?.querySelector(
-      '.fallback-logo'
-    ) as HTMLElement
-    if (fallbackContent) {
-      fallbackContent.classList.remove('hidden')
-      fallbackContent.classList.add('flex')
     }
   }
 </script>

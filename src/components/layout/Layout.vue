@@ -20,10 +20,11 @@
       <button
         v-show="showScrollToTop"
         @click="scrollToTop"
+        aria-label="Scroll to top"
         class="fixed bottom-6 right-6 z-50 w-12 h-12 bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center shadow-lg hover:from-yellow-400 hover:to-yellow-500 transition-all duration-300 transform hover:scale-110 border-2 border-yellow-400/50 hover:border-yellow-300"
         style="box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3)"
       >
-        <span class="text-white text-xl">↑</span>
+        <span class="text-white text-xl"> ↑</span>
       </button>
     </transition>
   </div>

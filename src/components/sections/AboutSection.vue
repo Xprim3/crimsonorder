@@ -81,12 +81,15 @@
                 class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 relative"
               >
                 <!-- Responsive Image -->
-                <img
-                  src="/logo/logo.png"
-                  alt="Nocturnal Legacy Emblem"
-                  class="w-full h-full object-contain object-center transition-transform duration-300"
-                  @error="handleImageError"
-                />
+                <picture>
+                  <source srcset="/optimized/logo.webp" type="image/webp" />
+                  <img
+                    src="/optimized/logo.png"
+                    alt="Nocturnal Legacy Emblem"
+                    class="w-full h-full object-contain object-center transition-transform duration-300"
+                    @error="handleImageError"
+                  />
+                </picture>
 
                 <!-- Fallback content if image fails to load -->
                 <div
@@ -387,12 +390,15 @@
             <div
               class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-40 sm:h-36 md:h-40 lg:h-44 xl:h-48"
             >
-              <img
-                src="/logo/knights.png"
-                alt="Nocturnal Knights Logo"
-                class="w-full h-full max-w-[16rem] sm:max-w-[14rem] md:max-w-[16rem] lg:max-w-[18rem] xl:max-w-[20rem] object-contain object-center mx-auto"
-                @error="handleAllianceImageError"
-              />
+              <picture>
+                <source srcset="/optimized/knights.webp" type="image/webp" />
+                <img
+                  src="/optimized/knights.png"
+                  alt="Nocturnal Knights Logo"
+                  class="w-full h-full max-w-[16rem] sm:max-w-[14rem] md:max-w-[16rem] lg:max-w-[18rem] xl:max-w-[20rem] object-contain object-center mx-auto"
+                  @error="handleAllianceImageError"
+                />
+              </picture>
               <!-- Fallback emoji if image fails to load -->
               <div
                 class="fallback-alliance-icon hidden text-[10rem] sm:text-9xl md:text-[10rem] items-center justify-center w-full h-full absolute left-0 top-0"
@@ -545,12 +551,15 @@
             <div
               class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-40 sm:h-36 md:h-40 lg:h-44 xl:h-48"
             >
-              <img
-                src="/logo/blades.png"
-                alt="Nocturnal Blades Logo"
-                class="w-full h-full max-w-[16rem] sm:max-w-[14rem] md:max-w-[16rem] lg:max-w-[18rem] xl:max-w-[20rem] object-contain object-center mx-auto"
-                @error="handleAllianceImageError"
-              />
+              <picture>
+                <source srcset="/optimized/blades.webp" type="image/webp" />
+                <img
+                  src="/optimized/blades.png"
+                  alt="Nocturnal Blades Logo"
+                  class="w-full h-full max-w-[16rem] sm:max-w-[14rem] md:max-w-[16rem] lg:max-w-[18rem] xl:max-w-[20rem] object-contain object-center mx-auto"
+                  @error="handleAllianceImageError"
+                />
+              </picture>
               <!-- Fallback emoji if image fails to load -->
               <div
                 class="fallback-alliance-icon hidden text-[10rem] sm:text-9xl md:text-[10rem] items-center justify-center w-full h-full absolute left-0 top-0"

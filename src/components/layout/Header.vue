@@ -31,14 +31,10 @@
         >
           <!-- Enhanced Nocturnal Legacy Emblem -->
           <div class="relative group w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14">
-            <!-- Responsive Image -->
-            <img
-              src="/logo/logo.png"
-              alt="Nocturnal Legacy Emblem"
-              class="w-full h-full object-contain object-center transition-transform duration-300"
-              @error="handleImageError"
-              loading="eager"
-            />
+            <picture>
+              <source srcset="/optimized/logo.webp" type="image/webp" />
+              <img src="/optimized/logo.png" alt="Nocturnal Legacy Emblem" class="w-full h-full object-contain object-center transition-transform duration-300" @error="handleImageError" loading="eager" />
+            </picture>
 
             <!-- Fallback content if image fails to load -->
             <div

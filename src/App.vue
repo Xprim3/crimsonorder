@@ -6,17 +6,26 @@
   import JoinFamilySection from './components/sections/JoinFamilySection.vue'
   import KingdomSection from './components/sections/KingdomSection.vue'
   import FAQSection from './components/sections/FAQSection.vue'
+  import ErrorBoundary from './components/ui/ErrorBoundary.vue'
+  import LoadingSpinner from './components/ui/LoadingSpinner.vue'
+  import { usePerformance } from './composables/usePerformance'
+
+  // Initialize performance monitoring
+  const { isLoaded } = usePerformance()
 </script>
 
 <template>
-  <Layout>
-    <HeroSection />
-    <AboutSection />
-    <JoinSection />
-    <JoinFamilySection />
-    <FAQSection />
-    <KingdomSection />
-  </Layout>
+  <ErrorBoundary>
+    <LoadingSpinner :loading="!isLoaded" />
+    <Layout>
+      <HeroSection />
+      <AboutSection />
+      <JoinSection />
+      <JoinFamilySection />
+      <FAQSection />
+      <KingdomSection />
+    </Layout>
+  </ErrorBoundary>
 </template>
 
 <style scoped>
