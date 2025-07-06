@@ -295,7 +295,7 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              BigBoss
+              Draculla
             </h4>
             <p class="text-lg text-gray-300 mb-4">
               Oversees all alliances during events, tracks performance, gives
