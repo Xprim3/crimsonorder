@@ -228,11 +228,10 @@
             >
               OldManChewy
             </h4>
-            <p class="text-lg text-gray-300 mb-4">Leader of Blades</p>
-            <div class="text-sm text-yellow-300 mb-2">The Eagle's Eye</div>
-            <div class="text-sm text-yellow-300 mb-2">
-              “Always watching, always ready.”
-            </div>
+            <p class="text-lg text-gray-300 mb-4">
+              Leads the Blades alliance. Key decision-maker in family-wide
+              leadership and war planning.
+            </p>
           </div>
 
           <div
@@ -252,11 +251,10 @@
             >
               Suad
             </h4>
-            <p class="text-lg text-gray-300 mb-4">Council Advisor</p>
-            <div class="text-sm text-yellow-300 mb-2">Champion of Support</div>
-            <div class="text-sm text-yellow-300 mb-2">
-              “Empowering every member.”
-            </div>
+            <p class="text-lg text-gray-300 mb-4">
+              Acts under Pryda's direct command. Executes high-priority tasks
+              with loyalty and precision.
+            </p>
           </div>
 
           <div
@@ -276,13 +274,81 @@
             >
               Nox
             </h4>
-            <p class="text-lg text-gray-300 mb-4">Blades R5 Rotation</p>
-            <div class="text-sm text-yellow-300 mb-2">
-              The Unbreakable Shield
+            <p class="text-lg text-gray-300 mb-4">
+              Supports Chewy in operations and event execution. Fully involved
+              in leadership decisions across the family.
+            </p>
+          </div>
+
+          <div
+            class="min-w-0 bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
+          >
+            <div
+              class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"
+            ></div>
+            <div
+              class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl"
+            >
+              <span class="text-white text-3xl">👑</span>
             </div>
-            <div class="text-sm text-yellow-300 mb-2">
-              “Guarding our legacy.”
+            <h4
+              class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
+              style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
+            >
+              BigBoss
+            </h4>
+            <p class="text-lg text-gray-300 mb-4">
+              Oversees all alliances during events, tracks performance, gives
+              strategic support, and ensures the whole family pushes together
+              for top rankings and rewards.
+            </p>
+          </div>
+
+          <div
+            class="min-w-0 bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
+          >
+            <div
+              class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"
+            ></div>
+            <div
+              class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl"
+            >
+              <span class="text-white text-3xl">🌙</span>
             </div>
+            <h4
+              class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
+              style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
+            >
+              Nyx
+            </h4>
+            <p class="text-lg text-gray-300 mb-4">
+              Monitors all alliances for rule-breaking or internal issues.
+              Maintains order and reports to leadership.
+            </p>
+          </div>
+
+          <div
+            class="min-w-0 bg-gradient-to-br from-red-900/60 to-red-800/60 rounded-2xl p-8 border-2 border-yellow-500/50 text-center group hover:border-yellow-400/70 transition-all duration-300 hover:bg-gradient-to-br hover:from-red-800/70 hover:to-red-700/70 relative overflow-hidden"
+          >
+            <div
+              class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-red-600"
+            ></div>
+            <div
+              class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl"
+            >
+              <span class="text-white text-3xl">⚔️</span>
+            </div>
+            <h4
+              class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
+              style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
+            >
+              Pyhrex
+            </h4>
+            <p class="text-lg text-gray-300 mb-4">
+              Executes flag placement and tech planning for the family under
+              Verso's coordination. Key role in war prep, territory control and
+              research efficiency.
+            </p>
           </div>
         </div>
       </div>
@@ -450,19 +516,19 @@
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
                   <span class="text-gray-200 font-medium">ɴᴋOrc</span>
-                  <span class="text-red-400 text-sm">......</span>
+                  <span class="text-red-400 text-sm">Warlord</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
                   <span class="text-gray-200 font-medium">ɴᴋPoseidon</span>
-                  <span class="text-red-400 text-sm">.....</span>
+                  <span class="text-red-400 text-sm">Events</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
                   <span class="text-gray-200 font-medium">ɴᴋBlood</span>
-                  <span class="text-red-400 text-sm">......</span>
+                  <span class="text-red-400 text-sm">Events/Mail</span>
                 </div>
               </div>
             </div>
