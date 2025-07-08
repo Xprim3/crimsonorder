@@ -2,7 +2,7 @@
   <footer class="bg-black py-6 border-t border-red-800/50">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
       <div
-        class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0"
+        class="flex flex-col md:flex-row justify-between items-center gap-y-8 md:gap-y-0 md:space-x-8"
       >
         <!-- Logo & Name -->
         <a href="/" class="flex items-center space-x-3 cursor-pointer">
@@ -32,41 +32,22 @@
           </div>
         </a>
 
-        <!-- Quick Links -->
-        <div class="flex space-x-6">
-          <a
-            href="#home"
-            aria-label="Go to Home section"
-            class="text-gray-300 hover:text-red-400 transition-colors duration-300 text-sm font-medium"
+        <!-- Powered by Pryda Badge -->
+        <a
+          href="https://discord.gg/xsgPQJ5ZJS"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Join the Nocturnal Legacy Discord server (Powered by Pryda)"
+          class="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-500/20 to-red-600/20 rounded-full px-4 py-2 border border-yellow-500/30 hover:border-yellow-400/50 hover:from-yellow-500/30 hover:to-red-600/30 transition-all duration-300"
+        >
+          <span class="text-red-400 text-sm">⚡</span>
+          <span class="text-gray-200 text-sm font-semibold"
+            >Powered by Pryda</span
           >
-            Home
-          </a>
-          <a
-            href="#about"
-            aria-label="Go to About section"
-            class="text-gray-300 hover:text-red-400 transition-colors duration-300 text-sm font-medium"
-          >
-            About
-          </a>
-          <a
-            href="#join"
-            aria-label="Go to Join section"
-            class="text-gray-300 hover:text-red-400 transition-colors duration-300 text-sm font-medium"
-          >
-            Join
-          </a>
-          <!--
-          <a
-            href="#kingdom"
-            aria-label="Go to Kingdom section"
-            class="text-gray-300 hover:text-red-400 transition-colors duration-300 text-sm font-medium"
-          >
-            Kingdom
-          </a>
-          -->
-        </div>
+          <span class="text-red-400 text-sm">⚡</span>
+        </a>
 
-        <!-- Social Ions -->
+        <!-- Social Icons -->
         <div class="flex space-x-4">
           <!-- Discord -->
           <a
@@ -121,22 +102,6 @@
 
       <!-- Copyright (small, centered) -->
       <div class="text-center mt-4 pt-4 border-t border-red-800/30">
-        <!-- Powered by Pryda Badge -->
-        <div class="mb-3">
-          <a
-            href="https://discord.gg/xsgPQJ5ZJS"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Join the Nocturnal Legacy Discord server (Powered by Pryda)"
-            class="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-500/20 to-red-600/20 rounded-full px-4 py-2 border border-yellow-500/30 hover:border-yellow-400/50 hover:from-yellow-500/30 hover:to-red-600/30 transition-all duration-300"
-          >
-            <span class="text-red-400 text-sm">⚡</span>
-            <span class="text-gray-200 text-sm font-semibold"
-              >Powered by Pryda</span
-            >
-            <span class="text-red-400 text-sm">⚡</span>
-          </a>
-        </div>
         <p class="text-gray-500 text-xs">
           © 2024 Crimson Order. All rights reserved.
         </p>
