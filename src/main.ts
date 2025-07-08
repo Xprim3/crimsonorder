@@ -8,7 +8,7 @@ import App from './App.vue'
 const app = createApp(App)
 app.use(PrimeVue)
 
-const vm = app.mount('#app')
+app.mount('#app')
 
 // Register service worker for offline functionality
 if ('serviceWorker' in navigator) {
@@ -19,8 +19,8 @@ if ('serviceWorker' in navigator) {
         installingWorker?.addEventListener('statechange', () => {
           if (installingWorker.state === 'installed') {
             if (navigator.serviceWorker.controller) {
-              // Show the custom update notification banner
-              vm.$refs.updateBanner?.show?.()
+              // Show the custom update notification banner via event
+              window.dispatchEvent(new Event('show-update-banner'))
             }
           }
         })

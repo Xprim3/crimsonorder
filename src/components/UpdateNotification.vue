@@ -17,11 +17,19 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 const visible = ref(false)
 function show() { visible.value = true }
 function refresh() { window.location.reload() }
-defineExpose({ show })
+
+function onShowBanner() { show() }
+
+onMounted(() => {
+  window.addEventListener('show-update-banner', onShowBanner)
+})
+onUnmounted(() => {
+  window.removeEventListener('show-update-banner', onShowBanner)
+})
 </script>
 
 <style scoped>
