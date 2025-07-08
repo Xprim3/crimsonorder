@@ -46,7 +46,7 @@ self.addEventListener('install', (event) => {
       })
     ])
   )
-  self.skipWaiting()
+  self.skipWaiting() // Activate new SW immediately
 })
 
 // Activate event - clean up old caches
@@ -66,7 +66,7 @@ self.addEventListener('activate', (event) => {
       )
     })
   )
-  self.clients.claim()
+  self.clients.claim() // Take control of all clients immediately
 })
 
 // Fetch event - handle different types of requests
