@@ -47,7 +47,7 @@
 
     <!-- Main Content -->
     <div
-      class="relative z-10 text-center px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16"
+      class="relative z-10 text-center px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 pt-10 sm:pt-0"
     >
       <!-- Main Headline -->
       <div class="text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -167,6 +167,9 @@ button:hover {
 @media (max-width: 640px) {
   .fire-particle {
     animation-duration: 2s;
+  }
+  .pt-10 {
+    padding-top: 2.5rem !important;
   }
 }
 
