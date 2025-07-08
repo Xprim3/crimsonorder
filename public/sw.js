@@ -71,41 +71,42 @@ self.addEventListener('activate', (event) => {
 
 // Fetch event - handle different types of requests
 self.addEventListener('fetch', (event) => {
-  const { request } = event
-  const url = new URL(request.url)
+  const { request } = event;
+  const url = new URL(request.url);
 
   // Skip non-GET requests
-  if (request.method !== 'GET') {
-    return
-  }
+  if (request.method !== 'GET') return;
+
+  // Skip unsupported schemes (like chrome-extension:)
+  if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
 
   // Handle API requests
   if (isApiRequest(url)) {
-    event.respondWith(handleApiRequest(request))
-    return
+    event.respondWith(handleApiRequest(request));
+    return;
   }
 
   // Handle static assets
   if (isStaticAsset(url)) {
-    event.respondWith(handleStaticAsset(request))
-    return
+    event.respondWith(handleStaticAsset(request));
+    return;
   }
 
   // Handle images
   if (isImageRequest(url)) {
-    event.respondWith(handleImageRequest(request))
-    return
+    event.respondWith(handleImageRequest(request));
+    return;
   }
 
   // Handle fonts
   if (isFontRequest(url)) {
-    event.respondWith(handleFontRequest(request))
-    return
+    event.respondWith(handleFontRequest(request));
+    return;
   }
 
   // Default: network-first for HTML pages
-  event.respondWith(handlePageRequest(request))
-})
+  event.respondWith(handlePageRequest(request));
+});
 
 // Helper functions
 function isApiRequest(url) {

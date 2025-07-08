@@ -17,7 +17,7 @@ export function useScrollAnimations(options: AnimationOptions = {}) {
     duration: 600,
     delay: 0,
     easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
-    ...options
+    ...options,
   }
 
   const animatedElements = ref<Set<HTMLElement>>(new Set())
@@ -31,7 +31,7 @@ export function useScrollAnimations(options: AnimationOptions = {}) {
     element.style.transition = `all ${defaultOptions.duration}ms ${defaultOptions.easing} ${defaultOptions.delay}ms`
 
     const handleIntersection = (entries: IntersectionObserverEntry[]) => {
-      entries.forEach((entry) => {
+      entries.forEach(entry => {
         if (entry.isIntersecting) {
           element.style.opacity = '1'
           element.style.transform = 'translateY(0)'
@@ -46,7 +46,7 @@ export function useScrollAnimations(options: AnimationOptions = {}) {
 
     observer = new IntersectionObserver(handleIntersection, {
       threshold: defaultOptions.threshold,
-      rootMargin: defaultOptions.rootMargin
+      rootMargin: defaultOptions.rootMargin,
     })
 
     observer.observe(element)
@@ -88,7 +88,7 @@ export function useScrollAnimations(options: AnimationOptions = {}) {
     fadeInRight,
     scaleIn,
     slideInFromBottom,
-    animatedElements
+    animatedElements,
   }
 }
 
@@ -100,11 +100,11 @@ export function useParallax() {
   const handleScroll = () => {
     if (!ticking) {
       requestAnimationFrame(() => {
-        parallaxElements.value.forEach((element) => {
+        parallaxElements.value.forEach(element => {
           const speed = parseFloat(element.dataset.speed || '0.5')
           const scrolled = window.pageYOffset
           const rate = scrolled * -speed
-          
+
           element.style.transform = `translateY(${rate}px)`
         })
         ticking = false
@@ -113,7 +113,7 @@ export function useParallax() {
     }
   }
 
-  const addParallaxElement = (element: HTMLElement, speed: number = 0.5) => {
+  const addParallaxElement = (element: HTMLElement, speed = 0.5) => {
     element.dataset.speed = speed.toString()
     parallaxElements.value.push(element)
   }
@@ -128,21 +128,24 @@ export function useParallax() {
 
   return {
     addParallaxElement,
-    parallaxElements
+    parallaxElements,
   }
 }
 
 // Micro-interactions composable
 export function useMicroInteractions() {
-  const addHoverEffect = (element: HTMLElement, options: {
-    scale?: number
-    rotate?: number
-    duration?: number
-  } = {}) => {
+  const addHoverEffect = (
+    element: HTMLElement,
+    options: {
+      scale?: number
+      rotate?: number
+      duration?: number
+    } = {}
+  ) => {
     const { scale = 1.05, rotate = 0, duration = 200 } = options
 
     element.style.transition = `transform ${duration}ms ease`
-    
+
     element.addEventListener('mouseenter', () => {
       element.style.transform = `scale(${scale}) rotate(${rotate}deg)`
     })
@@ -152,9 +155,12 @@ export function useMicroInteractions() {
     })
   }
 
-  const addClickEffect = (element: HTMLElement, options: {
-    scale?: number
-  } = {}) => {
+  const addClickEffect = (
+    element: HTMLElement,
+    options: {
+      scale?: number
+    } = {}
+  ) => {
     const { scale = 0.95 } = options
 
     element.addEventListener('mousedown', () => {
@@ -174,7 +180,7 @@ export function useMicroInteractions() {
     element.style.position = 'relative'
     element.style.overflow = 'hidden'
 
-    element.addEventListener('click', (e) => {
+    element.addEventListener('click', e => {
       const ripple = document.createElement('span')
       const rect = element.getBoundingClientRect()
       const size = Math.max(rect.width, rect.height)
@@ -201,7 +207,7 @@ export function useMicroInteractions() {
   return {
     addHoverEffect,
     addClickEffect,
-    addRippleEffect
+    addRippleEffect,
   }
 }
 
@@ -256,4 +262,4 @@ export const animationStyles = `
       transform: scale(1);
     }
   }
-` 
+`

@@ -16,7 +16,7 @@ export function useLazyLoading(options: LazyImageOptions = {}) {
     root: null,
     rootMargin: '50px',
     threshold: 0.1,
-    ...options
+    ...options,
   }
 
   let observer: IntersectionObserver | null = null
@@ -40,7 +40,7 @@ export function useLazyLoading(options: LazyImageOptions = {}) {
   }
 
   const handleIntersection = (entries: IntersectionObserverEntry[]) => {
-    entries.forEach((entry) => {
+    entries.forEach(entry => {
       if (entry.isIntersecting && imageRef.value) {
         isInView.value = true
         loadImage(imageRef.value)
@@ -68,7 +68,7 @@ export function useLazyLoading(options: LazyImageOptions = {}) {
     imageRef,
     isLoaded,
     isInView,
-    hasError
+    hasError,
   }
 }
 
@@ -101,11 +101,11 @@ export function useLazyLoadingMultiple() {
   }
 
   const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
+    entries => {
+      entries.forEach(entry => {
         const img = entry.target as HTMLImageElement
         const index = imageRefs.value.indexOf(img)
-        
+
         if (entry.isIntersecting && index !== -1) {
           loadImage(img, index)
           observer.unobserve(entry.target)
@@ -114,7 +114,7 @@ export function useLazyLoadingMultiple() {
     },
     {
       rootMargin: '50px',
-      threshold: 0.1
+      threshold: 0.1,
     }
   )
 
@@ -131,6 +131,6 @@ export function useLazyLoadingMultiple() {
     loadedImages,
     errorImages,
     observeImage,
-    unobserveImage
+    unobserveImage,
   }
-} 
+}

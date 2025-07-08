@@ -162,7 +162,9 @@
                 Head of the entire Nocturnal Legacy family. Oversees strategy,
                 structure, and all final decisions.
               </div>
-              <div class="text-yellow-300 text-sm font-semibold mb-2">3 Years of Experience</div>
+              <div class="text-yellow-300 text-sm font-semibold mb-2">
+                3 Years of Experience
+              </div>
             </div>
 
             <!-- Supreme Counselor -->
@@ -191,7 +193,9 @@
                 responsible for territory planning in KVK and home kingdom,
                 working closely with territory officers across the family.
               </div>
-              <div class="text-yellow-300 text-sm font-semibold mb-2">8 Years of Experience</div>
+              <div class="text-yellow-300 text-sm font-semibold mb-2">
+                8 Years of Experience
+              </div>
             </div>
           </div>
         </div>
@@ -237,7 +241,9 @@
               Leads the Blades alliance. Key decision-maker in family-wide
               leadership and war planning.
             </p>
-            <div class="text-yellow-300 text-sm font-semibold mb-2">3 Years of Experience</div>
+            <div class="text-yellow-300 text-sm font-semibold mb-2">
+              3 Years of Experience
+            </div>
           </div>
 
           <div
@@ -261,7 +267,9 @@
               Acts under Pryda's direct command. Executes high-priority tasks
               with loyalty and precision.
             </p>
-            <div class="text-yellow-300 text-sm font-semibold mb-2">2 Years of Experience</div>
+            <div class="text-yellow-300 text-sm font-semibold mb-2">
+              2 Years of Experience
+            </div>
           </div>
 
           <div
@@ -285,7 +293,9 @@
               Supports Chewy in operations and event execution. Fully involved
               in leadership decisions across the family.
             </p>
-            <div class="text-yellow-300 text-sm font-semibold mb-2">8 Years of Experience</div>
+            <div class="text-yellow-300 text-sm font-semibold mb-2">
+              8 Years of Experience
+            </div>
           </div>
 
           <div
@@ -310,7 +320,9 @@
               strategic support, and ensures the whole family pushes together
               for top rankings and rewards.
             </p>
-            <div class="text-yellow-300 text-sm font-semibold mb-2">2 Years of Experience</div>
+            <div class="text-yellow-300 text-sm font-semibold mb-2">
+              2 Years of Experience
+            </div>
           </div>
 
           <div
@@ -334,7 +346,9 @@
               Monitors all alliances for rule-breaking or internal issues.
               Maintains order and reports to leadership.
             </p>
-            <div class="text-yellow-300 text-sm font-semibold mb-2">1 Year of Experience</div>
+            <div class="text-yellow-300 text-sm font-semibold mb-2">
+              1 Year of Experience
+            </div>
           </div>
 
           <div
@@ -359,7 +373,9 @@
               Verso's coordination. Key role in war prep, territory control and
               research efficiency.
             </p>
-            <div class="text-yellow-300 text-sm font-semibold mb-2">4 Years of Experience</div>
+            <div class="text-yellow-300 text-sm font-semibold mb-2">
+              4 Years of Experience
+            </div>
           </div>
         </div>
       </div>
@@ -456,7 +472,6 @@
               >
                 Kingdom Leadership
               </span>
-
             </div>
 
             <!-- Alliance Leadership -->

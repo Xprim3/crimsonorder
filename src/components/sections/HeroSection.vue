@@ -54,7 +54,7 @@
         <!-- Logo Emblem -->
         <!-- Removed logo emblem as requested -->
 
-        <h1 
+        <h1
           class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black mb-6 tracking-tight"
         >
           <span
@@ -97,7 +97,7 @@
       </div>
 
       <!-- Primary CTA Button -->
-      <button 
+      <button
         @click="scrollToSection('#join-family')"
         class="group relative px-8 py-4 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg sm:text-xl rounded-lg border-2 border-yellow-500 shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-red-500/50 focus:outline-none focus:ring-4 focus:ring-red-500/50 focus:ring-offset-2 focus:ring-offset-black"
         aria-label="Join the Nocturnal Legacy family"
@@ -114,77 +114,77 @@
 </template>
 
 <script setup lang="ts">
-const scrollToSection = (href: string): void => {
-  const element = document.querySelector(href)
-  if (element) {
-    element.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    })
+  const scrollToSection = (href: string): void => {
+    const element = document.querySelector(href)
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      })
+    }
   }
-}
 </script>
 
 <style scoped>
-/* Optimized fire particle animation */
-.fire-particle {
-  animation: float-up 3s ease-in-out infinite;
-  will-change: transform, opacity;
-}
-
-@keyframes float-up {
-  0% {
-    transform: translateY(100vh) scale(0);
-    opacity: 0;
-  }
-  10% {
-    opacity: 0.6;
-  }
-  90% {
-    opacity: 0.6;
-  }
-  100% {
-    transform: translateY(-100px) scale(1);
-    opacity: 0;
-  }
-}
-
-/* Text glow effect */
-h1 span {
-  text-shadow: 0 0 20px rgba(239, 68, 68, 0.5);
-}
-
-/* Button glow effect */
-button {
-  box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
-}
-
-button:hover {
-  box-shadow: 0 0 30px rgba(239, 68, 68, 0.6);
-}
-
-/* Responsive adjustments */
-@media (max-width: 640px) {
+  /* Optimized fire particle animation */
   .fire-particle {
-    animation-duration: 2s;
-  }
-  .pt-10 {
-    padding-top: 2.5rem !important;
-  }
-}
-
-/* Reduced motion support */
-@media (prefers-reduced-motion: reduce) {
-  .fire-particle {
-    animation: none;
+    animation: float-up 3s ease-in-out infinite;
+    will-change: transform, opacity;
   }
 
+  @keyframes float-up {
+    0% {
+      transform: translateY(100vh) scale(0);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.6;
+    }
+    90% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateY(-100px) scale(1);
+      opacity: 0;
+    }
+  }
+
+  /* Text glow effect */
+  h1 span {
+    text-shadow: 0 0 20px rgba(239, 68, 68, 0.5);
+  }
+
+  /* Button glow effect */
   button {
-    transition: none;
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
   }
 
   button:hover {
-    transform: none;
+    box-shadow: 0 0 30px rgba(239, 68, 68, 0.6);
   }
-}
+
+  /* Responsive adjustments */
+  @media (max-width: 640px) {
+    .fire-particle {
+      animation-duration: 2s;
+    }
+    .pt-10 {
+      padding-top: 2.5rem !important;
+    }
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    .fire-particle {
+      animation: none;
+    }
+
+    button {
+      transition: none;
+    }
+
+    button:hover {
+      transform: none;
+    }
+  }
 </style>
