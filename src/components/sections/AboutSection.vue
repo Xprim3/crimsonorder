@@ -448,11 +448,7 @@
               >
                 Kingdom Leadership
               </span>
-              <span
-                class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
-              >
-                Territory Control
-              </span>
+              
             </div>
 
             <!-- Alliance Leadership -->
@@ -468,7 +464,7 @@
               >
                 <div class="flex items-center justify-between">
                   <div>
-                    <div class="text-gray-200 font-bold">ɴᴋPryda</div>
+                    <div class="text-gray-200 font-bold">Pryda</div>
                   </div>
                   <div class="text-right">
                     <div class="text-yellow-400 text-sm font-semibold">
@@ -491,49 +487,49 @@
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">ɴᴋVerso</span>
+                  <span class="text-gray-200 font-medium">Verso</span>
                   <span class="text-red-400 text-sm">Conselor/AOO</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">ɴᴋPhyrex</span>
+                  <span class="text-gray-200 font-medium">Phyrex</span>
                   <span class="text-red-400 text-sm">Territory/Tech</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">ɴᴋSuad</span>
+                  <span class="text-gray-200 font-medium">Suad</span>
                   <span class="text-red-400 text-sm">Membership Officer</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">ɴᴋMakentosh</span>
+                  <span class="text-gray-200 font-medium">Makentosh</span>
                   <span class="text-red-400 text-sm">Activity Officer</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">ɴᴋMeYou</span>
+                  <span class="text-gray-200 font-medium">MeYou</span>
                   <span class="text-red-400 text-sm">Territory/Tech</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">ɴᴋOrc</span>
+                  <span class="text-gray-200 font-medium">Orc</span>
                   <span class="text-red-400 text-sm">Warlord</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">ɴᴋPoseidon</span>
+                  <span class="text-gray-200 font-medium">Poseidon</span>
                   <span class="text-red-400 text-sm">Events</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">ɴᴋBlood</span>
+                  <span class="text-gray-200 font-medium">Blood</span>
                   <span class="text-red-400 text-sm">Events/Mail</span>
                 </div>
               </div>
@@ -630,7 +626,7 @@
               >
                 <div class="flex items-center justify-between">
                   <div>
-                    <div class="text-gray-200 font-bold">ɴʙOldManChewy / Nox</div>
+                    <div class="text-gray-200 font-bold">OldManChewy / Nox</div>
                   </div>
                   <div class="text-right">
                     <div class="text-yellow-400 text-sm font-semibold">
@@ -653,7 +649,7 @@
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">ɴʙNox</span>
+                  <span class="text-gray-200 font-medium">Nox</span>
                   <span class="text-red-400 text-sm">
                     R5 / Activity Officer
                   </span>
