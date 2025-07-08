@@ -630,11 +630,11 @@
               >
                 <div class="flex items-center justify-between">
                   <div>
-                    <div class="text-gray-200 font-bold">ɴʙOldManChewy</div>
+                    <div class="text-gray-200 font-bold">ɴʙOldManChewy / Nox</div>
                   </div>
                   <div class="text-right">
                     <div class="text-yellow-400 text-sm font-semibold">
-                      R5 Leader
+                      R5 Leaders
                     </div>
                   </div>
                 </div>
@@ -661,44 +661,44 @@
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">SupportLead</span>
-                  <span class="text-red-400 text-sm">Council Advisor</span>
+                  <span class="text-gray-200 font-medium">OldManChewy</span>
+                  <span class="text-red-400 text-sm">Events/AOO</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Officer3</span>
-                  <span class="text-red-400 text-sm">Rally Master</span>
+                  <span class="text-gray-200 font-medium">BigBoss</span>
+                  <span class="text-red-400 text-sm">Conselor</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Officer4</span>
-                  <span class="text-red-400 text-sm">Territory Master</span>
+                  <span class="text-gray-200 font-medium">Mystic</span>
+                  <span class="text-red-400 text-sm">Territory</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Officer5</span>
-                  <span class="text-red-400 text-sm">Speed Commander</span>
+                  <span class="text-gray-200 font-medium">Falcon</span>
+                  <span class="text-red-400 text-sm">Territory</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Officer6</span>
-                  <span class="text-red-400 text-sm">Strategy Officer</span>
+                  <span class="text-gray-200 font-medium">Fritz</span>
+                  <span class="text-red-400 text-sm">Tech</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Officer7</span>
-                  <span class="text-red-400 text-sm">Intel Officer</span>
+                  <span class="text-gray-200 font-medium">Romeo</span>
+                  <span class="text-red-400 text-sm">Warlord</span>
                 </div>
                 <div
                   class="flex items-center justify-between bg-red-800/20 rounded-lg p-3 border border-red-700/50"
                 >
-                  <span class="text-gray-200 font-medium">Officer8</span>
-                  <span class="text-red-400 text-sm">Training Master</span>
+                  <span class="text-gray-200 font-medium">Killzone</span>
+                  <span class="text-red-400 text-sm">Warlord</span>
                 </div>
               </div>
             </div>
