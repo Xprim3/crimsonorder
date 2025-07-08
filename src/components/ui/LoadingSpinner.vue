@@ -1,12 +1,11 @@
 <template>
   <div
     v-if="loading"
-    class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 backdrop-blur-sm"
+    class="fixed inset-0 z-50 flex items-center justify-center w-full min-h-screen bg-black bg-opacity-75 backdrop-blur-sm"
   >
     <div class="relative">
       <!-- Spinner -->
       <div class="w-16 h-16 border-4 border-yellow-500 border-t-transparent rounded-full animate-spin"></div>
-      
       <!-- Loading Text -->
       <div class="mt-4 text-center">
         <div class="text-yellow-400 text-lg font-semibold mb-2">
@@ -16,7 +15,6 @@
           Preparing your elite gaming experience...
         </div>
       </div>
-      
       <!-- Pulsing Dots -->
       <div class="flex justify-center mt-4 space-x-1">
         <div class="w-2 h-2 bg-yellow-400 rounded-full animate-pulse"></div>
@@ -28,11 +26,32 @@
 </template>
 
 <script setup lang="ts">
+import { watch, onMounted, onUnmounted } from 'vue'
+
 interface Props {
   loading: boolean
 }
 
-defineProps<Props>()
+const props = defineProps<Props>()
+
+const lockBody = () => {
+  document.body.style.overflow = 'hidden'
+}
+const unlockBody = () => {
+  document.body.style.overflow = ''
+}
+
+watch(() => props.loading, (val) => {
+  if (val) lockBody()
+  else unlockBody()
+})
+
+onMounted(() => {
+  if (props.loading) lockBody()
+})
+onUnmounted(() => {
+  unlockBody()
+})
 </script>
 
 <style scoped>

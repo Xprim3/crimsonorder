@@ -55,6 +55,7 @@
           >
             Join
           </a>
+          <!--
           <a
             href="#kingdom"
             aria-label="Go to Kingdom section"
@@ -62,6 +63,7 @@
           >
             Kingdom
           </a>
+          -->
         </div>
 
         <!-- Social Icons -->

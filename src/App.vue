@@ -23,7 +23,7 @@
       <JoinSection />
       <JoinFamilySection />
       <FAQSection />
-      <KingdomSection />
+      <KingdomSection v-if="false" />
     </Layout>
   </ErrorBoundary>
 </template>

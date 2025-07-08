@@ -388,20 +388,20 @@
             ></div>
 
             <div
-              class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-40 sm:h-36 md:h-40 lg:h-44 xl:h-48"
+              class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36"
             >
               <picture>
                 <source srcset="/optimized/knights.webp" type="image/webp" />
                 <img
                   src="/optimized/knights.png"
                   alt="Nocturnal Knights Logo"
-                  class="w-full h-full max-w-[16rem] sm:max-w-[14rem] md:max-w-[16rem] lg:max-w-[18rem] xl:max-w-[20rem] object-contain object-center mx-auto"
+                  class="w-full h-full max-w-[6rem] sm:max-w-[8rem] md:max-w-[10rem] lg:max-w-[12rem] xl:max-w-[14rem] object-contain object-center mx-auto"
                   @error="handleAllianceImageError"
                 />
               </picture>
               <!-- Fallback emoji if image fails to load -->
               <div
-                class="fallback-alliance-icon hidden text-[10rem] sm:text-9xl md:text-[10rem] items-center justify-center w-full h-full absolute left-0 top-0"
+                class="fallback-alliance-icon hidden text-5xl sm:text-6xl md:text-7xl lg:text-8xl items-center justify-center w-full h-full absolute left-0 top-0"
               >
                 ⚔️
               </div>
@@ -549,20 +549,20 @@
             ></div>
 
             <div
-              class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-40 sm:h-36 md:h-40 lg:h-44 xl:h-48"
+              class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36"
             >
               <picture>
                 <source srcset="/optimized/blades.webp" type="image/webp" />
                 <img
                   src="/optimized/blades.png"
                   alt="Nocturnal Blades Logo"
-                  class="w-full h-full max-w-[16rem] sm:max-w-[14rem] md:max-w-[16rem] lg:max-w-[18rem] xl:max-w-[20rem] object-contain object-center mx-auto"
+                  class="w-full h-full max-w-[6rem] sm:max-w-[8rem] md:max-w-[10rem] lg:max-w-[12rem] xl:max-w-[14rem] object-contain object-center mx-auto"
                   @error="handleAllianceImageError"
                 />
               </picture>
               <!-- Fallback emoji if image fails to load -->
               <div
-                class="fallback-alliance-icon hidden text-[10rem] sm:text-9xl md:text-[10rem] items-center justify-center w-full h-full absolute left-0 top-0"
+                class="fallback-alliance-icon hidden text-5xl sm:text-6xl md:text-7xl lg:text-8xl items-center justify-center w-full h-full absolute left-0 top-0"
               >
                 🦅
               </div>

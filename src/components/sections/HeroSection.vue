@@ -52,31 +52,9 @@
       <!-- Main Headline -->
       <div class="text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Logo Emblem -->
-        <div class="flex justify-center mb-6">
-          <div
-            class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-black rounded-full border-2 border-yellow-500 flex items-center justify-center shadow-2xl"
-            style="box-shadow: 0 0 20px rgba(251, 191, 36, 0.4)"
-          >
-            <picture>
-              <source srcset="/optimized/logo.webp" type="image/webp" />
-              <img src="/optimized/logo.png" alt="Nocturnal Legacy Logo" />
-            </picture>
-            <!-- Fallback content if logo fails to load -->
-            <div
-              class="fallback-logo hidden absolute inset-0 items-center justify-center"
-            >
-              <div class="text-center">
-                <div
-                  class="text-lg sm:text-xl lg:text-2xl font-black text-white"
-                >
-                  NL
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Removed logo emblem as requested -->
 
-        <h1
+        <h1 
           class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black mb-6 tracking-tight"
         >
           <span
@@ -119,7 +97,7 @@
       </div>
 
       <!-- Primary CTA Button -->
-      <button
+      <button 
         @click="scrollToSection('#join-family')"
         class="group relative px-8 py-4 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg sm:text-xl rounded-lg border-2 border-yellow-500 shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-red-500/50 focus:outline-none focus:ring-4 focus:ring-red-500/50 focus:ring-offset-2 focus:ring-offset-black"
         aria-label="Join the Nocturnal Legacy family"
@@ -136,74 +114,74 @@
 </template>
 
 <script setup lang="ts">
-  const scrollToSection = (href: string): void => {
-    const element = document.querySelector(href)
-    if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      })
-    }
+const scrollToSection = (href: string): void => {
+  const element = document.querySelector(href)
+  if (element) {
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    })
   }
+}
 </script>
 
 <style scoped>
-  /* Optimized fire particle animation */
+/* Optimized fire particle animation */
+.fire-particle {
+  animation: float-up 3s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(100vh) scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-100px) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Text glow effect */
+h1 span {
+  text-shadow: 0 0 20px rgba(239, 68, 68, 0.5);
+}
+
+/* Button glow effect */
+button {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
+}
+
+button:hover {
+  box-shadow: 0 0 30px rgba(239, 68, 68, 0.6);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
   .fire-particle {
-    animation: float-up 3s ease-in-out infinite;
-    will-change: transform, opacity;
+    animation-duration: 2s;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .fire-particle {
+    animation: none;
   }
 
-  @keyframes float-up {
-    0% {
-      transform: translateY(100vh) scale(0);
-      opacity: 0;
-    }
-    10% {
-      opacity: 0.6;
-    }
-    90% {
-      opacity: 0.6;
-    }
-    100% {
-      transform: translateY(-100px) scale(1);
-      opacity: 0;
-    }
-  }
-
-  /* Text glow effect */
-  h1 span {
-    text-shadow: 0 0 20px rgba(239, 68, 68, 0.5);
-  }
-
-  /* Button glow effect */
   button {
-    box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
+    transition: none;
   }
 
   button:hover {
-    box-shadow: 0 0 30px rgba(239, 68, 68, 0.6);
+    transform: none;
   }
-
-  /* Responsive adjustments */
-  @media (max-width: 640px) {
-    .fire-particle {
-      animation-duration: 2s;
-    }
-  }
-
-  /* Reduced motion support */
-  @media (prefers-reduced-motion: reduce) {
-    .fire-particle {
-      animation: none;
-    }
-
-    button {
-      transition: none;
-    }
-
-    button:hover {
-      transform: none;
-    }
-  }
+}
 </style>

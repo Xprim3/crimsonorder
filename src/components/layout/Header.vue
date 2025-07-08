@@ -391,11 +391,11 @@
       label: 'Nocturnal Family',
       href: '#about',
     },
-    {
-      id: 'kingdom',
-      label: 'Kingdom',
-      href: '#kingdom',
-    },
+    // {
+    //   id: 'kingdom',
+    //   label: 'Kingdom',
+    //   href: '#kingdom',
+    // },
     {
       id: 'join-us',
       label: 'Join Us',

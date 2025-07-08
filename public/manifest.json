@@ -1,12 +1,15 @@
 {
-  "name": "Nocturnal Legacy",
+  "name": "Nocturnal Legacy - Gaming Alliance",
   "short_name": "Nocturnal Legacy",
-  "description": "Elite Gaming Alliance - Nocturnal Knights and Nocturnal Blades",
+  "description": "Join the Nocturnal Legacy gaming alliance - where legends are forged in the darkness",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0f0f0f",
-  "theme_color": "#dc2626",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
   "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["games", "entertainment", "social"],
   "icons": [
     {
       "src": "/logo/logo.png",
@@ -15,13 +18,46 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/logo/logo.png",
+      "src": "/logo/logo2.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
   ],
-  "categories": ["games", "entertainment", "social"],
-  "lang": "en",
-  "dir": "ltr"
+  "screenshots": [
+    {
+      "src": "/logo/logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Join Our Family",
+      "short_name": "Join",
+      "description": "Apply to join Nocturnal Legacy",
+      "url": "/#join",
+      "icons": [
+        {
+          "src": "/logo/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Discord Community",
+      "short_name": "Discord",
+      "description": "Join our Discord server",
+      "url": "/#discord",
+      "icons": [
+        {
+          "src": "/logo/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
 } 
