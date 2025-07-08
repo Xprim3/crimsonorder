@@ -3,7 +3,7 @@
     v-if="loading"
     class="fixed inset-0 z-50 flex items-center justify-center w-full min-h-screen bg-black bg-opacity-75 backdrop-blur-sm"
   >
-    <div class="relative">
+    <div class="relative flex flex-col items-center justify-center">
       <!-- Spinner -->
       <div class="w-16 h-16 border-4 border-yellow-500 border-t-transparent rounded-full animate-spin"></div>
       <!-- Loading Text -->
