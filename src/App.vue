@@ -9,9 +9,12 @@
   import ErrorBoundary from './components/ui/ErrorBoundary.vue'
   import LoadingSpinner from './components/ui/LoadingSpinner.vue'
   import { usePerformance } from './composables/usePerformance'
+  import UpdateNotification from './components/UpdateNotification.vue'
+  import { ref } from 'vue'
 
   // Initialize performance monitoring
   const { isLoaded } = usePerformance()
+  const updateBanner = ref()
 </script>
 
 <template>
@@ -25,6 +28,7 @@
       <FAQSection />
       <KingdomSection v-if="false" />
     </Layout>
+    <UpdateNotification ref="updateBanner" />
   </ErrorBoundary>
 </template>
 

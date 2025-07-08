@@ -8,6 +8,8 @@ import App from './App.vue'
 const app = createApp(App)
 app.use(PrimeVue)
 
+const vm = app.mount('#app')
+
 // Register service worker for offline functionality
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -17,7 +19,8 @@ if ('serviceWorker' in navigator) {
         installingWorker?.addEventListener('statechange', () => {
           if (installingWorker.state === 'installed') {
             if (navigator.serviceWorker.controller) {
-              alert('A new version is available! Please refresh the page.')
+              // Show the custom update notification banner
+              vm.$refs.updateBanner?.show?.()
             }
           }
         })
@@ -25,5 +28,3 @@ if ('serviceWorker' in navigator) {
     })
   })
 }
-
-app.mount('#app')
