@@ -448,7 +448,7 @@
               >
                 Kingdom Leadership
               </span>
-              
+
             </div>
 
             <!-- Alliance Leadership -->
@@ -597,19 +597,11 @@
             >
               <span
                 class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
-                >Rally Masters</span
+                >Top 2 Alliance</span
               >
               <span
                 class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
                 >Territory Control</span
-              >
-              <span
-                class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
-                >Strategic Strikes</span
-              >
-              <span
-                class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
-                >Speed Attacks</span
               >
             </div>
 
