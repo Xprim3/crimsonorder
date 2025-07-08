@@ -388,14 +388,14 @@
             ></div>
 
             <div
-              class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36"
+              class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 mt-4"
             >
               <picture>
                 <source srcset="/optimized/knights.webp" type="image/webp" />
                 <img
                   src="/optimized/knights.png"
                   alt="Nocturnal Knights Logo"
-                  class="w-full h-full max-w-[6rem] sm:max-w-[8rem] md:max-w-[10rem] lg:max-w-[12rem] xl:max-w-[14rem] object-contain object-center mx-auto"
+                  class="alliance-logo w-full object-contain object-center mx-auto"
                   @error="handleAllianceImageError"
                 />
               </picture>
@@ -549,14 +549,14 @@
             ></div>
 
             <div
-              class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36"
+              class="flex justify-center items-center mb-6 group-hover:scale-110 transition-transform duration-300 mt-4"
             >
               <picture>
                 <source srcset="/optimized/blades.webp" type="image/webp" />
                 <img
                   src="/optimized/blades.png"
                   alt="Nocturnal Blades Logo"
-                  class="w-full h-full max-w-[6rem] sm:max-w-[8rem] md:max-w-[10rem] lg:max-w-[12rem] xl:max-w-[14rem] object-contain object-center mx-auto"
+                  class="alliance-logo w-full object-contain object-center mx-auto"
                   @error="handleAllianceImageError"
                 />
               </picture>
@@ -1196,5 +1196,34 @@
   /* Enhanced border glow */
   .border-red-800 {
     box-shadow: 0 0 20px rgba(139, 0, 0, 0.2);
+  }
+  .alliance-logo {
+    width: 100%;
+    height: auto;
+    max-width: 14rem;
+    max-height: 12rem;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (min-width: 640px) {
+    .alliance-logo {
+      max-width: 16rem;
+      max-height: 14rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .alliance-logo {
+      max-width: 18rem;
+      max-height: 16rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    .alliance-logo {
+      max-width: 20rem;
+      max-height: 18rem;
+    }
   }
 </style>
