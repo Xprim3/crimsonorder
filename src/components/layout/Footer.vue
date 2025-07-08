@@ -66,7 +66,7 @@
           -->
         </div>
 
-        <!-- Social Icons -->
+        <!-- Social Ions -->
         <div class="flex space-x-4">
           <!-- Discord -->
           <a
