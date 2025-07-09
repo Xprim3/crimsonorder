@@ -79,123 +79,162 @@
           </div>
         </a>
 
-        <!-- Desktop Navigation (LG and above) -->
-        <nav
-          class="flex max-lg:hidden items-center space-x-2"
-          role="navigation"
-          aria-label="Main navigation"
-        >
-          <div
-            v-for="item in navigationItems"
-            :key="item.id"
-            class="relative group"
+        <!-- Desktop Navigation and Language Switcher (LG and above) -->
+        <div class="hidden lg:flex items-center gap-3">
+          <nav
+            class="flex items-center space-x-2"
+            role="navigation"
+            aria-label="Main navigation"
           >
-            <!-- Main Navigation Item -->
-            <a
-              :href="item.href"
-              @click="scrollToSection(item.href)"
-              class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
-              style="color: #ffffff; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8)"
-              :aria-label="`Navigate to ${item.label} section`"
+            <div
+              v-for="item in navigationItems"
+              :key="item.id"
+              class="relative group"
             >
-              <!-- Gaming Icons -->
-              <span class="text-lg" aria-hidden="true">
-                <svg
-                  v-if="item.id === 'home'"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                  <polyline points="9,22 9,12 15,12 15,22" />
-                </svg>
-                <svg
-                  v-else-if="item.id === 'about'"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                </svg>
-                <svg
-                  v-else-if="item.id === 'crimson-family'"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                  <circle cx="9" cy="7" r="4" />
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                </svg>
-                <svg
-                  v-else-if="item.id === 'kingdom'"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
-                <svg
-                  v-else-if="item.id === 'join-us'"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                  <circle cx="8.5" cy="7" r="4" />
-                  <line x1="20" y1="8" x2="20" y2="14" />
-                  <line x1="23" y1="11" x2="17" y2="11" />
-                </svg>
-                <svg
-                  v-else-if="item.id === 'faq'"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
-                  <line x1="12" y1="17" x2="12.01" y2="17" />
-                </svg>
-              </span>
-              <span class="text-sm">{{ item.label }}</span>
-            </a>
+              <!-- Main Navigation Item -->
+              <a
+                :href="item.href"
+                @click="scrollToSection(item.href)"
+                class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
+                style="color: #ffffff; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8)"
+                :aria-label="`Navigate to ${item.label} section`"
+              >
+                <!-- Gaming Icons -->
+                <span class="text-lg" aria-hidden="true">
+                  <svg
+                    v-if="item.id === 'home'"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                    <polyline points="9,22 9,12 15,12 15,22" />
+                  </svg>
+                  <svg
+                    v-else-if="item.id === 'about'"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                  <svg
+                    v-else-if="item.id === 'crimson-family'"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                  <svg
+                    v-else-if="item.id === 'kingdom'"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <svg
+                    v-else-if="item.id === 'join-us'"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="8.5" cy="7" r="4" />
+                    <line x1="20" y1="8" x2="20" y2="14" />
+                    <line x1="23" y1="11" x2="17" y2="11" />
+                  </svg>
+                  <svg
+                    v-else-if="item.id === 'faq'"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                    <line x1="12" y1="17" x2="12.01" y2="17" />
+                  </svg>
+                </span>
+                <span class="text-sm">{{ item.label }}</span>
+              </a>
+            </div>
+          </nav>
+          <!-- Language Switcher -->
+          <div class="items-center relative select-none">
+            <button @click="toggleLangDropdown" @blur="closeLangDropdown" class="lang-switcher-btn flex items-center justify-center w-20 min-w-[80px] max-w-[80px] px-2 py-1 rounded focus:outline-none">
+              <img :src="`https://flagcdn.com/24x18/${languages.find(l => l.value === locale)?.flag}.png`" alt="flag" class="flag-img mr-2 w-4 h-4 rounded-sm object-cover" width="16" height="12" loading="lazy" />
+              <span class="font-semibold text-xs">{{ languages.find(l => l.value === locale)?.label }}</span>
+              <svg class="ml-1 w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <transition name="fade-slide">
+              <ul v-if="showLangDropdown" class="absolute inset-x-0 top-full mt-1 w-24 bg-black rounded z-50">
+                <li v-for="lang in languages" :key="lang.value">
+                  <button
+                    @mousedown.prevent="selectLanguage(lang.value)"
+                    :class="[
+                      'lang-dropdown-item w-full flex items-center transition-colors duration-200 rounded',
+                      locale === lang.value ? 'text-yellow-400 font-bold' : 'hover:text-yellow-400'
+                    ]"
+                  >
+                    <img :src="`https://flagcdn.com/24x18/${lang.flag}.png`" alt="flag" class="flag-img mr-2 w-4 h-4 rounded-sm object-cover" width="16" height="12" loading="lazy" />
+                    <span class="text-xs">{{ lang.label }}</span>
+                  </button>
+                </li>
+              </ul>
+            </transition>
           </div>
-        </nav>
-
-        <!-- Mobile Menu Button -->
-        <div class="lg:hidden flex items-center space-x-2">
+        </div>
+        <!-- Mobile (left of hamburger) -->
+        <div class="lg:hidden flex items-center space-x-2 relative select-none">
+          <button @click="toggleLangDropdown" @blur="closeLangDropdown" class="lang-switcher-btn flex items-center justify-center w-20 min-w-[80px] max-w-[80px] px-2 py-1 rounded focus:outline-none">
+            <img :src="`https://flagcdn.com/24x18/${languages.find(l => l.value === locale)?.flag}.png`" alt="flag" class="flag-img mr-2 w-4 h-4 rounded-sm object-cover" width="16" height="12" loading="lazy" />
+            <svg class="ml-1 w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <transition name="fade-slide">
+            <ul v-if="showLangDropdown" class="absolute inset-x-0 top-full mt-1 w-20 bg-black rounded z-50">
+              <li v-for="lang in languages" :key="lang.value">
+                <button @mousedown.prevent="selectLanguage(lang.value)" class="lang-dropdown-item w-full flex items-center hover:text-yellow-400 transition-colors duration-200 rounded">
+                  <img :src="`https://flagcdn.com/24x18/${lang.flag}.png`" alt="flag" class="flag-img mr-2 w-4 h-4 rounded-sm object-cover" width="16" height="12" loading="lazy" />
+                  <span class="ml-1 text-xs">{{ lang.label }}</span>
+                </button>
+              </li>
+            </ul>
+          </transition>
           <button
             @click="toggleMobileMenu"
             class="p-2 rounded-lg flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black border-2 border-transparent transition-all duration-200"
@@ -210,7 +249,7 @@
             aria-label="Toggle mobile menu"
             aria-controls="mobile-menu"
           >
-            <!-- High contrast hamburger icon -->
+            <!-- Hamburger icon code here -->
             <div class="w-5 h-5 flex flex-col justify-center items-center">
               <span
                 class="block w-4 h-0.5 rounded transition-all duration-500 ease-out"
@@ -379,6 +418,7 @@
 
 <script setup lang="ts">
   import { ref, onMounted, onUnmounted } from 'vue'
+  import { useI18n } from 'vue-i18n';
 
   // Reactive state
   const isMobileMenuOpen = ref(false)
@@ -413,6 +453,23 @@
       href: '#faq',
     },
   ]
+
+  const { locale } = useI18n();
+  const languages = [
+    { label: 'EN', value: 'en', flag: 'gb' },
+    { label: 'FR', value: 'fr', flag: 'fr' },
+  ];
+  const showLangDropdown = ref(false);
+  function selectLanguage(val: string) {
+    locale.value = val;
+    showLangDropdown.value = false;
+  }
+  function toggleLangDropdown() {
+    showLangDropdown.value = !showLangDropdown.value;
+  }
+  function closeLangDropdown() {
+    showLangDropdown.value = false;
+  }
 
   // Methods
   const handleImageError = (event: Event) => {
@@ -610,5 +667,68 @@
   .dropdown-fade-scale-leave-to {
     opacity: 0;
     transform: scale(0.95) translateY(-10px);
+  }
+
+  .fade-slide-enter-active, .fade-slide-leave-active {
+    transition: opacity 0.2s, transform 0.2s;
+    transform-origin: top right;
+  }
+  .fade-slide-enter-from, .fade-slide-leave-to {
+    opacity: 0;
+    transform: scaleY(0.8) translateY(-8px);
+  }
+  .fade-slide-enter-to, .fade-slide-leave-from {
+    opacity: 1;
+    transform: scaleY(1) translateY(0);
+  }
+
+  .lang-switcher-btn {
+    border: none;
+    background: transparent;
+    color: #fff;
+    transition: color 0.2s;
+    min-width: 56px;
+    min-height: 36px;
+    font-weight: 400;
+    padding: 0.25rem 0.5rem;
+    box-sizing: border-box;
+    transform: none;
+    box-shadow: none;
+  }
+  .lang-switcher-btn:hover, .lang-switcher-btn:focus {
+    background: transparent;
+    color: #fbbf24;
+    border: none;
+    font-weight: 400;
+    transform: none;
+    box-shadow: none;
+  }
+  .flag-img {
+    vertical-align: middle;
+    transform: none;
+  }
+  .lang-dropdown-item {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-weight: 400;
+    padding: 0.25rem 0.5rem;
+    min-width: 100%;
+    min-height: 36px;
+    box-sizing: border-box;
+    transition: color 0.2s;
+    transform: none;
+    text-align: left;
+    box-shadow: none;
+    outline: none;
+  }
+  .lang-dropdown-item:hover, .lang-dropdown-item:focus {
+    background: transparent;
+    color: #fbbf24;
+    font-weight: 400;
+    border: none;
+    transform: none;
+    box-shadow: none;
+    outline: none;
   }
 </style>

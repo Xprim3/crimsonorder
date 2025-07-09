@@ -1,0 +1,10 @@
+{
+  "greeting": "Bonjour",
+  "auth": {
+    "login": "Connexion",
+    "logout": "Déconnexion"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue, {name}!"
+  }
+} 

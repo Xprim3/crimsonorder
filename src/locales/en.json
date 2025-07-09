@@ -1,0 +1,10 @@
+{
+  "greeting": "Hello",
+  "auth": {
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "welcome": "Welcome, {name}!"
+  }
+} 
