@@ -70,12 +70,6 @@
             >
               Nocturnal Legacy
             </h1>
-            <p
-              class="text-xs sm:text-sm lg:text-sm font-bold tracking-wide text-left"
-              style="color: #ffffff; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8)"
-            >
-              Rise of Kingdoms Elite
-            </p>
           </div>
         </a>
 
