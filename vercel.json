@@ -1,15 +1,15 @@
 {
   "headers": [
     {
-      "source": "/(.*)\\.(js|css|png|jpg|svg|woff2|ttf|eot|webp|ico)$",
+      "source": "/index.html",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        { "key": "Cache-Control", "value": "no-cache" }
       ]
     },
     {
-      "source": "/(.*)",
+      "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     }
   ]
