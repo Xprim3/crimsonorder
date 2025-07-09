@@ -80,9 +80,9 @@
         </a>
 
         <!-- Desktop Navigation and Language Switcher (LG and above) -->
-        <div class="hidden lg:flex items-center gap-3">
+        <div class="flex items-center gap-3">
           <nav
-            class="flex items-center space-x-2"
+            class="max-lg:hidden flex items-center space-x-2"
             role="navigation"
             aria-label="Main navigation"
           >
