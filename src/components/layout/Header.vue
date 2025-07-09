@@ -59,7 +59,7 @@
           <!-- Text Brand -->
           <div class="block">
             <h1
-              class="font-black text-base xs:text-lg sm:text-xl md:text-2xl lg:text-2xl tracking-widest uppercase text-left leading-tight"
+              class="font-black text-sm sm:text-base md:text-lg lg:text-xl tracking-widest uppercase text-left leading-tight"
               style="
                 color: #fbbf24;
                 text-shadow:
@@ -80,7 +80,7 @@
         </a>
 
         <!-- Desktop Navigation and Language Switcher (LG and above) -->
-        <div class="flex items-center gap-3">
+        <div class="hidden lg:flex items-center gap-3">
           <nav
             class="max-lg:hidden flex items-center space-x-2"
             role="navigation"
