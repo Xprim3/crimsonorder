@@ -214,7 +214,7 @@
           </div>
         </div>
         <!-- Mobile (left of hamburger) -->
-        <div class="lg:hidden flex items-center space-x-2 relative select-none">
+        <div class="lg:hidden flex items-center gap-x-[5px] relative select-none">
           <button @click="toggleLangDropdown" @blur="closeLangDropdown" class="lang-switcher-btn flex items-center justify-center w-20 min-w-[80px] max-w-[80px] px-2 py-1 rounded focus:outline-none">
             <img :src="`https://flagcdn.com/24x18/${languages.find(l => l.value === locale)?.flag}.png`" alt="flag" class="flag-img mr-2 w-4 h-4 rounded-sm object-cover" width="16" height="12" loading="lazy" />
             <svg class="ml-1 w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
