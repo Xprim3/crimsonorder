@@ -1,0 +1,23 @@
+{
+  "greeting": "Halo",
+  "auth": {
+    "login": "Masuk",
+    "logout": "Keluar"
+  },
+  "dashboard": {
+    "welcome": "Selamat datang, {name}!"
+  },
+  "nav": {
+    "home": "Beranda",
+    "crimsonFamily": "Keluarga Nocturnal",
+    "joinUs": "Bergabunglah dengan kami",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "leaveYour": "TINGGALKAN JEJAKMU",
+    "mark": "JEJAK",
+    "subheadline": "WARISAN • KELUARGA • KEABADIAN",
+    "description": "Namamu akan bergema sepanjang zaman. Bergabunglah dengan Nocturnal Legacy dan jadilah bagian dari keluarga yang legendanya akan diceritakan selama generasi. Ceritamu dimulai di sini.",
+    "cta": "TULIS CERITAMU"
+  }
+} 

@@ -1,0 +1,23 @@
+{
+  "greeting": "Merhaba",
+  "auth": {
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap"
+  },
+  "dashboard": {
+    "welcome": "Hoş geldin, {name}!"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "crimsonFamily": "Nocturnal Ailesi",
+    "joinUs": "Bize Katılın",
+    "faq": "SSS"
+  },
+  "hero": {
+    "leaveYour": "İZİNİ BIRAK",
+    "mark": "İZ",
+    "subheadline": "MİRAS • AİLE • ÖLÜMSÜZLÜK",
+    "description": "Adın çağlar boyunca yankılanacak. Nocturnal Legacy'ye katıl ve efsaneleri nesiller boyu anlatılacak bir ailenin parçası ol. Hikayen burada başlıyor.",
+    "cta": "HİKAYENİ YAZ"
+  }
+} 

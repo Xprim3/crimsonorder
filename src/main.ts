@@ -12,8 +12,8 @@ app.use(i18n)
 
 app.mount('#app')
 
-// Register service worker for offline functionality
-if ('serviceWorker' in navigator) {
+// Register service worker for offline functionality (only in production)
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('/sw.js').then(registration => {
       registration.onupdatefound = () => {

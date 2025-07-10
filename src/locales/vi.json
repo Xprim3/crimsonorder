@@ -1,0 +1,23 @@
+{
+  "greeting": "Xin chào",
+  "auth": {
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất"
+  },
+  "dashboard": {
+    "welcome": "Chào mừng, {name}!"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "crimsonFamily": "Gia đình Nocturnal",
+    "joinUs": "Tham gia với chúng tôi",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "leaveYour": "ĐỂ LẠI DẤU ẤN CỦA BẠN",
+    "mark": "DẤU ẤN",
+    "subheadline": "DI SẢN • GIA ĐÌNH • BẤT TỬ",
+    "description": "Tên của bạn sẽ vang vọng qua nhiều thế hệ. Tham gia Nocturnal Legacy và trở thành một phần của gia đình có truyền thuyết được kể mãi. Câu chuyện của bạn bắt đầu từ đây.",
+    "cta": "VIẾT CÂU CHUYỆN CỦA BẠN"
+  }
+} 

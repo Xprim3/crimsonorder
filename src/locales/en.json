@@ -6,5 +6,18 @@
   },
   "dashboard": {
     "welcome": "Welcome, {name}!"
+  },
+  "nav": {
+    "home": "Home",
+    "crimsonFamily": "Nocturnal Family",
+    "joinUs": "Join Us",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "leaveYour": "LEAVE YOUR",
+    "mark": "MARK",
+    "subheadline": "LEGACY • FAMILY • IMMORTALITY",
+    "description": "Your name will echo through the ages. Join the Nocturnal Legacy and become part of a family whose legends will be told for generations. Your story starts here.",
+    "cta": "WRITE YOUR STORY"
   }
 } 

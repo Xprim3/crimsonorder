@@ -1,0 +1,23 @@
+{
+  "greeting": "Hola",
+  "auth": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión"
+  },
+  "dashboard": {
+    "welcome": "Bienvenido, {name}!"
+  },
+  "nav": {
+    "home": "Inicio",
+    "crimsonFamily": "Familia Nocturna",
+    "joinUs": "Únete a nosotros",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "leaveYour": "DEJA TU",
+    "mark": "HUELLA",
+    "subheadline": "LEGADO • FAMILIA • INMORTALIDAD",
+    "description": "Tu nombre resonará a través de los siglos. Únete a Nocturnal Legacy y sé parte de una familia cuyas leyendas serán contadas por generaciones. Tu historia comienza aquí.",
+    "cta": "ESCRIBE TU HISTORIA"
+  }
+} 

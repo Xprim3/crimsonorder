@@ -6,5 +6,18 @@
   },
   "dashboard": {
     "welcome": "Bienvenue, {name}!"
+  },
+  "nav": {
+    "home": "Accueil",
+    "crimsonFamily": "Famille Nocturne",
+    "joinUs": "Rejoignez-nous",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "leaveYour": "LAISSEZ VOTRE",
+    "mark": "MARQUE",
+    "subheadline": "HÉRITAGE • FAMILLE • IMMORTALITÉ",
+    "description": "Votre nom résonnera à travers les âges. Rejoignez la Nocturnal Legacy et faites partie d'une famille dont les légendes seront racontées pendant des générations. Votre histoire commence ici.",
+    "cta": "ÉCRIVEZ VOTRE HISTOIRE"
   }
 } 

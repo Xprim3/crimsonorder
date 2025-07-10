@@ -26,7 +26,7 @@
         <!-- Logo/Brand -->
         <a
           href="/"
-          class="flex items-center space-x-2 sm:space-x-3 cursor-pointer mr-2 sm:mr-0"
+          class="flex items-center space-x-2 sm:space-x-3 cursor-pointer mr-2 sm:mr-0 focus:outline-none focus:ring-0 border-none"
           aria-label="Nocturnal Legacy Home"
         >
           <!-- Enhanced Nocturnal Legacy Emblem -->
@@ -356,7 +356,7 @@
         <div
           v-show="isMobileMenuOpen"
           id="mobile-menu"
-          class="lg:hidden absolute right-2 top-16 w-56 rounded-xl shadow-2xl py-3 z-50 max-h-96 overflow-y-auto"
+          class="lg:hidden absolute right-2 top-20 w-64 rounded-xl shadow-2xl py-3 z-50"
           style="
             background: rgba(0, 0, 0, 0.95);
             backdrop-filter: blur(16px);
@@ -376,12 +376,12 @@
               <a
                 :href="item.href"
                 @click="scrollToSection(item.href)"
-                class="font-bold px-4 py-3 rounded-lg border-l-4 border-transparent transition-all duration-300 ease-in-out flex items-center justify-between mx-2 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-inset"
+                class="font-bold px-4 py-3 rounded-lg border-l-4 border-transparent transition-all duration-300 ease-in-out flex items-center justify-start mx-2 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-inset text-left w-full"
                 style="color: #ffffff; background: rgba(31, 41, 55, 0.8)"
                 :style="{ '--hover-border': '#dc2626' }"
                 :aria-label="`Navigate to ${item.label} section`"
               >
-                <div class="flex items-center space-x-3">
+                <div class="flex items-center space-x-3 justify-start w-full">
                   <!-- Gaming Icons for Mobile -->
                   <span class="text-lg" aria-hidden="true">
                     <svg
@@ -489,7 +489,7 @@
 </template>
 
 <script setup lang="ts">
-  import { ref, onMounted, onUnmounted } from 'vue'
+  import { ref, onMounted, onUnmounted, computed } from 'vue'
   import { useI18n } from 'vue-i18n'
 
   // Reactive state
@@ -498,38 +498,44 @@
   let scrollTimeout: number | null = null
 
   // Navigation items
-  const navigationItems = [
+  const { t } = useI18n()
+  const navigationItems = computed(() => [
     {
       id: 'home',
-      label: 'Home',
+      label: t('nav.home'),
       href: '#home',
     },
     {
       id: 'crimson-family',
-      label: 'Nocturnal Family',
+      label: t('nav.crimsonFamily'),
       href: '#about',
     },
     // {
     //   id: 'kingdom',
-    //   label: 'Kingdom',
+    //   label: t('nav.kingdom'),
     //   href: '#kingdom',
     // },
     {
       id: 'join-us',
-      label: 'Join Us',
+      label: t('nav.joinUs'),
       href: '#join-family',
     },
     {
       id: 'faq',
-      label: 'FAQ',
+      label: t('nav.faq'),
       href: '#faq',
     },
-  ]
+  ])
 
   const { locale } = useI18n()
   const languages = [
     { label: 'EN', value: 'en', flag: 'gb' },
     { label: 'FR', value: 'fr', flag: 'fr' },
+    { label: 'ES', value: 'es', flag: 'es' },
+    { label: 'RU', value: 'ru', flag: 'ru' },
+    { label: 'VI', value: 'vi', flag: 'vn' },
+    { label: 'TR', value: 'tr', flag: 'tr' },
+    { label: 'ID', value: 'id', flag: 'id' },
   ]
   const showLangDropdown = ref(false)
   function selectLanguage(val: string) {

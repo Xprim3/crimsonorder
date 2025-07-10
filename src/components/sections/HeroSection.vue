@@ -65,14 +65,14 @@
                 0 0 20px rgba(220, 38, 38, 0.3);
             "
           >
-            LEAVE YOUR
+            {{ $t('hero.leaveYour') }}
           </span>
           <br />
           <span
             class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent"
             style="text-shadow: 0 0 15px rgba(251, 191, 36, 0.4)"
           >
-            MARK
+            {{ $t('hero.mark') }}
           </span>
         </h1>
 
@@ -84,15 +84,13 @@
               0 0 20px rgba(251, 191, 36, 0.3);
           "
         >
-          LEGACY • FAMILY • IMMORTALITY
+          {{ $t('hero.subheadline') }}
         </p>
 
         <p
           class="text-lg sm:text-xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed"
         >
-          Your name will echo through the ages. Join the Nocturnal Legacy and
-          become part of a family whose legends will be told for generations.
-          Your story starts here.
+          {{ $t('hero.description') }}
         </p>
       </div>
 
@@ -100,10 +98,10 @@
       <button
         @click="scrollToSection('#join-family')"
         class="group relative px-8 py-4 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg sm:text-xl rounded-lg border-2 border-yellow-500 shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-red-500/50 focus:outline-none focus:ring-4 focus:ring-red-500/50 focus:ring-offset-2 focus:ring-offset-black"
-        aria-label="Join the Nocturnal Legacy family"
+        :aria-label="$t('hero.cta')"
       >
         <span class="relative z-10 flex items-center space-x-2">
-          <span>WRITE YOUR STORY</span>
+          <span>{{ $t('hero.cta') }}</span>
         </span>
         <div
           class="absolute inset-0 bg-gradient-to-r from-red-500 to-red-700 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
