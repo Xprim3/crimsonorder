@@ -1,4 +1,5 @@
-const CACHE_NAME = 'nocturnal-legacy-v1.2'
+// sw.js - v2024-06-09-1
+const CACHE_NAME = 'nocturnal-legacy-v1.3' // Bumped version
 const API_CACHE_NAME = 'nocturnal-legacy-api-v1.0'
 const STATIC_CACHE_NAME = 'nocturnal-legacy-static-v1.0'
 
@@ -33,7 +34,7 @@ const CACHE_STRATEGIES = {
 
 // Install event - cache static assets
 self.addEventListener('install', (event) => {
-  console.log('Service Worker installing...')
+  console.log('Service Worker installing... [v2024-06-09-1]')
   event.waitUntil(
     Promise.all([
       caches.open(STATIC_CACHE_NAME).then((cache) => {
