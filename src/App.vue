@@ -11,6 +11,7 @@
   import { usePerformance } from './composables/usePerformance'
   import UpdateNotification from './components/UpdateNotification.vue'
   import { ref } from 'vue'
+  import DevTeamSection from './components/sections/DevTeamSection.vue'
 
   // Initialize performance monitoring
   const { isLoaded } = usePerformance()
@@ -25,6 +26,7 @@
       <AboutSection />
       <JoinSection />
       <JoinFamilySection />
+      <DevTeamSection />
       <FAQSection />
       <KingdomSection v-if="false" />
     </Layout>

@@ -253,5 +253,26 @@
   "loading": {
     "title": "Chargement de Nocturnal Legacy",
     "subtitle": "Préparation de votre expérience de jeu d'élite..."
+  },
+  "devTeam": {
+    "title": "Rencontrez les développeurs",
+    "subtitle": "L'équipe passionnée qui construit Nocturnal Legacy",
+    "members": [
+      {
+        "name": "Pryda",
+        "role": "Fondateur & Architecte principal",
+        "bio": "Leader visionnaire, concepteur de systèmes et passionné par la création de communautés légendaires."
+      },
+      {
+        "name": "BigBoss",
+        "role": "Ingénieur Full Stack",
+        "bio": "Développeur polyvalent maîtrisant le frontend et le backend, garantissant une intégration fluide sur toute la stack."
+      },
+      {
+        "name": "Codier",
+        "role": "Développeur Logiciel",
+        "bio": "Codeur créatif axé sur la création de solutions logicielles robustes et évolutives."
+      }
+    ]
   }
 } 

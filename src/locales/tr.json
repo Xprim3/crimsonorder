@@ -262,5 +262,26 @@
   "updateNotification": {
     "newVersion": "Yeni bir sürüm mevcut!",
     "refresh": "Yenile"
+  },
+  "devTeam": {
+    "title": "Geliştiricilerle Tanışın",
+    "subtitle": "Nocturnal Legacy'yi inşa eden tutkulu ekip",
+    "members": [
+      {
+        "name": "Pryda",
+        "role": "Kurucu & Baş Mimar",
+        "bio": "Vizyoner lider, sistem tasarımcısı ve efsanevi topluluklar inşa etmeye tutkulu."
+      },
+      {
+        "name": "BigBoss",
+        "role": "Full Stack Mühendisi",
+        "bio": "Hem frontend hem de backend konusunda yetkin, tüm katmanlarda sorunsuz entegrasyon sağlayan çok yönlü geliştirici."
+      },
+      {
+        "name": "Codier",
+        "role": "Yazılım Geliştirici",
+        "bio": "Sağlam ve ölçeklenebilir yazılım çözümleri geliştirmeye odaklanan yaratıcı bir yazılımcı."
+      }
+    ]
   }
 } 

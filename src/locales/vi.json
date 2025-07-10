@@ -238,5 +238,26 @@
   "loading": {
     "title": "Đang tải Nocturnal Legacy",
     "subtitle": "Đang chuẩn bị trải nghiệm game đỉnh cao cho bạn..."
+  },
+  "devTeam": {
+    "title": "Gặp gỡ các nhà phát triển",
+    "subtitle": "Đội ngũ đam mê xây dựng Nocturnal Legacy",
+    "members": [
+      {
+        "name": "Pryda",
+        "role": "Người sáng lập & Kiến trúc sư trưởng",
+        "bio": "Nhà lãnh đạo tầm nhìn, kiến trúc sư hệ thống và đam mê xây dựng cộng đồng huyền thoại."
+      },
+      {
+        "name": "BigBoss",
+        "role": "Kỹ sư Full Stack",
+        "bio": "Nhà phát triển đa năng thành thạo cả frontend và backend, đảm bảo tích hợp liền mạch trên toàn bộ hệ thống."
+      },
+      {
+        "name": "Codier",
+        "role": "Lập trình viên phần mềm",
+        "bio": "Lập trình viên sáng tạo tập trung xây dựng các giải pháp phần mềm mạnh mẽ và có khả năng mở rộng."
+      }
+    ]
   }
 } 

@@ -253,5 +253,26 @@
   "loading": {
     "title": "Loading Nocturnal Legacy",
     "subtitle": "Preparing your elite gaming experience..."
+  },
+  "devTeam": {
+    "title": "Meet the Developers",
+    "subtitle": "The passionate team building Nocturnal Legacy",
+    "members": [
+      {
+        "name": "Pryda",
+        "role": "Founder & Lead Architect",
+        "bio": "Visionary leader, system designer, and passionate about building legendary communities."
+      },
+      {
+        "name": "BigBoss",
+        "role": "Full Stack Engineer",
+        "bio": "Versatile developer skilled in both frontend and backend, ensuring seamless integration across the stack."
+      },
+      {
+        "name": "Codier",
+        "role": "Software Developer",
+        "bio": "Creative coder focused on building robust and scalable software solutions."
+      }
+    ]
   }
 } 

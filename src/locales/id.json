@@ -253,5 +253,26 @@
   "loading": {
     "title": "Memuat Nocturnal Legacy",
     "subtitle": "Menyiapkan pengalaman bermain elit Anda..."
+  },
+  "devTeam": {
+    "title": "Temui Para Pengembang",
+    "subtitle": "Tim penuh semangat yang membangun Nocturnal Legacy",
+    "members": [
+      {
+        "name": "Pryda",
+        "role": "Pendiri & Arsitek Utama",
+        "bio": "Pemimpin visioner, perancang sistem, dan bersemangat membangun komunitas legendaris."
+      },
+      {
+        "name": "BigBoss",
+        "role": "Insinyur Full Stack",
+        "bio": "Pengembang serba bisa yang mahir di frontend dan backend, memastikan integrasi mulus di seluruh stack."
+      },
+      {
+        "name": "Codier",
+        "role": "Pengembang Perangkat Lunak",
+        "bio": "Programmer kreatif yang berfokus pada pembangunan solusi perangkat lunak yang tangguh dan skalabel."
+      }
+    ]
   }
 } 

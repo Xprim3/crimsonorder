@@ -262,5 +262,26 @@
   "updateNotification": {
     "newVersion": "¡Una nueva versión está disponible!",
     "refresh": "Actualizar"
+  },
+  "devTeam": {
+    "title": "Conoce a los desarrolladores",
+    "subtitle": "El equipo apasionado que construye Nocturnal Legacy",
+    "members": [
+      {
+        "name": "Pryda",
+        "role": "Fundador y Arquitecto Principal",
+        "bio": "Líder visionario, diseñador de sistemas y apasionado por construir comunidades legendarias."
+      },
+      {
+        "name": "BigBoss",
+        "role": "Ingeniero Full Stack",
+        "bio": "Desarrollador versátil con habilidades en frontend y backend, asegurando una integración perfecta en toda la stack."
+      },
+      {
+        "name": "Codier",
+        "role": "Desarrollador de Software",
+        "bio": "Programador creativo enfocado en construir soluciones de software robustas y escalables."
+      }
+    ]
   }
 } 
