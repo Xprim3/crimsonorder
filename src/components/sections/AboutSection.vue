@@ -15,7 +15,7 @@
       <!-- Section Title -->
       <div class="text-center mb-12 lg:mb-16">
         <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-white">
-          About Nocturnal Legacy
+          {{ $t('about.title') }}
         </h2>
         <div
           class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"
@@ -42,34 +42,16 @@
                   0 0 20px rgba(220, 38, 38, 0.3);
               "
             >
-              The Legend of Nocturnal Legacy
+              {{ $t('about.legendTitle') }}
             </h3>
             <p class="text-lg sm:text-xl leading-relaxed text-gray-200 mb-6">
-              Born from the ashes of countless battles,
-              <span class="text-red-400 font-semibold">Nocturnal Legacy</span>
-              emerged as a beacon of hope in the chaotic world of Rise of
-              Kingdoms. What began as a small group of determined warriors has
-              evolved into a legendary family that commands respect across the
-              battlefield.
+              {{ $t('about.p1') }}
             </p>
             <p class="text-lg sm:text-xl leading-relaxed text-gray-200 mb-6">
-              Our story is one of
-              <span class="text-red-400 font-semibold">unbreakable bonds</span>,
-              <span class="text-red-400 font-semibold"
-                >strategic brilliance</span
-              >, and
-              <span class="text-red-400 font-semibold">unwavering loyalty</span
-              >. We've faced the mightiest kingdoms and emerged victorious, not
-              through sheer force, but through the power of unity and tactical
-              excellence.
+              {{ $t('about.p2') }}
             </p>
             <p class="text-lg sm:text-xl leading-relaxed text-gray-200">
-              Today, we stand as a testament to what can be achieved when
-              individual strength combines with collective purpose. We are not
-              just warriors—we are a
-              <span class="text-red-400 font-semibold"
-                >family forged in fire</span
-              >.
+              {{ $t('about.p3') }}
             </p>
           </div>
 
@@ -127,10 +109,10 @@
                 0 0 20px rgba(220, 38, 38, 0.3);
             "
           >
-            Nocturnal Leadership
+            {{ $t('about.leadershipTitle') }}
           </h3>
           <p class="text-lg text-gray-300 mt-6">
-            Commanders whose wisdom and experience guide our family to victory
+            {{ $t('about.leadershipSubtitle') }}
           </p>
         </div>
 
@@ -153,17 +135,16 @@
                 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Pryda
+                {{ $t('about.leaders.pryda.name') }}
               </h4>
               <p class="text-lg text-gray-300 mb-4">
-                Supreme Leader of Nocturnal Legacy
+                {{ $t('about.leaders.pryda.title') }}
               </p>
               <div class="text-sm text-yellow-300 mb-2 px-2">
-                Head of the entire Nocturnal Legacy family. Oversees strategy,
-                structure, and all final decisions.
+                {{ $t('about.leaders.pryda.desc') }}
               </div>
               <div class="text-yellow-300 text-sm font-semibold mb-2">
-                3 Years of Experience
+                {{ $t('about.leaders.pryda.exp') }}
               </div>
             </div>
 
@@ -183,18 +164,16 @@
                 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Verso
+                {{ $t('about.leaders.verso.name') }}
               </h4>
               <p class="text-lg text-gray-300 mb-4">
-                Chief Advisor of Nocturnal Legacy
+                {{ $t('about.leaders.verso.title') }}
               </p>
               <div class="text-sm text-yellow-300 mb-2 px-2">
-                Manages external diplomacy and alliance relations. Also
-                responsible for territory planning in KVK and home kingdom,
-                working closely with territory officers across the family.
+                {{ $t('about.leaders.verso.desc') }}
               </div>
               <div class="text-yellow-300 text-sm font-semibold mb-2">
-                8 Years of Experience
+                {{ $t('about.leaders.verso.exp') }}
               </div>
             </div>
           </div>
@@ -210,10 +189,10 @@
                 0 0 20px rgba(220, 38, 38, 0.3);
             "
           >
-            Alliance Commanders
+            {{ $t('about.leaders.allianceTitle') }}
           </h4>
           <p class="text-gray-300 text-sm">
-            Elite leaders who guide our specialized forces
+            {{ $t('about.leaders.allianceSubtitle') }}
           </p>
         </div>
 
@@ -235,14 +214,13 @@
               class="break-words text-2xl sm:text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              OldManChewy
+              {{ $t('about.leaders.oldmanchewy.name') }}
             </h4>
             <p class="text-lg text-gray-300 mb-4">
-              Leads the Blades alliance. Key decision-maker in family-wide
-              leadership and war planning.
+              {{ $t('about.leaders.oldmanchewy.desc') }}
             </p>
             <div class="text-yellow-300 text-sm font-semibold mb-2">
-              3 Years of Experience
+              {{ $t('about.leaders.oldmanchewy.exp') }}
             </div>
           </div>
 
@@ -261,14 +239,13 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Suad
+              {{ $t('about.leaders.suad.name') }}
             </h4>
             <p class="text-lg text-gray-300 mb-4">
-              Acts under Pryda's direct command. Executes high-priority tasks
-              with loyalty and precision.
+              {{ $t('about.leaders.suad.desc') }}
             </p>
             <div class="text-yellow-300 text-sm font-semibold mb-2">
-              2 Years of Experience
+              {{ $t('about.leaders.suad.exp') }}
             </div>
           </div>
 
@@ -287,14 +264,13 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Nox
+              {{ $t('about.leaders.nox.name') }}
             </h4>
             <p class="text-lg text-gray-300 mb-4">
-              Supports Chewy in operations and event execution. Fully involved
-              in leadership decisions across the family.
+              {{ $t('about.leaders.nox.desc') }}
             </p>
             <div class="text-yellow-300 text-sm font-semibold mb-2">
-              8 Years of Experience
+              {{ $t('about.leaders.nox.exp') }}
             </div>
           </div>
 
@@ -313,15 +289,13 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Draculla
+              {{ $t('about.leaders.draculla.name') }}
             </h4>
             <p class="text-lg text-gray-300 mb-4">
-              Oversees all alliances during events, tracks performance, gives
-              strategic support, and ensures the whole family pushes together
-              for top rankings and rewards.
+              {{ $t('about.leaders.draculla.desc') }}
             </p>
             <div class="text-yellow-300 text-sm font-semibold mb-2">
-              2 Years of Experience
+              {{ $t('about.leaders.draculla.exp') }}
             </div>
           </div>
 
@@ -340,14 +314,13 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Nyx
+              {{ $t('about.leaders.nyx.name') }}
             </h4>
             <p class="text-lg text-gray-300 mb-4">
-              Monitors all alliances for rule-breaking or internal issues.
-              Maintains order and reports to leadership.
+              {{ $t('about.leaders.nyx.desc') }}
             </p>
             <div class="text-yellow-300 text-sm font-semibold mb-2">
-              1 Year of Experience
+              {{ $t('about.leaders.nyx.exp') }}
             </div>
           </div>
 
@@ -366,15 +339,13 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Pyhrex
+              {{ $t('about.leaders.pyhrex.name') }}
             </h4>
             <p class="text-lg text-gray-300 mb-4">
-              Executes flag placement and tech planning for the family under
-              Verso's coordination. Key role in war prep, territory control and
-              research efficiency.
+              {{ $t('about.leaders.pyhrex.desc') }}
             </p>
             <div class="text-yellow-300 text-sm font-semibold mb-2">
-              4 Years of Experience
+              {{ $t('about.leaders.pyhrex.exp') }}
             </div>
           </div>
         </div>
@@ -391,14 +362,13 @@
                 0 0 20px rgba(220, 38, 38, 0.3);
             "
           >
-            Our Elite Alliances
+            {{ $t('about.eliteAlliances.title') }}
           </h3>
           <div
             class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"
           ></div>
           <p class="text-lg text-gray-300 max-w-3xl mx-auto mt-6">
-            Two legendary alliances working in perfect harmony to dominate
-            kingdoms and create an unstoppable force
+            {{ $t('about.eliteAlliances.subtitle') }}
           </p>
         </div>
 
@@ -434,13 +404,10 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-4 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Nocturnal Knights
+              {{ $t('about.knights.title') }}
             </h4>
             <p class="text-gray-300 leading-relaxed mb-6 text-lg">
-              The unbreakable shield of our family. These legendary defenders
-              have mastered the art of protecting what matters most. Their
-              cities stand as impenetrable fortresses, their resources flow like
-              rivers, and their support keeps the entire family strong.
+              {{ $t('about.knights.desc') }}
             </p>
 
             <!-- Alliance Stats -->
@@ -449,13 +416,13 @@
                 class="bg-red-800/30 rounded-xl p-4 border border-red-700/50"
               >
                 <div class="text-2xl font-bold text-yellow-300">144</div>
-                <div class="text-xs text-gray-400">Members</div>
+                <div class="text-xs text-gray-400">{{ $t('about.members') }}</div>
               </div>
               <div
                 class="bg-red-800/30 rounded-xl p-4 border border-red-700/50"
               >
                 <div class="text-2xl font-bold text-yellow-300">1</div>
-                <div class="text-xs text-gray-400">Rank</div>
+                <div class="text-xs text-gray-400">{{ $t('about.rank') }}</div>
               </div>
             </div>
 
@@ -465,12 +432,12 @@
               <span
                 class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
               >
-                Main Alliance
+                {{ $t('about.mainAlliance') }}
               </span>
               <span
                 class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
               >
-                Kingdom Leadership
+                {{ $t('about.kingdomLeadership') }}
               </span>
             </div>
 
@@ -590,13 +557,10 @@
               class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-4 group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400 transition-all duration-300"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Nocturnal Blades
+              {{ $t('about.blades.title') }}
             </h4>
             <p class="text-gray-300 leading-relaxed mb-6 text-lg">
-              The swift spear of our family. These elite attackers strike with
-              precision and speed that leaves enemies in awe. Their rally
-              coordination is unmatched, their territory control is absolute,
-              and their strategic strikes change the course of wars.
+              {{ $t('about.blades.desc') }}
             </p>
 
             <!-- Alliance Stats -->
@@ -618,14 +582,8 @@
             <div
               class="flex flex-wrap justify-center gap-2 text-xs text-gray-400 mb-8"
             >
-              <span
-                class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
-                >Top 2 Alliance</span
-              >
-              <span
-                class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
-                >Territory Control</span
-              >
+              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Top 2 Alliance</span>
+              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Territory Control</span>
             </div>
 
             <!-- Alliance Leadership -->
@@ -730,12 +688,10 @@
                 0 0 20px rgba(220, 38, 38, 0.3);
             "
           >
-            Our Family Culture
+            {{ $t('about.familyCulture.title') }}
           </h3>
           <p class="text-lg text-gray-300 max-w-4xl mx-auto mt-6">
-            Beyond the battlefield, Nocturnal Legacy is built on values that
-            create lasting bonds and legendary achievements. Our culture is the
-            foundation of our success and the reason we remain undefeated.
+            {{ $t('about.familyCulture.description') }}
           </p>
         </div>
 
@@ -755,14 +711,12 @@
               class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold mb-2 lg:mb-3 text-center text-lg lg:text-xl"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Unity
+              {{ $t('about.familyCulture.values.unity') }}
             </h4>
             <p
               class="text-gray-300 text-xs lg:text-sm leading-relaxed text-center"
             >
-              We believe that individual strength is amplified when combined
-              with collective purpose. Every member contributes to our shared
-              success.
+              {{ $t('about.familyCulture.values.unityDescription') }}
             </p>
           </div>
 
@@ -778,13 +732,12 @@
               class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold mb-2 lg:mb-3 text-center text-lg lg:text-xl"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Strategy
+              {{ $t('about.familyCulture.values.strategy') }}
             </h4>
             <p
               class="text-gray-300 text-xs lg:text-sm leading-relaxed text-center"
             >
-              Every battle is won before it begins. We value strategic thinking,
-              careful planning, and tactical execution over brute force.
+              {{ $t('about.familyCulture.values.strategyDescription') }}
             </p>
           </div>
 
@@ -800,14 +753,12 @@
               class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold mb-2 lg:mb-3 text-center text-lg lg:text-xl"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Excellence
+              {{ $t('about.familyCulture.values.excellence') }}
             </h4>
             <p
               class="text-gray-300 text-xs lg:text-sm leading-relaxed text-center"
             >
-              We strive for excellence in everything we do. From individual
-              performance to alliance coordination, we never settle for anything
-              less than the best.
+              {{ $t('about.familyCulture.values.excellenceDescription') }}
             </p>
           </div>
         </div>
@@ -830,7 +781,7 @@
                 class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold text-xl lg:text-2xl"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Family Rules
+                {{ $t('about.familyCulture.rules.title') }}
               </h4>
             </div>
             <div class="space-y-3 lg:space-y-4">
@@ -843,10 +794,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Prioritize Family Unity
+                    {{ $t('about.familyCulture.rules.rule1.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    Always put the family's success above individual glory
+                    {{ $t('about.familyCulture.rules.rule1.description') }}
                   </div>
                 </div>
               </div>
@@ -859,10 +810,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Follow Leadership
+                    {{ $t('about.familyCulture.rules.rule2.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    Execute leadership directives without question
+                    {{ $t('about.familyCulture.rules.rule2.description') }}
                   </div>
                 </div>
               </div>
@@ -875,10 +826,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Active Participation
+                    {{ $t('about.familyCulture.rules.rule3.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    Maintain consistent involvement in alliance activities
+                    {{ $t('about.familyCulture.rules.rule3.description') }}
                   </div>
                 </div>
               </div>
@@ -891,10 +842,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Respect All Members
+                    {{ $t('about.familyCulture.rules.rule4.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    Treat every family member with dignity regardless of rank
+                    {{ $t('about.familyCulture.rules.rule4.description') }}
                   </div>
                 </div>
               </div>
@@ -907,10 +858,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Maintain Secrecy
+                    {{ $t('about.familyCulture.rules.rule5.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    Never share family strategies with outsiders
+                    {{ $t('about.familyCulture.rules.rule5.description') }}
                   </div>
                 </div>
               </div>
@@ -923,10 +874,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Resource Sharing
+                    {{ $t('about.familyCulture.rules.rule6.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    Contribute to family support and resource distribution
+                    {{ $t('about.familyCulture.rules.rule6.description') }}
                   </div>
                 </div>
               </div>
@@ -947,7 +898,7 @@
                 class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold text-xl lg:text-2xl"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Our Principles
+                {{ $t('about.familyCulture.principles.title') }}
               </h4>
             </div>
             <div class="space-y-3 lg:space-y-4">
@@ -960,10 +911,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Collective Intelligence
+                    {{ $t('about.familyCulture.principles.principle1.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    We value the power of many minds over individual brilliance
+                    {{ $t('about.familyCulture.principles.principle1.description') }}
                   </div>
                 </div>
               </div>
@@ -976,10 +927,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Every Member Matters
+                    {{ $t('about.familyCulture.principles.principle2.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    Each person contributes uniquely to our success
+                    {{ $t('about.familyCulture.principles.principle2.description') }}
                   </div>
                 </div>
               </div>
@@ -992,10 +943,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Learn & Adapt
+                    {{ $t('about.familyCulture.principles.principle3.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    We grow stronger from every battle, win or lose
+                    {{ $t('about.familyCulture.principles.principle3.description') }}
                   </div>
                 </div>
               </div>
@@ -1008,10 +959,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Loyalty & Trust
+                    {{ $t('about.familyCulture.principles.principle4.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    These are the unbreakable bonds that make us strong
+                    {{ $t('about.familyCulture.principles.principle4.description') }}
                   </div>
                 </div>
               </div>
@@ -1024,10 +975,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Protect Our Own
+                    {{ $t('about.familyCulture.principles.principle5.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    We never abandon family members in need
+                    {{ $t('about.familyCulture.principles.principle5.description') }}
                   </div>
                 </div>
               </div>
@@ -1040,10 +991,10 @@
                 >
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold text-sm lg:text-base">
-                    Dedication to Excellence
+                    {{ $t('about.familyCulture.principles.principle6.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    We achieve greatness through practice and commitment
+                    {{ $t('about.familyCulture.principles.principle6.description') }}
                   </div>
                 </div>
               </div>
@@ -1067,38 +1018,38 @@
                 class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold text-lg lg:text-xl"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Family Traditions
+                {{ $t('about.familyCulture.traditions.title') }}
               </h4>
             </div>
             <div class="space-y-2 lg:space-y-3">
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >Daily training sessions and strategy meetings</span
+                  >{{ $t('about.familyCulture.traditions.tradition1.text') }}</span
                 >
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >Weekly recognition of outstanding members</span
+                  >{{ $t('about.familyCulture.traditions.tradition2.text') }}</span
                 >
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >Monthly family gatherings and celebrations</span
+                  >{{ $t('about.familyCulture.traditions.tradition3.text') }}</span
                 >
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >Knowledge sharing and mentorship programs</span
+                  >{{ $t('about.familyCulture.traditions.tradition4.text') }}</span
                 >
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >Seasonal tournaments and competitions</span
+                  >{{ $t('about.familyCulture.traditions.tradition5.text') }}</span
                 >
               </div>
             </div>
@@ -1118,38 +1069,38 @@
                 class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold text-lg lg:text-xl"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Member Benefits
+                {{ $t('about.familyCulture.benefits.title') }}
               </h4>
             </div>
             <div class="space-y-2 lg:space-y-3">
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >Access to elite training and strategies</span
+                  >{{ $t('about.familyCulture.benefits.benefit1.text') }}</span
                 >
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >24/7 support from experienced members</span
+                  >{{ $t('about.familyCulture.benefits.benefit2.text') }}</span
                 >
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >Priority access to alliance resources</span
+                  >{{ $t('about.familyCulture.benefits.benefit3.text') }}</span
                 >
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >Recognition and advancement opportunities</span
+                  >{{ $t('about.familyCulture.benefits.benefit4.text') }}</span
                 >
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
                 <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >Global network of skilled players</span
+                  >{{ $t('about.familyCulture.benefits.benefit5.text') }}</span
                 >
               </div>
             </div>

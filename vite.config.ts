@@ -46,6 +46,9 @@ export default defineConfig({
   server: {
     port: 3000,
     host: true,
+    headers: {
+      'Cache-Control': 'no-store',
+    },
   },
   // Optimize preview server
   preview: {

@@ -19,5 +19,224 @@
     "subheadline": "DI SẢN • GIA ĐÌNH • BẤT TỬ",
     "description": "Tên của bạn sẽ vang vọng qua nhiều thế hệ. Tham gia Nocturnal Legacy và trở thành một phần của gia đình có truyền thuyết được kể mãi. Câu chuyện của bạn bắt đầu từ đây.",
     "cta": "VIẾT CÂU CHUYỆN CỦA BẠN"
+  },
+  "about": {
+    "title": "Về Nocturnal Legacy",
+    "legendTitle": "Huyền Thoại Nocturnal Legacy",
+    "p1": "Được sinh ra từ tro tàn của vô số trận chiến, Nocturnal Legacy đã trở thành ngọn hải đăng hy vọng trong thế giới hỗn loạn của Rise of Kingdoms. Những gì bắt đầu là một nhóm nhỏ các chiến binh quyết tâm đã phát triển thành một gia đình huyền thoại được kính trọng trên chiến trường.",
+    "p2": "Câu chuyện của chúng tôi là về những mối liên kết không thể phá vỡ, sự xuất sắc trong chiến lược và lòng trung thành kiên định. Chúng tôi đã đối mặt với những vương quốc hùng mạnh nhất và giành chiến thắng, không phải nhờ sức mạnh thuần túy mà nhờ sức mạnh của sự đoàn kết và xuất sắc trong chiến thuật.",
+    "p3": "Ngày nay, chúng tôi là minh chứng cho những gì có thể đạt được khi sức mạnh cá nhân kết hợp với mục tiêu chung. Chúng tôi không chỉ là những chiến binh—chúng tôi là một gia đình được tôi luyện trong lửa.",
+    "leadershipTitle": "Ban Lãnh Đạo Nocturnal",
+    "leadershipSubtitle": "Những chỉ huy có trí tuệ và kinh nghiệm dẫn dắt gia đình chúng ta đến chiến thắng",
+    "leaders": {
+      "pryda": {
+        "name": "Pryda",
+        "title": "Lãnh Đạo Tối Cao của Nocturnal Legacy",
+        "desc": "Đứng đầu toàn bộ gia đình Nocturnal Legacy. Giám sát chiến lược, cấu trúc và tất cả các quyết định cuối cùng.",
+        "exp": "3 năm kinh nghiệm"
+      },
+      "verso": {
+        "name": "Verso",
+        "title": "Cố Vấn Trưởng của Nocturnal Legacy",
+        "desc": "Quản lý ngoại giao và quan hệ liên minh. Cũng chịu trách nhiệm lập kế hoạch lãnh thổ trong KVK và vương quốc chính, phối hợp chặt chẽ với các sĩ quan lãnh thổ trong toàn gia đình.",
+        "exp": "8 năm kinh nghiệm"
+      },
+      "allianceTitle": "Chỉ Huy Liên Minh",
+      "allianceSubtitle": "Những lãnh đạo ưu tú dẫn dắt lực lượng chuyên biệt của chúng ta",
+      "oldmanchewy": {
+        "name": "OldManChewy",
+        "desc": "Dẫn dắt liên minh Blades. Người quyết định chính trong lãnh đạo và lập kế hoạch chiến tranh của gia đình.",
+        "exp": "3 năm kinh nghiệm"
+      },
+      "suad": {
+        "name": "Suad",
+        "desc": "Hành động dưới sự chỉ đạo trực tiếp của Pryda. Thực hiện các nhiệm vụ ưu tiên với lòng trung thành và sự chính xác.",
+        "exp": "2 năm kinh nghiệm"
+      },
+      "nox": {
+        "name": "Nox",
+        "desc": "Hỗ trợ Chewy trong các hoạt động và tổ chức sự kiện. Tham gia đầy đủ vào các quyết định lãnh đạo của gia đình.",
+        "exp": "8 năm kinh nghiệm"
+      },
+      "draculla": {
+        "name": "Draculla",
+        "desc": "Giám sát tất cả các liên minh trong các sự kiện, theo dõi hiệu suất, hỗ trợ chiến lược và đảm bảo cả gia đình cùng hướng tới thứ hạng và phần thưởng cao nhất.",
+        "exp": "2 năm kinh nghiệm"
+      },
+      "nyx": {
+        "name": "Nyx",
+        "desc": "Giám sát tất cả các liên minh để phát hiện vi phạm hoặc vấn đề nội bộ. Duy trì trật tự và báo cáo cho ban lãnh đạo.",
+        "exp": "1 năm kinh nghiệm"
+      },
+      "pyhrex": {
+        "name": "Pyhrex",
+        "desc": "Thực hiện đặt cờ và lập kế hoạch công nghệ cho gia đình dưới sự phối hợp của Verso. Vai trò then chốt trong chuẩn bị chiến tranh, kiểm soát lãnh thổ và hiệu quả nghiên cứu.",
+        "exp": "4 năm kinh nghiệm"
+      }
+    },
+    "eliteAlliances": {
+      "title": "Liên minh Ưu tú của Chúng tôi",
+      "subtitle": "Hai liên minh huyền thoại phối hợp hoàn hảo để thống trị các vương quốc và tạo nên một thế lực không thể ngăn cản"
+    },
+    "knights": {
+      "title": "Hiệp sĩ Bóng đêm",
+      "desc": "Lá chắn bất khả chiến bại của gia đình chúng ta. Những người bảo vệ huyền thoại này đã làm chủ nghệ thuật bảo vệ những gì quan trọng nhất. Thành phố của họ là những pháo đài bất khả xâm phạm, tài nguyên dồi dào như sông, và sự hỗ trợ của họ giữ cho cả gia đình luôn vững mạnh."
+    },
+    "blades": {
+      "title": "Lưỡi kiếm Bóng đêm",
+      "desc": "Thanh kiếm không khoan nhượng của gia đình chúng ta. Những chiến binh huyền thoại này tấn công với sự chính xác và dũng cảm vô song. Chiến thắng của họ truyền cảm hứng cho gia đình, chiến thuật của họ định hình vận mệnh chúng ta, và sự đoàn kết của họ rèn nên con đường đến vinh quang."
+    },
+    "members": "Thành viên",
+    "rank": "Hạng",
+    "mainAlliance": "Liên minh chính",
+    "kingdomLeadership": "Lãnh đạo vương quốc",
+    "familyCulture": {
+      "title": "Văn hóa Gia đình của Chúng tôi",
+      "description": "Vượt ra ngoài chiến trường, Nocturnal Legacy được xây dựng trên những giá trị tạo nên sự gắn kết lâu dài và thành tựu huyền thoại. Văn hóa của chúng tôi là nền tảng cho thành công và lý do chúng tôi luôn bất bại.",
+      "values": {
+        "unity": "Đoàn kết",
+        "unityDescription": "Chúng tôi tin rằng sức mạnh cá nhân được tăng lên khi kết hợp với mục tiêu chung. Mỗi thành viên đều đóng góp vào thành công chung của chúng ta.",
+        "strategy": "Chiến lược",
+        "strategyDescription": "Mỗi trận chiến đều được quyết định trước khi bắt đầu. Chúng tôi coi trọng tư duy chiến lược, lập kế hoạch cẩn thận và thực hiện chiến thuật hơn là sức mạnh đơn thuần.",
+        "excellence": "Xuất sắc",
+        "excellenceDescription": "Chúng tôi luôn hướng tới sự xuất sắc trong mọi việc. Từ thành tích cá nhân đến phối hợp liên minh, chúng tôi không bao giờ chấp nhận điều gì kém hơn tốt nhất."
+      },
+      "rules": {
+        "title": "Quy tắc Gia đình",
+        "rule1": {"text": "Ưu tiên sự đoàn kết gia đình", "description": "Luôn đặt thành công của gia đình lên trên vinh quang cá nhân"},
+        "rule2": {"text": "Tuân theo lãnh đạo", "description": "Thực hiện chỉ đạo của lãnh đạo mà không thắc mắc"},
+        "rule3": {"text": "Tham gia tích cực", "description": "Duy trì sự tham gia đều đặn vào các hoạt động của liên minh"},
+        "rule4": {"text": "Tôn trọng tất cả thành viên", "description": "Đối xử với mọi thành viên trong gia đình bằng sự tôn trọng, bất kể cấp bậc"},
+        "rule5": {"text": "Giữ bí mật", "description": "Không bao giờ chia sẻ chiến lược của gia đình với người ngoài"},
+        "rule6": {"text": "Chia sẻ tài nguyên", "description": "Đóng góp vào sự hỗ trợ và phân phối tài nguyên cho gia đình"}
+      },
+      "principles": {
+        "title": "Nguyên tắc của Chúng tôi",
+        "principle1": {"text": "Trí tuệ tập thể", "description": "Chúng tôi coi trọng sức mạnh của nhiều bộ óc hơn là sự xuất sắc cá nhân"},
+        "principle2": {"text": "Mỗi thành viên đều quan trọng", "description": "Mỗi người đều đóng góp một cách độc đáo vào thành công của chúng ta"},
+        "principle3": {"text": "Học hỏi & Thích nghi", "description": "Chúng tôi mạnh mẽ hơn sau mỗi trận chiến, dù thắng hay thua"},
+        "principle4": {"text": "Trung thành & Tin tưởng", "description": "Đây là những mối liên kết không thể phá vỡ giúp chúng ta mạnh mẽ hơn"},
+        "principle5": {"text": "Bảo vệ người thân", "description": "Chúng tôi không bao giờ bỏ rơi thành viên gia đình khi gặp khó khăn"},
+        "principle6": {"text": "Cống hiến cho sự xuất sắc", "description": "Chúng tôi đạt được thành tựu nhờ luyện tập và cam kết"}
+      },
+      "traditions": {
+        "title": "Truyền thống Gia đình",
+        "tradition1": {"text": "Các buổi huấn luyện và họp chiến lược hàng ngày"},
+        "tradition2": {"text": "Vinh danh thành viên xuất sắc hàng tuần"},
+        "tradition3": {"text": "Họp mặt và lễ hội gia đình hàng tháng"},
+        "tradition4": {"text": "Chia sẻ kiến thức và chương trình cố vấn"},
+        "tradition5": {"text": "Giải đấu và cuộc thi theo mùa"}
+      },
+      "benefits": {
+        "title": "Quyền lợi Thành viên",
+        "benefit1": {"text": "Truy cập huấn luyện và chiến lược đỉnh cao"},
+        "benefit2": {"text": "Hỗ trợ 24/7 từ các thành viên giàu kinh nghiệm"},
+        "benefit3": {"text": "Ưu tiên tiếp cận tài nguyên liên minh"},
+        "benefit4": {"text": "Ghi nhận và cơ hội thăng tiến"},
+        "benefit5": {"text": "Mạng lưới người chơi tài năng toàn cầu"}
+      }
+    },
+    "answerCall": {
+      "title": "Hãy Đáp Lời Kêu Gọi",
+      "subtitle": "Sẵn sàng gia nhập hàng ngũ tinh hoa?",
+      "description": "Bạn đã sẵn sàng trở thành một phần của điều gì đó lớn lao hơn chính mình chưa? Nocturnal Legacy tìm kiếm những chiến binh coi trọng lòng trung thành, chiến lược và gia đình trên hết."
+    }
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "subtitle": "Tất cả những gì bạn cần biết về việc gia nhập gia đình huyền thoại Nocturnal Legacy",
+    "questions": [
+      {
+        "q": "Nếu tôi không đủ sức mạnh thì sao?",
+        "a": "Chúng tôi xem xét các thành viên xuất sắc theo từng trường hợp. Hãy liên hệ với ban lãnh đạo để thảo luận về tình huống và ngoại lệ của bạn."
+      },
+      {
+        "q": "Thời gian thử thách kéo dài bao lâu?",
+        "a": "Thời gian thử thách thường kéo dài 1-2 tuần, tùy vào mức độ hoạt động và sự hòa nhập của bạn với gia đình."
+      },
+      {
+        "q": "Tôi có cần rời liên minh hiện tại không?",
+        "a": "Có, bạn cần rời liên minh hiện tại trước khi gia nhập chúng tôi. Chúng tôi sẽ hướng dẫn bạn từng bước."
+      },
+      {
+        "q": "Nếu tôi không thể hoạt động hàng ngày thì sao?",
+        "a": "Chúng tôi hiểu cuộc sống thực luôn quan trọng hơn. Hãy thông báo cho ban lãnh đạo về bất kỳ vắng mặt nào và duy trì mức độ hoạt động hợp lý."
+      },
+      {
+        "q": "Tôi có thể chọn liên minh muốn tham gia không?",
+        "a": "Ban lãnh đạo sẽ đề xuất liên minh phù hợp nhất dựa trên phong cách chơi và nhu cầu hiện tại của chúng tôi."
+      },
+      {
+        "q": "Nếu tôi bị từ chối thì sao?",
+        "a": "Bạn có thể đăng ký lại sau 30 ngày. Hãy sử dụng phản hồi để cải thiện và thử lại."
+      },
+      {
+        "q": "Có bắt buộc phải dùng Discord không?",
+        "a": "Có, Discord là bắt buộc để giao tiếp, phối hợp và cập nhật các sự kiện của gia đình."
+      },
+      {
+        "q": "Lợi ích khi tham gia là gì?",
+        "a": "Bảo vệ ưu tú, huấn luyện chiến lược, tài nguyên dồi dào, chiến thắng liên tục, cộng đồng năng động và hỗ trợ cá nhân hóa."
+      }
+    ]
+  },
+  "join": {
+    "requirementsTitle": "Yêu cầu để tham gia",
+    "requirementsSubtitle": "Chúng tôi tìm kiếm gì ở các thành viên tiềm năng",
+    "requirements": {
+      "combat": {
+        "title": "Kinh nghiệm chiến đấu",
+        "desc": "Tối thiểu 50 triệu lực chiến với kinh nghiệm thực chiến đã được chứng minh. Chúng tôi đề cao chất lượng hơn số lượng."
+      },
+      "active": {
+        "title": "Tham gia tích cực",
+        "desc": "Yêu cầu hoạt động hàng ngày. Chúng tôi cần những chiến binh tận tâm với mục tiêu chung."
+      },
+      "team": {
+        "title": "Làm việc nhóm",
+        "desc": "Phải phối hợp tốt với người khác và tuân thủ chỉ đạo của lãnh đạo mà không thắc mắc."
+      },
+      "loyalty": {
+        "title": "Trung thành",
+        "desc": "Trung thành tuyệt đối với gia đình. Không có tiền sử phản bội hoặc hành vi không danh dự."
+      },
+      "communication": {
+        "title": "Giao tiếp",
+        "desc": "Phải tham gia Discord và duy trì liên lạc tích cực với gia đình."
+      },
+      "resources": {
+        "title": "Chia sẻ tài nguyên",
+        "desc": "Sẵn sàng đóng góp cho các chương trình hỗ trợ và phân phối tài nguyên của gia đình."
+      }
+    },
+    "contactLeaders": "Liên hệ Ban Lãnh Đạo",
+    "readyToJoin": "Sẵn sàng tham gia? Liên hệ với chúng tôi ngay!",
+    "telegram": "Tham gia Telegram",
+    "discordBtn": "Tham gia Discord",
+    "inGame": "Trong game:",
+    "discord": "Discord:",
+    "leaders": {
+      "pryda": "Pryda - Lãnh Đạo Tối Cao",
+      "verso": "Verso - Cố Vấn Trưởng",
+      "nox": "Nox - Lãnh Đạo Lưỡi Kiếm",
+      "suad": "Suad - Quản lý"
+    },
+    "howToTitle": "Cách gia nhập gia đình chúng tôi",
+    "howToSubtitle": "Làm theo các bước sau để bắt đầu hành trình cùng Nocturnal Legacy",
+    "steps": [
+      { "title": "Liên hệ Ban Lãnh Đạo", "desc": "Liên hệ với lãnh đạo qua Discord hoặc trò chuyện trong game để bày tỏ nguyện vọng" },
+      { "title": "Phỏng vấn ban đầu", "desc": "Tham gia phỏng vấn ngắn để trao đổi về kinh nghiệm và mức độ cam kết của bạn" },
+      { "title": "Thời gian thử thách", "desc": "Tham gia làm thành viên thử thách 1-2 tuần để chứng minh giá trị và sự cam kết" },
+      { "title": "Thành viên chính thức", "desc": "Sau khi được duyệt, bạn sẽ nhận đủ quyền lợi và truy cập tài nguyên của gia đình" },
+      { "title": "Bắt đầu hành trình", "desc": "Bắt đầu hành trình huyền thoại cùng gia đình Nocturnal Legacy" }
+    ]
+  },
+  "updateNotification": {
+    "newVersion": "Có phiên bản mới!",
+    "refresh": "Làm mới"
+  },
+  "loading": {
+    "title": "Đang tải Nocturnal Legacy",
+    "subtitle": "Đang chuẩn bị trải nghiệm game đỉnh cao cho bạn..."
   }
 } 

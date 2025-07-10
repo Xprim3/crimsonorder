@@ -19,5 +19,239 @@
     "subheadline": "HÉRITAGE • FAMILLE • IMMORTALITÉ",
     "description": "Votre nom résonnera à travers les âges. Rejoignez la Nocturnal Legacy et faites partie d'une famille dont les légendes seront racontées pendant des générations. Votre histoire commence ici.",
     "cta": "ÉCRIVEZ VOTRE HISTOIRE"
+  },
+  "about": {
+    "title": "À propos de Nocturnal Legacy",
+    "legendTitle": "La Légende de Nocturnal Legacy",
+    "p1": "Née des cendres d'innombrables batailles, Nocturnal Legacy est apparue comme un phare d'espoir dans le monde chaotique de Rise of Kingdoms. Ce qui a commencé comme un petit groupe de guerriers déterminés est devenu une famille légendaire respectée sur le champ de bataille.",
+    "p2": "Notre histoire est faite de liens indestructibles, de brillance stratégique et de loyauté inébranlable. Nous avons affronté les royaumes les plus puissants et en sommes sortis victorieux, non par la force brute, mais grâce à l'unité et à l'excellence tactique.",
+    "p3": "Aujourd'hui, nous sommes la preuve de ce qui peut être accompli lorsque la force individuelle se combine avec un objectif commun. Nous ne sommes pas seulement des guerriers—nous sommes une famille forgée dans le feu.",
+    "leadershipTitle": "Direction Nocturne",
+    "leadershipSubtitle": "Des commandants dont la sagesse et l'expérience guident notre famille vers la victoire",
+    "leaders": {
+      "pryda": {
+        "name": "Pryda",
+        "title": "Chef Suprême de Nocturnal Legacy",
+        "desc": "Chef de toute la famille Nocturnal Legacy. Supervise la stratégie, la structure et toutes les décisions finales.",
+        "exp": "3 ans d'expérience"
+      },
+      "verso": {
+        "name": "Verso",
+        "title": "Conseiller en Chef de Nocturnal Legacy",
+        "desc": "Gère la diplomatie externe et les relations d'alliance. Responsable également de la planification du territoire en KVK et dans le royaume d'origine, en collaboration avec les officiers du territoire de toute la famille.",
+        "exp": "8 ans d'expérience"
+      },
+      "allianceTitle": "Commandants d'Alliance",
+      "allianceSubtitle": "Des leaders d'élite qui guident nos forces spécialisées",
+      "oldmanchewy": {
+        "name": "OldManChewy",
+        "desc": "Dirige l'alliance Blades. Décideur clé dans la direction et la planification des guerres de la famille.",
+        "exp": "3 ans d'expérience"
+      },
+      "suad": {
+        "name": "Suad",
+        "desc": "Agit sous le commandement direct de Pryda. Exécute des tâches prioritaires avec loyauté et précision.",
+        "exp": "2 ans d'expérience"
+      },
+      "nox": {
+        "name": "Nox",
+        "desc": "Soutient Chewy dans les opérations et l'organisation d'événements. Impliqué dans toutes les décisions de direction de la famille.",
+        "exp": "8 ans d'expérience"
+      },
+      "draculla": {
+        "name": "Draculla",
+        "desc": "Supervise toutes les alliances lors des événements, suit les performances, apporte un soutien stratégique et veille à ce que toute la famille vise les meilleures places et récompenses.",
+        "exp": "2 ans d'expérience"
+      },
+      "nyx": {
+        "name": "Nyx",
+        "desc": "Surveille toutes les alliances pour détecter les infractions ou problèmes internes. Maintient l'ordre et fait rapport à la direction.",
+        "exp": "1 an d'expérience"
+      },
+      "pyhrex": {
+        "name": "Pyhrex",
+        "desc": "Gère le placement des drapeaux et la planification technologique pour la famille sous la coordination de Verso. Rôle clé dans la préparation à la guerre, le contrôle du territoire et l'efficacité de la recherche.",
+        "exp": "4 ans d'expérience"
+      }
+    },
+    "eliteAlliances": {
+      "title": "Nos Alliances d'Élite",
+      "subtitle": "Deux alliances légendaires œuvrant en parfaite harmonie pour dominer les royaumes et créer une force irrésistible"
+    },
+    "knights": {
+      "title": "Chevaliers Nocturnes",
+      "desc": "Le bouclier incassable de notre famille. Ces défenseurs légendaires ont maîtrisé l'art de protéger ce qui compte le plus. Leurs cités sont des forteresses imprenables, leurs ressources coulent à flot, et leur soutien maintient toute la famille forte."
+    },
+    "blades": {
+      "title": "Lames Nocturnes",
+      "desc": "L'épée implacable de notre famille. Ces guerriers légendaires frappent avec une précision et un courage inégalés. Leurs victoires inspirent la famille, leurs tactiques façonnent notre destin, et leur unité forge notre chemin vers la grandeur."
+    },
+    "members": "Membres",
+    "rank": "Rang",
+    "mainAlliance": "Alliance Principale",
+    "kingdomLeadership": "Direction du Royaume",
+    "familyCulture": {
+      "title": "Notre Culture Familiale",
+      "description": "Au-delà du champ de bataille, Nocturnal Legacy repose sur des valeurs qui créent des liens durables et des exploits légendaires. Notre culture est le fondement de notre succès et la raison pour laquelle nous restons invaincus.",
+      "values": {
+        "unity": "Unité",
+        "unityDescription": "Nous croyons que la force individuelle est amplifiée lorsqu'elle est combinée à un objectif commun. Chaque membre contribue à notre succès collectif.",
+        "strategy": "Stratégie",
+        "strategyDescription": "Chaque bataille est gagnée avant même de commencer. Nous valorisons la réflexion stratégique, la planification minutieuse et l'exécution tactique plutôt que la force brute.",
+        "excellence": "Excellence",
+        "excellenceDescription": "Nous visons l'excellence dans tout ce que nous faisons. De la performance individuelle à la coordination de l'alliance, nous n'acceptons jamais moins que le meilleur."
+      },
+      "rules": {
+        "title": "Règles Familiales",
+        "rule1": {"text": "Prioriser l'unité familiale", "description": "Toujours placer le succès de la famille au-dessus de la gloire individuelle"},
+        "rule2": {"text": "Suivre la direction", "description": "Exécuter les directives de la direction sans question"},
+        "rule3": {"text": "Participation active", "description": "Maintenir une implication constante dans les activités de l'alliance"},
+        "rule4": {"text": "Respecter tous les membres", "description": "Traiter chaque membre de la famille avec dignité, quel que soit son rang"},
+        "rule5": {"text": "Préserver le secret", "description": "Ne jamais partager les stratégies familiales avec des étrangers"},
+        "rule6": {"text": "Partage des ressources", "description": "Contribuer au soutien familial et à la distribution des ressources"}
+      },
+      "principles": {
+        "title": "Nos Principes",
+        "principle1": {"text": "Intelligence collective", "description": "Nous valorisons la puissance de plusieurs esprits plutôt que le génie individuel"},
+        "principle2": {"text": "Chaque membre compte", "description": "Chaque personne contribue de manière unique à notre succès"},
+        "principle3": {"text": "Apprendre & S'adapter", "description": "Nous devenons plus forts à chaque bataille, victoire ou défaite"},
+        "principle4": {"text": "Loyauté & Confiance", "description": "Ce sont les liens incassables qui nous rendent forts"},
+        "principle5": {"text": "Protéger les nôtres", "description": "Nous n'abandonnons jamais un membre de la famille dans le besoin"},
+        "principle6": {"text": "Dévouement à l'excellence", "description": "Nous atteignons la grandeur par la pratique et l'engagement"}
+      },
+      "traditions": {
+          "title": "Traditions Familiales",
+          "tradition1": {"text": "Séances d'entraînement quotidiennes et réunions stratégiques"},
+          "tradition2": {"text": "Reconnaissance hebdomadaire des membres exceptionnels"},
+          "tradition3": {"text": "Rassemblements et célébrations familiales mensuels"},
+          "tradition4": {"text": "Partage des connaissances et mentorat"},
+          "tradition5": {"text": "Tournois et compétitions saisonnières"}
+      },
+      "benefits": {
+          "title": "Avantages des Membres",
+          "benefit1": {"text": "Accès à une formation et des stratégies d'élite"},
+          "benefit2": {"text": "Soutien 24/7 par des membres expérimentés"},
+          "benefit3": {"text": "Accès prioritaire aux ressources de l'alliance"},
+          "benefit4": {"text": "Reconnaissance et opportunités d'avancement"},
+          "benefit5": {"text": "Réseau mondial de joueurs expérimentés"}
+      }
+    },
+    "answerCall": {
+      "title": "Répondez à l'Appel",
+      "subtitle": "Prêt à rejoindre l'élite ?",
+      "description": "Êtes-vous prêt à faire partie de quelque chose de plus grand que vous-même ? Nocturnal Legacy recherche des guerriers qui valorisent la loyauté, la stratégie et la famille avant tout."
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir pour rejoindre la légendaire famille Nocturnal Legacy",
+    "questions": [
+      {
+        "q": "Que faire si je n'atteins pas le niveau de puissance requis ?",
+        "a": "Nous considérons les joueurs exceptionnels au cas par cas. Contactez nos leaders pour discuter de votre situation et des éventuelles exceptions."
+      },
+      {
+        "q": "Combien de temps dure la période d'essai ?",
+        "a": "Les périodes d'essai durent généralement 1 à 2 semaines, selon votre activité et votre intégration dans la famille."
+      },
+      {
+        "q": "Dois-je quitter mon alliance actuelle ?",
+        "a": "Oui, vous devrez quitter votre alliance actuelle avant de rejoindre la nôtre. Nous vous guiderons dans le processus."
+      },
+      {
+        "q": "Que faire si je ne peux pas être actif tous les jours ?",
+        "a": "Nous comprenons que la vie réelle passe avant tout. Informez simplement la direction de toute absence et maintenez un niveau d'activité raisonnable."
+      },
+      {
+        "q": "Puis-je choisir l'alliance à rejoindre ?",
+        "a": "La direction recommandera la meilleure alliance en fonction de votre style de jeu et de nos besoins actuels."
+      },
+      {
+        "q": "Que se passe-t-il si ma candidature est refusée ?",
+        "a": "Vous pouvez postuler à nouveau après 30 jours. Utilisez les retours pour vous améliorer et réessayer."
+      },
+      {
+        "q": "Discord est-il obligatoire ?",
+        "a": "Oui, Discord est requis pour la communication, la coordination et pour rester informé des événements de la famille."
+      },
+      {
+        "q": "Quels sont les avantages à rejoindre ?",
+        "a": "Protection d'élite, formation stratégique, abondance de ressources, victoires constantes, communauté active et soutien personnalisé."
+      }
+    ]
+  },
+  "join": {
+    "requirementsTitle": "Conditions d'adhésion",
+    "requirementsSubtitle": "Ce que nous recherchons chez les membres potentiels",
+    "requirements": {
+      "combat": {
+        "title": "Expérience de combat",
+        "desc": "Minimum 50M de puissance avec une expérience de bataille avérée. Nous privilégions la qualité à la quantité."
+      },
+      "active": {
+        "title": "Participation active",
+        "desc": "Activité quotidienne requise. Nous recherchons des guerriers engagés dans notre cause."
+      },
+      "team": {
+        "title": "Esprit d'équipe",
+        "desc": "Doit bien travailler avec les autres et suivre les directives du leadership sans discuter."
+      },
+      "loyalty": {
+        "title": "Loyauté",
+        "desc": "Loyauté indéfectible envers la famille. Aucune trahison ou comportement déshonorant antérieur."
+      },
+      "communication": {
+        "title": "Communication",
+        "desc": "Doit rejoindre Discord et maintenir une communication active avec la famille."
+      },
+      "resources": {
+        "title": "Partage des ressources",
+        "desc": "Prêt à contribuer au soutien familial et aux programmes de partage des ressources."
+      }
+    },
+    "steps": [
+      {
+        "title": "Contacter la direction",
+        "desc": "Contactez nos leaders via Discord ou le chat du jeu pour exprimer votre intérêt"
+      },
+      {
+        "title": "Entretien initial",
+        "desc": "Passez un bref entretien pour discuter de votre expérience et de votre engagement"
+      },
+      {
+        "title": "Période d'essai",
+        "desc": "Rejoignez-nous en tant que membre à l'essai pendant 1 à 2 semaines pour prouver votre valeur et votre engagement"
+      },
+      {
+        "title": "Adhésion complète",
+        "desc": "Après approbation, bénéficiez de tous les avantages et de l'accès aux ressources de la famille"
+      },
+      {
+        "title": "Commencez votre aventure",
+        "desc": "Commencez votre aventure légendaire avec la famille Nocturnal Legacy"
+      }
+    ],
+    "howToTitle": "Comment rejoindre notre famille",
+    "howToSubtitle": "Suivez ces étapes pour commencer votre aventure avec Nocturnal Legacy",
+    "contactLeaders": "Contactez nos leaders",
+    "readyToJoin": "Prêt à rejoindre ? Contactez-nous maintenant !",
+    "telegram": "Rejoindre Telegram",
+    "discordBtn": "Rejoindre Discord",
+    "inGame": "En jeu :",
+    "discord": "Discord :",
+    "leaders": {
+      "pryda": "Pryda - Chef Suprême",
+      "verso": "Verso - Conseiller en Chef",
+      "nox": "Nox - Chef des Lames",
+      "suad": "Suad - Officier de gestion"
+    }
+  },
+  "updateNotification": {
+    "newVersion": "Une nouvelle version est disponible !",
+    "refresh": "Rafraîchir"
+  },
+  "loading": {
+    "title": "Chargement de Nocturnal Legacy",
+    "subtitle": "Préparation de votre expérience de jeu d'élite..."
   }
 } 

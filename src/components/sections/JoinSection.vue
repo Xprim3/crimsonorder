@@ -15,7 +15,7 @@
       <!-- Hero Call-to-Action -->
       <div class="text-center mb-16 lg:mb-20">
         <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-white">
-          Answer the Call
+          {{ $t('about.answerCall.title') }}
         </h2>
         <div
           class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mb-8"
@@ -28,14 +28,12 @@
               0 0 20px rgba(220, 38, 38, 0.3);
           "
         >
-          Ready to Join the Elite?
+          {{ $t('about.answerCall.subtitle') }}
         </p>
         <p
           class="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed"
         >
-          Are you ready to become part of something greater than yourself?
-          Nocturnal Legacy seeks warriors who value loyalty, strategy, and
-          family above all else.
+          {{ $t('about.answerCall.description') }}
         </p>
       </div>
 
@@ -52,10 +50,10 @@
                 0 0 20px rgba(220, 38, 38, 0.3);
             "
           >
-            Requirements to Join
+            {{ $t('join.requirementsTitle') }}
           </h3>
           <p class="text-lg text-gray-300 mt-6">
-            What we look for in potential members
+            {{ $t('join.requirementsSubtitle') }}
           </p>
         </div>
 
@@ -75,12 +73,11 @@
                 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Combat Experience
+                {{ $t('join.requirements.combat.title') }}
               </h4>
             </div>
             <p class="text-gray-200 text-sm leading-relaxed text-center">
-              Minimum 50M power with proven battle experience. We value quality
-              over quantity.
+              {{ $t('join.requirements.combat.desc') }}
             </p>
           </div>
 
@@ -97,12 +94,11 @@
                 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Active Participation
+                {{ $t('join.requirements.active.title') }}
               </h4>
             </div>
             <p class="text-gray-200 text-sm leading-relaxed text-center">
-              Daily activity required. We need warriors who are committed to our
-              cause.
+              {{ $t('join.requirements.active.desc') }}
             </p>
           </div>
 
@@ -119,12 +115,11 @@
                 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Team Player
+                {{ $t('join.requirements.team.title') }}
               </h4>
             </div>
             <p class="text-gray-200 text-sm leading-relaxed text-center">
-              Must work well with others and follow leadership directives
-              without question.
+              {{ $t('join.requirements.team.desc') }}
             </p>
           </div>
 
@@ -141,12 +136,11 @@
                 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Loyalty
+                {{ $t('join.requirements.loyalty.title') }}
               </h4>
             </div>
             <p class="text-gray-200 text-sm leading-relaxed text-center">
-              Unwavering loyalty to the family. No previous betrayals or
-              dishonorable conduct.
+              {{ $t('join.requirements.loyalty.desc') }}
             </p>
           </div>
 
@@ -163,12 +157,11 @@
                 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Communication
+                {{ $t('join.requirements.communication.title') }}
               </h4>
             </div>
             <p class="text-gray-200 text-sm leading-relaxed text-center">
-              Must join Discord and maintain active communication with the
-              family.
+              {{ $t('join.requirements.communication.desc') }}
             </p>
           </div>
 
@@ -185,12 +178,11 @@
                 class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent"
                 style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
               >
-                Resource Sharing
+                {{ $t('join.requirements.resources.title') }}
               </h4>
             </div>
             <p class="text-gray-200 text-sm leading-relaxed text-center">
-              Willing to contribute to family support and resource distribution
-              programs.
+              {{ $t('join.requirements.resources.desc') }}
             </p>
           </div>
         </div>

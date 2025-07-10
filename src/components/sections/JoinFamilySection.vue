@@ -25,111 +25,31 @@
                 0 0 20px rgba(220, 38, 38, 0.3);
             "
           >
-            How to Join Our Family
+            {{ $t('join.howToTitle') }}
           </h3>
           <p class="text-lg text-gray-300 mt-6">
-            Follow these steps to begin your journey with Nocturnal Legacy
+            {{ $t('join.howToSubtitle') }}
           </p>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           <!-- Application Steps -->
           <div class="space-y-6">
-            <div class="flex items-start space-x-4">
+            <div v-for="idx in 5" :key="idx" class="flex items-start space-x-4">
               <div
                 class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center border-2 border-yellow-500/50"
               >
-                <span class="text-yellow-300 font-bold text-lg">1</span>
+                <span class="text-yellow-300 font-bold text-lg">{{ idx }}</span>
               </div>
               <div class="text-left">
                 <h4
                   class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2"
                   style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
                 >
-                  Contact Leadership
+                  {{ $t(`join.steps.${idx - 1}.title`) }}
                 </h4>
                 <p class="text-gray-200 text-sm text-left">
-                  Reach out to our leaders through Discord or in-game chat to
-                  express your interest
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start space-x-4">
-              <div
-                class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center border-2 border-yellow-500/50"
-              >
-                <span class="text-yellow-300 font-bold text-lg">2</span>
-              </div>
-              <div class="text-left">
-                <h4
-                  class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2"
-                  style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
-                >
-                  Initial Interview
-                </h4>
-                <p class="text-gray-200 text-sm text-left">
-                  Complete a brief interview to discuss your experience and
-                  commitment level
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start space-x-4">
-              <div
-                class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center border-2 border-yellow-500/50"
-              >
-                <span class="text-yellow-300 font-bold text-lg">3</span>
-              </div>
-              <div class="text-left">
-                <h4
-                  class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2"
-                  style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
-                >
-                  Trial Period
-                </h4>
-                <p class="text-gray-200 text-sm text-left">
-                  Join as a trial member for 1-2 weeks to prove your worth and
-                  commitment
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start space-x-4">
-              <div
-                class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center border-2 border-yellow-500/50"
-              >
-                <span class="text-yellow-300 font-bold text-lg">4</span>
-              </div>
-              <div class="text-left">
-                <h4
-                  class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2"
-                  style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
-                >
-                  Full Membership
-                </h4>
-                <p class="text-gray-200 text-sm text-left">
-                  Upon approval, receive full membership benefits and access to
-                  all family resources
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start space-x-4">
-              <div
-                class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center border-2 border-yellow-500/50"
-              >
-                <span class="text-yellow-300 font-bold text-lg">5</span>
-              </div>
-              <div class="text-left">
-                <h4
-                  class="text-xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-2"
-                  style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
-                >
-                  Begin Your Journey
-                </h4>
-                <p class="text-gray-200 text-sm text-left">
-                  Start your legendary journey with the Nocturnal Legacy family
+                  {{ $t(`join.steps.${idx - 1}.desc`) }}
                 </p>
               </div>
             </div>
@@ -143,7 +63,7 @@
               class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold mb-6 text-left text-2xl"
               style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
             >
-              Contact Our Leaders
+              {{ $t('join.contactLeaders') }}
             </h4>
 
             <div class="space-y-4">
@@ -157,10 +77,10 @@
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">
-                    Pryda - Supreme Leader
+                    {{ $t('join.leaders.pryda') }}
                   </div>
-                  <div class="text-gray-400 text-sm">In-Game: ɴᴋPryda</div>
-                  <div class="text-gray-400 text-sm">Discord: awaken4398</div>
+                  <div class="text-gray-400 text-sm">{{ $t('join.inGame') }} ɴᴋPryda</div>
+                  <div class="text-gray-400 text-sm">{{ $t('join.discord') }} awaken4398</div>
                 </div>
               </div>
 
@@ -174,10 +94,10 @@
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">
-                    Verso - Chief Advisor
+                    {{ $t('join.leaders.verso') }}
                   </div>
-                  <div class="text-gray-400 text-sm">In-Game: Verso</div>
-                  <div class="text-gray-400 text-sm">Discord: emperiion</div>
+                  <div class="text-gray-400 text-sm">{{ $t('join.inGame') }} Verso</div>
+                  <div class="text-gray-400 text-sm">{{ $t('join.discord') }} emperiion</div>
                 </div>
               </div>
 
@@ -191,10 +111,10 @@
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">
-                    Nox - 2nd Blades Leader
+                    {{ $t('join.leaders.nox') }}
                   </div>
-                  <div class="text-gray-400 text-sm">In-Game: Nox</div>
-                  <div class="text-gray-400 text-sm">Discord: rene.klg22</div>
+                  <div class="text-gray-400 text-sm">{{ $t('join.inGame') }} Nox</div>
+                  <div class="text-gray-400 text-sm">{{ $t('join.discord') }} rene.klg22</div>
                 </div>
               </div>
 
@@ -208,10 +128,10 @@
                 </div>
                 <div class="text-left">
                   <div class="text-gray-200 font-semibold">
-                    Suad - Management Officer
+                    {{ $t('join.leaders.suad') }}
                   </div>
-                  <div class="text-gray-400 text-sm">In-Game: ɴᴋSuad</div>
-                  <div class="text-gray-400 text-sm">Discord: suad_14</div>
+                  <div class="text-gray-400 text-sm">{{ $t('join.inGame') }} ɴᴋSuad</div>
+                  <div class="text-gray-400 text-sm">{{ $t('join.discord') }} suad_14</div>
                 </div>
               </div>
             </div>
@@ -224,7 +144,7 @@
             class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent font-bold mb-8 text-2xl"
             style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
           >
-            Ready to Join? Contact Us Now!
+            {{ $t('join.readyToJoin') }}
           </h4>
           <div
             class="flex flex-col sm:flex-row gap-6 justify-center items-center"
@@ -237,7 +157,7 @@
             >
               <div class="btn-content">
                 <span class="btn-icon">📱</span>
-                <span class="btn-text">Join Telegram</span>
+                <span class="btn-text">{{ $t('join.telegram') }}</span>
               </div>
             </a>
             <a
@@ -248,7 +168,7 @@
             >
               <div class="btn-content">
                 <span class="btn-icon">💬</span>
-                <span class="btn-text">Join Discord</span>
+                <span class="btn-text">{{ $t('join.discordBtn') }}</span>
               </div>
             </a>
           </div>

@@ -574,13 +574,13 @@
               class="bg-gradient-to-r from-yellow-500 to-yellow-600 text-black font-bold py-4 px-8 rounded-lg hover:from-yellow-400 hover:to-yellow-500 transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
             >
               <span>💬</span>
-              <span>Join Discord</span>
+              <span>{{ $t('join.discordBtn') }}</span>
             </button>
             <button
               class="bg-gradient-to-r from-red-600 to-red-700 text-white font-bold py-4 px-8 rounded-lg hover:from-red-500 hover:to-red-600 transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
             >
               <span>📱</span>
-              <span>Join Telegram</span>
+              <span>{{ $t('join.telegram') }}</span>
             </button>
           </div>
         </div>

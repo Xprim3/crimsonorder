@@ -19,5 +19,248 @@
     "subheadline": "MİRAS • AİLE • ÖLÜMSÜZLÜK",
     "description": "Adın çağlar boyunca yankılanacak. Nocturnal Legacy'ye katıl ve efsaneleri nesiller boyu anlatılacak bir ailenin parçası ol. Hikayen burada başlıyor.",
     "cta": "HİKAYENİ YAZ"
+  },
+  "about": {
+    "title": "Nocturnal Legacy Hakkında",
+    "legendTitle": "Nocturnal Legacy Efsanesi",
+    "p1": "Sayısız savaşın küllerinden doğan Nocturnal Legacy, Rise of Kingdoms'un kaotik dünyasında bir umut ışığı olarak ortaya çıktı. Kararlı savaşçılardan oluşan küçük bir grup olarak başlayan şey, savaş alanında saygı gören efsanevi bir aileye dönüştü.",
+    "p2": "Hikayemiz, kırılmaz bağlar, stratejik deha ve sarsılmaz sadakatten oluşur. En güçlü krallıklarla karşılaştık ve zaferle çıktık; bu, yalnızca güçle değil, birlik ve taktik mükemmellik sayesinde oldu.",
+    "p3": "Bugün, bireysel gücün ortak bir amaçla birleştiğinde neler başarılabileceğinin kanıtıyız. Biz sadece savaşçılar değiliz—biz ateşte dövülmüş bir aileyiz.",
+    "leadershipTitle": "Nocturnal Liderliği",
+    "leadershipSubtitle": "Ailemizi zafere taşıyan bilgelik ve deneyime sahip komutanlar",
+    "members": "Üyeler",
+    "rank": "Rütbe",
+    "mainAlliance": "Ana İttifak",
+    "kingdomLeadership": "Krallık Liderliği",
+    "leaders": {
+      "pryda": {
+        "name": "Pryda",
+        "title": "Nocturnal Legacy'nin Yüce Lideri",
+        "desc": "Tüm Nocturnal Legacy ailesinin başı. Strateji, yapı ve tüm nihai kararları denetler.",
+        "exp": "3 Yıllık Deneyim"
+      },
+      "verso": {
+        "name": "Verso",
+        "title": "Nocturnal Legacy'nin Baş Danışmanı",
+        "desc": "Dış diplomasiyi ve ittifak ilişkilerini yönetir. Ayrıca KVK ve ana krallıkta toprak planlamasından sorumludur, aile genelindeki toprak subaylarıyla yakın çalışır.",
+        "exp": "8 Yıllık Deneyim"
+      },
+      "allianceTitle": "İttifak Komutanları",
+      "allianceSubtitle": "Uzmanlaşmış kuvvetlerimizi yönlendiren seçkin liderler",
+      "oldmanchewy": {
+        "name": "OldManChewy",
+        "desc": "Blades ittifakını yönetir. Aile genelinde liderlik ve savaş planlamasında kilit karar vericidir.",
+        "exp": "3 Yıllık Deneyim"
+      },
+      "suad": {
+        "name": "Suad",
+        "desc": "Pryda'nın doğrudan komutası altında hareket eder. Sadakat ve hassasiyetle öncelikli görevleri yerine getirir.",
+        "exp": "2 Yıllık Deneyim"
+      },
+      "nox": {
+        "name": "Nox",
+        "desc": "Chewy'ye operasyonlarda ve etkinlik yürütmede destek olur. Aile genelinde liderlik kararlarında tam olarak yer alır.",
+        "exp": "8 Yıllık Deneyim"
+      },
+      "draculla": {
+        "name": "Draculla",
+        "desc": "Etkinlikler sırasında tüm ittifakları denetler, performansı takip eder, stratejik destek sağlar ve tüm ailenin en üst sıralamalar ve ödüller için birlikte hareket etmesini sağlar.",
+        "exp": "2 Yıllık Deneyim"
+      },
+      "nyx": {
+        "name": "Nyx",
+        "desc": "Tüm ittifakları kural ihlali veya iç sorunlar açısından izler. Düzeni sağlar ve liderliğe rapor verir.",
+        "exp": "1 Yıllık Deneyim"
+      },
+      "pyhrex": {
+        "name": "Pyhrex",
+        "desc": "Aile için Verso'nun koordinasyonunda bayrak yerleştirme ve teknoloji planlamasını yürütür. Savaş hazırlığı, toprak kontrolü ve araştırma verimliliğinde kilit rol oynar.",
+        "exp": "4 Yıllık Deneyim"
+      }
+    },
+    "eliteAlliances": {
+      "title": "Seçkin İttifaklarımız",
+      "subtitle": "Krallıkları fethetmek ve durdurulamaz bir güç oluşturmak için mükemmel uyum içinde çalışan iki efsanevi ittifak"
+    },
+    "knights": {
+      "title": "Gece Şövalyeleri",
+      "desc": "Ailemizin kırılmaz kalkanı. Bu efsanevi savunucular, en önemli olanı koruma sanatında ustalaştı. Şehirleri aşılmaz kaleler, kaynakları nehir gibi akar ve destekleri tüm aileyi güçlü tutar."
+    },
+    "blades": {
+      "title": "Gece Kılıçları",
+      "desc": "Ailemizin amansız kılıcı. Bu efsanevi savaşçılar, eşsiz bir hassasiyet ve cesaretle saldırır. Zaferleri aileyi motive eder, taktikleri kaderimizi şekillendirir ve birlikleri bizi yüceliğe taşır."
+    },
+    "familyCulture": {
+      "title": "Aile Kültürümüz",
+      "description": "Savaş alanının ötesinde, Nocturnal Legacy kalıcı bağlar ve efsanevi başarılar yaratan değerlere dayanır. Kültürümüz başarımızın temelidir ve yenilmez kalmamızın sebebidir.",
+      "values": {
+        "unity": "Birlik",
+        "unityDescription": "Bireysel gücün, ortak bir amaçla birleştiğinde arttığına inanıyoruz. Her üye ortak başarımıza katkıda bulunur.",
+        "strategy": "Strateji",
+        "strategyDescription": "Her savaş başlamadan önce kazanılır. Stratejik düşünceye, dikkatli planlamaya ve taktiksel uygulamaya kaba kuvvetten daha çok değer veririz.",
+        "excellence": "Mükemmellik",
+        "excellenceDescription": "Yaptığımız her işte mükemmelliği hedefleriz. Bireysel performanstan ittifak koordinasyonuna kadar asla en iyisinden azına razı olmayız."
+      },
+      "rules": {
+        "title": "Aile Kuralları",
+        "rule1": {"text": "Aile Birliğini Önceliklendirin", "description": "Ailenin başarısını her zaman bireysel şan ve şöhretten üstün tutun"},
+        "rule2": {"text": "Liderliği Takip Edin", "description": "Liderlik direktiflerini sorgulamadan yerine getirin"},
+        "rule3": {"text": "Aktif Katılım", "description": "İttifak aktivitelerine sürekli katılım sağlayın"},
+        "rule4": {"text": "Tüm Üyelere Saygı", "description": "Her aile üyesine rütbesi ne olursa olsun saygı gösterin"},
+        "rule5": {"text": "Gizliliği Koruyun", "description": "Aile stratejilerini asla dışarıdakilerle paylaşmayın"},
+        "rule6": {"text": "Kaynak Paylaşımı", "description": "Aile desteğine ve kaynak dağıtımına katkıda bulunun"}
+      },
+      "principles": {
+        "title": "İlkelerimiz",
+        "principle1": {"text": "Kolektif Zeka", "description": "Birçok aklın gücünü bireysel parlaklıktan üstün tutarız"},
+        "principle2": {"text": "Her Üye Önemlidir", "description": "Her birey başarımıza benzersiz bir katkı sağlar"},
+        "principle3": {"text": "Öğren & Uyum Sağla", "description": "Her savaştan, kazansak da kaybetsek de güçlenerek çıkarız"},
+        "principle4": {"text": "Sadakat & Güven", "description": "Bizi güçlü kılan kırılmaz bağlardır"},
+        "principle5": {"text": "Kendimizi Korumak", "description": "İhtiyaç duyan aile üyelerini asla yalnız bırakmayız"},
+        "principle6": {"text": "Mükemmelliğe Adanmışlık", "description": "Büyüklüğe pratik ve bağlılıkla ulaşırız"}
+      },
+      "traditions": {
+          "title": "Aile Gelenekleri",
+          "tradition1": {"text": "Günlük eğitim seansları ve strateji toplantıları"},
+          "tradition2": {"text": "Haftalık öne çıkan üyelerin takdiri"},
+          "tradition3": {"text": "Aylık aile buluşmaları ve kutlamalar"},
+          "tradition4": {"text": "Bilgi paylaşımı ve mentorluk programları"},
+          "tradition5": {"text": "Mevsimlik turnuvalar ve yarışmalar"}
+      },
+      "benefits": {
+          "title": "Üye Avantajları",
+          "benefit1": {"text": "Elit eğitim ve stratejilere erişim"},
+          "benefit2": {"text": "Deneyimli üyelerden 7/24 destek"},
+          "benefit3": {"text": "İttifak kaynaklarına öncelikli erişim"},
+          "benefit4": {"text": "Tanıma ve terfi fırsatları"},
+          "benefit5": {"text": "Küresel yetenekli oyuncu ağı"}
+      }
+    },
+    "answerCall": {
+      "title": "Çağrıya Cevap Ver",
+      "subtitle": "Elitlere Katılmaya Hazır mısın?",
+      "description": "Kendinizden daha büyük bir şeyin parçası olmaya hazır mısınız? Nocturnal Legacy, sadakati, stratejiyi ve aileyi her şeyin üstünde tutan savaşçılar arıyor."
+    },
+    "howToTitle": "Ailemize Nasıl Katılınır",
+    "howToSubtitle": "Nocturnal Legacy ile yolculuğunuza başlamak için bu adımları izleyin",
+    "steps": [
+      {
+        "title": "Liderlik ile İletişime Geçin",
+        "desc": "İlginizi belirtmek için liderlerimize Discord veya oyun içi sohbetten ulaşın"
+      },
+      {
+        "title": "Ön Görüşme",
+        "desc": "Deneyiminizi ve bağlılık seviyenizi konuşmak için kısa bir görüşme yapın"
+      },
+      {
+        "title": "Deneme Süresi",
+        "desc": "1-2 hafta boyunca deneme üyesi olarak katılın ve değeriniz ile bağlılığınızı kanıtlayın"
+      },
+      {
+        "title": "Tam Üyelik",
+        "desc": "Onay sonrası tüm aile ayrıcalıklarına ve kaynaklara erişim kazanın"
+      },
+      {
+        "title": "Yolculuğunuza Başlayın",
+        "desc": "Nocturnal Legacy ailesiyle efsanevi yolculuğunuza başlayın"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Efsanevi Nocturnal Legacy ailesine katılmak hakkında bilmeniz gereken her şey",
+    "questions": [
+      {
+        "q": "Güç gereksinimini karşılamazsam ne olur?",
+        "a": "İstisnai oyuncuları duruma göre değerlendiriyoruz. Durumunuzu ve olası istisnaları görüşmek için liderlerimizle iletişime geçin."
+      },
+      {
+        "q": "Deneme süresi ne kadar sürer?",
+        "a": "Deneme süreleri genellikle 1-2 hafta sürer, bu süre sizin aktivite seviyenize ve aileye uyumunuza bağlıdır."
+      },
+      {
+        "q": "Mevcut ittifakımı bırakmam gerekir mi?",
+        "a": "Evet, bizim ailemize katılmadan önce mevcut ittifakınızı bırakmanız gerekir. Bu süreçte size rehberlik edeceğiz."
+      },
+      {
+        "q": "Her gün aktif olamazsam ne olur?",
+        "a": "Gerçek hayatın öncelikli olduğunu anlıyoruz. Sadece liderliğe devamsızlıklarınızı bildirin ve makul bir aktivite seviyesi koruyun."
+      },
+      {
+        "q": "Hangi ittifaka katılacağımı seçebilir miyim?",
+        "a": "Liderlik, oyun tarzınıza ve mevcut ihtiyaçlarımıza göre en iyi ittifakı önerecektir."
+      },
+      {
+        "q": "Başvurum reddedilirse ne olur?",
+        "a": "30 gün sonra tekrar başvurabilirsiniz. Geri bildirimi kullanarak kendinizi geliştirin ve tekrar deneyin."
+      },
+      {
+        "q": "Discord zorunlu mu?",
+        "a": "Evet, iletişim, koordinasyon ve aile etkinliklerinden haberdar olmak için Discord gereklidir."
+      },
+      {
+        "q": "Katılmanın avantajları nelerdir?",
+        "a": "Elit koruma, stratejik savaş eğitimi, bol kaynak, sürekli zaferler, aktif topluluk ve kişisel destek."
+      }
+    ]
+  },
+  "join": {
+    "requirementsTitle": "Katılım Şartları",
+    "requirementsSubtitle": "Potansiyel üyelerde aradıklarımız",
+    "requirements": {
+      "combat": {
+        "title": "Savaş Deneyimi",
+        "desc": "Kanıtlanmış savaş tecrübesiyle en az 50M güç. Nitelik nicelikten üstündür."
+      },
+      "active": {
+        "title": "Aktif Katılım",
+        "desc": "Günlük aktivite gereklidir. Amacımıza bağlı savaşçılara ihtiyacımız var."
+      },
+      "team": {
+        "title": "Takım Oyuncusu",
+        "desc": "Başkalarıyla iyi çalışmalı ve liderlik direktiflerine sorgusuz uymalıdır."
+      },
+      "loyalty": {
+        "title": "Sadakat",
+        "desc": "Aileye sarsılmaz sadakat. Önceden ihanet veya onursuz davranış olmamalı."
+      },
+      "communication": {
+        "title": "İletişim",
+        "desc": "Discord'a katılmalı ve aileyle aktif iletişimde kalmalıdır."
+      },
+      "resources": {
+        "title": "Kaynak Paylaşımı",
+        "desc": "Aile desteği ve kaynak dağıtım programlarına katkıda bulunmaya istekli."
+      }
+    },
+    "contactLeaders": "Liderlerimizle İletişime Geçin",
+    "readyToJoin": "Katılmaya hazır mısınız? Şimdi bize ulaşın!",
+    "telegram": "Telegram'a Katıl",
+    "discordBtn": "Discord'a Katıl",
+    "inGame": "Oyunda:",
+    "discord": "Discord:",
+    "leaders": {
+      "pryda": "Pryda - Yüce Lider",
+      "verso": "Verso - Baş Danışman",
+      "nox": "Nox - Kılıçlar Lideri",
+      "suad": "Suad - Yönetim Görevlisi"
+    },
+    "howToTitle": "Ailemize Nasıl Katılınır",
+    "howToSubtitle": "Nocturnal Legacy ile yolculuğunuza başlamak için bu adımları izleyin",
+    "steps": [
+      { "title": "Liderlik ile İletişime Geçin", "desc": "İlginizi belirtmek için liderlerimize Discord veya oyun içi sohbetten ulaşın" },
+      { "title": "Ön Görüşme", "desc": "Deneyiminizi ve bağlılık seviyenizi konuşmak için kısa bir görüşme yapın" },
+      { "title": "Deneme Süresi", "desc": "1-2 hafta boyunca deneme üyesi olarak katılın ve değeriniz ile bağlılığınızı kanıtlayın" },
+      { "title": "Tam Üyelik", "desc": "Onay sonrası tüm aile ayrıcalıklarına ve kaynaklara erişim kazanın" },
+      { "title": "Yolculuğunuza Başlayın", "desc": "Nocturnal Legacy ailesiyle efsanevi yolculuğunuza başlayın" }
+    ]
+  },
+  "loading": {
+    "title": "Nocturnal Legacy Yükleniyor",
+    "subtitle": "Elit oyun deneyiminiz hazırlanıyor..."
+  },
+  "updateNotification": {
+    "newVersion": "Yeni bir sürüm mevcut!",
+    "refresh": "Yenile"
   }
 } 

@@ -11,10 +11,10 @@
       <!-- Loading Text -->
       <div class="mt-4 text-center">
         <div class="text-yellow-400 text-lg font-semibold mb-2">
-          Loading Nocturnal Legacy
+          {{ $t('loading.title') }}
         </div>
         <div class="text-gray-300 text-sm">
-          Preparing your elite gaming experience...
+          {{ $t('loading.subtitle') }}
         </div>
       </div>
       <!-- Pulsing Dots -->

@@ -19,5 +19,248 @@
     "subheadline": "LEGADO • FAMILIA • INMORTALIDAD",
     "description": "Tu nombre resonará a través de los siglos. Únete a Nocturnal Legacy y sé parte de una familia cuyas leyendas serán contadas por generaciones. Tu historia comienza aquí.",
     "cta": "ESCRIBE TU HISTORIA"
+  },
+  "about": {
+    "title": "Acerca de Nocturnal Legacy",
+    "legendTitle": "La Leyenda de Nocturnal Legacy",
+    "p1": "Nacida de las cenizas de innumerables batallas, Nocturnal Legacy surgió como un faro de esperanza en el caótico mundo de Rise of Kingdoms. Lo que comenzó como un pequeño grupo de guerreros decididos se ha convertido en una familia legendaria que impone respeto en el campo de batalla.",
+    "p2": "Nuestra historia es de lazos irrompibles, brillantez estratégica y lealtad inquebrantable. Hemos enfrentado a los reinos más poderosos y hemos salido victoriosos, no por pura fuerza, sino por el poder de la unidad y la excelencia táctica.",
+    "p3": "Hoy, somos el testimonio de lo que se puede lograr cuando la fuerza individual se combina con un propósito colectivo. No somos solo guerreros, somos una familia forjada en el fuego.",
+    "leadershipTitle": "Liderazgo Nocturno",
+    "leadershipSubtitle": "Comandantes cuya sabiduría y experiencia guían a nuestra familia hacia la victoria",
+    "leaders": {
+      "pryda": {
+        "name": "Pryda",
+        "title": "Líder Supremo de Nocturnal Legacy",
+        "desc": "Jefe de toda la familia Nocturnal Legacy. Supervisa la estrategia, la estructura y todas las decisiones finales.",
+        "exp": "3 años de experiencia"
+      },
+      "verso": {
+        "name": "Verso",
+        "title": "Consejero Principal de Nocturnal Legacy",
+        "desc": "Gestiona la diplomacia externa y las relaciones de alianza. También es responsable de la planificación territorial en KVK y en el reino de origen, trabajando en estrecha colaboración con los oficiales de territorio de toda la familia.",
+        "exp": "8 años de experiencia"
+      },
+      "allianceTitle": "Comandantes de la Alianza",
+      "allianceSubtitle": "Líderes de élite que guían a nuestras fuerzas especializadas",
+      "oldmanchewy": {
+        "name": "OldManChewy",
+        "desc": "Lidera la alianza Blades. Toma decisiones clave en el liderazgo y la planificación de guerras de la familia.",
+        "exp": "3 años de experiencia"
+      },
+      "suad": {
+        "name": "Suad",
+        "desc": "Actúa bajo el mando directo de Pryda. Ejecuta tareas prioritarias con lealtad y precisión.",
+        "exp": "2 años de experiencia"
+      },
+      "nox": {
+        "name": "Nox",
+        "desc": "Apoya a Chewy en operaciones y ejecución de eventos. Totalmente involucrado en las decisiones de liderazgo de la familia.",
+        "exp": "8 años de experiencia"
+      },
+      "draculla": {
+        "name": "Draculla",
+        "desc": "Supervisa todas las alianzas durante los eventos, realiza seguimiento del rendimiento, brinda apoyo estratégico y asegura que toda la familia luche por los mejores puestos y recompensas.",
+        "exp": "2 años de experiencia"
+      },
+      "nyx": {
+        "name": "Nyx",
+        "desc": "Supervisa todas las alianzas para detectar infracciones o problemas internos. Mantiene el orden y reporta a la dirección.",
+        "exp": "1 año de experiencia"
+      },
+      "pyhrex": {
+        "name": "Pyhrex",
+        "desc": "Ejecuta la colocación de banderas y la planificación tecnológica para la familia bajo la coordinación de Verso. Papel clave en la preparación para la guerra, el control del territorio y la eficiencia en la investigación.",
+        "exp": "4 años de experiencia"
+      }
+    },
+    "eliteAlliances": {
+        "title": "Nuestras Alianzas de Élite",
+        "subtitle": "Dos alianzas legendarias trabajando en perfecta armonía para dominar reinos y crear una fuerza imparable"
+    },
+    "knights": {
+        "title": "Caballeros Nocturnos",
+        "desc": "El escudo irrompible de nuestra familia. Estos legendarios defensores han dominado el arte de proteger lo que más importa. Sus ciudades son fortalezas impenetrables, sus recursos fluyen como ríos y su apoyo mantiene fuerte a toda la familia."
+    },
+    "blades": {
+        "title": "Espadas Nocturnas",
+        "desc": "La espada implacable de nuestra familia. Estos guerreros legendarios atacan con una precisión y valentía incomparables. Sus victorias inspiran a la familia, sus tácticas moldean nuestro destino y su unidad forja nuestro camino hacia la grandeza."
+    },
+    "members": "Miembros",
+    "rank": "Rango",
+    "mainAlliance": "Alianza Principal",
+    "kingdomLeadership": "Liderazgo del Reino",
+    "familyCulture": {
+        "title": "Nuestra Cultura Familiar",
+        "description": "Más allá del campo de batalla, Nocturnal Legacy se basa en valores que crean lazos duraderos y logros legendarios. Nuestra cultura es la base de nuestro éxito y la razón por la que seguimos invictos.",
+        "values": {
+            "unity": "Unidad",
+            "unityDescription": "Creemos que la fuerza individual se amplifica cuando se combina con un propósito colectivo. Cada miembro contribuye a nuestro éxito compartido.",
+            "strategy": "Estrategia",
+            "strategyDescription": "Cada batalla se gana antes de que comience. Valoramos el pensamiento estratégico, la planificación cuidadosa y la ejecución táctica sobre la fuerza bruta.",
+            "excellence": "Excelencia",
+            "excellenceDescription": "Nos esforzamos por la excelencia en todo lo que hacemos. Desde el rendimiento individual hasta la coordinación de la alianza, nunca nos conformamos con menos que lo mejor."
+        },
+        "traditions": {
+            "title": "Tradiciones Familiares",
+            "tradition1": {"text": "Sesiones diarias de entrenamiento y reuniones estratégicas"},
+            "tradition2": {"text": "Reconocimiento semanal de miembros destacados"},
+            "tradition3": {"text": "Reuniones y celebraciones familiares mensuales"},
+            "tradition4": {"text": "Intercambio de conocimientos y programas de mentoría"},
+            "tradition5": {"text": "Torneos y competiciones de temporada"}
+        },
+        "benefits": {
+            "title": "Beneficios para Miembros",
+            "benefit1": {"text": "Acceso a entrenamiento y estrategias de élite"},
+            "benefit2": {"text": "Soporte 24/7 de miembros experimentados"},
+            "benefit3": {"text": "Acceso prioritario a los recursos de la alianza"},
+            "benefit4": {"text": "Reconocimiento y oportunidades de avance"},
+            "benefit5": {"text": "Red global de jugadores expertos"}
+        },
+        "rules": {
+            "title": "Reglas Familiares",
+            "rule1": {"text": "Priorizar la unidad familiar", "description": "Siempre anteponer el éxito de la familia a la gloria individual"},
+            "rule2": {"text": "Seguir el liderazgo", "description": "Ejecutar las directrices del liderazgo sin cuestionarlas"},
+            "rule3": {"text": "Participación activa", "description": "Mantener una participación constante en las actividades de la alianza"},
+            "rule4": {"text": "Respetar a todos los miembros", "description": "Tratar a cada miembro de la familia con dignidad sin importar el rango"},
+            "rule5": {"text": "Mantener el secreto", "description": "Nunca compartir las estrategias familiares con extraños"},
+            "rule6": {"text": "Compartir recursos", "description": "Contribuir al apoyo familiar y la distribución de recursos"}
+        },
+        "principles": {
+            "title": "Nuestros Principios",
+            "principle1": {"text": "Inteligencia colectiva", "description": "Valoramos el poder de muchas mentes sobre el brillo individual"},
+            "principle2": {"text": "Cada miembro importa", "description": "Cada persona contribuye de manera única a nuestro éxito"},
+            "principle3": {"text": "Aprender y adaptarse", "description": "Nos fortalecemos con cada batalla, ganada o perdida"},
+            "principle4": {"text": "Lealtad y confianza", "description": "Estos son los lazos irrompibles que nos hacen fuertes"},
+            "principle5": {"text": "Proteger a los nuestros", "description": "Nunca abandonamos a los miembros de la familia que lo necesitan"},
+            "principle6": {"text": "Dedicación a la excelencia", "description": "Alcanzamos la grandeza a través de la práctica y el compromiso"}
+        }
+    },
+    "answerCall": {
+        "title": "Responde al Llamado",
+        "subtitle": "¿Listo para unirte a la élite?",
+        "description": "¿Estás listo para ser parte de algo más grande que tú? Nocturnal Legacy busca guerreros que valoren la lealtad, la estrategia y la familia por encima de todo."
+    },
+    "howToTitle": "Cómo unirse a nuestra familia",
+    "howToSubtitle": "Sigue estos pasos para comenzar tu viaje con Nocturnal Legacy",
+    "steps": [
+      {
+        "title": "Contactar con la dirección",
+        "desc": "Comunícate con nuestros líderes por Discord o chat del juego para expresar tu interés"
+      },
+      {
+        "title": "Entrevista inicial",
+        "desc": "Completa una breve entrevista para hablar sobre tu experiencia y nivel de compromiso"
+      },
+      {
+        "title": "Período de prueba",
+        "desc": "Únete como miembro de prueba durante 1-2 semanas para demostrar tu valía y compromiso"
+      },
+      {
+        "title": "Membresía completa",
+        "desc": "Tras la aprobación, recibe todos los beneficios y acceso a los recursos de la familia"
+      },
+      {
+        "title": "Comienza tu viaje",
+        "desc": "Empieza tu viaje legendario con la familia Nocturnal Legacy"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Todo lo que necesitas saber para unirte a la legendaria familia Nocturnal Legacy",
+    "questions": [
+      {
+        "q": "¿Qué pasa si no cumplo con el requisito de poder?",
+        "a": "Consideramos jugadores excepcionales caso por caso. Contacta a nuestros líderes para discutir tu situación y posibles excepciones."
+      },
+      {
+        "q": "¿Cuánto dura el período de prueba?",
+        "a": "Los períodos de prueba suelen durar de 1 a 2 semanas, dependiendo de tu nivel de actividad e integración con la familia."
+      },
+      {
+        "q": "¿Debo dejar mi alianza actual?",
+        "a": "Sí, deberás dejar tu alianza actual antes de unirte a la nuestra. Te guiaremos en el proceso."
+      },
+      {
+        "q": "¿Qué pasa si no puedo estar activo todos los días?",
+        "a": "Entendemos que la vida real es lo primero. Solo comunícate con la dirección sobre cualquier ausencia y mantén un nivel de actividad razonable."
+      },
+      {
+        "q": "¿Puedo elegir a qué alianza unirme?",
+        "a": "La dirección recomendará la mejor alianza según tu estilo de juego y nuestras necesidades actuales."
+      },
+      {
+        "q": "¿Qué pasa si me rechazan?",
+        "a": "Puedes volver a postularte después de 30 días. Usa los comentarios para mejorar e intentarlo de nuevo."
+      },
+      {
+        "q": "¿Es obligatorio Discord?",
+        "a": "Sí, Discord es obligatorio para la comunicación, coordinación y para estar al tanto de los eventos de la familia."
+      },
+      {
+        "q": "¿Cuáles son los beneficios de unirse?",
+        "a": "Protección de élite, formación estratégica, abundancia de recursos, victorias constantes, comunidad activa y apoyo personalizado."
+      }
+    ]
+  },
+  "join": {
+    "requirementsTitle": "Requisitos para Unirse",
+    "requirementsSubtitle": "Lo que buscamos en los posibles miembros",
+    "requirements": {
+      "combat": {
+        "title": "Experiencia en combate",
+        "desc": "Mínimo 50 millones de poder y experiencia comprobada en batalla. Valoramos la calidad sobre la cantidad."
+      },
+      "active": {
+        "title": "Participación activa",
+        "desc": "Se requiere actividad diaria. Buscamos guerreros comprometidos con nuestra causa."
+      },
+      "team": {
+        "title": "Trabajo en equipo",
+        "desc": "Debe trabajar bien con los demás y seguir las directrices del liderazgo sin cuestionarlas."
+      },
+      "loyalty": {
+        "title": "Lealtad",
+        "desc": "Lealtad inquebrantable a la familia. Sin traiciones previas ni conductas deshonrosas."
+      },
+      "communication": {
+        "title": "Comunicación",
+        "desc": "Debe unirse a Discord y mantener una comunicación activa con la familia."
+      },
+      "resources": {
+        "title": "Compartir recursos",
+        "desc": "Dispuesto a contribuir al apoyo familiar y a los programas de distribución de recursos."
+      }
+    },
+    "contactLeaders": "Contacta a nuestros líderes",
+    "readyToJoin": "¿Listo para unirte? ¡Contáctanos ahora!",
+    "telegram": "Unirse a Telegram",
+    "discordBtn": "Unirse a Discord",
+    "inGame": "En el juego:",
+    "discord": "Discord:",
+    "leaders": {
+      "pryda": "Pryda - Líder Supremo",
+      "verso": "Verso - Consejero Principal",
+      "nox": "Nox - Líder de las Espadas",
+      "suad": "Suad - Oficial de gestión"
+    },
+    "howToTitle": "Cómo unirse a nuestra familia",
+    "howToSubtitle": "Sigue estos pasos para comenzar tu viaje con Nocturnal Legacy",
+    "steps": [
+      { "title": "Contactar con la dirección", "desc": "Comunícate con nuestros líderes por Discord o chat del juego para expresar tu interés" },
+      { "title": "Entrevista inicial", "desc": "Completa una breve entrevista para hablar sobre tu experiencia y nivel de compromiso" },
+      { "title": "Período de prueba", "desc": "Únete como miembro de prueba durante 1-2 semanas para demostrar tu valía y compromiso" },
+      { "title": "Membresía completa", "desc": "Tras la aprobación, recibe todos los beneficios y acceso a los recursos de la familia" },
+      { "title": "Comienza tu viaje", "desc": "Empieza tu viaje legendario con la familia Nocturnal Legacy" }
+    ]
+  },
+  "loading": {
+    "title": "Cargando Nocturnal Legacy",
+    "subtitle": "Preparando tu experiencia de juego de élite..."
+  },
+  "updateNotification": {
+    "newVersion": "¡Una nueva versión está disponible!",
+    "refresh": "Actualizar"
   }
 } 
