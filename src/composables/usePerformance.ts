@@ -19,8 +19,6 @@ export function usePerformance() {
           custom_parameter: 'load_time_ms',
         })
       }
-
-      console.log(`Page loaded in ${Math.round(loadTime)}ms`)
     })
   }
 
@@ -82,6 +80,6 @@ export function usePerformance() {
 // Extend Window interface for gtag
 declare global {
   interface Window {
-    gtag: (...args: any[]) => void
+    gtag: (...args: unknown[]) => void
   }
 }

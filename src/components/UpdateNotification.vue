@@ -3,7 +3,7 @@
     <div
       v-if="visible"
       class="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 text-black px-6 py-3 rounded-xl shadow-lg flex items-center space-x-4 border-2 border-yellow-400"
-      style="min-width: 300px;"
+      style="min-width: 300px"
     >
       <span class="font-semibold">A new version is available!</span>
       <button
@@ -17,26 +17,34 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
-const visible = ref(false)
-function show() { visible.value = true }
-function refresh() { window.location.reload() }
+  import { ref, onMounted, onUnmounted } from 'vue'
+  const visible = ref(false)
+  function show() {
+    visible.value = true
+  }
+  function refresh() {
+    window.location.reload()
+  }
 
-function onShowBanner() { show() }
+  function onShowBanner() {
+    show()
+  }
 
-onMounted(() => {
-  window.addEventListener('show-update-banner', onShowBanner)
-})
-onUnmounted(() => {
-  window.removeEventListener('show-update-banner', onShowBanner)
-})
+  onMounted(() => {
+    window.addEventListener('show-update-banner', onShowBanner)
+  })
+  onUnmounted(() => {
+    window.removeEventListener('show-update-banner', onShowBanner)
+  })
 </script>
 
 <style scoped>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.3s;
-}
-.fade-enter-from, .fade-leave-to {
-  opacity: 0;
-}
-</style> 
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.3s;
+  }
+  .fade-enter-from,
+  .fade-leave-to {
+    opacity: 0;
+  }
+</style>

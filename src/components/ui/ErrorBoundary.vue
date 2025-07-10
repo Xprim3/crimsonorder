@@ -67,8 +67,7 @@
     hasError.value = true
     error.value = err
 
-    // Log error for debugging
-    console.error('Error caught by boundary:', err)
+    // For debugging: use a logger here if needed
 
     // Send to analytics if available
     if (window.gtag) {

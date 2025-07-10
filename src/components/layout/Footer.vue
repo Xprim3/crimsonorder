@@ -33,13 +33,13 @@
         </a>
 
         <!-- Powered by Pryda Badge -->
-          <a
+        <a
           href="https://discord.gg/xsgPQJ5ZJS"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Join the Nocturnal Legacy Discord server (Powered by Pryda)"
           class="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-500/20 to-red-600/20 rounded-full px-4 py-2 border border-yellow-500/30 hover:border-yellow-400/50 hover:from-yellow-500/30 hover:to-red-600/30 transition-all duration-300"
-          >
+        >
           <span class="text-red-400 text-sm">⚡</span>
           <span class="text-gray-200 text-sm font-semibold"
             >Powered by Pryda</span
@@ -102,9 +102,7 @@
 
       <!-- Copyright (small, centered) -->
       <div class="text-center mt-4 pt-4 border-t border-red-800/30">
-        <p class="text-gray-500 text-xs">
-          © 2024 Crimson Order. All rights reserved.
-        </p>
+        <p class="text-gray-500 text-xs">Nocturnal Legacy</p>
       </div>
     </div>
   </footer>
