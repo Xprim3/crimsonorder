@@ -29,8 +29,15 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
         <!-- Left Column -->
         <div class="space-y-6">
-          <div v-for="idx in 4" :key="idx" class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300">
-            <h4 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)">
+          <div
+            v-for="idx in 4"
+            :key="idx"
+            class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300"
+          >
+            <h4
+              class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3"
+              style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
+            >
               {{ $t(`faq.questions.${idx - 1}.q`) }}
             </h4>
             <p class="text-gray-200 text-sm leading-relaxed">
@@ -41,8 +48,15 @@
 
         <!-- Right Column -->
         <div class="space-y-6">
-          <div v-for="idx in 4" :key="idx" class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300">
-            <h4 class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3" style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)">
+          <div
+            v-for="idx in 4"
+            :key="idx"
+            class="bg-gradient-to-br from-red-900/30 to-red-800/20 rounded-xl p-6 border border-red-700/30 hover:border-yellow-500/50 transition-all duration-300"
+          >
+            <h4
+              class="text-lg font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-3"
+              style="text-shadow: 0 0 10px rgba(251, 191, 36, 0.3)"
+            >
               {{ $t(`faq.questions.${idx + 3}.q`) }}
             </h4>
             <p class="text-gray-200 text-sm leading-relaxed">

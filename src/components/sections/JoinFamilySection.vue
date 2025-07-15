@@ -79,8 +79,12 @@
                   <div class="text-gray-200 font-semibold">
                     {{ $t('join.leaders.pryda') }}
                   </div>
-                  <div class="text-gray-400 text-sm">{{ $t('join.inGame') }} ɴᴋPryda</div>
-                  <div class="text-gray-400 text-sm">{{ $t('join.discord') }} awaken4398</div>
+                  <div class="text-gray-400 text-sm">
+                    {{ $t('join.inGame') }} ɴᴋPryda
+                  </div>
+                  <div class="text-gray-400 text-sm">
+                    {{ $t('join.discord') }} awaken4398
+                  </div>
                 </div>
               </div>
 
@@ -96,8 +100,12 @@
                   <div class="text-gray-200 font-semibold">
                     {{ $t('join.leaders.verso') }}
                   </div>
-                  <div class="text-gray-400 text-sm">{{ $t('join.inGame') }} Verso</div>
-                  <div class="text-gray-400 text-sm">{{ $t('join.discord') }} emperiion</div>
+                  <div class="text-gray-400 text-sm">
+                    {{ $t('join.inGame') }} Verso
+                  </div>
+                  <div class="text-gray-400 text-sm">
+                    {{ $t('join.discord') }} emperiion
+                  </div>
                 </div>
               </div>
 
@@ -113,8 +121,12 @@
                   <div class="text-gray-200 font-semibold">
                     {{ $t('join.leaders.nox') }}
                   </div>
-                  <div class="text-gray-400 text-sm">{{ $t('join.inGame') }} Nox</div>
-                  <div class="text-gray-400 text-sm">{{ $t('join.discord') }} rene.klg22</div>
+                  <div class="text-gray-400 text-sm">
+                    {{ $t('join.inGame') }} Nox
+                  </div>
+                  <div class="text-gray-400 text-sm">
+                    {{ $t('join.discord') }} rene.klg22
+                  </div>
                 </div>
               </div>
 
@@ -130,8 +142,12 @@
                   <div class="text-gray-200 font-semibold">
                     {{ $t('join.leaders.suad') }}
                   </div>
-                  <div class="text-gray-400 text-sm">{{ $t('join.inGame') }} ɴᴋSuad</div>
-                  <div class="text-gray-400 text-sm">{{ $t('join.discord') }} suad_14</div>
+                  <div class="text-gray-400 text-sm">
+                    {{ $t('join.inGame') }} ɴᴋSuad
+                  </div>
+                  <div class="text-gray-400 text-sm">
+                    {{ $t('join.discord') }} suad_14
+                  </div>
                 </div>
               </div>
             </div>

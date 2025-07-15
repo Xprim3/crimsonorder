@@ -199,7 +199,7 @@
               class="lang-switcher-btn flex items-center justify-center w-20 min-w-[80px] max-w-[80px] px-2 py-1 rounded focus:outline-none"
             >
               <img
-                :src="`https://flagcdn.com/24x18/${languages.find(l => l.value === locale)?.flag}.png`"
+                :src="`https://flagcdn.com/24x18/${currentLanguage?.flag}.png`"
                 alt="flag"
                 class="flag-img mr-2 w-4 h-4 rounded-sm object-cover"
                 width="16"
@@ -207,7 +207,7 @@
                 loading="lazy"
               />
               <span class="font-semibold text-xs">{{
-                languages.find(l => l.value === locale)?.label
+                currentLanguage?.label
               }}</span>
               <svg
                 class="ml-1 w-3 h-3"
@@ -263,7 +263,7 @@
             class="lang-switcher-btn flex items-center justify-center w-20 min-w-[80px] max-w-[80px] px-2 py-1 rounded focus:outline-none"
           >
             <img
-              :src="`https://flagcdn.com/24x18/${languages.find(l => l.value === locale)?.flag}.png`"
+              :src="`https://flagcdn.com/24x18/${currentLanguage?.flag}.png`"
               alt="flag"
               class="flag-img mr-2 w-4 h-4 rounded-sm object-cover"
               width="16"
@@ -488,6 +488,14 @@
   </header>
 </template>
 
+<script lang="ts">
+  export interface LanguageOption {
+    label: string
+    value: string
+    flag: string
+  }
+</script>
+
 <script setup lang="ts">
   import { ref, onMounted, onUnmounted, computed } from 'vue'
   import { useI18n } from 'vue-i18n'
@@ -498,7 +506,7 @@
   let scrollTimeout: number | null = null
 
   // Navigation items
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const navigationItems = computed(() => [
     {
       id: 'home',
@@ -527,8 +535,7 @@
     },
   ])
 
-  const { locale } = useI18n()
-  const languages = [
+  const languages: LanguageOption[] = [
     { label: 'EN', value: 'en', flag: 'gb' },
     { label: 'FR', value: 'fr', flag: 'fr' },
     { label: 'ES', value: 'es', flag: 'es' },
@@ -548,6 +555,11 @@
   function closeLangDropdown() {
     showLangDropdown.value = false
   }
+
+  // Computed: current language object
+  const currentLanguage = computed<LanguageOption | undefined>(() =>
+    languages.find(lang => lang.value === locale.value)
+  )
 
   // Methods
   const handleImageError = (event: Event) => {

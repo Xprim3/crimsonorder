@@ -13,7 +13,7 @@ const STATIC_ASSETS = [
   '/logo/logo2.png',
   '/logo/favicon.jpg',
   '/logo/knights.png',
-  '/logo/blades.png'
+  '/logo/blades.png',
 ]
 
 // API endpoints to cache (if any)
@@ -29,37 +29,39 @@ const CACHE_STRATEGIES = {
   STATIC: 'cache-first',
   API: 'network-first',
   IMAGES: 'cache-first',
-  FONTS: 'cache-first'
+  FONTS: 'cache-first',
 }
 
 // Install event - cache static assets
-self.addEventListener('install', (event) => {
+self.addEventListener('install', event => {
   console.log('Service Worker installing... [v2024-06-09-1]')
   event.waitUntil(
     Promise.all([
-      caches.open(STATIC_CACHE_NAME).then((cache) => {
+      caches.open(STATIC_CACHE_NAME).then(cache => {
         console.log('Caching static assets')
         return cache.addAll(STATIC_ASSETS)
       }),
-      caches.open(API_CACHE_NAME).then((cache) => {
+      caches.open(API_CACHE_NAME).then(cache => {
         console.log('API cache ready')
         return cache
-      })
+      }),
     ])
   )
   self.skipWaiting() // Activate new SW immediately
 })
 
 // Activate event - clean up old caches
-self.addEventListener('activate', (event) => {
+self.addEventListener('activate', event => {
   console.log('Service Worker activating...')
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
+    caches.keys().then(cacheNames => {
       return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (cacheName !== CACHE_NAME && 
-              cacheName !== API_CACHE_NAME && 
-              cacheName !== STATIC_CACHE_NAME) {
+        cacheNames.map(cacheName => {
+          if (
+            cacheName !== CACHE_NAME &&
+            cacheName !== API_CACHE_NAME &&
+            cacheName !== STATIC_CACHE_NAME
+          ) {
             console.log('Deleting old cache:', cacheName)
             return caches.delete(cacheName)
           }
@@ -71,55 +73,59 @@ self.addEventListener('activate', (event) => {
 })
 
 // Fetch event - handle different types of requests
-self.addEventListener('fetch', (event) => {
-  const { request } = event;
-  const url = new URL(request.url);
+self.addEventListener('fetch', event => {
+  const { request } = event
+  const url = new URL(request.url)
 
   // Skip non-GET requests
-  if (request.method !== 'GET') return;
+  if (request.method !== 'GET') return
 
   // Skip unsupported schemes (like chrome-extension:)
-  if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
+  if (url.protocol !== 'http:' && url.protocol !== 'https:') return
 
   // Handle API requests
   if (isApiRequest(url)) {
-    event.respondWith(handleApiRequest(request));
-    return;
+    event.respondWith(handleApiRequest(request))
+    return
   }
 
   // Handle static assets
   if (isStaticAsset(url)) {
-    event.respondWith(handleStaticAsset(request));
-    return;
+    event.respondWith(handleStaticAsset(request))
+    return
   }
 
   // Handle images
   if (isImageRequest(url)) {
-    event.respondWith(handleImageRequest(request));
-    return;
+    event.respondWith(handleImageRequest(request))
+    return
   }
 
   // Handle fonts
   if (isFontRequest(url)) {
-    event.respondWith(handleFontRequest(request));
-    return;
+    event.respondWith(handleFontRequest(request))
+    return
   }
 
   // Default: network-first for HTML pages
-  event.respondWith(handlePageRequest(request));
-});
+  event.respondWith(handlePageRequest(request))
+})
 
 // Helper functions
 function isApiRequest(url) {
-  return API_ENDPOINTS.some(endpoint => url.pathname.startsWith(endpoint)) ||
-         url.pathname.startsWith('/api/')
+  return (
+    API_ENDPOINTS.some(endpoint => url.pathname.startsWith(endpoint)) ||
+    url.pathname.startsWith('/api/')
+  )
 }
 
 function isStaticAsset(url) {
-  return STATIC_ASSETS.includes(url.pathname) ||
-         url.pathname.startsWith('/assets/') ||
-         url.pathname.includes('.css') ||
-         url.pathname.includes('.js')
+  return (
+    STATIC_ASSETS.includes(url.pathname) ||
+    url.pathname.startsWith('/assets/') ||
+    url.pathname.includes('.css') ||
+    url.pathname.includes('.js')
+  )
 }
 
 function isImageRequest(url) {
@@ -133,17 +139,17 @@ function isFontRequest(url) {
 // Cache strategies
 async function handleApiRequest(request) {
   const cache = await caches.open(API_CACHE_NAME)
-  
+
   try {
     // Try network first
     const networkResponse = await fetch(request)
-    
+
     // Cache successful responses
     if (networkResponse.ok) {
       const responseClone = networkResponse.clone()
       cache.put(request, responseClone)
     }
-    
+
     return networkResponse
   } catch (error) {
     // Fallback to cache
@@ -151,13 +157,13 @@ async function handleApiRequest(request) {
     if (cachedResponse) {
       return cachedResponse
     }
-    
+
     // Return offline response
     return new Response(
       JSON.stringify({ error: 'No internet connection', offline: true }),
-      { 
-        status: 503, 
-        headers: { 'Content-Type': 'application/json' } 
+      {
+        status: 503,
+        headers: { 'Content-Type': 'application/json' },
       }
     )
   }
@@ -166,11 +172,11 @@ async function handleApiRequest(request) {
 async function handleStaticAsset(request) {
   const cache = await caches.open(STATIC_CACHE_NAME)
   const cachedResponse = await cache.match(request)
-  
+
   if (cachedResponse) {
     return cachedResponse
   }
-  
+
   try {
     const networkResponse = await fetch(request)
     if (networkResponse.ok) {
@@ -185,11 +191,11 @@ async function handleStaticAsset(request) {
 async function handleImageRequest(request) {
   const cache = await caches.open(STATIC_CACHE_NAME)
   const cachedResponse = await cache.match(request)
-  
+
   if (cachedResponse) {
     return cachedResponse
   }
-  
+
   try {
     const networkResponse = await fetch(request)
     if (networkResponse.ok) {
@@ -205,11 +211,11 @@ async function handleImageRequest(request) {
 async function handleFontRequest(request) {
   const cache = await caches.open(STATIC_CACHE_NAME)
   const cachedResponse = await cache.match(request)
-  
+
   if (cachedResponse) {
     return cachedResponse
   }
-  
+
   try {
     const networkResponse = await fetch(request)
     if (networkResponse.ok) {
@@ -223,16 +229,16 @@ async function handleFontRequest(request) {
 
 async function handlePageRequest(request) {
   const cache = await caches.open(STATIC_CACHE_NAME)
-  
+
   try {
     // Try network first for pages
     const networkResponse = await fetch(request)
-    
+
     if (networkResponse.ok) {
       // Cache successful page responses
       cache.put(request, networkResponse.clone())
     }
-    
+
     return networkResponse
   } catch (error) {
     // Fallback to cache
@@ -240,14 +246,14 @@ async function handlePageRequest(request) {
     if (cachedResponse) {
       return cachedResponse
     }
-    
+
     // Return offline page
     return cache.match('/offline.html')
   }
 }
 
 // Background sync for form submissions
-self.addEventListener('sync', (event) => {
+self.addEventListener('sync', event => {
   if (event.tag === 'background-sync') {
     event.waitUntil(doBackgroundSync())
   }
@@ -256,13 +262,13 @@ self.addEventListener('sync', (event) => {
 async function doBackgroundSync() {
   // Handle background sync for forms, API calls, etc.
   console.log('Background sync triggered')
-  
+
   // You can implement background sync logic here
   // For example, retry failed API calls, sync form data, etc.
 }
 
 // Push notifications (if you want to add them later)
-self.addEventListener('push', (event) => {
+self.addEventListener('push', event => {
   if (event.data) {
     const data = event.data.json()
     const options = {
@@ -272,35 +278,31 @@ self.addEventListener('push', (event) => {
       vibrate: [100, 50, 100],
       data: {
         dateOfArrival: Date.now(),
-        primaryKey: 1
+        primaryKey: 1,
       },
       actions: [
         {
           action: 'explore',
           title: 'View',
-          icon: '/logo/logo.png'
+          icon: '/logo/logo.png',
         },
         {
           action: 'close',
           title: 'Close',
-          icon: '/logo/logo.png'
-        }
-      ]
+          icon: '/logo/logo.png',
+        },
+      ],
     }
-    
-    event.waitUntil(
-      self.registration.showNotification(data.title, options)
-    )
+
+    event.waitUntil(self.registration.showNotification(data.title, options))
   }
 })
 
 // Handle notification clicks
-self.addEventListener('notificationclick', (event) => {
+self.addEventListener('notificationclick', event => {
   event.notification.close()
-  
+
   if (event.action === 'explore') {
-    event.waitUntil(
-      clients.openWindow('/')
-    )
+    event.waitUntil(clients.openWindow('/'))
   }
-}) 
+})

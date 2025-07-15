@@ -103,37 +103,75 @@
       },
       "rules": {
         "title": "Family Rules",
-        "rule1": {"text": "Prioritize Family Unity", "description": "Always put the family's success above individual glory"},
-        "rule2": {"text": "Follow Leadership", "description": "Execute leadership directives without question"},
-        "rule3": {"text": "Active Participation", "description": "Maintain consistent involvement in alliance activities"},
-        "rule4": {"text": "Respect All Members", "description": "Treat every family member with dignity regardless of rank"},
-        "rule5": {"text": "Maintain Secrecy", "description": "Never share family strategies with outsiders"},
-        "rule6": {"text": "Resource Sharing", "description": "Contribute to family support and resource distribution"}
+        "rule1": {
+          "text": "Prioritize Family Unity",
+          "description": "Always put the family's success above individual glory"
+        },
+        "rule2": {
+          "text": "Follow Leadership",
+          "description": "Execute leadership directives without question"
+        },
+        "rule3": {
+          "text": "Active Participation",
+          "description": "Maintain consistent involvement in alliance activities"
+        },
+        "rule4": {
+          "text": "Respect All Members",
+          "description": "Treat every family member with dignity regardless of rank"
+        },
+        "rule5": {
+          "text": "Maintain Secrecy",
+          "description": "Never share family strategies with outsiders"
+        },
+        "rule6": {
+          "text": "Resource Sharing",
+          "description": "Contribute to family support and resource distribution"
+        }
       },
       "principles": {
         "title": "Our Principles",
-        "principle1": {"text": "Collective Intelligence", "description": "We value the power of many minds over individual brilliance"},
-        "principle2": {"text": "Every Member Matters", "description": "Each person contributes uniquely to our success"},
-        "principle3": {"text": "Learn & Adapt", "description": "We grow stronger from every battle, win or lose"},
-        "principle4": {"text": "Loyalty & Trust", "description": "These are the unbreakable bonds that make us strong"},
-        "principle5": {"text": "Protect Our Own", "description": "We never abandon family members in need"},
-        "principle6": {"text": "Dedication to Excellence", "description": "We achieve greatness through practice and commitment"}
+        "principle1": {
+          "text": "Collective Intelligence",
+          "description": "We value the power of many minds over individual brilliance"
+        },
+        "principle2": {
+          "text": "Every Member Matters",
+          "description": "Each person contributes uniquely to our success"
+        },
+        "principle3": {
+          "text": "Learn & Adapt",
+          "description": "We grow stronger from every battle, win or lose"
+        },
+        "principle4": {
+          "text": "Loyalty & Trust",
+          "description": "These are the unbreakable bonds that make us strong"
+        },
+        "principle5": {
+          "text": "Protect Our Own",
+          "description": "We never abandon family members in need"
+        },
+        "principle6": {
+          "text": "Dedication to Excellence",
+          "description": "We achieve greatness through practice and commitment"
+        }
       },
       "traditions": {
         "title": "Family Traditions",
-        "tradition1": {"text": "Daily training sessions and strategy meetings"},
-        "tradition2": {"text": "Weekly recognition of outstanding members"},
-        "tradition3": {"text": "Monthly family gatherings and celebrations"},
-        "tradition4": {"text": "Knowledge sharing and mentorship programs"},
-        "tradition5": {"text": "Seasonal tournaments and competitions"}
+        "tradition1": {
+          "text": "Daily training sessions and strategy meetings"
+        },
+        "tradition2": { "text": "Weekly recognition of outstanding members" },
+        "tradition3": { "text": "Monthly family gatherings and celebrations" },
+        "tradition4": { "text": "Knowledge sharing and mentorship programs" },
+        "tradition5": { "text": "Seasonal tournaments and competitions" }
       },
       "benefits": {
         "title": "Member Benefits",
-        "benefit1": {"text": "Access to elite training and strategies"},
-        "benefit2": {"text": "24/7 support from experienced members"},
-        "benefit3": {"text": "Priority access to alliance resources"},
-        "benefit4": {"text": "Recognition and advancement opportunities"},
-        "benefit5": {"text": "Global network of skilled players"}
+        "benefit1": { "text": "Access to elite training and strategies" },
+        "benefit2": { "text": "24/7 support from experienced members" },
+        "benefit3": { "text": "Priority access to alliance resources" },
+        "benefit4": { "text": "Recognition and advancement opportunities" },
+        "benefit5": { "text": "Global network of skilled players" }
       }
     },
     "answerCall": {
@@ -275,4 +313,4 @@
       }
     ]
   }
-} 
+}

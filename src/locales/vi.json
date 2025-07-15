@@ -103,37 +103,77 @@
       },
       "rules": {
         "title": "Quy tắc Gia đình",
-        "rule1": {"text": "Ưu tiên sự đoàn kết gia đình", "description": "Luôn đặt thành công của gia đình lên trên vinh quang cá nhân"},
-        "rule2": {"text": "Tuân theo lãnh đạo", "description": "Thực hiện chỉ đạo của lãnh đạo mà không thắc mắc"},
-        "rule3": {"text": "Tham gia tích cực", "description": "Duy trì sự tham gia đều đặn vào các hoạt động của liên minh"},
-        "rule4": {"text": "Tôn trọng tất cả thành viên", "description": "Đối xử với mọi thành viên trong gia đình bằng sự tôn trọng, bất kể cấp bậc"},
-        "rule5": {"text": "Giữ bí mật", "description": "Không bao giờ chia sẻ chiến lược của gia đình với người ngoài"},
-        "rule6": {"text": "Chia sẻ tài nguyên", "description": "Đóng góp vào sự hỗ trợ và phân phối tài nguyên cho gia đình"}
+        "rule1": {
+          "text": "Ưu tiên sự đoàn kết gia đình",
+          "description": "Luôn đặt thành công của gia đình lên trên vinh quang cá nhân"
+        },
+        "rule2": {
+          "text": "Tuân theo lãnh đạo",
+          "description": "Thực hiện chỉ đạo của lãnh đạo mà không thắc mắc"
+        },
+        "rule3": {
+          "text": "Tham gia tích cực",
+          "description": "Duy trì sự tham gia đều đặn vào các hoạt động của liên minh"
+        },
+        "rule4": {
+          "text": "Tôn trọng tất cả thành viên",
+          "description": "Đối xử với mọi thành viên trong gia đình bằng sự tôn trọng, bất kể cấp bậc"
+        },
+        "rule5": {
+          "text": "Giữ bí mật",
+          "description": "Không bao giờ chia sẻ chiến lược của gia đình với người ngoài"
+        },
+        "rule6": {
+          "text": "Chia sẻ tài nguyên",
+          "description": "Đóng góp vào sự hỗ trợ và phân phối tài nguyên cho gia đình"
+        }
       },
       "principles": {
         "title": "Nguyên tắc của Chúng tôi",
-        "principle1": {"text": "Trí tuệ tập thể", "description": "Chúng tôi coi trọng sức mạnh của nhiều bộ óc hơn là sự xuất sắc cá nhân"},
-        "principle2": {"text": "Mỗi thành viên đều quan trọng", "description": "Mỗi người đều đóng góp một cách độc đáo vào thành công của chúng ta"},
-        "principle3": {"text": "Học hỏi & Thích nghi", "description": "Chúng tôi mạnh mẽ hơn sau mỗi trận chiến, dù thắng hay thua"},
-        "principle4": {"text": "Trung thành & Tin tưởng", "description": "Đây là những mối liên kết không thể phá vỡ giúp chúng ta mạnh mẽ hơn"},
-        "principle5": {"text": "Bảo vệ người thân", "description": "Chúng tôi không bao giờ bỏ rơi thành viên gia đình khi gặp khó khăn"},
-        "principle6": {"text": "Cống hiến cho sự xuất sắc", "description": "Chúng tôi đạt được thành tựu nhờ luyện tập và cam kết"}
+        "principle1": {
+          "text": "Trí tuệ tập thể",
+          "description": "Chúng tôi coi trọng sức mạnh của nhiều bộ óc hơn là sự xuất sắc cá nhân"
+        },
+        "principle2": {
+          "text": "Mỗi thành viên đều quan trọng",
+          "description": "Mỗi người đều đóng góp một cách độc đáo vào thành công của chúng ta"
+        },
+        "principle3": {
+          "text": "Học hỏi & Thích nghi",
+          "description": "Chúng tôi mạnh mẽ hơn sau mỗi trận chiến, dù thắng hay thua"
+        },
+        "principle4": {
+          "text": "Trung thành & Tin tưởng",
+          "description": "Đây là những mối liên kết không thể phá vỡ giúp chúng ta mạnh mẽ hơn"
+        },
+        "principle5": {
+          "text": "Bảo vệ người thân",
+          "description": "Chúng tôi không bao giờ bỏ rơi thành viên gia đình khi gặp khó khăn"
+        },
+        "principle6": {
+          "text": "Cống hiến cho sự xuất sắc",
+          "description": "Chúng tôi đạt được thành tựu nhờ luyện tập và cam kết"
+        }
       },
       "traditions": {
         "title": "Truyền thống Gia đình",
-        "tradition1": {"text": "Các buổi huấn luyện và họp chiến lược hàng ngày"},
-        "tradition2": {"text": "Vinh danh thành viên xuất sắc hàng tuần"},
-        "tradition3": {"text": "Họp mặt và lễ hội gia đình hàng tháng"},
-        "tradition4": {"text": "Chia sẻ kiến thức và chương trình cố vấn"},
-        "tradition5": {"text": "Giải đấu và cuộc thi theo mùa"}
+        "tradition1": {
+          "text": "Các buổi huấn luyện và họp chiến lược hàng ngày"
+        },
+        "tradition2": { "text": "Vinh danh thành viên xuất sắc hàng tuần" },
+        "tradition3": { "text": "Họp mặt và lễ hội gia đình hàng tháng" },
+        "tradition4": { "text": "Chia sẻ kiến thức và chương trình cố vấn" },
+        "tradition5": { "text": "Giải đấu và cuộc thi theo mùa" }
       },
       "benefits": {
         "title": "Quyền lợi Thành viên",
-        "benefit1": {"text": "Truy cập huấn luyện và chiến lược đỉnh cao"},
-        "benefit2": {"text": "Hỗ trợ 24/7 từ các thành viên giàu kinh nghiệm"},
-        "benefit3": {"text": "Ưu tiên tiếp cận tài nguyên liên minh"},
-        "benefit4": {"text": "Ghi nhận và cơ hội thăng tiến"},
-        "benefit5": {"text": "Mạng lưới người chơi tài năng toàn cầu"}
+        "benefit1": { "text": "Truy cập huấn luyện và chiến lược đỉnh cao" },
+        "benefit2": {
+          "text": "Hỗ trợ 24/7 từ các thành viên giàu kinh nghiệm"
+        },
+        "benefit3": { "text": "Ưu tiên tiếp cận tài nguyên liên minh" },
+        "benefit4": { "text": "Ghi nhận và cơ hội thăng tiến" },
+        "benefit5": { "text": "Mạng lưới người chơi tài năng toàn cầu" }
       }
     },
     "answerCall": {
@@ -224,11 +264,26 @@
     "howToTitle": "Cách gia nhập gia đình chúng tôi",
     "howToSubtitle": "Làm theo các bước sau để bắt đầu hành trình cùng Nocturnal Legacy",
     "steps": [
-      { "title": "Liên hệ Ban Lãnh Đạo", "desc": "Liên hệ với lãnh đạo qua Discord hoặc trò chuyện trong game để bày tỏ nguyện vọng" },
-      { "title": "Phỏng vấn ban đầu", "desc": "Tham gia phỏng vấn ngắn để trao đổi về kinh nghiệm và mức độ cam kết của bạn" },
-      { "title": "Thời gian thử thách", "desc": "Tham gia làm thành viên thử thách 1-2 tuần để chứng minh giá trị và sự cam kết" },
-      { "title": "Thành viên chính thức", "desc": "Sau khi được duyệt, bạn sẽ nhận đủ quyền lợi và truy cập tài nguyên của gia đình" },
-      { "title": "Bắt đầu hành trình", "desc": "Bắt đầu hành trình huyền thoại cùng gia đình Nocturnal Legacy" }
+      {
+        "title": "Liên hệ Ban Lãnh Đạo",
+        "desc": "Liên hệ với lãnh đạo qua Discord hoặc trò chuyện trong game để bày tỏ nguyện vọng"
+      },
+      {
+        "title": "Phỏng vấn ban đầu",
+        "desc": "Tham gia phỏng vấn ngắn để trao đổi về kinh nghiệm và mức độ cam kết của bạn"
+      },
+      {
+        "title": "Thời gian thử thách",
+        "desc": "Tham gia làm thành viên thử thách 1-2 tuần để chứng minh giá trị và sự cam kết"
+      },
+      {
+        "title": "Thành viên chính thức",
+        "desc": "Sau khi được duyệt, bạn sẽ nhận đủ quyền lợi và truy cập tài nguyên của gia đình"
+      },
+      {
+        "title": "Bắt đầu hành trình",
+        "desc": "Bắt đầu hành trình huyền thoại cùng gia đình Nocturnal Legacy"
+      }
     ]
   },
   "updateNotification": {
@@ -260,4 +315,4 @@
       }
     ]
   }
-} 
+}

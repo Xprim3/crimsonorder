@@ -103,37 +103,75 @@
       },
       "rules": {
         "title": "Aile Kuralları",
-        "rule1": {"text": "Aile Birliğini Önceliklendirin", "description": "Ailenin başarısını her zaman bireysel şan ve şöhretten üstün tutun"},
-        "rule2": {"text": "Liderliği Takip Edin", "description": "Liderlik direktiflerini sorgulamadan yerine getirin"},
-        "rule3": {"text": "Aktif Katılım", "description": "İttifak aktivitelerine sürekli katılım sağlayın"},
-        "rule4": {"text": "Tüm Üyelere Saygı", "description": "Her aile üyesine rütbesi ne olursa olsun saygı gösterin"},
-        "rule5": {"text": "Gizliliği Koruyun", "description": "Aile stratejilerini asla dışarıdakilerle paylaşmayın"},
-        "rule6": {"text": "Kaynak Paylaşımı", "description": "Aile desteğine ve kaynak dağıtımına katkıda bulunun"}
+        "rule1": {
+          "text": "Aile Birliğini Önceliklendirin",
+          "description": "Ailenin başarısını her zaman bireysel şan ve şöhretten üstün tutun"
+        },
+        "rule2": {
+          "text": "Liderliği Takip Edin",
+          "description": "Liderlik direktiflerini sorgulamadan yerine getirin"
+        },
+        "rule3": {
+          "text": "Aktif Katılım",
+          "description": "İttifak aktivitelerine sürekli katılım sağlayın"
+        },
+        "rule4": {
+          "text": "Tüm Üyelere Saygı",
+          "description": "Her aile üyesine rütbesi ne olursa olsun saygı gösterin"
+        },
+        "rule5": {
+          "text": "Gizliliği Koruyun",
+          "description": "Aile stratejilerini asla dışarıdakilerle paylaşmayın"
+        },
+        "rule6": {
+          "text": "Kaynak Paylaşımı",
+          "description": "Aile desteğine ve kaynak dağıtımına katkıda bulunun"
+        }
       },
       "principles": {
         "title": "İlkelerimiz",
-        "principle1": {"text": "Kolektif Zeka", "description": "Birçok aklın gücünü bireysel parlaklıktan üstün tutarız"},
-        "principle2": {"text": "Her Üye Önemlidir", "description": "Her birey başarımıza benzersiz bir katkı sağlar"},
-        "principle3": {"text": "Öğren & Uyum Sağla", "description": "Her savaştan, kazansak da kaybetsek de güçlenerek çıkarız"},
-        "principle4": {"text": "Sadakat & Güven", "description": "Bizi güçlü kılan kırılmaz bağlardır"},
-        "principle5": {"text": "Kendimizi Korumak", "description": "İhtiyaç duyan aile üyelerini asla yalnız bırakmayız"},
-        "principle6": {"text": "Mükemmelliğe Adanmışlık", "description": "Büyüklüğe pratik ve bağlılıkla ulaşırız"}
+        "principle1": {
+          "text": "Kolektif Zeka",
+          "description": "Birçok aklın gücünü bireysel parlaklıktan üstün tutarız"
+        },
+        "principle2": {
+          "text": "Her Üye Önemlidir",
+          "description": "Her birey başarımıza benzersiz bir katkı sağlar"
+        },
+        "principle3": {
+          "text": "Öğren & Uyum Sağla",
+          "description": "Her savaştan, kazansak da kaybetsek de güçlenerek çıkarız"
+        },
+        "principle4": {
+          "text": "Sadakat & Güven",
+          "description": "Bizi güçlü kılan kırılmaz bağlardır"
+        },
+        "principle5": {
+          "text": "Kendimizi Korumak",
+          "description": "İhtiyaç duyan aile üyelerini asla yalnız bırakmayız"
+        },
+        "principle6": {
+          "text": "Mükemmelliğe Adanmışlık",
+          "description": "Büyüklüğe pratik ve bağlılıkla ulaşırız"
+        }
       },
       "traditions": {
-          "title": "Aile Gelenekleri",
-          "tradition1": {"text": "Günlük eğitim seansları ve strateji toplantıları"},
-          "tradition2": {"text": "Haftalık öne çıkan üyelerin takdiri"},
-          "tradition3": {"text": "Aylık aile buluşmaları ve kutlamalar"},
-          "tradition4": {"text": "Bilgi paylaşımı ve mentorluk programları"},
-          "tradition5": {"text": "Mevsimlik turnuvalar ve yarışmalar"}
+        "title": "Aile Gelenekleri",
+        "tradition1": {
+          "text": "Günlük eğitim seansları ve strateji toplantıları"
+        },
+        "tradition2": { "text": "Haftalık öne çıkan üyelerin takdiri" },
+        "tradition3": { "text": "Aylık aile buluşmaları ve kutlamalar" },
+        "tradition4": { "text": "Bilgi paylaşımı ve mentorluk programları" },
+        "tradition5": { "text": "Mevsimlik turnuvalar ve yarışmalar" }
       },
       "benefits": {
-          "title": "Üye Avantajları",
-          "benefit1": {"text": "Elit eğitim ve stratejilere erişim"},
-          "benefit2": {"text": "Deneyimli üyelerden 7/24 destek"},
-          "benefit3": {"text": "İttifak kaynaklarına öncelikli erişim"},
-          "benefit4": {"text": "Tanıma ve terfi fırsatları"},
-          "benefit5": {"text": "Küresel yetenekli oyuncu ağı"}
+        "title": "Üye Avantajları",
+        "benefit1": { "text": "Elit eğitim ve stratejilere erişim" },
+        "benefit2": { "text": "Deneyimli üyelerden 7/24 destek" },
+        "benefit3": { "text": "İttifak kaynaklarına öncelikli erişim" },
+        "benefit4": { "text": "Tanıma ve terfi fırsatları" },
+        "benefit5": { "text": "Küresel yetenekli oyuncu ağı" }
       }
     },
     "answerCall": {
@@ -248,11 +286,26 @@
     "howToTitle": "Ailemize Nasıl Katılınır",
     "howToSubtitle": "Nocturnal Legacy ile yolculuğunuza başlamak için bu adımları izleyin",
     "steps": [
-      { "title": "Liderlik ile İletişime Geçin", "desc": "İlginizi belirtmek için liderlerimize Discord veya oyun içi sohbetten ulaşın" },
-      { "title": "Ön Görüşme", "desc": "Deneyiminizi ve bağlılık seviyenizi konuşmak için kısa bir görüşme yapın" },
-      { "title": "Deneme Süresi", "desc": "1-2 hafta boyunca deneme üyesi olarak katılın ve değeriniz ile bağlılığınızı kanıtlayın" },
-      { "title": "Tam Üyelik", "desc": "Onay sonrası tüm aile ayrıcalıklarına ve kaynaklara erişim kazanın" },
-      { "title": "Yolculuğunuza Başlayın", "desc": "Nocturnal Legacy ailesiyle efsanevi yolculuğunuza başlayın" }
+      {
+        "title": "Liderlik ile İletişime Geçin",
+        "desc": "İlginizi belirtmek için liderlerimize Discord veya oyun içi sohbetten ulaşın"
+      },
+      {
+        "title": "Ön Görüşme",
+        "desc": "Deneyiminizi ve bağlılık seviyenizi konuşmak için kısa bir görüşme yapın"
+      },
+      {
+        "title": "Deneme Süresi",
+        "desc": "1-2 hafta boyunca deneme üyesi olarak katılın ve değeriniz ile bağlılığınızı kanıtlayın"
+      },
+      {
+        "title": "Tam Üyelik",
+        "desc": "Onay sonrası tüm aile ayrıcalıklarına ve kaynaklara erişim kazanın"
+      },
+      {
+        "title": "Yolculuğunuza Başlayın",
+        "desc": "Nocturnal Legacy ailesiyle efsanevi yolculuğunuza başlayın"
+      }
     ]
   },
   "loading": {
@@ -284,4 +337,4 @@
       }
     ]
   }
-} 
+}

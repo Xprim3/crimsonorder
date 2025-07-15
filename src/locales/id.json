@@ -103,37 +103,77 @@
       },
       "rules": {
         "title": "Aturan Keluarga",
-        "rule1": {"text": "Utamakan Persatuan Keluarga", "description": "Selalu utamakan keberhasilan keluarga di atas kejayaan individu"},
-        "rule2": {"text": "Ikuti Kepemimpinan", "description": "Laksanakan arahan kepemimpinan tanpa pertanyaan"},
-        "rule3": {"text": "Partisipasi Aktif", "description": "Jaga keterlibatan yang konsisten dalam aktivitas aliansi"},
-        "rule4": {"text": "Hormati Semua Anggota", "description": "Perlakukan setiap anggota keluarga dengan hormat tanpa memandang pangkat"},
-        "rule5": {"text": "Jaga Kerahasiaan", "description": "Jangan pernah membagikan strategi keluarga kepada orang luar"},
-        "rule6": {"text": "Berbagi Sumber Daya", "description": "Berkontribusi pada dukungan keluarga dan distribusi sumber daya"}
+        "rule1": {
+          "text": "Utamakan Persatuan Keluarga",
+          "description": "Selalu utamakan keberhasilan keluarga di atas kejayaan individu"
+        },
+        "rule2": {
+          "text": "Ikuti Kepemimpinan",
+          "description": "Laksanakan arahan kepemimpinan tanpa pertanyaan"
+        },
+        "rule3": {
+          "text": "Partisipasi Aktif",
+          "description": "Jaga keterlibatan yang konsisten dalam aktivitas aliansi"
+        },
+        "rule4": {
+          "text": "Hormati Semua Anggota",
+          "description": "Perlakukan setiap anggota keluarga dengan hormat tanpa memandang pangkat"
+        },
+        "rule5": {
+          "text": "Jaga Kerahasiaan",
+          "description": "Jangan pernah membagikan strategi keluarga kepada orang luar"
+        },
+        "rule6": {
+          "text": "Berbagi Sumber Daya",
+          "description": "Berkontribusi pada dukungan keluarga dan distribusi sumber daya"
+        }
       },
       "principles": {
         "title": "Prinsip Kami",
-        "principle1": {"text": "Kecerdasan Kolektif", "description": "Kami menghargai kekuatan banyak pikiran di atas kecemerlangan individu"},
-        "principle2": {"text": "Setiap Anggota Penting", "description": "Setiap orang berkontribusi secara unik pada kesuksesan kita"},
-        "principle3": {"text": "Belajar & Beradaptasi", "description": "Kami tumbuh lebih kuat dari setiap pertempuran, menang atau kalah"},
-        "principle4": {"text": "Loyalitas & Kepercayaan", "description": "Ini adalah ikatan tak tergoyahkan yang membuat kami kuat"},
-        "principle5": {"text": "Lindungi Keluarga Kami", "description": "Kami tidak pernah meninggalkan anggota keluarga yang membutuhkan"},
-        "principle6": {"text": "Dedikasi pada Keunggulan", "description": "Kami meraih kehebatan melalui latihan dan komitmen"}
+        "principle1": {
+          "text": "Kecerdasan Kolektif",
+          "description": "Kami menghargai kekuatan banyak pikiran di atas kecemerlangan individu"
+        },
+        "principle2": {
+          "text": "Setiap Anggota Penting",
+          "description": "Setiap orang berkontribusi secara unik pada kesuksesan kita"
+        },
+        "principle3": {
+          "text": "Belajar & Beradaptasi",
+          "description": "Kami tumbuh lebih kuat dari setiap pertempuran, menang atau kalah"
+        },
+        "principle4": {
+          "text": "Loyalitas & Kepercayaan",
+          "description": "Ini adalah ikatan tak tergoyahkan yang membuat kami kuat"
+        },
+        "principle5": {
+          "text": "Lindungi Keluarga Kami",
+          "description": "Kami tidak pernah meninggalkan anggota keluarga yang membutuhkan"
+        },
+        "principle6": {
+          "text": "Dedikasi pada Keunggulan",
+          "description": "Kami meraih kehebatan melalui latihan dan komitmen"
+        }
       },
       "traditions": {
-          "title": "Tradisi Keluarga",
-          "tradition1": {"text": "Sesi pelatihan harian dan rapat strategi"},
-          "tradition2": {"text": "Penghargaan mingguan untuk anggota berprestasi"},
-          "tradition3": {"text": "Pertemuan dan perayaan keluarga bulanan"},
-          "tradition4": {"text": "Berbagi pengetahuan dan program pendampingan"},
-          "tradition5": {"text": "Turnamen dan kompetisi musiman"}
+        "title": "Tradisi Keluarga",
+        "tradition1": { "text": "Sesi pelatihan harian dan rapat strategi" },
+        "tradition2": {
+          "text": "Penghargaan mingguan untuk anggota berprestasi"
+        },
+        "tradition3": { "text": "Pertemuan dan perayaan keluarga bulanan" },
+        "tradition4": {
+          "text": "Berbagi pengetahuan dan program pendampingan"
+        },
+        "tradition5": { "text": "Turnamen dan kompetisi musiman" }
       },
       "benefits": {
-          "title": "Manfaat Anggota",
-          "benefit1": {"text": "Akses ke pelatihan dan strategi elit"},
-          "benefit2": {"text": "Dukungan 24/7 dari anggota berpengalaman"},
-          "benefit3": {"text": "Akses prioritas ke sumber daya aliansi"},
-          "benefit4": {"text": "Pengakuan dan peluang pengembangan"},
-          "benefit5": {"text": "Jaringan pemain berbakat global"}
+        "title": "Manfaat Anggota",
+        "benefit1": { "text": "Akses ke pelatihan dan strategi elit" },
+        "benefit2": { "text": "Dukungan 24/7 dari anggota berpengalaman" },
+        "benefit3": { "text": "Akses prioritas ke sumber daya aliansi" },
+        "benefit4": { "text": "Pengakuan dan peluang pengembangan" },
+        "benefit5": { "text": "Jaringan pemain berbakat global" }
       }
     },
     "answerCall": {
@@ -275,4 +315,4 @@
       }
     ]
   }
-} 
+}

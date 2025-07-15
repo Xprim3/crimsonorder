@@ -75,71 +75,117 @@
       }
     },
     "eliteAlliances": {
-        "title": "Nuestras Alianzas de Élite",
-        "subtitle": "Dos alianzas legendarias trabajando en perfecta armonía para dominar reinos y crear una fuerza imparable"
+      "title": "Nuestras Alianzas de Élite",
+      "subtitle": "Dos alianzas legendarias trabajando en perfecta armonía para dominar reinos y crear una fuerza imparable"
     },
     "knights": {
-        "title": "Caballeros Nocturnos",
-        "desc": "El escudo irrompible de nuestra familia. Estos legendarios defensores han dominado el arte de proteger lo que más importa. Sus ciudades son fortalezas impenetrables, sus recursos fluyen como ríos y su apoyo mantiene fuerte a toda la familia."
+      "title": "Caballeros Nocturnos",
+      "desc": "El escudo irrompible de nuestra familia. Estos legendarios defensores han dominado el arte de proteger lo que más importa. Sus ciudades son fortalezas impenetrables, sus recursos fluyen como ríos y su apoyo mantiene fuerte a toda la familia."
     },
     "blades": {
-        "title": "Espadas Nocturnas",
-        "desc": "La espada implacable de nuestra familia. Estos guerreros legendarios atacan con una precisión y valentía incomparables. Sus victorias inspiran a la familia, sus tácticas moldean nuestro destino y su unidad forja nuestro camino hacia la grandeza."
+      "title": "Espadas Nocturnas",
+      "desc": "La espada implacable de nuestra familia. Estos guerreros legendarios atacan con una precisión y valentía incomparables. Sus victorias inspiran a la familia, sus tácticas moldean nuestro destino y su unidad forja nuestro camino hacia la grandeza."
     },
     "members": "Miembros",
     "rank": "Rango",
     "mainAlliance": "Alianza Principal",
     "kingdomLeadership": "Liderazgo del Reino",
     "familyCulture": {
-        "title": "Nuestra Cultura Familiar",
-        "description": "Más allá del campo de batalla, Nocturnal Legacy se basa en valores que crean lazos duraderos y logros legendarios. Nuestra cultura es la base de nuestro éxito y la razón por la que seguimos invictos.",
-        "values": {
-            "unity": "Unidad",
-            "unityDescription": "Creemos que la fuerza individual se amplifica cuando se combina con un propósito colectivo. Cada miembro contribuye a nuestro éxito compartido.",
-            "strategy": "Estrategia",
-            "strategyDescription": "Cada batalla se gana antes de que comience. Valoramos el pensamiento estratégico, la planificación cuidadosa y la ejecución táctica sobre la fuerza bruta.",
-            "excellence": "Excelencia",
-            "excellenceDescription": "Nos esforzamos por la excelencia en todo lo que hacemos. Desde el rendimiento individual hasta la coordinación de la alianza, nunca nos conformamos con menos que lo mejor."
+      "title": "Nuestra Cultura Familiar",
+      "description": "Más allá del campo de batalla, Nocturnal Legacy se basa en valores que crean lazos duraderos y logros legendarios. Nuestra cultura es la base de nuestro éxito y la razón por la que seguimos invictos.",
+      "values": {
+        "unity": "Unidad",
+        "unityDescription": "Creemos que la fuerza individual se amplifica cuando se combina con un propósito colectivo. Cada miembro contribuye a nuestro éxito compartido.",
+        "strategy": "Estrategia",
+        "strategyDescription": "Cada batalla se gana antes de que comience. Valoramos el pensamiento estratégico, la planificación cuidadosa y la ejecución táctica sobre la fuerza bruta.",
+        "excellence": "Excelencia",
+        "excellenceDescription": "Nos esforzamos por la excelencia en todo lo que hacemos. Desde el rendimiento individual hasta la coordinación de la alianza, nunca nos conformamos con menos que lo mejor."
+      },
+      "traditions": {
+        "title": "Tradiciones Familiares",
+        "tradition1": {
+          "text": "Sesiones diarias de entrenamiento y reuniones estratégicas"
         },
-        "traditions": {
-            "title": "Tradiciones Familiares",
-            "tradition1": {"text": "Sesiones diarias de entrenamiento y reuniones estratégicas"},
-            "tradition2": {"text": "Reconocimiento semanal de miembros destacados"},
-            "tradition3": {"text": "Reuniones y celebraciones familiares mensuales"},
-            "tradition4": {"text": "Intercambio de conocimientos y programas de mentoría"},
-            "tradition5": {"text": "Torneos y competiciones de temporada"}
+        "tradition2": {
+          "text": "Reconocimiento semanal de miembros destacados"
         },
-        "benefits": {
-            "title": "Beneficios para Miembros",
-            "benefit1": {"text": "Acceso a entrenamiento y estrategias de élite"},
-            "benefit2": {"text": "Soporte 24/7 de miembros experimentados"},
-            "benefit3": {"text": "Acceso prioritario a los recursos de la alianza"},
-            "benefit4": {"text": "Reconocimiento y oportunidades de avance"},
-            "benefit5": {"text": "Red global de jugadores expertos"}
+        "tradition3": {
+          "text": "Reuniones y celebraciones familiares mensuales"
         },
-        "rules": {
-            "title": "Reglas Familiares",
-            "rule1": {"text": "Priorizar la unidad familiar", "description": "Siempre anteponer el éxito de la familia a la gloria individual"},
-            "rule2": {"text": "Seguir el liderazgo", "description": "Ejecutar las directrices del liderazgo sin cuestionarlas"},
-            "rule3": {"text": "Participación activa", "description": "Mantener una participación constante en las actividades de la alianza"},
-            "rule4": {"text": "Respetar a todos los miembros", "description": "Tratar a cada miembro de la familia con dignidad sin importar el rango"},
-            "rule5": {"text": "Mantener el secreto", "description": "Nunca compartir las estrategias familiares con extraños"},
-            "rule6": {"text": "Compartir recursos", "description": "Contribuir al apoyo familiar y la distribución de recursos"}
+        "tradition4": {
+          "text": "Intercambio de conocimientos y programas de mentoría"
         },
-        "principles": {
-            "title": "Nuestros Principios",
-            "principle1": {"text": "Inteligencia colectiva", "description": "Valoramos el poder de muchas mentes sobre el brillo individual"},
-            "principle2": {"text": "Cada miembro importa", "description": "Cada persona contribuye de manera única a nuestro éxito"},
-            "principle3": {"text": "Aprender y adaptarse", "description": "Nos fortalecemos con cada batalla, ganada o perdida"},
-            "principle4": {"text": "Lealtad y confianza", "description": "Estos son los lazos irrompibles que nos hacen fuertes"},
-            "principle5": {"text": "Proteger a los nuestros", "description": "Nunca abandonamos a los miembros de la familia que lo necesitan"},
-            "principle6": {"text": "Dedicación a la excelencia", "description": "Alcanzamos la grandeza a través de la práctica y el compromiso"}
+        "tradition5": { "text": "Torneos y competiciones de temporada" }
+      },
+      "benefits": {
+        "title": "Beneficios para Miembros",
+        "benefit1": { "text": "Acceso a entrenamiento y estrategias de élite" },
+        "benefit2": { "text": "Soporte 24/7 de miembros experimentados" },
+        "benefit3": {
+          "text": "Acceso prioritario a los recursos de la alianza"
+        },
+        "benefit4": { "text": "Reconocimiento y oportunidades de avance" },
+        "benefit5": { "text": "Red global de jugadores expertos" }
+      },
+      "rules": {
+        "title": "Reglas Familiares",
+        "rule1": {
+          "text": "Priorizar la unidad familiar",
+          "description": "Siempre anteponer el éxito de la familia a la gloria individual"
+        },
+        "rule2": {
+          "text": "Seguir el liderazgo",
+          "description": "Ejecutar las directrices del liderazgo sin cuestionarlas"
+        },
+        "rule3": {
+          "text": "Participación activa",
+          "description": "Mantener una participación constante en las actividades de la alianza"
+        },
+        "rule4": {
+          "text": "Respetar a todos los miembros",
+          "description": "Tratar a cada miembro de la familia con dignidad sin importar el rango"
+        },
+        "rule5": {
+          "text": "Mantener el secreto",
+          "description": "Nunca compartir las estrategias familiares con extraños"
+        },
+        "rule6": {
+          "text": "Compartir recursos",
+          "description": "Contribuir al apoyo familiar y la distribución de recursos"
         }
+      },
+      "principles": {
+        "title": "Nuestros Principios",
+        "principle1": {
+          "text": "Inteligencia colectiva",
+          "description": "Valoramos el poder de muchas mentes sobre el brillo individual"
+        },
+        "principle2": {
+          "text": "Cada miembro importa",
+          "description": "Cada persona contribuye de manera única a nuestro éxito"
+        },
+        "principle3": {
+          "text": "Aprender y adaptarse",
+          "description": "Nos fortalecemos con cada batalla, ganada o perdida"
+        },
+        "principle4": {
+          "text": "Lealtad y confianza",
+          "description": "Estos son los lazos irrompibles que nos hacen fuertes"
+        },
+        "principle5": {
+          "text": "Proteger a los nuestros",
+          "description": "Nunca abandonamos a los miembros de la familia que lo necesitan"
+        },
+        "principle6": {
+          "text": "Dedicación a la excelencia",
+          "description": "Alcanzamos la grandeza a través de la práctica y el compromiso"
+        }
+      }
     },
     "answerCall": {
-        "title": "Responde al Llamado",
-        "subtitle": "¿Listo para unirte a la élite?",
-        "description": "¿Estás listo para ser parte de algo más grande que tú? Nocturnal Legacy busca guerreros que valoren la lealtad, la estrategia y la familia por encima de todo."
+      "title": "Responde al Llamado",
+      "subtitle": "¿Listo para unirte a la élite?",
+      "description": "¿Estás listo para ser parte de algo más grande que tú? Nocturnal Legacy busca guerreros que valoren la lealtad, la estrategia y la familia por encima de todo."
     },
     "howToTitle": "Cómo unirse a nuestra familia",
     "howToSubtitle": "Sigue estos pasos para comenzar tu viaje con Nocturnal Legacy",
@@ -248,11 +294,26 @@
     "howToTitle": "Cómo unirse a nuestra familia",
     "howToSubtitle": "Sigue estos pasos para comenzar tu viaje con Nocturnal Legacy",
     "steps": [
-      { "title": "Contactar con la dirección", "desc": "Comunícate con nuestros líderes por Discord o chat del juego para expresar tu interés" },
-      { "title": "Entrevista inicial", "desc": "Completa una breve entrevista para hablar sobre tu experiencia y nivel de compromiso" },
-      { "title": "Período de prueba", "desc": "Únete como miembro de prueba durante 1-2 semanas para demostrar tu valía y compromiso" },
-      { "title": "Membresía completa", "desc": "Tras la aprobación, recibe todos los beneficios y acceso a los recursos de la familia" },
-      { "title": "Comienza tu viaje", "desc": "Empieza tu viaje legendario con la familia Nocturnal Legacy" }
+      {
+        "title": "Contactar con la dirección",
+        "desc": "Comunícate con nuestros líderes por Discord o chat del juego para expresar tu interés"
+      },
+      {
+        "title": "Entrevista inicial",
+        "desc": "Completa una breve entrevista para hablar sobre tu experiencia y nivel de compromiso"
+      },
+      {
+        "title": "Período de prueba",
+        "desc": "Únete como miembro de prueba durante 1-2 semanas para demostrar tu valía y compromiso"
+      },
+      {
+        "title": "Membresía completa",
+        "desc": "Tras la aprobación, recibe todos los beneficios y acceso a los recursos de la familia"
+      },
+      {
+        "title": "Comienza tu viaje",
+        "desc": "Empieza tu viaje legendario con la familia Nocturnal Legacy"
+      }
     ]
   },
   "loading": {
@@ -284,4 +345,4 @@
       }
     ]
   }
-} 
+}

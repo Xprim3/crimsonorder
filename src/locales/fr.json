@@ -103,37 +103,83 @@
       },
       "rules": {
         "title": "Règles Familiales",
-        "rule1": {"text": "Prioriser l'unité familiale", "description": "Toujours placer le succès de la famille au-dessus de la gloire individuelle"},
-        "rule2": {"text": "Suivre la direction", "description": "Exécuter les directives de la direction sans question"},
-        "rule3": {"text": "Participation active", "description": "Maintenir une implication constante dans les activités de l'alliance"},
-        "rule4": {"text": "Respecter tous les membres", "description": "Traiter chaque membre de la famille avec dignité, quel que soit son rang"},
-        "rule5": {"text": "Préserver le secret", "description": "Ne jamais partager les stratégies familiales avec des étrangers"},
-        "rule6": {"text": "Partage des ressources", "description": "Contribuer au soutien familial et à la distribution des ressources"}
+        "rule1": {
+          "text": "Prioriser l'unité familiale",
+          "description": "Toujours placer le succès de la famille au-dessus de la gloire individuelle"
+        },
+        "rule2": {
+          "text": "Suivre la direction",
+          "description": "Exécuter les directives de la direction sans question"
+        },
+        "rule3": {
+          "text": "Participation active",
+          "description": "Maintenir une implication constante dans les activités de l'alliance"
+        },
+        "rule4": {
+          "text": "Respecter tous les membres",
+          "description": "Traiter chaque membre de la famille avec dignité, quel que soit son rang"
+        },
+        "rule5": {
+          "text": "Préserver le secret",
+          "description": "Ne jamais partager les stratégies familiales avec des étrangers"
+        },
+        "rule6": {
+          "text": "Partage des ressources",
+          "description": "Contribuer au soutien familial et à la distribution des ressources"
+        }
       },
       "principles": {
         "title": "Nos Principes",
-        "principle1": {"text": "Intelligence collective", "description": "Nous valorisons la puissance de plusieurs esprits plutôt que le génie individuel"},
-        "principle2": {"text": "Chaque membre compte", "description": "Chaque personne contribue de manière unique à notre succès"},
-        "principle3": {"text": "Apprendre & S'adapter", "description": "Nous devenons plus forts à chaque bataille, victoire ou défaite"},
-        "principle4": {"text": "Loyauté & Confiance", "description": "Ce sont les liens incassables qui nous rendent forts"},
-        "principle5": {"text": "Protéger les nôtres", "description": "Nous n'abandonnons jamais un membre de la famille dans le besoin"},
-        "principle6": {"text": "Dévouement à l'excellence", "description": "Nous atteignons la grandeur par la pratique et l'engagement"}
+        "principle1": {
+          "text": "Intelligence collective",
+          "description": "Nous valorisons la puissance de plusieurs esprits plutôt que le génie individuel"
+        },
+        "principle2": {
+          "text": "Chaque membre compte",
+          "description": "Chaque personne contribue de manière unique à notre succès"
+        },
+        "principle3": {
+          "text": "Apprendre & S'adapter",
+          "description": "Nous devenons plus forts à chaque bataille, victoire ou défaite"
+        },
+        "principle4": {
+          "text": "Loyauté & Confiance",
+          "description": "Ce sont les liens incassables qui nous rendent forts"
+        },
+        "principle5": {
+          "text": "Protéger les nôtres",
+          "description": "Nous n'abandonnons jamais un membre de la famille dans le besoin"
+        },
+        "principle6": {
+          "text": "Dévouement à l'excellence",
+          "description": "Nous atteignons la grandeur par la pratique et l'engagement"
+        }
       },
       "traditions": {
-          "title": "Traditions Familiales",
-          "tradition1": {"text": "Séances d'entraînement quotidiennes et réunions stratégiques"},
-          "tradition2": {"text": "Reconnaissance hebdomadaire des membres exceptionnels"},
-          "tradition3": {"text": "Rassemblements et célébrations familiales mensuels"},
-          "tradition4": {"text": "Partage des connaissances et mentorat"},
-          "tradition5": {"text": "Tournois et compétitions saisonnières"}
+        "title": "Traditions Familiales",
+        "tradition1": {
+          "text": "Séances d'entraînement quotidiennes et réunions stratégiques"
+        },
+        "tradition2": {
+          "text": "Reconnaissance hebdomadaire des membres exceptionnels"
+        },
+        "tradition3": {
+          "text": "Rassemblements et célébrations familiales mensuels"
+        },
+        "tradition4": { "text": "Partage des connaissances et mentorat" },
+        "tradition5": { "text": "Tournois et compétitions saisonnières" }
       },
       "benefits": {
-          "title": "Avantages des Membres",
-          "benefit1": {"text": "Accès à une formation et des stratégies d'élite"},
-          "benefit2": {"text": "Soutien 24/7 par des membres expérimentés"},
-          "benefit3": {"text": "Accès prioritaire aux ressources de l'alliance"},
-          "benefit4": {"text": "Reconnaissance et opportunités d'avancement"},
-          "benefit5": {"text": "Réseau mondial de joueurs expérimentés"}
+        "title": "Avantages des Membres",
+        "benefit1": {
+          "text": "Accès à une formation et des stratégies d'élite"
+        },
+        "benefit2": { "text": "Soutien 24/7 par des membres expérimentés" },
+        "benefit3": {
+          "text": "Accès prioritaire aux ressources de l'alliance"
+        },
+        "benefit4": { "text": "Reconnaissance et opportunités d'avancement" },
+        "benefit5": { "text": "Réseau mondial de joueurs expérimentés" }
       }
     },
     "answerCall": {
@@ -275,4 +321,4 @@
       }
     ]
   }
-} 
+}

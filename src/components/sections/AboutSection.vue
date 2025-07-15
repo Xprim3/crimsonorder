@@ -416,7 +416,9 @@
                 class="bg-red-800/30 rounded-xl p-4 border border-red-700/50"
               >
                 <div class="text-2xl font-bold text-yellow-300">144</div>
-                <div class="text-xs text-gray-400">{{ $t('about.members') }}</div>
+                <div class="text-xs text-gray-400">
+                  {{ $t('about.members') }}
+                </div>
               </div>
               <div
                 class="bg-red-800/30 rounded-xl p-4 border border-red-700/50"
@@ -582,8 +584,14 @@
             <div
               class="flex flex-wrap justify-center gap-2 text-xs text-gray-400 mb-8"
             >
-              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Top 2 Alliance</span>
-              <span class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50">Territory Control</span>
+              <span
+                class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
+                >Top 2 Alliance</span
+              >
+              <span
+                class="bg-red-800/40 px-3 py-1 rounded-full border border-red-700/50"
+                >Territory Control</span
+              >
             </div>
 
             <!-- Alliance Leadership -->
@@ -914,7 +922,11 @@
                     {{ $t('about.familyCulture.principles.principle1.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    {{ $t('about.familyCulture.principles.principle1.description') }}
+                    {{
+                      $t(
+                        'about.familyCulture.principles.principle1.description'
+                      )
+                    }}
                   </div>
                 </div>
               </div>
@@ -930,7 +942,11 @@
                     {{ $t('about.familyCulture.principles.principle2.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    {{ $t('about.familyCulture.principles.principle2.description') }}
+                    {{
+                      $t(
+                        'about.familyCulture.principles.principle2.description'
+                      )
+                    }}
                   </div>
                 </div>
               </div>
@@ -946,7 +962,11 @@
                     {{ $t('about.familyCulture.principles.principle3.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    {{ $t('about.familyCulture.principles.principle3.description') }}
+                    {{
+                      $t(
+                        'about.familyCulture.principles.principle3.description'
+                      )
+                    }}
                   </div>
                 </div>
               </div>
@@ -962,7 +982,11 @@
                     {{ $t('about.familyCulture.principles.principle4.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    {{ $t('about.familyCulture.principles.principle4.description') }}
+                    {{
+                      $t(
+                        'about.familyCulture.principles.principle4.description'
+                      )
+                    }}
                   </div>
                 </div>
               </div>
@@ -978,7 +1002,11 @@
                     {{ $t('about.familyCulture.principles.principle5.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    {{ $t('about.familyCulture.principles.principle5.description') }}
+                    {{
+                      $t(
+                        'about.familyCulture.principles.principle5.description'
+                      )
+                    }}
                   </div>
                 </div>
               </div>
@@ -994,7 +1022,11 @@
                     {{ $t('about.familyCulture.principles.principle6.text') }}
                   </div>
                   <div class="text-gray-400 text-xs lg:text-sm mt-1">
-                    {{ $t('about.familyCulture.principles.principle6.description') }}
+                    {{
+                      $t(
+                        'about.familyCulture.principles.principle6.description'
+                      )
+                    }}
                   </div>
                 </div>
               </div>
@@ -1024,33 +1056,33 @@
             <div class="space-y-2 lg:space-y-3">
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
-                <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >{{ $t('about.familyCulture.traditions.tradition1.text') }}</span
-                >
+                <span class="text-gray-300 text-xs lg:text-sm text-left">{{
+                  $t('about.familyCulture.traditions.tradition1.text')
+                }}</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
-                <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >{{ $t('about.familyCulture.traditions.tradition2.text') }}</span
-                >
+                <span class="text-gray-300 text-xs lg:text-sm text-left">{{
+                  $t('about.familyCulture.traditions.tradition2.text')
+                }}</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
-                <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >{{ $t('about.familyCulture.traditions.tradition3.text') }}</span
-                >
+                <span class="text-gray-300 text-xs lg:text-sm text-left">{{
+                  $t('about.familyCulture.traditions.tradition3.text')
+                }}</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
-                <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >{{ $t('about.familyCulture.traditions.tradition4.text') }}</span
-                >
+                <span class="text-gray-300 text-xs lg:text-sm text-left">{{
+                  $t('about.familyCulture.traditions.tradition4.text')
+                }}</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
-                <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >{{ $t('about.familyCulture.traditions.tradition5.text') }}</span
-                >
+                <span class="text-gray-300 text-xs lg:text-sm text-left">{{
+                  $t('about.familyCulture.traditions.tradition5.text')
+                }}</span>
               </div>
             </div>
           </div>
@@ -1075,33 +1107,33 @@
             <div class="space-y-2 lg:space-y-3">
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
-                <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >{{ $t('about.familyCulture.benefits.benefit1.text') }}</span
-                >
+                <span class="text-gray-300 text-xs lg:text-sm text-left">{{
+                  $t('about.familyCulture.benefits.benefit1.text')
+                }}</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
-                <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >{{ $t('about.familyCulture.benefits.benefit2.text') }}</span
-                >
+                <span class="text-gray-300 text-xs lg:text-sm text-left">{{
+                  $t('about.familyCulture.benefits.benefit2.text')
+                }}</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
-                <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >{{ $t('about.familyCulture.benefits.benefit3.text') }}</span
-                >
+                <span class="text-gray-300 text-xs lg:text-sm text-left">{{
+                  $t('about.familyCulture.benefits.benefit3.text')
+                }}</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
-                <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >{{ $t('about.familyCulture.benefits.benefit4.text') }}</span
-                >
+                <span class="text-gray-300 text-xs lg:text-sm text-left">{{
+                  $t('about.familyCulture.benefits.benefit4.text')
+                }}</span>
               </div>
               <div class="flex items-center space-x-2 lg:space-x-3">
                 <span class="text-yellow-400 text-sm lg:text-base">•</span>
-                <span class="text-gray-300 text-xs lg:text-sm text-left"
-                  >{{ $t('about.familyCulture.benefits.benefit5.text') }}</span
-                >
+                <span class="text-gray-300 text-xs lg:text-sm text-left">{{
+                  $t('about.familyCulture.benefits.benefit5.text')
+                }}</span>
               </div>
             </div>
           </div>
