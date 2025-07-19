@@ -186,6 +186,19 @@
                     <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
                     <line x1="12" y1="17" x2="12.01" y2="17" />
                   </svg>
+                  <svg
+                    v-else-if="item.id === 'migration'"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
                 </span>
                 <span class="text-sm">{{ item.label }}</span>
               </a>
@@ -476,6 +489,19 @@
                       <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
                       <line x1="12" y1="17" x2="12.01" y2="17" />
                     </svg>
+                    <svg
+                      v-else-if="item.id === 'migration'"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
                   </span>
                   <span>{{ item.label }}</span>
                 </div>
@@ -528,6 +554,12 @@
       label: t('nav.joinUs'),
       href: '#join-family',
     },
+    {
+      id: 'migration',
+      label: 'Migration',
+      href: '#migration',
+    },
+    // Move FAQ to the end
     {
       id: 'faq',
       label: t('nav.faq'),
@@ -828,4 +860,43 @@
     box-shadow: none;
     outline: none;
   }
+
+  /* Fix for mobile menu hover effect overflow */
+  @media (max-width: 1023px) {
+    #mobile-menu nav a {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      width: 100% !important;
+      border-radius: 0.75rem !important; /* match rounded-lg */
+      overflow: hidden;
+    }
+    #mobile-menu nav a::before {
+      border-radius: 0.75rem !important;
+    }
+  }
+
+  /* Remove hover and active effects for mobile menu nav items */
+  @media (max-width: 1023px) {
+    #mobile-menu nav a:hover,
+    #mobile-menu nav a:active,
+    #mobile-menu nav a:focus {
+      color: inherit !important;
+      background: none !important;
+      border-color: transparent !important;
+      text-shadow: none !important;
+      box-shadow: none !important;
+      transform: none !important;
+      outline: none !important;
+    }
+    #mobile-menu nav a::before {
+      opacity: 0 !important;
+    }
+    #mobile-menu nav a {
+      border: none !important;
+      outline: none !important;
+    }
+  }
+
+  /* Remove the desktop-only override for nav a:focus and nav a:active */
+  /* (No custom @media (min-width: 1024px) block for nav a:focus/active) */
 </style>
