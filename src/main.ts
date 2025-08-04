@@ -5,10 +5,12 @@ import 'primevue/resources/themes/lara-dark-blue/theme.css'
 import 'primeicons/primeicons.css'
 import App from './App.vue'
 import i18n from './plugins/i18n'
+import router from './router'
 
 const app = createApp(App)
 app.use(PrimeVue)
 app.use(i18n)
+app.use(router)
 
 app.mount('#app')
 

@@ -2,7 +2,7 @@ import { ref, onMounted } from 'vue'
 
 export function usePerformance() {
   const pageLoadTime = ref(0)
-  const isLoaded = ref(false)
+  const isLoaded = ref(true) // PATCH: set to true by default for debugging
 
   const trackPageLoad = () => {
     const startTime = performance.now()

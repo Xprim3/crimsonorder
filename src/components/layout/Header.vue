@@ -24,8 +24,8 @@
     <div class="px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
       <div class="flex items-center justify-between h-16 lg:h-20">
         <!-- Logo/Brand -->
-        <a
-          href="/"
+        <router-link
+          to="/"
           class="flex items-center space-x-2 sm:space-x-3 cursor-pointer mr-2 sm:mr-0 focus:outline-none focus:ring-0 border-none"
           aria-label="Nocturnal Legacy Home"
         >
@@ -71,7 +71,7 @@
               Nocturnal Legacy
             </h1>
           </div>
-        </a>
+        </router-link>
 
         <!-- Desktop Navigation and Language Switcher (LG and above) -->
         <div class="hidden lg:flex items-center gap-3">
@@ -85,123 +85,44 @@
               :key="item.id"
               class="relative group"
             >
-              <!-- Main Navigation Item -->
-              <a
-                :href="item.href"
-                @click="scrollToSection(item.href)"
+              <!-- Home Button -->
+              <router-link
+                v-if="item.id === 'home'"
+                :to="'/'"
                 class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
-                style="
-                  color: #ffffff;
-                  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
-                "
-                :aria-label="`Navigate to ${item.label} section`"
+                :aria-label="`Navigate to ${item.label} page`"
               >
-                <!-- Gaming Icons -->
                 <span class="text-lg" aria-hidden="true">
-                  <svg
-                    v-if="item.id === 'home'"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                    <polyline points="9,22 9,12 15,12 15,22" />
-                  </svg>
-                  <svg
-                    v-else-if="item.id === 'about'"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                  </svg>
-                  <svg
-                    v-else-if="item.id === 'crimson-family'"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
-                  <svg
-                    v-else-if="item.id === 'kingdom'"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                    <circle cx="12" cy="10" r="3" />
-                  </svg>
-                  <svg
-                    v-else-if="item.id === 'join-us'"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                    <circle cx="8.5" cy="7" r="4" />
-                    <line x1="20" y1="8" x2="20" y2="14" />
-                    <line x1="23" y1="11" x2="17" y2="11" />
-                  </svg>
-                  <svg
-                    v-else-if="item.id === 'faq'"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
-                    <line x1="12" y1="17" x2="12.01" y2="17" />
-                  </svg>
-                  <svg
-                    v-else-if="item.id === 'migration'"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                  </svg>
+                  <component :is="iconMap[item.icon as keyof typeof iconMap]" />
                 </span>
                 <span class="text-sm">{{ item.label }}</span>
-              </a>
+              </router-link>
+              <!-- Migration Button -->
+              <router-link
+                v-else-if="item.id === 'migration'"
+                :to="'/migration'"
+                class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
+                :aria-label="`Navigate to ${item.label} page`"
+              >
+                <span class="text-lg" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </span>
+                <span class="text-sm">{{ item.label }}</span>
+              </router-link>
+              <!-- Section Buttons -->
+                              <button
+                  v-else
+                  type="button"
+                  role="button"
+                  @click="() => scrollToSection(item.href)"
+                  class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
+                  :aria-label="`Navigate to ${item.label} section`"
+                >
+                <span class="text-lg" aria-hidden="true">
+                  <component :is="iconMap[item.icon as keyof typeof iconMap]" />
+                </span>
+                <span class="text-sm">{{ item.label }}</span>
+              </button>
             </div>
           </nav>
           <!-- Language Switcher -->
@@ -385,127 +306,51 @@
               :key="item.id"
               class="space-y-1"
             >
-              <!-- Main Navigation Item -->
-              <a
-                :href="item.href"
-                @click="scrollToSection(item.href)"
-                class="font-bold px-4 py-3 rounded-lg border-l-4 border-transparent transition-all duration-300 ease-in-out flex items-center justify-start mx-2 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-inset text-left w-full"
-                style="color: #ffffff; background: rgba(31, 41, 55, 0.8)"
-                :style="{ '--hover-border': '#dc2626' }"
-                :aria-label="`Navigate to ${item.label} section`"
-              >
-                <div class="flex items-center space-x-3 justify-start w-full">
-                  <!-- Gaming Icons for Mobile -->
-                  <span class="text-lg" aria-hidden="true">
-                    <svg
-                      v-if="item.id === 'home'"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path
-                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
-                      />
-                      <polyline points="9,22 9,12 15,12 15,22" />
-                    </svg>
-                    <svg
-                      v-else-if="item.id === 'about'"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                    </svg>
-                    <svg
-                      v-else-if="item.id === 'crimson-family'"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                      <circle cx="9" cy="7" r="4" />
-                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                    </svg>
-                    <svg
-                      v-else-if="item.id === 'kingdom'"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path
-                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
-                      />
-                      <circle cx="12" cy="10" r="3" />
-                    </svg>
-                    <svg
-                      v-else-if="item.id === 'join-us'"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                      <circle cx="8.5" cy="7" r="4" />
-                      <line x1="20" y1="8" x2="20" y2="14" />
-                      <line x1="23" y1="11" x2="17" y2="11" />
-                    </svg>
-                    <svg
-                      v-else-if="item.id === 'faq'"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <circle cx="12" cy="12" r="10" />
-                      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
-                      <line x1="12" y1="17" x2="12.01" y2="17" />
-                    </svg>
-                    <svg
-                      v-else-if="item.id === 'migration'"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                    </svg>
-                  </span>
-                  <span>{{ item.label }}</span>
-                </div>
-              </a>
+                             <!-- Main Navigation Item -->
+               <router-link
+                 v-if="item.id === 'home'"
+                 :to="'/'"
+                 class="font-bold px-4 py-3 rounded-lg border-l-4 border-transparent transition-all duration-300 ease-in-out flex items-center justify-start mx-2 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-inset text-left w-full"
+                 :style="{ '--hover-border': '#dc2626' }"
+                 :aria-label="`Navigate to ${item.label} page`"
+               >
+                 <div class="flex items-center space-x-3 justify-start w-full">
+                   <span class="text-lg" aria-hidden="true">
+                     <component :is="iconMap[item.icon as keyof typeof iconMap]" />
+                   </span>
+                   <span>{{ item.label }}</span>
+                 </div>
+               </router-link>
+               <router-link
+                 v-else-if="item.id === 'migration'"
+                 :to="'/migration'"
+                 class="font-bold px-4 py-3 rounded-lg border-l-4 border-transparent transition-all duration-300 ease-in-out flex items-center justify-start mx-2 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-inset text-left w-full"
+                 :style="{ '--hover-border': '#dc2626' }"
+                 :aria-label="`Navigate to ${item.label} page`"
+               >
+                 <div class="flex items-center space-x-3 justify-start w-full">
+                   <span class="text-lg" aria-hidden="true">
+                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                   </span>
+                   <span>{{ item.label }}</span>
+                 </div>
+               </router-link>
+                               <button
+                  v-else
+                  type="button"
+                  role="button"
+                  @click="() => scrollToSection(item.href)"
+                  class="font-bold px-4 py-3 rounded-lg border-l-4 border-transparent transition-all duration-300 ease-in-out flex items-center justify-start mx-2 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-inset text-left w-full"
+                  :style="{ '--hover-border': '#dc2626' }"
+                  :aria-label="`Navigate to ${item.label} section`"
+                >
+                 <div class="flex items-center space-x-3 justify-start w-full">
+                   <span class="text-lg" aria-hidden="true">
+                     <component :is="iconMap[item.icon as keyof typeof iconMap]" />
+                   </span>
+                   <span>{{ item.label }}</span>
+                 </div>
+               </button>
             </div>
           </nav>
         </div>
@@ -523,8 +368,34 @@
 </script>
 
 <script setup lang="ts">
-  import { ref, onMounted, onUnmounted, computed } from 'vue'
+  import { ref, onMounted, onUnmounted, computed, defineComponent, watch } from 'vue'
   import { useI18n } from 'vue-i18n'
+  import { useRouter, useRoute } from 'vue-router'
+
+  // Icon components
+  const HomeIcon = defineComponent({
+    template: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>`
+  })
+
+  const ShieldIcon = defineComponent({
+    template: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`
+  })
+
+  const UsersIcon = defineComponent({
+    template: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6"/><path d="M23 11h-6"/></svg>`
+  })
+
+  const HelpCircleIcon = defineComponent({
+    template: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>`
+  })
+
+  // Icon mapping
+  const iconMap = {
+    HomeIcon,
+    ShieldIcon,
+    UsersIcon,
+    HelpCircleIcon
+  }
 
   // Reactive state
   const isMobileMenuOpen = ref(false)
@@ -533,16 +404,20 @@
 
   // Navigation items
   const { t, locale } = useI18n()
+  const router = useRouter()
+  const route = useRoute()
   const navigationItems = computed(() => [
     {
       id: 'home',
       label: t('nav.home'),
       href: '#home',
+      icon: 'HomeIcon',
     },
     {
       id: 'crimson-family',
       label: t('nav.crimsonFamily'),
       href: '#about',
+      icon: 'ShieldIcon',
     },
     // {
     //   id: 'kingdom',
@@ -553,17 +428,20 @@
       id: 'join-us',
       label: t('nav.joinUs'),
       href: '#join-family',
+      icon: 'UsersIcon',
     },
     {
       id: 'migration',
       label: 'Migration',
       href: '#migration',
+      icon: 'ShieldIcon',
     },
     // Move FAQ to the end
     {
       id: 'faq',
       label: t('nav.faq'),
       href: '#faq',
+      icon: 'HelpCircleIcon',
     },
   ])
 
@@ -609,18 +487,20 @@
     isMobileMenuOpen.value = !isMobileMenuOpen.value
   }
 
-  const scrollToSection = (href: string): void => {
+  const scrollToSection = async (href: string): Promise<void> => {
+    // If we're not on the home page, navigate to home with hash
+    if (route.path !== '/') {
+      await router.push({ path: '/', hash: href })
+      return
+    }
+    // If already on home, scroll
     const element = document.querySelector(href)
     const header = document.querySelector('header')
     if (element && header) {
-      // Use requestAnimationFrame for better performance
       requestAnimationFrame(() => {
         const headerHeight = header.offsetHeight
         const elementTop = (element as HTMLElement).offsetTop
-
-        // Position section at the top of viewport, just below header
-        const scrollPosition = elementTop - headerHeight - 20 // 20px breathing room
-
+        const scrollPosition = elementTop - headerHeight - 20
         window.scrollTo({
           top: scrollPosition,
           behavior: 'smooth',
@@ -669,6 +549,13 @@
     }
   }
 
+  // Watch for route changes to close mobile menu
+  watch(() => route.path, () => {
+    if (isMobileMenuOpen.value) {
+      closeMobileMenu()
+    }
+  })
+
   // Lifecycle
   onMounted(() => {
     window.addEventListener('scroll', handleScroll, { passive: true })
@@ -686,7 +573,7 @@
 
 <style scoped>
   /* Gaming-style hover effects for navigation items */
-  nav a {
+  nav a, nav button {
     background: transparent !important;
     position: relative;
     overflow: hidden;
@@ -694,7 +581,7 @@
     transition: all 0.3s ease-in-out;
   }
 
-  nav a::before {
+  nav a::before, nav button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -712,7 +599,7 @@
     border-radius: 8px;
   }
 
-  nav a:hover {
+  nav a:hover, nav button:hover {
     color: var(--accent-gold) !important;
     text-shadow: 0 0 12px rgba(251, 191, 36, 0.5);
     border-radius: 8px;
@@ -721,12 +608,12 @@
     box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
   }
 
-  nav a:hover::before {
+  nav a:hover::before, nav button:hover::before {
     opacity: 1;
   }
 
   /* Active/pressed state for navigation items */
-  nav a:active::before {
+  nav a:active::before, nav button:active::before {
     background: linear-gradient(
       135deg,
       rgba(220, 38, 38, 0.3),
@@ -747,7 +634,7 @@
   }
 
   /* Icon hover effects */
-  a:hover svg {
+  a:hover svg, button:hover svg {
     filter: drop-shadow(0 0 6px var(--accent-gold));
     color: var(--accent-gold);
   }
@@ -860,6 +747,8 @@
     box-shadow: none;
     outline: none;
   }
+
+
 
   /* Fix for mobile menu hover effect overflow */
   @media (max-width: 1023px) {

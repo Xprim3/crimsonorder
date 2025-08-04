@@ -1,34 +1,26 @@
 <script setup lang="ts">
   import Layout from './components/layout/Layout.vue'
-  import HeroSection from './components/sections/HeroSection.vue'
-  import AboutSection from './components/sections/AboutSection.vue'
-  import JoinSection from './components/sections/JoinSection.vue'
-  import JoinFamilySection from './components/sections/JoinFamilySection.vue'
-  import KingdomSection from './components/sections/KingdomSection.vue'
-  import FAQSection from './components/sections/FAQSection.vue'
   import ErrorBoundary from './components/ui/ErrorBoundary.vue'
   import LoadingSpinner from './components/ui/LoadingSpinner.vue'
   import { usePerformance } from './composables/usePerformance'
+  import { useRouteLoading } from './composables/useRouteLoading'
   import UpdateNotification from './components/UpdateNotification.vue'
-  import { ref } from 'vue'
-  import DevTeamSection from './components/sections/DevTeamSection.vue'
+  import { ref, computed } from 'vue'
 
   // Initialize performance monitoring
   const { isLoaded } = usePerformance()
+  const { isLoading: isRouteLoading } = useRouteLoading()
   const updateBanner = ref()
+
+  // Show loading spinner for initial load OR route transitions
+  const shouldShowLoading = computed(() => !isLoaded.value || isRouteLoading.value)
 </script>
 
 <template>
   <ErrorBoundary>
-    <LoadingSpinner :loading="!isLoaded" />
+    <LoadingSpinner :loading="shouldShowLoading" />
     <Layout>
-      <HeroSection />
-      <AboutSection />
-      <JoinSection />
-      <JoinFamilySection />
-      <DevTeamSection />
-      <FAQSection />
-      <KingdomSection v-if="false" />
+      <router-view />
     </Layout>
     <UpdateNotification ref="updateBanner" />
     <!-- Removed the bottom section with language selector, greeting, dashboard.welcome, and login button -->
