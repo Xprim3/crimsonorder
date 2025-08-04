@@ -89,38 +89,21 @@
               <router-link
                 v-if="item.id === 'home'"
                 :to="'/'"
-                class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
+                class="font-medium relative px-2 py-2 rounded-lg flex items-center transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
                 :aria-label="`Navigate to ${item.label} page`"
               >
-                <span class="text-lg" aria-hidden="true">
-                  <component :is="iconMap[item.icon as keyof typeof iconMap]" />
-                </span>
                 <span class="text-sm">{{ item.label }}</span>
               </router-link>
-              <!-- Migration Button -->
-              <router-link
-                v-else-if="item.id === 'migration'"
-                :to="'/migration'"
-                class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
-                :aria-label="`Navigate to ${item.label} page`"
-              >
-                <span class="text-lg" aria-hidden="true">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                </span>
-                <span class="text-sm">{{ item.label }}</span>
-              </router-link>
+
               <!-- Section Buttons -->
                               <button
                   v-else
                   type="button"
                   role="button"
                   @click="() => scrollToSection(item.href)"
-                  class="font-medium relative px-2 py-2 rounded-lg flex items-center space-x-1 transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
+                  class="font-medium relative px-2 py-2 rounded-lg flex items-center transition-all duration-200 hover:bg-red-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-black"
                   :aria-label="`Navigate to ${item.label} section`"
                 >
-                <span class="text-lg" aria-hidden="true">
-                  <component :is="iconMap[item.icon as keyof typeof iconMap]" />
-                </span>
                 <span class="text-sm">{{ item.label }}</span>
               </button>
             </div>
@@ -314,27 +297,9 @@
                  :style="{ '--hover-border': '#dc2626' }"
                  :aria-label="`Navigate to ${item.label} page`"
                >
-                 <div class="flex items-center space-x-3 justify-start w-full">
-                   <span class="text-lg" aria-hidden="true">
-                     <component :is="iconMap[item.icon as keyof typeof iconMap]" />
-                   </span>
-                   <span>{{ item.label }}</span>
-                 </div>
+                 <span class="text-base font-semibold">{{ item.label }}</span>
                </router-link>
-               <router-link
-                 v-else-if="item.id === 'migration'"
-                 :to="'/migration'"
-                 class="font-bold px-4 py-3 rounded-lg border-l-4 border-transparent transition-all duration-300 ease-in-out flex items-center justify-start mx-2 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-inset text-left w-full"
-                 :style="{ '--hover-border': '#dc2626' }"
-                 :aria-label="`Navigate to ${item.label} page`"
-               >
-                 <div class="flex items-center space-x-3 justify-start w-full">
-                   <span class="text-lg" aria-hidden="true">
-                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                   </span>
-                   <span>{{ item.label }}</span>
-                 </div>
-               </router-link>
+
                                <button
                   v-else
                   type="button"
@@ -344,12 +309,7 @@
                   :style="{ '--hover-border': '#dc2626' }"
                   :aria-label="`Navigate to ${item.label} section`"
                 >
-                 <div class="flex items-center space-x-3 justify-start w-full">
-                   <span class="text-lg" aria-hidden="true">
-                     <component :is="iconMap[item.icon as keyof typeof iconMap]" />
-                   </span>
-                   <span>{{ item.label }}</span>
-                 </div>
+                 <span class="text-base font-semibold">{{ item.label }}</span>
                </button>
             </div>
           </nav>
@@ -368,34 +328,11 @@
 </script>
 
 <script setup lang="ts">
-  import { ref, onMounted, onUnmounted, computed, defineComponent, watch } from 'vue'
+  import { ref, onMounted, onUnmounted, computed, watch } from 'vue'
   import { useI18n } from 'vue-i18n'
   import { useRouter, useRoute } from 'vue-router'
 
-  // Icon components
-  const HomeIcon = defineComponent({
-    template: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>`
-  })
 
-  const ShieldIcon = defineComponent({
-    template: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`
-  })
-
-  const UsersIcon = defineComponent({
-    template: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6"/><path d="M23 11h-6"/></svg>`
-  })
-
-  const HelpCircleIcon = defineComponent({
-    template: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>`
-  })
-
-  // Icon mapping
-  const iconMap = {
-    HomeIcon,
-    ShieldIcon,
-    UsersIcon,
-    HelpCircleIcon
-  }
 
   // Reactive state
   const isMobileMenuOpen = ref(false)
@@ -411,37 +348,28 @@
       id: 'home',
       label: t('nav.home'),
       href: '#home',
-      icon: 'HomeIcon',
     },
     {
       id: 'crimson-family',
       label: t('nav.crimsonFamily'),
       href: '#about',
-      icon: 'ShieldIcon',
     },
-    // {
-    //   id: 'kingdom',
-    //   label: t('nav.kingdom'),
-    //   href: '#kingdom',
-    // },
+    {
+      id: 'kingdom',
+      label: t('nav.kingdom'),
+      href: '#kingdom',
+    },
     {
       id: 'join-us',
       label: t('nav.joinUs'),
       href: '#join-family',
-      icon: 'UsersIcon',
     },
-    {
-      id: 'migration',
-      label: 'Migration',
-      href: '#migration',
-      icon: 'ShieldIcon',
-    },
+
     // Move FAQ to the end
     {
       id: 'faq',
       label: t('nav.faq'),
       href: '#faq',
-      icon: 'HelpCircleIcon',
     },
   ])
 
@@ -788,4 +716,27 @@
 
   /* Remove the desktop-only override for nav a:focus and nav a:active */
   /* (No custom @media (min-width: 1024px) block for nav a:focus/active) */
+
+
+
+  /* Ensure consistent text sizing for mobile navigation */
+  #mobile-menu nav span:not([aria-hidden="true"]) {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Override any conflicting font styles in mobile menu */
+  #mobile-menu .font-bold {
+    font-weight: 600 !important;
+  }
+
+  /* Force consistent font sizing for all mobile navigation items */
+  #mobile-menu nav a,
+  #mobile-menu nav button {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+  }
+
+
 </style>

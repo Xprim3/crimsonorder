@@ -5,7 +5,7 @@
   import { usePerformance } from './composables/usePerformance'
   import { useRouteLoading } from './composables/useRouteLoading'
   import UpdateNotification from './components/UpdateNotification.vue'
-  import { ref, computed } from 'vue'
+  import { ref, computed, onMounted } from 'vue'
 
   // Initialize performance monitoring
   const { isLoaded } = usePerformance()
@@ -14,17 +14,33 @@
 
   // Show loading spinner for initial load OR route transitions
   const shouldShowLoading = computed(() => !isLoaded.value || isRouteLoading.value)
+
+  // Add error handling for debugging
+  onMounted(() => {
+    console.log('App mounted successfully')
+    
+    // Global error handler
+    window.addEventListener('error', (event) => {
+      console.error('Global error:', event.error)
+    })
+    
+    // Unhandled promise rejection handler
+    window.addEventListener('unhandledrejection', (event) => {
+      console.error('Unhandled promise rejection:', event.reason)
+    })
+  })
 </script>
 
 <template>
-  <ErrorBoundary>
-    <LoadingSpinner :loading="shouldShowLoading" />
-    <Layout>
-      <router-view />
-    </Layout>
-    <UpdateNotification ref="updateBanner" />
-    <!-- Removed the bottom section with language selector, greeting, dashboard.welcome, and login button -->
-  </ErrorBoundary>
+  <div id="app">
+    <ErrorBoundary>
+      <LoadingSpinner :loading="shouldShowLoading" />
+      <Layout>
+        <router-view />
+      </Layout>
+      <UpdateNotification ref="updateBanner" />
+    </ErrorBoundary>
+  </div>
 </template>
 
 <style scoped>
