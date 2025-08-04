@@ -2,58 +2,90 @@
   <div class="migration-page">
     <!-- Hero Section - Attractive Intro -->
     <section class="hero-section relative overflow-hidden">
-      <!-- Animated Background -->
-      <div class="absolute inset-0 bg-gradient-to-br from-crimson-900/40 via-black/60 to-gold-900/40"></div>
-      <div class="absolute inset-0 bg-pattern opacity-15"></div>
-      
-      <!-- Floating Elements -->
-      <div class="absolute top-20 left-10 w-32 h-32 bg-gold-500/10 rounded-full blur-xl animate-pulse"></div>
-      <div class="absolute bottom-20 right-10 w-40 h-40 bg-crimson-500/10 rounded-full blur-xl animate-pulse delay-1000"></div>
+      <!-- Background Layer - Same as Home page -->
+      <div class="absolute inset-0 z-0">
+        <!-- Background Image -->
+        <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-red-900 to-gray-800">
+          <!-- Fire particles - same as Home page -->
+          <div class="absolute inset-0 overflow-hidden">
+            <div
+              v-for="i in 10"
+              :key="i"
+              class="fire-particle absolute w-2 h-2 bg-orange-500 rounded-full opacity-60"
+              :style="{
+                left: `${Math.random() * 100}%`,
+                animationDelay: `${Math.random() * 3}s`,
+                animationDuration: `${3 + Math.random() * 2}s`,
+              }"
+              aria-hidden="true"
+            ></div>
+          </div>
+
+          <!-- Crimson banners overlay - same as Home page -->
+          <div class="absolute top-0 left-0 w-full h-full opacity-20" aria-hidden="true">
+            <div class="absolute top-10 left-10 w-32 h-48 bg-gradient-to-b from-red-800 to-red-600 transform -rotate-12"></div>
+            <div class="absolute top-20 right-20 w-24 h-36 bg-gradient-to-b from-red-700 to-red-500 transform rotate-6"></div>
+            <div class="absolute bottom-20 left-1/4 w-28 h-40 bg-gradient-to-b from-red-800 to-red-600 transform -rotate-3"></div>
+          </div>
+        </div>
+
+        <!-- Dark overlay for text readability - same as Home page -->
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+      </div>
       
       <div class="container mx-auto px-4 py-20 relative z-10">
         <div class="max-w-[1152px] mx-auto text-center">
-          <!-- Hero Badge -->
-          <div class="mb-8">
-            <div class="inline-flex items-center space-x-3 bg-gradient-to-r from-gold-500/20 via-crimson-600/20 to-gold-500/20 rounded-full px-8 py-4 border-2 border-gold-500/40 backdrop-blur-sm">
-              <span class="text-gold-400 text-xl animate-bounce">⚡</span>
-              <span class="text-white font-bold text-lg tracking-wider font-orbitron">ELITE MIGRATION PROGRAM</span>
-              <span class="text-gold-400 text-xl animate-bounce delay-500">⚡</span>
-            </div>
-          </div>
+
           
           <!-- Main Title -->
           <h1 class="text-6xl md:text-8xl lg:text-9xl font-black mb-8 leading-tight font-orbitron">
             <span class="bg-gradient-to-r from-gold-400 via-crimson-500 to-gold-400 bg-clip-text text-transparent animate-glow">
-              MIGRATE
+              CRIMSON
             </span>
             <br>
             <span class="bg-gradient-to-r from-crimson-400 via-gold-400 to-crimson-400 bg-clip-text text-transparent animate-glow delay-1000">
-              TO LEGEND
+              FAMILY
             </span>
           </h1>
           
           <!-- Hero Description -->
           <p class="text-2xl md:text-3xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed font-inter">
-            Join the most prestigious kingdom in Rise of Kingdoms. 
-            <span class="text-gold-400 font-bold">Become part of the elite.</span>
+            Join the Elite Brotherhood. 
+            <span class="text-gold-400 font-bold">Where champions unite.</span>
             <br>
-            <span class="text-crimson-400 font-semibold">Command your destiny.</span>
+            <span class="text-crimson-400 font-semibold">One family, one destiny.</span>
           </p>
           
-          <!-- Live Stats Banner -->
-          <div class="bg-gradient-to-r from-black/60 to-gray-900/60 rounded-2xl p-8 backdrop-blur-sm border border-gold-500/30">
-            <div class="grid grid-cols-3 gap-6 text-center">
-              <div>
-                <div class="text-3xl font-bold text-gold-400 font-orbitron">1,247</div>
-                <div class="text-gray-300 text-sm">Active Members</div>
+          <!-- Enhanced Family Stats Banner -->
+          <div class="bg-gradient-to-r from-black/60 to-gray-900/60 rounded-2xl p-8 backdrop-blur-sm border-2 border-gold-500/30 shadow-2xl">
+            <div class="text-center mb-6">
+              <h3 class="text-xl font-bold text-gold-400 font-orbitron mb-2">CRIMSON FAMILY STATS</h3>
+              <div class="w-24 h-1 bg-gradient-to-r from-gold-500 to-crimson-600 mx-auto rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+              <div class="stat-item">
+                <div class="stat-icon">👥</div>
+                <div class="stat-number text-gold-400 font-orbitron">1,440</div>
+                <div class="stat-label">Family Members</div>
+                <div class="stat-subtitle">Across All Alliances</div>
               </div>
-              <div>
-                <div class="text-3xl font-bold text-crimson-400 font-orbitron">67</div>
-                <div class="text-gray-300 text-sm">Victories</div>
+              <div class="stat-item">
+                <div class="stat-icon">⚔️</div>
+                <div class="stat-number text-crimson-400 font-orbitron">4</div>
+                <div class="stat-label">Alliances</div>
+                <div class="stat-subtitle">Crimson Family</div>
               </div>
-              <div>
-                <div class="text-3xl font-bold text-blue-400 font-orbitron">24/7</div>
-                <div class="text-gray-300 text-sm">Support</div>
+              <div class="stat-item">
+                <div class="stat-icon">👑</div>
+                <div class="stat-number text-blue-400 font-orbitron">#3866</div>
+                <div class="stat-label">Kingdom</div>
+                <div class="stat-subtitle">Elite Ranking</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">💪</div>
+                <div class="stat-number text-green-400 font-orbitron">15.2B</div>
+                <div class="stat-label">Total Power</div>
+                <div class="stat-subtitle">Combined Strength</div>
               </div>
             </div>
           </div>
@@ -61,72 +93,167 @@
       </div>
     </section>
 
-    <!-- Kingdom Stats & King Info -->
-    <section class="kingdom-section py-16 bg-gradient-to-r from-black/80 to-gray-900/80">
+    <!-- Kingdom Stats -->
+    <section class="kingdom-section py-16 bg-gradient-to-r from-gray-900/80 via-red-900/60 to-gray-800/80">
       <div class="container mx-auto px-4">
         <div class="max-w-[1152px] mx-auto">
-          <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-gold-400 to-crimson-600 bg-clip-text text-transparent font-orbitron">
-              KINGDOM OVERVIEW
+          <div class="text-center mb-12 lg:mb-16">
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-white">
+              KINGDOM STATS
             </h2>
-            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter">
-              Discover the power and prestige of our legendary kingdom
+            <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter mt-6">
+              Meet the legendary leaders who rule our kingdom
             </p>
           </div>
           
-          <div class="grid lg:grid-cols-2 gap-12 items-center">
-            <!-- Kingdom Stats -->
-            <div class="space-y-8">
-              <div class="grid grid-cols-2 gap-6">
-                <div class="stat-card">
-                  <div class="stat-icon">👑</div>
-                  <div class="stat-number text-gold-400 font-orbitron">Kingdom #247</div>
-                  <div class="stat-label">Elite Ranking</div>
+          <!-- Kingdom Pyramid -->
+          <div class="kingdom-pyramid">
+            <!-- Pyramid Background -->
+            <div class="pyramid-background">
+              <div class="pyramid-layer layer-1"></div>
+              <div class="pyramid-layer layer-2"></div>
+              <div class="pyramid-layer layer-3"></div>
+              <div class="pyramid-layer layer-4"></div>
+            </div>
+            
+            <!-- Top Tier: Royalty (Crown) -->
+            <div class="pyramid-tier royal-tier">
+              <div class="tier-label">ROYAL COMMAND</div>
+              <div class="tier-cards">
+                <!-- King -->
+                <div class="pyramid-card royal-card">
+                  <div class="card-rank">👑</div>
+                  <div class="card-avatar">👑</div>
+                  <div class="card-info">
+                    <h3 class="card-name">King Crimson</h3>
+                    <div class="card-title">Supreme Commander</div>
+                    <div class="card-power">2.8B Power</div>
+                    <div class="card-quote">"Through unity and strategy, we forge legends."</div>
+                  </div>
                 </div>
-                <div class="stat-card">
-                  <div class="stat-icon">⚔️</div>
-                  <div class="stat-number text-crimson-400 font-orbitron">15.2B</div>
-                  <div class="stat-label">Total Power</div>
-                </div>
-                <div class="stat-card">
-                  <div class="stat-icon">🏆</div>
-                  <div class="stat-number text-blue-400 font-orbitron">67</div>
-                  <div class="stat-label">Victories</div>
-                </div>
-                <div class="stat-card">
-                  <div class="stat-icon">🤝</div>
-                  <div class="stat-number text-green-400 font-orbitron">4</div>
-                  <div class="stat-label">Alliances</div>
+                
+                <!-- Queen -->
+                <div class="pyramid-card royal-card">
+                  <div class="card-rank">👸</div>
+                  <div class="card-avatar">👸</div>
+                  <div class="card-info">
+                    <h3 class="card-name">Queen Crimson</h3>
+                    <div class="card-title">Royal Commander</div>
+                    <div class="card-power">2.1B Power</div>
+                    <div class="card-quote">"Strength and grace define our legacy."</div>
+                  </div>
                 </div>
               </div>
             </div>
             
-            <!-- King Information -->
-            <div class="king-info">
-              <div class="king-card">
-                <div class="king-avatar">
-                  <span class="text-6xl">👑</span>
-                </div>
-                <div class="king-details">
-                  <h3 class="text-2xl font-bold text-gold-400 mb-2 font-orbitron">King Crimson</h3>
-                  <p class="text-gray-300 mb-4 font-inter">Supreme Commander of Nocturnal Legacy</p>
-                  <div class="king-stats">
-                    <div class="king-stat">
-                      <span class="label">Power:</span>
-                      <span class="value text-gold-400">2.8B</span>
-                    </div>
-                    <div class="king-stat">
-                      <span class="label">Experience:</span>
-                      <span class="value text-crimson-400">3+ Years</span>
-                    </div>
-                    <div class="king-stat">
-                      <span class="label">Leadership:</span>
-                      <span class="value text-blue-400">Elite</span>
-                    </div>
+            <!-- Middle Tier: Leadership -->
+            <div class="pyramid-tier leadership-tier">
+              <div class="tier-label">KINGDOM LEADERSHIP</div>
+              <div class="tier-cards">
+                <!-- Warlord -->
+                <div class="pyramid-card leadership-card warlord-card">
+                  <div class="card-rank">⚔️</div>
+                  <div class="card-avatar">⚔️</div>
+                  <div class="card-info">
+                    <h3 class="card-name">Warlord</h3>
+                    <div class="card-title">Battle Master</div>
+                    <div class="card-power">1.9B Power</div>
+                    <div class="card-quote">"Victory is our only option."</div>
                   </div>
-                  <p class="text-gray-300 mt-4 italic font-inter">
-                    "Through unity and strategy, we forge legends. Join the Crimson Family and become part of something greater than yourself."
-                  </p>
+                </div>
+                
+                <!-- Counselor -->
+                <div class="pyramid-card leadership-card counselor-card">
+                  <div class="card-rank">🧠</div>
+                  <div class="card-avatar">🧠</div>
+                  <div class="card-info">
+                    <h3 class="card-name">Counselor</h3>
+                    <div class="card-title">Strategic Advisor</div>
+                    <div class="card-power">1.7B Power</div>
+                    <div class="card-quote">"Wisdom guides our path to victory."</div>
+                  </div>
+                </div>
+                
+                <!-- Diplomat -->
+                <div class="pyramid-card leadership-card diplomat-card">
+                  <div class="card-rank">🤝</div>
+                  <div class="card-avatar">🤝</div>
+                  <div class="card-info">
+                    <h3 class="card-name">Diplomat</h3>
+                    <div class="card-title">Alliance Manager</div>
+                    <div class="card-power">1.5B Power</div>
+                    <div class="card-quote">"Unity through diplomacy."</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Base Tier: Commanders -->
+            <div class="pyramid-tier commander-tier">
+              <div class="tier-label">ALLIANCE COMMANDERS</div>
+              <div class="tier-cards">
+                <!-- Top 1 - Flame -->
+                <div class="pyramid-card commander-card">
+                  <div class="card-rank">#1</div>
+                  <div class="card-avatar">🔥</div>
+                  <div class="card-info">
+                    <h3 class="card-name">Flame</h3>
+                    <div class="card-title">Elite Commander</div>
+                    <div class="card-power">1.9B Power</div>
+                    <div class="card-quote">"Fire and fury lead to victory."</div>
+                  </div>
+                </div>
+                
+                <!-- Top 2 - Pryda -->
+                <div class="pyramid-card commander-card">
+                  <div class="card-rank">#2</div>
+                  <div class="card-avatar">⚡</div>
+                  <div class="card-info">
+                    <h3 class="card-name">Pryda</h3>
+                    <div class="card-title">Strategic Commander</div>
+                    <div class="card-power">1.7B Power</div>
+                    <div class="card-quote">"Strategy wins battles, unity wins wars."</div>
+                  </div>
+                </div>
+                
+                <!-- Top 3 - Kenny -->
+                <div class="pyramid-card commander-card">
+                  <div class="card-rank">#3</div>
+                  <div class="card-avatar">🌙</div>
+                  <div class="card-info">
+                    <h3 class="card-name">Kenny</h3>
+                    <div class="card-title">Battle Commander</div>
+                    <div class="card-power">1.5B Power</div>
+                    <div class="card-quote">"In darkness, we find our strength."</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Foundation: Kingdom Stats -->
+            <div class="pyramid-foundation">
+              <div class="foundation-label">KINGDOM FOUNDATION</div>
+              <div class="foundation-stats">
+                <div class="stat-item">
+                  <span class="stat-icon">🏰</span>
+                  <span class="stat-label">Kingdom #3866</span>
+                  <span class="stat-value">Elite Ranking</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">💪</span>
+                  <span class="stat-label">Total Power</span>
+                  <span class="stat-value">15.2B</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">🏆</span>
+                  <span class="stat-label">Victories</span>
+                  <span class="stat-value">67</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">⚔️</span>
+                  <span class="stat-label">Alliances</span>
+                  <span class="stat-value">4</span>
                 </div>
               </div>
             </div>
@@ -139,11 +266,12 @@
     <section class="alliances-section py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-[1152px] mx-auto">
-          <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-gold-400 to-crimson-600 bg-clip-text text-transparent font-orbitron">
+          <div class="text-center mb-12 lg:mb-16">
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-white">
               CRIMSON FAMILY
             </h2>
-            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter">
+            <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter mt-6">
               Choose your path within our legendary alliance family
             </p>
           </div>
@@ -201,14 +329,15 @@
     </section>
 
     <!-- Benefits & Rules -->
-    <section class="benefits-section py-16 bg-gradient-to-r from-crimson-900/20 to-gold-900/20">
+    <section class="benefits-section py-16 bg-gradient-to-r from-gray-900/60 via-red-900/40 to-gray-800/60">
       <div class="container mx-auto px-4">
         <div class="max-w-[1152px] mx-auto">
-          <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-gold-400 to-crimson-600 bg-clip-text text-transparent font-orbitron">
+          <div class="text-center mb-12 lg:mb-16">
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-white">
               BENEFITS & RULES
             </h2>
-            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter">
+            <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter mt-6">
               Discover what makes Nocturnal Legacy the ultimate destination for elite players
             </p>
           </div>
@@ -327,14 +456,15 @@
     </section>
 
     <!-- Eligibility Checker -->
-    <section class="eligibility-section py-16 bg-gradient-to-r from-black/80 to-gray-900/80">
+    <section class="eligibility-section py-16 bg-gradient-to-r from-gray-900/80 via-red-900/60 to-gray-800/80">
       <div class="container mx-auto px-4">
         <div class="max-w-[1152px] mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-gold-400 to-crimson-600 bg-clip-text text-transparent font-orbitron">
+          <div class="text-center mb-12 lg:mb-16">
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-white">
               ELIGIBILITY CHECK
             </h2>
-            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter">
+            <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter mt-6">
               See if you qualify to join the Crimson Family
             </p>
           </div>
@@ -392,11 +522,12 @@
     <section class="contact-section py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-[1152px] mx-auto">
-          <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-gold-400 to-crimson-600 bg-clip-text text-transparent font-orbitron">
+          <div class="text-center mb-12 lg:mb-16">
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-white">
               JOIN THE FAMILY
             </h2>
-            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter">
+            <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter mt-6">
               Ready to become part of the Crimson Family? Contact us through your preferred platform.
             </p>
           </div>
@@ -427,14 +558,15 @@
     </section>
 
     <!-- Top Members Stats -->
-    <section class="top-members-section py-16 bg-gradient-to-r from-crimson-900/20 to-gold-900/20">
+    <section class="top-members-section py-16 bg-gradient-to-r from-gray-900/60 via-red-900/40 to-gray-800/60">
       <div class="container mx-auto px-4">
         <div class="max-w-[1152px] mx-auto">
-          <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-gold-400 to-crimson-600 bg-clip-text text-transparent font-orbitron">
+          <div class="text-center mb-12 lg:mb-16">
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-white">
               TOP MEMBERS
             </h2>
-            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter">
+            <div class="w-32 h-1 mx-auto bg-gradient-to-r from-yellow-500 via-red-600 to-yellow-500 mt-4"></div>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto font-inter mt-6">
               Meet the legendary players who lead our kingdom to victory
             </p>
           </div>
@@ -505,7 +637,7 @@
     </section>
 
     <!-- Kingdom Quote -->
-    <section class="quote-section py-16 bg-gradient-to-r from-black/80 to-gray-900/80">
+    <section class="quote-section py-16 bg-gradient-to-r from-gray-900/80 via-red-900/60 to-gray-800/80">
       <div class="container mx-auto px-4">
         <div class="max-w-[1152px] mx-auto text-center">
           <div class="quote-card">
@@ -597,11 +729,11 @@ const checkEligibility = () => {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 .migration-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0A0A0F 0%, #1A1A2E 50%, #16213E 100%);
+  background-color: #0f172a;
   font-family: 'Inter', sans-serif;
 }
 
@@ -621,9 +753,15 @@ const checkEligibility = () => {
   padding-top: 6rem;
 }
 
-/* Kingdom Section */
-.stat-card {
-  @apply bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-xl p-6 border-2 border-gold-500/30 backdrop-blur-sm text-center;
+/* Enhanced Stats Section */
+.stat-item {
+  @apply p-4 rounded-xl bg-gradient-to-br from-gray-800/30 to-gray-900/30 border border-gold-500/20 backdrop-blur-sm;
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  @apply border-gold-400/40 transform scale-105;
+  box-shadow: 0 8px 32px rgba(255, 215, 0, 0.2);
 }
 
 .stat-icon {
@@ -635,35 +773,295 @@ const checkEligibility = () => {
 }
 
 .stat-label {
-  @apply text-gray-300 text-sm;
+  @apply text-gray-300 text-sm font-semibold mb-1;
+}
+
+.stat-subtitle {
+  @apply text-gray-400 text-xs;
+}
+
+/* Kingdom Section - Leader Cards */
+.leader-card {
+  @apply bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-2xl p-6 border-2 border-gold-500/30 backdrop-blur-sm text-center relative;
+  transition: all 0.3s ease;
+}
+
+.leader-card:hover {
+  @apply border-gold-400/50 transform scale-105;
+  box-shadow: 0 8px 32px rgba(255, 215, 0, 0.2);
 }
 
 .king-card {
-  @apply bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-2xl p-8 border-2 border-gold-500/30 backdrop-blur-sm;
+  @apply border-gold-400/50;
+  box-shadow: 0 8px 32px rgba(255, 215, 0, 0.3);
 }
 
-.king-avatar {
-  @apply text-center mb-6;
+.queen-card {
+  @apply border-pink-400/50;
+  box-shadow: 0 8px 32px rgba(236, 72, 153, 0.3);
 }
 
-.king-details {
-  @apply text-center;
+.top-leader {
+  @apply border-crimson-400/50;
+  box-shadow: 0 8px 32px rgba(220, 20, 60, 0.2);
 }
 
-.king-stats {
-  @apply grid grid-cols-3 gap-4 mb-4;
+.stats-summary {
+  @apply border-blue-400/50;
+  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.2);
 }
 
-.king-stat {
-  @apply text-center;
+.warlord-card {
+  @apply border-red-400/50;
+  box-shadow: 0 8px 32px rgba(239, 68, 68, 0.2);
 }
 
-.king-stat .label {
-  @apply text-gray-400 text-sm block;
+.counselor-card {
+  @apply border-purple-400/50;
+  box-shadow: 0 8px 32px rgba(147, 51, 234, 0.2);
 }
 
-.king-stat .value {
-  @apply font-bold block;
+.diplomat-card {
+  @apply border-green-400/50;
+  box-shadow: 0 8px 32px rgba(34, 197, 94, 0.2);
+}
+
+.leader-rank {
+  @apply absolute top-4 left-4 w-8 h-8 bg-gradient-to-br from-gold-500 to-crimson-600 rounded-full flex items-center justify-center text-black font-bold text-sm;
+}
+
+.queen-card .leader-rank {
+  @apply bg-gradient-to-br from-pink-500 to-purple-600;
+}
+
+.top-leader .leader-rank {
+  @apply bg-gradient-to-br from-crimson-500 to-red-600;
+}
+
+.stats-summary .leader-rank {
+  @apply bg-gradient-to-br from-blue-500 to-indigo-600;
+}
+
+.warlord-card .leader-rank {
+  @apply bg-gradient-to-br from-red-500 to-red-600;
+}
+
+.counselor-card .leader-rank {
+  @apply bg-gradient-to-br from-purple-500 to-purple-600;
+}
+
+.diplomat-card .leader-rank {
+  @apply bg-gradient-to-br from-green-500 to-green-600;
+}
+
+/* Kingdom Pyramid Styles */
+.kingdom-pyramid {
+  @apply relative;
+  min-height: 800px;
+}
+
+/* Pyramid Background */
+.pyramid-background {
+  @apply absolute inset-0 flex flex-col justify-end;
+  pointer-events: none;
+}
+
+.pyramid-layer {
+  @apply w-full;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(220, 20, 60, 0.1) 100%);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.layer-1 {
+  height: 200px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.layer-2 {
+  height: 180px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+}
+
+.layer-3 {
+  height: 160px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 100%, 0% 100%);
+}
+
+.layer-4 {
+  height: 140px;
+  clip-path: polygon(35% 0%, 65% 0%, 100% 100%, 0% 100%);
+}
+
+/* Pyramid Tiers */
+.pyramid-tier {
+  @apply relative z-10 text-center mb-8;
+}
+
+.tier-label {
+  @apply text-lg font-bold text-gold-400 mb-6 font-orbitron tracking-wider;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.tier-cards {
+  @apply grid gap-6;
+}
+
+.royal-tier .tier-cards {
+  @apply grid-cols-1 md:grid-cols-2 max-w-2xl mx-auto;
+}
+
+.leadership-tier .tier-cards {
+  @apply grid-cols-1 md:grid-cols-3 max-w-4xl mx-auto;
+}
+
+.commander-tier .tier-cards {
+  @apply grid-cols-1 md:grid-cols-3 max-w-4xl mx-auto;
+}
+
+.pyramid-card {
+  @apply bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-2xl p-6 border-2 backdrop-blur-sm text-center relative;
+  transition: all 0.3s ease;
+}
+
+.pyramid-card:hover {
+  @apply transform scale-105;
+  box-shadow: 0 8px 32px rgba(255, 215, 0, 0.3);
+}
+
+.royal-card {
+  @apply border-gold-400/50;
+  box-shadow: 0 8px 32px rgba(255, 215, 0, 0.3);
+}
+
+.leadership-card {
+  @apply border-gray-400/50;
+  box-shadow: 0 8px 32px rgba(156, 163, 175, 0.2);
+}
+
+.commander-card {
+  @apply border-amber-600/50;
+  box-shadow: 0 8px 32px rgba(217, 119, 6, 0.2);
+}
+
+.card-rank {
+  @apply absolute top-4 left-4 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold text-sm;
+}
+
+.royal-card .card-rank {
+  @apply bg-gradient-to-br from-gold-500 to-yellow-600;
+}
+
+.leadership-card .card-rank {
+  @apply bg-gradient-to-br from-gray-500 to-gray-600;
+}
+
+.commander-card .card-rank {
+  @apply bg-gradient-to-br from-amber-600 to-orange-600;
+}
+
+.card-avatar {
+  @apply text-4xl mb-4;
+}
+
+.card-info {
+  @apply space-y-2;
+}
+
+.card-name {
+  @apply text-xl font-bold text-gold-400 font-orbitron;
+}
+
+.card-title {
+  @apply text-gold-400 font-inter text-sm;
+}
+
+.card-power {
+  @apply text-crimson-400 font-orbitron text-lg font-bold;
+}
+
+.card-quote {
+  @apply text-gray-300 italic font-inter text-xs leading-relaxed;
+}
+
+/* Pyramid Foundation */
+.pyramid-foundation {
+  @apply relative z-10 bg-gradient-to-r from-gray-800/30 to-gray-900/30 rounded-2xl p-8 border-2 border-gold-500/30 backdrop-blur-sm;
+}
+
+.foundation-label {
+  @apply text-lg font-bold text-gold-400 mb-6 font-orbitron tracking-wider text-center;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.foundation-stats {
+  @apply grid grid-cols-2 md:grid-cols-4 gap-6;
+}
+
+.foundation-stats .stat-item {
+  @apply flex flex-col items-center space-y-2 text-center;
+}
+
+.foundation-stats .stat-icon {
+  @apply text-2xl;
+}
+
+.foundation-stats .stat-label {
+  @apply text-gray-300 text-sm font-inter;
+}
+
+.foundation-stats .stat-value {
+  @apply text-gold-400 font-bold font-orbitron text-lg;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pyramid-layer {
+    display: none;
+  }
+  
+  .kingdom-pyramid {
+    min-height: auto;
+  }
+}
+
+.leader-avatar {
+  @apply text-5xl mb-4;
+}
+
+.leader-info {
+  @apply space-y-2;
+}
+
+.leader-title {
+  @apply text-lg font-semibold;
+}
+
+.leader-power {
+  @apply text-xl font-bold;
+}
+
+.leader-experience {
+  @apply text-sm;
+}
+
+.leader-quote {
+  @apply text-xs leading-relaxed;
+}
+
+.stats-grid {
+  @apply space-y-2 mt-4;
+}
+
+.stat-item-summary {
+  @apply flex justify-between items-center;
+}
+
+.stat-label-summary {
+  @apply text-gray-400 text-sm;
+}
+
+.stat-value-summary {
+  @apply font-bold text-lg;
 }
 
 /* Alliances Section */
@@ -799,9 +1197,41 @@ const checkEligibility = () => {
   }
 }
 
-/* Background Pattern */
-.bg-pattern {
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFD700' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+/* Fire particle animation - same as Home page */
+.fire-particle {
+  animation: float-up 3s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(100vh) scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-100px) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Responsive adjustments for fire particles */
+@media (max-width: 640px) {
+  .fire-particle {
+    animation-duration: 2s;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .fire-particle {
+    animation: none;
+  }
 }
 
 /* Animations */
@@ -826,24 +1256,24 @@ const checkEligibility = () => {
   animation-delay: 0.5s;
 }
 
-/* Custom colors */
-.text-gold-400 { color: #FFD700; }
-.text-gold-500 { color: #FFD700; }
-.text-gold-600 { color: #FFD700; }
-.bg-gold-500 { background-color: #FFD700; }
-.bg-gold-600 { background-color: #FFD700; }
-.border-gold-400 { border-color: #FFD700; }
-.border-gold-500 { border-color: #FFD700; }
+/* Custom colors using CSS variables from Home page */
+.text-gold-400 { color: var(--accent-gold); }
+.text-gold-500 { color: var(--accent-gold); }
+.text-gold-600 { color: var(--accent-gold-dark); }
+.bg-gold-500 { background-color: var(--accent-gold); }
+.bg-gold-600 { background-color: var(--accent-gold-dark); }
+.border-gold-400 { border-color: var(--accent-gold); }
+.border-gold-500 { border-color: var(--accent-gold); }
 
-.text-crimson-400 { color: #DC143C; }
-.text-crimson-500 { color: #DC143C; }
-.text-crimson-600 { color: #DC143C; }
-.bg-crimson-500 { background-color: #DC143C; }
-.bg-crimson-600 { background-color: #DC143C; }
-.bg-crimson-700 { background-color: #B22222; }
-.border-crimson-500 { border-color: #DC143C; }
-.border-crimson-600 { border-color: #DC143C; }
+.text-crimson-400 { color: var(--accent-primary); }
+.text-crimson-500 { color: var(--accent-primary); }
+.text-crimson-600 { color: var(--accent-secondary); }
+.bg-crimson-500 { background-color: var(--accent-primary); }
+.bg-crimson-600 { background-color: var(--accent-secondary); }
+.bg-crimson-700 { background-color: var(--accent-muted); }
+.border-crimson-500 { border-color: var(--accent-primary); }
+.border-crimson-600 { border-color: var(--accent-secondary); }
 
-.bg-crimson-900 { background-color: rgba(220, 20, 60, 0.1); }
-.bg-gold-900 { background-color: rgba(255, 215, 0, 0.1); }
+.bg-crimson-900 { background-color: rgba(220, 38, 38, 0.1); }
+.bg-gold-900 { background-color: rgba(251, 191, 36, 0.1); }
 </style> 
