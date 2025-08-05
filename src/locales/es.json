@@ -9,7 +9,7 @@
   },
   "nav": {
     "home": "Inicio",
-    "crimsonFamily": "Familia Nocturna",
+    "crimsonFamily": "Crimson",
     "kingdom": "Reino",
     "joinUs": "Únete a nosotros",
     "faq": "FAQ"
@@ -18,27 +18,34 @@
     "leaveYour": "DEJA TU",
     "mark": "HUELLA",
     "subheadline": "LEGADO • FAMILIA • INMORTALIDAD",
-    "description": "Tu nombre resonará a través de los siglos. Únete a Nocturnal Legacy y sé parte de una familia cuyas leyendas serán contadas por generaciones. Tu historia comienza aquí.",
-    "cta": "ESCRIBE TU HISTORIA"
+    "description": "Tu nombre resonará a través de los siglos. Únete a Crimson Legacy y sé parte de una familia cuyas leyendas serán contadas por generaciones. Tu historia comienza aquí.",
+    "cta": "ESCRIBE TU HISTORIA",
+    "scrollDown": "Desplázate para más",
+    "stats": {
+      "members": "Miembros",
+      "alliances": "Alianzas",
+      "kingdom": "Reino",
+      "totalPower": "Poder Total"
+    }
   },
   "about": {
-    "title": "Acerca de Nocturnal Legacy",
-    "legendTitle": "La Leyenda de Nocturnal Legacy",
-    "p1": "Nacida de las cenizas de innumerables batallas, Nocturnal Legacy surgió como un faro de esperanza en el caótico mundo de Rise of Kingdoms. Lo que comenzó como un pequeño grupo de guerreros decididos se ha convertido en una familia legendaria que impone respeto en el campo de batalla.",
+    "title": "Acerca de Crimson Legacy",
+    "legendTitle": "La Leyenda de Crimson Legacy",
+    "p1": "Nacida de las cenizas de innumerables batallas, Crimson Legacy surgió como un faro de esperanza en el caótico mundo de Rise of Kingdoms. Lo que comenzó como un pequeño grupo de guerreros decididos se ha convertido en una familia legendaria que impone respeto en el campo de batalla.",
     "p2": "Nuestra historia es de lazos irrompibles, brillantez estratégica y lealtad inquebrantable. Hemos enfrentado a los reinos más poderosos y hemos salido victoriosos, no por pura fuerza, sino por el poder de la unidad y la excelencia táctica.",
     "p3": "Hoy, somos el testimonio de lo que se puede lograr cuando la fuerza individual se combina con un propósito colectivo. No somos solo guerreros, somos una familia forjada en el fuego.",
-    "leadershipTitle": "Liderazgo Nocturno",
+    "leadershipTitle": "Liderazgo Crimson",
     "leadershipSubtitle": "Comandantes cuya sabiduría y experiencia guían a nuestra familia hacia la victoria",
     "leaders": {
       "pryda": {
         "name": "Pryda",
-        "title": "Líder Supremo de Nocturnal Legacy",
-        "desc": "Jefe de toda la familia Nocturnal Legacy. Supervisa la estrategia, la estructura y todas las decisiones finales.",
+        "title": "Líder Supremo de Crimson Legacy",
+        "desc": "Jefe de toda la familia Crimson Legacy. Supervisa la estrategia, la estructura y todas las decisiones finales.",
         "exp": "3 años de experiencia"
       },
       "verso": {
         "name": "Verso",
-        "title": "Consejero Principal de Nocturnal Legacy",
+        "title": "Consejero Principal de Crimson Legacy",
         "desc": "Gestiona la diplomacia externa y las relaciones de alianza. También es responsable de la planificación territorial en KVK y en el reino de origen, trabajando en estrecha colaboración con los oficiales de territorio de toda la familia.",
         "exp": "8 años de experiencia"
       },
@@ -80,12 +87,12 @@
       "subtitle": "Dos alianzas legendarias trabajando en perfecta armonía para dominar reinos y crear una fuerza imparable"
     },
     "knights": {
-      "title": "Caballeros Nocturnos",
-      "desc": "El escudo irrompible de nuestra familia. Estos legendarios defensores han dominado el arte de proteger lo que más importa. Sus ciudades son fortalezas impenetrables, sus recursos fluyen como ríos y su apoyo mantiene fuerte a toda la familia."
+      "title": "Caballeros Crimson",
+      "desc": "El escudo irrompible de nuestra familia. Estos legendarios defensores han dominado el arte de proteger lo que más importa. Sus ciudades son fortalezas impenetrables, sus recursos fluyen como ríos, y su apoyo mantiene fuerte a toda la familia."
     },
     "blades": {
-      "title": "Espadas Nocturnas",
-      "desc": "La espada implacable de nuestra familia. Estos guerreros legendarios atacan con una precisión y valentía incomparables. Sus victorias inspiran a la familia, sus tácticas moldean nuestro destino y su unidad forja nuestro camino hacia la grandeza."
+      "title": "Espadas Crimson",
+      "desc": "La espada implacable de nuestra familia. Estos guerreros legendarios atacan con una precisión y valentía incomparables. Sus victorias inspiran a la familia, sus tácticas moldean nuestro destino, y su unidad forja nuestro camino hacia la grandeza."
     },
     "members": "Miembros",
     "rank": "Rango",
@@ -93,14 +100,16 @@
     "kingdomLeadership": "Liderazgo del Reino",
     "familyCulture": {
       "title": "Nuestra Cultura Familiar",
-      "description": "Más allá del campo de batalla, Nocturnal Legacy se basa en valores que crean lazos duraderos y logros legendarios. Nuestra cultura es la base de nuestro éxito y la razón por la que seguimos invictos.",
+      "description": "Más allá del campo de batalla, Crimson Legacy se basa en valores que crean lazos duraderos y logros legendarios. Nuestra cultura es la base de nuestro éxito y la razón por la que seguimos invictos.",
       "values": {
         "unity": "Unidad",
         "unityDescription": "Creemos que la fuerza individual se amplifica cuando se combina con un propósito colectivo. Cada miembro contribuye a nuestro éxito compartido.",
         "strategy": "Estrategia",
         "strategyDescription": "Cada batalla se gana antes de que comience. Valoramos el pensamiento estratégico, la planificación cuidadosa y la ejecución táctica sobre la fuerza bruta.",
+        "loyalty": "Lealtad",
+        "loyaltyDescription": "La lealtad es la piedra angular de nuestra familia. Nos apoyamos mutuamente a través de victorias y derrotas, sabiendo que nuestros lazos son inquebrantables.",
         "excellence": "Excelencia",
-        "excellenceDescription": "Nos esforzamos por la excelencia en todo lo que hacemos. Desde el rendimiento individual hasta la coordinación de la alianza, nunca nos conformamos con menos que lo mejor."
+        "excellenceDescription": "Nos esforzamos por la excelencia en todo lo que hacemos, desde el rendimiento individual hasta los logros colectivos. La mediocridad no tiene lugar en nuestra familia."
       },
       "traditions": {
         "title": "Tradiciones Familiares",
@@ -186,10 +195,10 @@
     "answerCall": {
       "title": "Responde al Llamado",
       "subtitle": "¿Listo para unirte a la élite?",
-      "description": "¿Estás listo para ser parte de algo más grande que tú? Nocturnal Legacy busca guerreros que valoren la lealtad, la estrategia y la familia por encima de todo."
+      "description": "¿Estás listo para ser parte de algo más grande que tú? Crimson Legacy busca guerreros que valoren la lealtad, la estrategia y la familia por encima de todo."
     },
     "howToTitle": "Cómo unirse a nuestra familia",
-    "howToSubtitle": "Sigue estos pasos para comenzar tu viaje con Nocturnal Legacy",
+    "howToSubtitle": "Sigue estos pasos para comenzar tu viaje con Crimson Legacy",
     "steps": [
       {
         "title": "Contactar con la dirección",
@@ -209,45 +218,33 @@
       },
       {
         "title": "Comienza tu viaje",
-        "desc": "Empieza tu viaje legendario con la familia Nocturnal Legacy"
+        "desc": "Empieza tu viaje legendario con la familia Crimson Legacy"
       }
     ]
   },
   "faq": {
-    "title": "Preguntas frecuentes",
-    "subtitle": "Todo lo que necesitas saber para unirte a la legendaria familia Nocturnal Legacy",
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Crimson Legacy",
     "questions": [
       {
-        "q": "¿Qué pasa si no cumplo con el requisito de poder?",
-        "a": "Consideramos jugadores excepcionales caso por caso. Contacta a nuestros líderes para discutir tu situación y posibles excepciones."
+        "question": "¿Qué hace que Crimson Legacy sea diferente de otras alianzas?",
+        "answer": "Crimson Legacy se construye sobre una base de valores familiares, excelencia estratégica y lealtad inquebrantable. Nos enfocamos en crear lazos duraderos mientras logramos un éxito legendario en el juego."
       },
       {
-        "q": "¿Cuánto dura el período de prueba?",
-        "a": "Los períodos de prueba suelen durar de 1 a 2 semanas, dependiendo de tu nivel de actividad e integración con la familia."
+        "question": "¿Qué tan activo necesito ser para unirme?",
+        "answer": "Esperamos participación regular en eventos y actividades familiares. Aunque entendemos que la vida real viene primero, buscamos miembros que puedan contribuir consistentemente a nuestro éxito colectivo."
       },
       {
-        "q": "¿Debo dejar mi alianza actual?",
-        "a": "Sí, deberás dejar tu alianza actual antes de unirte a la nuestra. Te guiaremos en el proceso."
+        "question": "¿Cuáles son los requisitos para unirse?",
+        "answer": "Buscamos jugadores que valoren la lealtad, la estrategia y la familia. El nivel de experiencia varía, pero priorizamos el carácter y el compromiso sobre el nivel de poder solo."
       },
       {
-        "q": "¿Qué pasa si no puedo estar activo todos los días?",
-        "a": "Entendemos que la vida real es lo primero. Solo comunícate con la dirección sobre cualquier ausencia y mantén un nivel de actividad razonable."
+        "question": "¿Cómo me postulo para unirme a Crimson Legacy?",
+        "answer": "Contáctanos a través de Discord o en el juego para expresar tu interés. Te guiaremos a través de nuestro proceso de solicitud y te ayudaremos a comenzar."
       },
       {
-        "q": "¿Puedo elegir a qué alianza unirme?",
-        "a": "La dirección recomendará la mejor alianza según tu estilo de juego y nuestras necesidades actuales."
-      },
-      {
-        "q": "¿Qué pasa si me rechazan?",
-        "a": "Puedes volver a postularte después de 30 días. Usa los comentarios para mejorar e intentarlo de nuevo."
-      },
-      {
-        "q": "¿Es obligatorio Discord?",
-        "a": "Sí, Discord es obligatorio para la comunicación, coordinación y para estar al tanto de los eventos de la familia."
-      },
-      {
-        "q": "¿Cuáles son los beneficios de unirse?",
-        "a": "Protección de élite, formación estratégica, abundancia de recursos, victorias constantes, comunidad activa y apoyo personalizado."
+        "question": "¿Qué tipo de apoyo puedo esperar como miembro?",
+        "answer": "Tendrás acceso a nuestro experimentado equipo de liderazgo, orientación estratégica, recursos de entrenamiento y el apoyo de toda la familia Crimson Legacy."
       }
     ]
   },
@@ -293,7 +290,7 @@
       "suad": "Suad - Oficial de gestión"
     },
     "howToTitle": "Cómo unirse a nuestra familia",
-    "howToSubtitle": "Sigue estos pasos para comenzar tu viaje con Nocturnal Legacy",
+    "howToSubtitle": "Sigue estos pasos para comenzar tu viaje con Crimson Legacy",
     "steps": [
       {
         "title": "Contactar con la dirección",
@@ -313,13 +310,18 @@
       },
       {
         "title": "Comienza tu viaje",
-        "desc": "Empieza tu viaje legendario con la familia Nocturnal Legacy"
+        "desc": "Empieza tu viaje legendario con la familia Crimson Legacy"
       }
     ]
   },
   "loading": {
-    "title": "Cargando Nocturnal Legacy",
-    "subtitle": "Preparando tu experiencia de juego de élite..."
+    "title": "Cargando Crimson Legacy",
+    "subtitle": "Preparando tu experiencia legendaria",
+    "progress": "Cargando...",
+    "devTeam": {
+      "title": "Equipo de Desarrollo",
+      "subtitle": "El equipo apasionado que construye Crimson Legacy"
+    }
   },
   "updateNotification": {
     "newVersion": "¡Una nueva versión está disponible!",
@@ -327,7 +329,7 @@
   },
   "devTeam": {
     "title": "Conoce a los desarrolladores",
-    "subtitle": "El equipo apasionado que construye Nocturnal Legacy",
+    "subtitle": "El equipo apasionado que construye Crimson Legacy",
     "members": [
       {
         "name": "Pryda",

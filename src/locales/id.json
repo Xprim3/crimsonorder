@@ -9,8 +9,7 @@
   },
   "nav": {
     "home": "Beranda",
-    "crimsonFamily": "Keluarga Nocturnal",
-    "kingdom": "Kerajaan",
+    "crimsonFamily": "Crimson",
     "joinUs": "Bergabunglah dengan kami",
     "faq": "FAQ"
   },
@@ -18,27 +17,34 @@
     "leaveYour": "TINGGALKAN JEJAKMU",
     "mark": "JEJAK",
     "subheadline": "WARISAN • KELUARGA • KEABADIAN",
-    "description": "Namamu akan bergema sepanjang zaman. Bergabunglah dengan Nocturnal Legacy dan jadilah bagian dari keluarga yang legendanya akan diceritakan selama generasi. Ceritamu dimulai di sini.",
-    "cta": "TULIS CERITAMU"
+    "description": "Namamu akan bergema sepanjang zaman. Bergabunglah dengan Crimson Legacy dan jadilah bagian dari keluarga yang legendanya akan diceritakan selama generasi. Ceritamu dimulai di sini.",
+    "cta": "TULIS CERITAMU",
+    "scrollDown": "Gulir untuk lebih",
+    "stats": {
+      "members": "Anggota",
+      "alliances": "Aliansi",
+      "kingdom": "Kerajaan",
+      "totalPower": "Kekuatan Total"
+    }
   },
   "about": {
-    "title": "Tentang Nocturnal Legacy",
-    "legendTitle": "Legenda Nocturnal Legacy",
-    "p1": "Lahir dari abu pertempuran yang tak terhitung jumlahnya, Nocturnal Legacy muncul sebagai mercusuar harapan di dunia Rise of Kingdoms yang kacau. Apa yang dimulai sebagai sekelompok kecil pejuang yang bertekad telah berkembang menjadi keluarga legendaris yang dihormati di medan perang.",
+    "title": "Tentang Crimson Legacy",
+    "legendTitle": "Legenda Crimson Legacy",
+    "p1": "Lahir dari abu pertempuran yang tak terhitung jumlahnya, Crimson Legacy muncul sebagai mercusuar harapan di dunia Rise of Kingdoms yang kacau. Apa yang dimulai sebagai sekelompok kecil pejuang yang bertekad telah berkembang menjadi keluarga legendaris yang dihormati di medan perang.",
     "p2": "Kisah kami adalah tentang ikatan yang tak terputuskan, kecemerlangan strategi, dan loyalitas yang tak tergoyahkan. Kami telah menghadapi kerajaan terkuat dan keluar sebagai pemenang, bukan karena kekuatan semata, tetapi karena kekuatan persatuan dan keunggulan taktis.",
     "p3": "Hari ini, kami berdiri sebagai bukti apa yang dapat dicapai ketika kekuatan individu digabungkan dengan tujuan bersama. Kami bukan hanya pejuang—kami adalah keluarga yang ditempa dalam api.",
-    "leadershipTitle": "Kepemimpinan Nocturnal",
+    "leadershipTitle": "Kepemimpinan Crimson",
     "leadershipSubtitle": "Komandan yang kebijaksanaan dan pengalamannya membimbing keluarga kami menuju kemenangan",
     "leaders": {
       "pryda": {
         "name": "Pryda",
-        "title": "Pemimpin Tertinggi Nocturnal Legacy",
-        "desc": "Kepala seluruh keluarga Nocturnal Legacy. Mengawasi strategi, struktur, dan semua keputusan akhir.",
+        "title": "Pemimpin Tertinggi Crimson Legacy",
+        "desc": "Kepala seluruh keluarga Crimson Legacy. Mengawasi strategi, struktur, dan semua keputusan akhir.",
         "exp": "3 Tahun Pengalaman"
       },
       "verso": {
         "name": "Verso",
-        "title": "Penasihat Utama Nocturnal Legacy",
+        "title": "Penasihat Utama Crimson Legacy",
         "desc": "Mengelola diplomasi eksternal dan hubungan aliansi. Juga bertanggung jawab atas perencanaan wilayah di KVK dan kerajaan utama, bekerja sama erat dengan petugas wilayah di seluruh keluarga.",
         "exp": "8 Tahun Pengalaman"
       },
@@ -80,11 +86,11 @@
       "subtitle": "Dua aliansi legendaris bekerja dalam harmoni sempurna untuk mendominasi kerajaan dan menciptakan kekuatan yang tak terhentikan"
     },
     "knights": {
-      "title": "Ksatria Nokturnal",
+      "title": "Ksatria Crimson",
       "desc": "Perisai tak tergoyahkan keluarga kami. Para pembela legendaris ini telah menguasai seni melindungi hal yang paling penting. Kota mereka berdiri sebagai benteng tak tertembus, sumber daya mereka mengalir seperti sungai, dan dukungan mereka menjaga seluruh keluarga tetap kuat."
     },
     "blades": {
-      "title": "Pedang Nokturnal",
+      "title": "Pedang Crimson",
       "desc": "Pedang tanpa ampun keluarga kami. Para pejuang legendaris ini menyerang dengan presisi dan keberanian yang tak tertandingi. Kemenangan mereka menginspirasi keluarga, taktik mereka membentuk takdir kita, dan persatuan mereka menempa jalan kita menuju kejayaan."
     },
     "members": "Anggota",
@@ -93,14 +99,16 @@
     "kingdomLeadership": "Kepemimpinan Kerajaan",
     "familyCulture": {
       "title": "Budaya Keluarga Kami",
-      "description": "Di luar medan perang, Nocturnal Legacy dibangun di atas nilai-nilai yang menciptakan ikatan abadi dan pencapaian legendaris. Budaya kami adalah fondasi kesuksesan kami dan alasan kami tetap tak terkalahkan.",
+      "description": "Di luar medan perang, Crimson Legacy dibangun di atas nilai-nilai yang menciptakan ikatan abadi dan pencapaian legendaris. Budaya kami adalah fondasi kesuksesan kami dan alasan kami tetap tak terkalahkan.",
       "values": {
         "unity": "Persatuan",
         "unityDescription": "Kami percaya bahwa kekuatan individu akan semakin besar jika digabungkan dengan tujuan bersama. Setiap anggota berkontribusi pada kesuksesan bersama kita.",
         "strategy": "Strategi",
         "strategyDescription": "Setiap pertempuran dimenangkan sebelum dimulai. Kami menghargai pemikiran strategis, perencanaan yang matang, dan eksekusi taktis daripada kekuatan semata.",
+        "loyalty": "Loyalitas",
+        "loyaltyDescription": "Loyalitas adalah fondasi keluarga kami. Kami saling mendukung melalui kemenangan dan kekalahan, mengetahui bahwa ikatan kami tak terputuskan.",
         "excellence": "Keunggulan",
-        "excellenceDescription": "Kami selalu berusaha untuk keunggulan dalam segala hal yang kami lakukan. Dari kinerja individu hingga koordinasi aliansi, kami tidak pernah puas dengan yang kurang dari yang terbaik."
+        "excellenceDescription": "Kami berusaha untuk keunggulan dalam segala hal yang kami lakukan, dari kinerja individu hingga pencapaian kolektif. Mediokritas tidak ada tempat dalam keluarga kami."
       },
       "rules": {
         "title": "Aturan Keluarga",
@@ -180,111 +188,98 @@
     "answerCall": {
       "title": "Jawab Panggilan",
       "subtitle": "Siap Bergabung dengan Para Elit?",
-      "description": "Apakah Anda siap menjadi bagian dari sesuatu yang lebih besar dari diri Anda sendiri? Nocturnal Legacy mencari pejuang yang mengutamakan loyalitas, strategi, dan keluarga di atas segalanya."
+      "description": "Apakah Anda siap menjadi bagian dari sesuatu yang lebih besar dari diri Anda sendiri? Crimson Legacy mencari pejuang yang mengutamakan loyalitas, strategi, dan keluarga di atas segalanya."
     }
   },
   "faq": {
-    "title": "Pertanyaan Umum",
-    "subtitle": "Semua yang perlu Anda ketahui tentang bergabung dengan keluarga legendaris Nocturnal Legacy",
+    "title": "Pertanyaan yang Sering Diajukan",
+    "subtitle": "Semua yang perlu Anda ketahui tentang Crimson Legacy",
     "questions": [
       {
-        "q": "Bagaimana jika saya tidak memenuhi persyaratan kekuatan?",
-        "a": "Kami mempertimbangkan pemain luar biasa secara kasus per kasus. Hubungi pemimpin kami untuk mendiskusikan situasi dan kemungkinan pengecualian Anda."
+        "question": "Apa yang membuat Crimson Legacy berbeda dari aliansi lain?",
+        "answer": "Crimson Legacy dibangun di atas fondasi nilai-nilai keluarga, keunggulan strategis, dan loyalitas tak tergoyahkan. Kami fokus pada menciptakan ikatan abadi sambil mencapai kesuksesan legendaris dalam game."
       },
       {
-        "q": "Berapa lama masa percobaan?",
-        "a": "Masa percobaan biasanya berlangsung 1-2 minggu, tergantung pada tingkat aktivitas dan integrasi Anda dengan keluarga."
+        "question": "Seberapa aktif saya harus untuk bergabung?",
+        "answer": "Kami mengharapkan partisipasi reguler dalam acara dan aktivitas keluarga. Meskipun kami memahami bahwa kehidupan nyata adalah yang utama, kami mencari anggota yang dapat berkontribusi secara konsisten pada kesuksesan kolektif kami."
       },
       {
-        "q": "Apakah saya harus keluar dari aliansi saya saat ini?",
-        "a": "Ya, Anda harus keluar dari aliansi Anda saat ini sebelum bergabung dengan kami. Kami akan memandu Anda melalui prosesnya."
+        "question": "Apa persyaratan untuk bergabung?",
+        "answer": "Kami mencari pemain yang menghargai loyalitas, strategi, dan keluarga. Tingkat pengalaman bervariasi, tetapi kami memprioritaskan karakter dan komitmen daripada tingkat kekuatan saja."
       },
       {
-        "q": "Bagaimana jika saya tidak bisa aktif setiap hari?",
-        "a": "Kami memahami kehidupan nyata adalah yang utama. Cukup komunikasikan dengan pimpinan tentang ketidakhadiran apa pun dan pertahankan tingkat aktivitas yang wajar."
+        "question": "Bagaimana saya melamar untuk bergabung dengan Crimson Legacy?",
+        "answer": "Hubungi kami melalui Discord atau dalam game untuk menyatakan minat Anda. Kami akan memandu Anda melalui proses aplikasi kami dan membantu Anda memulai."
       },
       {
-        "q": "Bisakah saya memilih aliansi yang ingin saya ikuti?",
-        "a": "Pimpinan akan merekomendasikan aliansi terbaik berdasarkan gaya bermain Anda dan kebutuhan kami saat ini."
-      },
-      {
-        "q": "Apa yang terjadi jika saya ditolak?",
-        "a": "Anda dapat mendaftar ulang setelah 30 hari. Gunakan umpan balik untuk memperbaiki diri dan coba lagi."
-      },
-      {
-        "q": "Apakah Discord wajib?",
-        "a": "Ya, Discord wajib untuk komunikasi, koordinasi, dan tetap mendapatkan informasi tentang acara keluarga."
-      },
-      {
-        "q": "Apa manfaat bergabung?",
-        "a": "Perlindungan elit, pelatihan strategi perang, sumber daya melimpah, kemenangan terus-menerus, komunitas aktif, dan dukungan personal."
+        "question": "Jenis dukungan apa yang bisa saya harapkan sebagai anggota?",
+        "answer": "Anda akan memiliki akses ke tim kepemimpinan kami yang berpengalaman, bimbingan strategis, sumber daya pelatihan, dan dukungan dari seluruh keluarga Crimson Legacy."
       }
     ]
   },
   "join": {
-    "requirementsTitle": "Persyaratan untuk Bergabung",
-    "requirementsSubtitle": "Apa yang kami cari pada anggota potensial",
+    "title": "Bergabung dengan Crimson Legacy",
+    "subtitle": "Menjadi bagian dari sesuatu yang legendaris",
+    "description": "Apakah Anda siap menjadi bagian dari sesuatu yang lebih besar dari diri Anda sendiri? Crimson Legacy mencari pejuang yang mengutamakan loyalitas, strategi, dan keluarga di atas segalanya.",
     "requirements": {
-      "combat": {
-        "title": "Pengalaman Tempur",
-        "desc": "Minimal 50 juta power dengan pengalaman tempur yang terbukti. Kami lebih menghargai kualitas daripada kuantitas."
-      },
-      "active": {
-        "title": "Partisipasi Aktif",
-        "desc": "Aktivitas harian diperlukan. Kami membutuhkan pejuang yang berkomitmen pada tujuan kami."
-      },
-      "team": {
-        "title": "Kerja Tim",
-        "desc": "Harus dapat bekerja sama dengan orang lain dan mengikuti arahan kepemimpinan tanpa pertanyaan."
-      },
+      "title": "Yang Kami Cari",
+      "subtitle": "Kualitas yang membuat pejuang Crimson sejati",
       "loyalty": {
         "title": "Loyalitas",
-        "desc": "Loyalitas tak tergoyahkan pada keluarga. Tidak ada pengkhianatan atau perilaku tidak terhormat sebelumnya."
+        "description": "Komitmen tak tergoyahkan kepada keluarga dan nilainya"
+      },
+      "strategy": {
+        "title": "Pikiran Strategis",
+        "description": "Kemampuan berpikir taktis dan berkontribusi pada kesuksesan kami"
+      },
+      "activity": {
+        "title": "Partisipasi Aktif",
+        "description": "Keterlibatan reguler dalam acara dan aktivitas keluarga"
       },
       "communication": {
         "title": "Komunikasi",
-        "desc": "Harus bergabung dengan Discord dan menjaga komunikasi aktif dengan keluarga."
-      },
-      "resources": {
-        "title": "Berbagi Sumber Daya",
-        "desc": "Bersedia berkontribusi pada dukungan keluarga dan program distribusi sumber daya."
+        "description": "Komunikasi yang jelas dan hormat dengan anggota keluarga"
       }
     },
-    "steps": [
-      {
-        "title": "Hubungi Pimpinan",
-        "desc": "Hubungi pemimpin kami melalui Discord atau chat dalam game untuk menyampaikan minat Anda"
+    "howTo": {
+      "title": "Cara Bergabung",
+      "subtitle": "Ikuti langkah-langkah ini untuk memulai perjalanan Anda dengan Crimson Legacy",
+      "step1": {
+        "title": "Hubungi Kami",
+        "description": "Hubungi kami melalui Discord atau dalam game untuk menyatakan minat Anda"
       },
-      {
-        "title": "Wawancara Awal",
-        "desc": "Ikuti wawancara singkat untuk membahas pengalaman dan tingkat komitmen Anda"
+      "step2": {
+        "title": "Aplikasi",
+        "description": "Lengkapi proses aplikasi kami dan bagikan pengalaman gaming Anda"
       },
-      {
-        "title": "Masa Percobaan",
-        "desc": "Bergabunglah sebagai anggota percobaan selama 1-2 minggu untuk membuktikan nilai dan komitmen Anda"
+      "step3": {
+        "title": "Wawancara",
+        "description": "Bertemu dengan tim kepemimpinan kami untuk membahas tujuan dan harapan Anda"
       },
-      {
-        "title": "Keanggotaan Penuh",
-        "desc": "Setelah disetujui, dapatkan semua manfaat dan akses ke sumber daya keluarga"
-      },
-      {
-        "title": "Mulai Perjalanan Anda",
-        "desc": "Mulailah perjalanan legendaris Anda bersama keluarga Nocturnal Legacy"
+      "step4": {
+        "title": "Selamat Datang",
+        "description": "Mulailah perjalanan legendaris Anda dengan keluarga Crimson Legacy"
       }
-    ],
-    "howToTitle": "Cara Bergabung dengan Keluarga Kami",
-    "howToSubtitle": "Ikuti langkah-langkah ini untuk memulai perjalanan Anda bersama Nocturnal Legacy",
-    "contactLeaders": "Hubungi Pimpinan Kami",
-    "readyToJoin": "Siap bergabung? Hubungi kami sekarang!",
-    "telegram": "Gabung Telegram",
-    "discordBtn": "Gabung Discord",
-    "inGame": "Dalam game:",
-    "discord": "Discord:",
-    "leaders": {
-      "pryda": "Pryda - Pemimpin Tertinggi",
-      "verso": "Verso - Penasihat Utama",
-      "nox": "Nox - Pemimpin Blades",
-      "suad": "Suad - Petugas Manajemen"
+    },
+    "benefits": {
+      "title": "Mengapa Bergabung dengan Crimson Legacy",
+      "subtitle": "Semua yang perlu Anda ketahui tentang bergabung dengan keluarga legendaris Crimson Legacy",
+      "community": {
+        "title": "Komunitas Kuat",
+        "description": "Bergabung dengan keluarga pemain yang berdedikasi yang saling mendukung"
+      },
+      "leadership": {
+        "title": "Kepemimpinan Ahli",
+        "description": "Belajar dari komandan dan strategis berpengalaman"
+      },
+      "resources": {
+        "title": "Sumber Daya Bersama",
+        "description": "Akses ke pengetahuan kolektif, strategi, dan dukungan"
+      },
+      "success": {
+        "title": "Kesuksesan Terbukti",
+        "description": "Jadilah bagian dari keluarga dengan rekam jejak kemenangan"
+      }
     }
   },
   "updateNotification": {
@@ -292,12 +287,17 @@
     "refresh": "Muat Ulang"
   },
   "loading": {
-    "title": "Memuat Nocturnal Legacy",
-    "subtitle": "Menyiapkan pengalaman bermain elit Anda..."
+    "title": "Memuat Crimson Legacy",
+    "subtitle": "Menyiapkan pengalaman legendaris Anda",
+    "progress": "Memuat...",
+    "devTeam": {
+      "title": "Tim Pengembangan",
+      "subtitle": "Tim penuh semangat yang membangun Crimson Legacy"
+    }
   },
   "devTeam": {
     "title": "Temui Para Pengembang",
-    "subtitle": "Tim penuh semangat yang membangun Nocturnal Legacy",
+    "subtitle": "Tim penuh semangat yang membangun Crimson Legacy",
     "members": [
       {
         "name": "Pryda",

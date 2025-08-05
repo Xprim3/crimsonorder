@@ -9,7 +9,7 @@
   },
   "nav": {
     "home": "Ana Sayfa",
-    "crimsonFamily": "Nocturnal Ailesi",
+    "crimsonFamily": "Crimson",
     "kingdom": "Krallık",
     "joinUs": "Bize Katılın",
     "faq": "SSS"
@@ -19,7 +19,14 @@
     "mark": "İZ",
     "subheadline": "MİRAS • AİLE • ÖLÜMSÜZLÜK",
     "description": "Adın çağlar boyunca yankılanacak. Nocturnal Legacy'ye katıl ve efsaneleri nesiller boyu anlatılacak bir ailenin parçası ol. Hikayen burada başlıyor.",
-    "cta": "HİKAYENİ YAZ"
+    "cta": "HİKAYENİ YAZ",
+    "scrollDown": "Daha fazlası için kaydır",
+    "stats": {
+      "members": "Üyeler",
+      "alliances": "İttifaklar",
+      "kingdom": "Krallık",
+      "totalPower": "Toplam Güç"
+    }
   },
   "about": {
     "title": "Nocturnal Legacy Hakkında",

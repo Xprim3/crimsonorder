@@ -27,15 +27,15 @@
         <router-link
           to="/"
           class="flex items-center space-x-2 sm:space-x-3 cursor-pointer mr-2 sm:mr-0 focus:outline-none focus:ring-0 border-none"
-          aria-label="Nocturnal Legacy Home"
+          aria-label="Crimson Legacy Home"
         >
-          <!-- Enhanced Nocturnal Legacy Emblem -->
+          <!-- Enhanced Crimson Legacy Emblem -->
           <div class="relative group w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14">
             <picture>
               <source srcset="/optimized/logo.webp" type="image/webp" />
               <img
                 src="/optimized/logo.png"
-                alt="Nocturnal Legacy Emblem"
+                alt="Crimson Legacy Emblem"
                 class="w-full h-full object-contain object-center transition-transform duration-300"
                 @error="handleImageError"
                 loading="eager"
@@ -50,7 +50,7 @@
                 <div
                   class="text-xs sm:text-sm lg:text-base font-black text-white group-hover:text-yellow-100 transition-colors duration-300"
                 >
-                  NL
+                  CL
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@
                 filter: drop-shadow(0 0 6px #fbbf24);
               "
             >
-              Nocturnal Legacy
+              Crimson Legacy
             </h1>
           </div>
         </router-link>

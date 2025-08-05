@@ -9,9 +9,9 @@
   },
   "nav": {
     "home": "Trang chủ",
-    "crimsonFamily": "Gia đình Nocturnal",
+    "crimsonFamily": "Crimson",
     "kingdom": "Vương quốc",
-    "joinUs": "Tham gia với chúng tôi",
+    "joinUs": "Tham gia cùng chúng tôi",
     "faq": "FAQ"
   },
   "hero": {
@@ -19,7 +19,14 @@
     "mark": "DẤU ẤN",
     "subheadline": "DI SẢN • GIA ĐÌNH • BẤT TỬ",
     "description": "Tên của bạn sẽ vang vọng qua nhiều thế hệ. Tham gia Nocturnal Legacy và trở thành một phần của gia đình có truyền thuyết được kể mãi. Câu chuyện của bạn bắt đầu từ đây.",
-    "cta": "VIẾT CÂU CHUYỆN CỦA BẠN"
+    "cta": "VIẾT CÂU CHUYỆN CỦA BẠN",
+    "scrollDown": "Cuộn để xem thêm",
+    "stats": {
+      "members": "Thành viên",
+      "alliances": "Liên minh",
+      "kingdom": "Vương quốc",
+      "totalPower": "Tổng sức mạnh"
+    }
   },
   "about": {
     "title": "Về Nocturnal Legacy",

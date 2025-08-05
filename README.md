@@ -1,186 +1,170 @@
-# Nocturnal Legacy - Frontend
+# Crimson Legacy - Frontend
 
-Elite gaming alliance website built with Vue 3, TypeScript, and Tailwind CSS.
+A modern, responsive web application for the Crimson Legacy gaming alliance, built with Vue 3, TypeScript, and Tailwind CSS.
 
-## 🚀 Performance Optimizations
+## Features
 
-### Core Web Vitals Targets
+- **Modern Design**: Clean, responsive interface with glassmorphism effects
+- **Multi-language Support**: Available in 7 languages (English, Spanish, French, Indonesian, Turkish, Vietnamese, Russian)
+- **Performance Optimized**: Lazy loading, image optimization, and efficient bundling
+- **PWA Ready**: Progressive Web App capabilities with offline support
+- **SEO Optimized**: Meta tags, structured data, and search engine optimization
+- **Accessibility**: WCAG compliant with keyboard navigation and screen reader support
 
-- **FCP (First Contentful Paint)**: < 1.8s
-- **LCP (Largest Contentful Paint)**: < 2.5s
-- **FID (First Input Delay)**: < 100ms
-- **CLS (Cumulative Layout Shift)**: < 0.1
-- **TTFB (Time to First Byte)**: < 800ms
+## Tech Stack
 
-### Implemented Optimizations
+- **Frontend Framework**: Vue 3 with Composition API
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS with custom components
+- **UI Library**: PrimeVue components
+- **Build Tool**: Vite
+- **Package Manager**: npm
+- **Deployment**: Vercel
 
-✅ **Font Loading**: Preload critical fonts with `display=swap`  
-✅ **Resource Hints**: DNS prefetch and preconnect for external resources  
-✅ **Bundle Optimization**: Tree shaking, code splitting, minification  
-✅ **Image Optimization**: WebP format, lazy loading, responsive images  
-✅ **CSS Optimization**: Critical CSS inlining, unused CSS removal  
-✅ **JavaScript Optimization**: Terser minification, console removal  
-✅ **Caching**: Proper cache headers, asset versioning  
-✅ **Accessibility**: ARIA labels, keyboard navigation, screen reader support  
-✅ **SEO**: Meta tags, structured data, sitemap, robots.txt  
-✅ **PWA**: Service worker, manifest, offline support
+## Getting Started
 
-## 🛠️ Development
+### Prerequisites
+
+- Node.js 18+ 
+- npm 9+
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/crimsonlegacy/frontend.git
+cd frontend
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+### Building for Production
 
 ```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
 npm run build
+```
 
-# Preview production build
+The built files will be in the `dist` directory.
+
+### Preview Production Build
+
+```bash
 npm run preview
-
-# Lint and fix code
-npm run lint
-
-# Format code
-npm run format
-
-# Type checking
-npm run type-check
-
-# Performance analysis
-npm run analyze
-
-# Lighthouse audit
-npm run lighthouse
-
-# Full performance test
-npm run performance
 ```
 
-## 📊 Performance Monitoring
-
-### Development Tools
-
-- **Performance Monitor**: Real-time Core Web Vitals in dev mode
-- **Bundle Analyzer**: Visualize bundle size and dependencies
-- **Lighthouse**: Automated performance, accessibility, and SEO audits
-
-### Production Monitoring
-
-- **Core Web Vitals**: Track real user metrics
-- **Error Tracking**: Monitor JavaScript errors
-- **Analytics**: User behavior and conversion tracking
-
-## 🎯 Quality Standards
-
-### Code Quality
-
-- **ESLint**: Vue 3 + TypeScript + Prettier integration
-- **TypeScript**: Strict type checking
-- **Prettier**: Consistent code formatting
-- **Git Hooks**: Pre-commit linting and formatting
-
-### Accessibility (WCAG 2.1 AA)
-
-- **Keyboard Navigation**: Full keyboard accessibility
-- **Screen Readers**: Proper ARIA labels and semantic HTML
-- **Color Contrast**: Minimum 4.5:1 ratio
-- **Focus Management**: Visible focus indicators
-- **Reduced Motion**: Respect user preferences
-
-### SEO Best Practices
-
-- **Meta Tags**: Complete Open Graph and Twitter cards
-- **Structured Data**: JSON-LD markup for search engines
-- **Sitemap**: XML sitemap for crawlers
-- **Robots.txt**: Proper crawling directives
-- **Canonical URLs**: Prevent duplicate content
-- **Performance**: Fast loading times for better rankings
-
-## 🏗️ Architecture
-
-### Component Structure
+## Project Structure
 
 ```
-src/
-├── components/
-│   ├── layout/          # Layout components
-│   ├── sections/        # Page sections
-│   └── ui/             # Reusable UI components
-├── composables/        # Vue composables
-├── types/             # TypeScript type definitions
-├── utils/             # Utility functions
-└── assets/            # Static assets
+frontend/
+├── public/                 # Static assets
+│   ├── logo/              # Logo images
+│   ├── manifest.json      # PWA manifest
+│   └── sw.js             # Service worker
+├── src/
+│   ├── components/        # Vue components
+│   │   ├── layout/       # Layout components
+│   │   ├── pages/        # Page components
+│   │   ├── sections/     # Section components
+│   │   └── ui/           # UI components
+│   ├── composables/      # Vue composables
+│   ├── locales/          # Translation files
+│   ├── plugins/          # Vue plugins
+│   ├── router/           # Vue Router configuration
+│   ├── App.vue           # Root component
+│   └── main.ts           # Application entry point
+├── index.html            # HTML template
+├── package.json          # Dependencies and scripts
+├── tailwind.config.js    # Tailwind CSS configuration
+├── tsconfig.json         # TypeScript configuration
+└── vite.config.ts        # Vite configuration
 ```
 
-### Styling System
+## Key Components
 
-- **Tailwind CSS**: Utility-first CSS framework
-- **CSS Custom Properties**: Theme variables for consistency
-- **Responsive Design**: Mobile-first approach
-- **Dark Mode**: Optimized for gaming aesthetic
+### Layout Components
+- `Header.vue` - Navigation header with language switcher
+- `Footer.vue` - Site footer with links and information
+- `Layout.vue` - Main layout wrapper
 
-## 🚀 Deployment
+### Page Components
+- `HomePage.vue` - Landing page with hero section and stats
+- `AboutPage.vue` - About page with leadership information
+- `JoinPage.vue` - Join page with requirements and application process
+- `FAQPage.vue` - Frequently asked questions
 
-### Build Output
+### Section Components
+- `HeroSection.vue` - Hero section with main headline and stats cards
+- `AboutSection.vue` - About section with alliance information
+- `JoinSection.vue` - Join section with requirements and benefits
+- `FAQSection.vue` - FAQ section with common questions
 
-- **Optimized Assets**: Minified CSS/JS with gzip compression
-- **Asset Hashing**: Cache-busting for production updates
-- **Source Maps**: Disabled for production security
-- **Tree Shaking**: Unused code elimination
+## Internationalization
 
-### Performance Checklist
+The application supports 7 languages:
 
-- [ ] Core Web Vitals meet targets
-- [ ] Bundle size under 200KB (gzipped)
-- [ ] All images optimized and responsive
-- [ ] Fonts preloaded with fallbacks
-- [ ] Critical CSS inlined
-- [ ] Service worker configured
-- [ ] HTTPS enabled
-- [ ] CDN configured for global delivery
+- English (en)
+- Spanish (es)
+- French (fr)
+- Indonesian (id)
+- Turkish (tr)
+- Vietnamese (vi)
+- Russian (ru)
 
-## 📈 Monitoring & Analytics
+Translation files are located in `src/locales/` and use JSON format.
 
-### Performance Metrics
+## Styling
 
-- **Real User Monitoring**: Track actual user experience
-- **Error Tracking**: Monitor and alert on JavaScript errors
-- **Conversion Tracking**: Measure user engagement and goals
+The application uses Tailwind CSS for styling with custom components and utilities. The design features:
 
-### SEO Monitoring
+- Glassmorphism effects for cards and overlays
+- Responsive design for all screen sizes
+- Dark theme with red and yellow accents
+- Smooth animations and transitions
+- Custom typography and spacing
 
-- **Search Console**: Monitor search performance
-- **Core Web Vitals**: Track page experience signals
-- **Mobile Usability**: Ensure mobile-friendly experience
+## Performance Features
 
-## 🔧 Configuration Files
+- **Lazy Loading**: Images and components load on demand
+- **Image Optimization**: WebP format with fallbacks
+- **Code Splitting**: Automatic code splitting by routes
+- **Caching**: Service worker for offline support
+- **Minification**: Production builds are minified and optimized
 
-- **Vite**: Build tool configuration
-- **Tailwind**: CSS framework configuration
-- **ESLint**: Code quality rules
-- **Prettier**: Code formatting rules
-- **TypeScript**: Type checking configuration
+## Deployment
 
-## 📚 Resources
+The application is configured for deployment on Vercel with:
 
-- [Vue 3 Documentation](https://vuejs.org/)
-- [Vite Documentation](https://vitejs.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/)
-- [Web Vitals](https://web.dev/vitals/)
-- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
-- [WCAG Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
+- Automatic builds on git push
+- Preview deployments for pull requests
+- Custom domain support
+- CDN optimization
 
-## 🤝 Contributing
+## Contributing
 
-1. Follow the established code style (ESLint + Prettier)
-2. Write meaningful commit messages
-3. Test performance impact of changes
-4. Ensure accessibility compliance
-5. Update documentation as needed
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For support and questions, please contact the Crimson Legacy development team.
 
 ---
 
-Built with ❤️ for the Nocturnal Legacy gaming community.
+Built with ❤️ for the Crimson Legacy gaming community.
